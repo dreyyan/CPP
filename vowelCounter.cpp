@@ -19,6 +19,6 @@ int main() {
         }
     }
 
-    cout << "Number of Vowels: " << vowelCounter;
+    cout << "\nNumber of Vowels: " << vowelCounter;
     return 0;
 }
