@@ -8,23 +8,23 @@ protected:
     unique_ptr<string> name;
     unique_ptr<int> id;
 public:
-    Record(const string& name, int id)
-        : name(make_unique<string>(name)), id(make_unique<int>(id)) {
-        cout << "\n<< Record Created >>";
+    Record(const string& recordName, int recordId)
+        : name(make_unique<string>(recordName)), id(make_unique<int>(recordId)) {
+        cout << "\n>>>> Record Created";
     }
 
-    void displayDetails() {
+    void displayInfo() {
         cout << "\nName: " << *name;
         cout << "\nID: " << *id;
     }
+
+    static unique_ptr<Record> addRecord(const string& recordName, int id) {
+        return make_unique<Record>(recordName, id);
+    }
 };
 
-unique_ptr<Record> newRecord(const string& name, int id) {
-    return make_unique<Record>(name, id);
-}
-
 int main() {
-    unique_ptr<Record> record1 = newRecord("Adrian Tan", 1);
-    record1->displayDetails();
+    unique_ptr<Record> record1 = Record::addRecord("Adrian Tan", 117591120149);
+    record1->displayInfo();
     return 0;
 }
