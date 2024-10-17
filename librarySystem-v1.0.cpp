@@ -5,6 +5,12 @@
 #include <algorithm>
 using namespace std;
 
+// TO IMPROVE:
+// listBook();
+// searchBook();
+
+// Book > Fiction/Non-Fiction/E-Book/Magazine/Comic/Textbook
+
 // Abstract Base Class: Book
 class Book {
 protected:
