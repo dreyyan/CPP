@@ -3,11 +3,13 @@
 #include <memory>
 #include <sstream>
 #include <ctime>
+#include <vector>
 using namespace std;
 
 // TO IMPROVE:
 // customizeFeatures();
 // travel();
+// loopMenu();
 
 // Vehicle > TwoWheels > Motorcycle/Bicycle/EBike
 // Vehicle > ThreeWheels > Tricycle
@@ -21,7 +23,7 @@ protected:
     int wheelsAmount;
 
     // Physical Features
-    string color, headlights, taillights, dimensions;
+    string color, headlights, taillights, dimensions, bumperType;
     double lengthDimension, widthDimension, heightDimension;
     bool hasBody = false, hasEngine = false, hasBattery = false;
 
@@ -98,6 +100,56 @@ public:
         }
     }
 
+    void displayFeatures() {
+        cout << "\n| FEATURES |";
+        cout << "\n---------------------------";
+        cout << "\nColor: " << color;
+        cout << "\nDimensions(L/W/H): " << lengthDimension << " mm / " << widthDimension << " mm / " << heightDimension << " mm";
+        cout << "\n# of Headlights: " << headlights;
+        cout << "\n# of Taillights: " << taillights;
+        cout << "\nWheel Type: " << wheelType;
+        cout << "\nBumper Type: " << bumperType;
+        cout << "\n---------------------------";
+    }
+
+    void customizeFeatures() {
+        cout << "\ncustomizing features...";
+        cout << "\nColor: ";
+        getline(cin, color);
+
+        while (true) {
+            cout << "\nDimensions(mm): ";
+            getline(cin, dimensions);
+
+            stringstream ss(dimensions);
+            if (ss >> lengthDimension >> widthDimension >> heightDimension) {
+                if (ss.eof()) {
+                    break;
+                }
+            }
+            cout << "Invalid input. Enter dimensions(LL/WW/HH) in mm separately using spaces.";
+        }
+
+        cout << "\n# of Headlights: ";
+        cin >> headlights;
+        cout << "\n# of Taillights: ";
+        cin >> taillights;
+        cin.ignore();
+        cout << "\nWheel Type( steel | alloy | cast | spoked ): ";
+        getline(cin, wheelType);
+        if (wheelType != "steel" && wheelType != "alloy" && wheelType != "cast" && wheelType != "spoked") {
+            cout << "\nInvalid input. Please enter a valid wheel type.";
+            getline(cin, wheelType);
+        }
+        cout << "\nBumper Type( standard | reinforced | off-road ): ";
+        getline(cin, bumperType);
+        if (bumperType != "standard" && bumperType != "reinforced" && bumperType != "off-road") {
+            cout << "\nInvalid input. Please enter a valid bumper type.";
+            getline(cin, bumperType);
+        }
+        displayFeatures();
+    }
+
     // Pure Virtual Functions
     virtual void makeBody() = 0;
     virtual void makeEngine() = 0;
@@ -116,6 +168,8 @@ public:
     // virtual void customizeFeatures() = 0;
 };
 
+vector<Vehicle> vehicleList;
+
 // Derived Class: Vehicle > TwoWheels
 class TwoWheels : public Vehicle {
 private:
@@ -126,6 +180,7 @@ public:
 
         void displayVehicleCondition() override {
         cout << "\n>> displaying Vehicle Condition...";
+        cout << "\n| VEHICLE CONDITION |";
         cout << "\n-------------------------------";
         if (hasBody == false || hasEngine == false || hasFrontTire == false || hasBackTire == false) {
             cout << "Error displaying information. Check for missing parts.";
@@ -170,6 +225,7 @@ public:
         if (backTireCondition < 20) {
             cout << "\n-> Tire(B)";
         }
+        cout << "\n-------------------------------";
     }
 };
 
@@ -183,6 +239,7 @@ public:
 
     void displayVehicleCondition() override {
         cout << "\n>> displaying Vehicle Condition...";
+        cout << "\n| VEHICLE CONDITION |";
         cout << "\n-------------------------------";
         if (hasBody == false || hasEngine == false || hasFrontLeftTire == false || hasBackLeftTire == false || hasBackRightTire == false) {
             cout << "Error displaying information. Check for missing parts.";
@@ -231,8 +288,8 @@ public:
         if (backRightTireCondition < 20) {
             cout << "\n-> Tire(BR)";
         }
+        cout << "\n-------------------------------";
     }
-
 };
 
 // Derived Class: Vehicle > FourWheels
@@ -245,6 +302,7 @@ public:
 
         void displayVehicleCondition() override {
         cout << "\n>> displaying Vehicle Condition...";
+        cout << "\n| VEHICLE CONDITION |";
         cout << "\n-------------------------------";
         if (hasBody == false || hasEngine == false || hasFrontLeftTire == false || hasFrontRightTire == false || hasBackLeftTire == false || hasBackRightTire == false) {
             cout << "Error displaying information. Check for missing parts.";
@@ -311,8 +369,8 @@ public:
         if (backRightTireCondition < 20) {
             cout << "\n-> Tire(BR)";
         }
+        cout << "\n-------------------------------";
     }
-
 };
 
 // Derived Class: Vehicle > TwoWheels > Motorcycle
@@ -961,43 +1019,168 @@ public:
     }
 };
 
+void loopMenu() {
+    int choice;
+
+        cout << "\n| VEHICLE MANAGEMENT SYSTEM |";
+        cout << "\n[1] | Create Vehicle";
+        cout << "\n[2] | Build Parts";
+        cout << "\n[3] | Display Vehicle Condition";
+        cout << "\n[4] | Drive";
+        cout << "\n[5] | Destroy Vehicle";
+        cout << "\n[6] | Exit";
+        cout << "\nEnter Number: ";
+        cin >> choice;
+        cin.ignore();
+
+        switch(choice) {
+            case 1: {
+                string vehicleChoice;
+                shared_ptr<Vehicle> vehicle;
+
+                cout << "\n[1] Create Vehicle";
+                cout << "\n--------------------";
+                cout << "\n2 Wheels -> [Motorcycle/Bicycle/EBike]";
+                cout << "\n3 Wheels -> [Tricycle]";
+                cout << "\n4 Wheels -> [Car/Truck/Bus/Van/SUV/ATV/Jeep]";
+                cout << "\nEnter Vehicle Type: ";
+                getline(cin, vehicleChoice);
+
+                if(vehicleChoice == "motorcycle") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<Motorcycle>(manufacturer, model, licensePlate);
+                    cout << "\nMotorcycle created successfully!\n";
+                }
+                else if (vehicleChoice == "bicycle") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<Bicycle>(manufacturer, model, licensePlate);
+                    cout << "\nBicycle created successfully!\n";
+                }
+                else if (vehicleChoice == "ebike") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<EBike>(manufacturer, model, licensePlate);
+                    cout << "\nE-Bike created successfully!\n";
+                }
+                else if (vehicleChoice == "tricycle") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<Tricycle>(manufacturer, model, licensePlate);
+                    cout << "\nTricycle created successfully!\n";
+                }
+                else if (vehicleChoice == "car") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<Car>(manufacturer, model, licensePlate);
+                    cout << "\nCar created successfully!\n";
+                }
+                else if (vehicleChoice == "truck") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<Truck>(manufacturer, model, licensePlate);
+                    cout << "\nTruck created successfully!\n";
+                }
+                else if (vehicleChoice == "bus") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<Bus>(manufacturer, model, licensePlate);
+                    cout << "\nBus created successfully!\n";
+                }
+                else if (vehicleChoice == "van") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    Van van(manufacturer, model, licensePlate);
+                    cout << "\nVan created successfully!\n";
+                }
+                else if (vehicleChoice == "suv") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<SUV>(manufacturer, model, licensePlate);
+                    cout << "\nSUV created successfully!\n";
+                }
+                else if (vehicleChoice == "atv") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<ATV>(manufacturer, model, licensePlate);
+                    cout << "\nATV created successfully!\n";
+                }
+                else if (vehicleChoice == "jeep") {
+                    string manufacturer, model, licensePlate;
+                    cout << "\nManufacturer: ";
+                    getline(cin, manufacturer);
+                    cout << "Model: ";
+                    getline(cin, model);
+                    cout << "License Plate: ";
+                    getline(cin, licensePlate);
+                    vehicle = make_shared<Jeep>(manufacturer, model, licensePlate);
+                    cout << "\nJeep created successfully!\n";
+                }
+                else {
+                    cout << "\nInvalid Vehicle Type. Please try again.";
+                }
+                break;
+            }
+
+            case 6:
+                cout << "\nProgram exited successfully.";
+                return;
+            break;
+        }
+    loopMenu();
+    }
 int main() {
-    Bus *vehicle1 = new Bus("Honda", "Civic", "ABA 5146");
-    vehicle1->makeEngine();
-    vehicle1->makeBody();
-    vehicle1->addTires();
-    vehicle1->replaceTires();
-    vehicle1->installBattery();
-    vehicle1->displayVehicleCondition();
+    loopMenu();
     return 0;
 }
-
-/*
-void customizeFeatures() override {
-        cout << "\ncustomizing features...";
-        cout << "\nColor: ";
-        getline(cin, color);
-
-        while (true) {
-            cout << "\nDimensions(L/W/H): ";
-            getline(cin, dimensions);
-
-            stringstream ss(dimensions);
-            if (ss >> lengthDimension >> widthDimension >> heightDimension) {
-                if (ss.eof() && ss.good()) {
-                    break;
-                }
-            }
-            cout << "Invalid input. Enter dimensions separately using spaces.";
-        }
-
-        cout << "\nHeadlights: ";
-        getline(cin, headlights);
-        cout << "\nTaillights: ";
-        getline(cin, taillights);
-        cout << "\nWheel(Type): ";
-        getline(cin, wheelType);
-        cout << "\nBumper(Type): ";
-        getline(cin, bumperType);
-    }
-*/
