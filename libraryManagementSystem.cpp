@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <cctype>
+#include <ctime>
 #include <iostream>
 #include <map>
 #include <memory>
@@ -8,9 +9,6 @@
 using namespace std;
 
 // IMPROVEMENTS:
-// createBook() - check if author and title is empty
-// createBook() - ensure ISBN contains only digits
-// borrow & return history
 // editInfo();
 
 // Base Class: Book
@@ -125,6 +123,9 @@ public:
 class Library {
 public:
     vector<unique_ptr<Book>> bookList;
+    vector<unique_ptr<string>> borrowHistory;
+    vector<unique_ptr<string>> returnHistory;
+
     void createBook() {
         string bookType, bookTitle, bookISBN, bookGenre, bookAuthor;
         bool isAvailable = true;
@@ -145,12 +146,23 @@ public:
         getline(cin, bookTitle);
         while (bookTitle.empty()) {
             cout << "\nInvalid title. Please try again.";
+            cout << "\nTitle: ";
             getline(cin, bookTitle);
         }
         // ISBN
         cout << "\nISBN(13-Digit): ";
         getline(cin, bookISBN);
-        while (bookISBN.empty() || bookISBN.length() != 13) {
+
+        bool allNumbers = true;
+        for (char c : bookISBN) {
+            if (!isdigit(c)) {
+                allNumbers = false;
+                break;
+            }
+        }
+
+        while (!allNumbers || bookISBN.empty() || bookISBN.length() != 13) {
+            allNumbers = true;
             cout << "\nInvalid ISBN. Please enter a 13-digit ISBN.";
             cout << "\nISBN(13-Digit): ";
             getline(cin, bookISBN);
@@ -160,6 +172,7 @@ public:
         getline(cin, bookGenre);
         while (bookGenre.empty()) {
             cout << "\nInvalid genre. Please try again.";
+            cout << "\nGenre: ";
             getline(cin, bookGenre);
         }
         // Author
@@ -167,6 +180,7 @@ public:
         getline(cin, bookAuthor);
         while (bookAuthor.empty()) {
             cout << "\nInvalid author. Please try again.";
+            cout << "\nAuthor: ";
             getline(cin, bookAuthor);
         }
 
@@ -215,9 +229,13 @@ public:
             if (bookISBN == bookList[i]->getISBN()) {
                 bookFound = true;
                 if (bookList[i]->isAvailable()) {
+                    string bookTitle;
+                    bookTitle = bookList[i]->getTitle();
+                    borrowHistory.push_back(make_unique<string>(bookTitle));
+
+                    bookList[i]->setAvailability(false);
                     cout << "\nBook [" << bookISBN << "] borrowed";
                     cout << "\nTitle: " << bookList[i]->getTitle();
-                    bookList[i]->setAvailability(false);
                     }
                 else {
                 cout << "\nError: Book[" << bookISBN << "] is already borrowed.";
@@ -236,6 +254,7 @@ public:
         bool bookFound = false;
 
         cout << "\n~ returning book...";
+        displayBookList();
         cout << "\nEnter ISBN: ";
         cin.ignore();
         getline(cin, bookISBN);
@@ -246,6 +265,10 @@ public:
                 if (bookList[i]->isAvailable()) {
                     cout << "\nError: Book[" << bookISBN << "]is already in library.";
                 } else {
+                    string bookTitle;
+                    bookTitle = bookList[i]->getTitle();
+                    returnHistory.push_back(make_unique<string>(bookTitle));
+
                     bookList[i]->setAvailability(true);
                     cout << "\nBook [" << bookISBN << "] returned successfully.";
                     cout << "\nTitle: " << bookList[i]->getTitle();
@@ -257,7 +280,6 @@ public:
             cout << "\nError. Book[" << bookISBN << "] not found.";
             return;
         }
-        displayBookList();
     }
 
     void searchBook() {
@@ -285,6 +307,35 @@ public:
         }
     }
 
+    void printBorrowHistory() {
+        cout << "\n~ Borrow History";
+        cout << "\n----------------------";
+
+        // Print Date
+        time_t now = time(nullptr);
+        // Convert to local time
+        tm* local_time = localtime(&now);
+
+        for (const auto& book : borrowHistory) {
+            cout << "\nBook [" << *book << "] borrowed | " << (local_time->tm_mon + 1) << '-' << local_time->tm_mday  << '-' << (local_time->tm_year + 1900);
+        }
+        cout << "\n----------------------";
+    }
+
+    void printReturnHistory() {
+        cout << "\n~ Return History";
+        cout << "\n----------------------";
+        // Print Date
+        time_t now = time(nullptr);
+        // Convert to local time
+        tm* local_time = localtime(&now);
+
+        for (const auto& book : returnHistory) {
+            cout << "\nBook [" << *book << "] returned | " << (local_time->tm_mon + 1) << '-' << local_time->tm_mday  << '-' << (local_time->tm_year + 1900);
+        }
+        cout << "\n----------------------";
+    }
+
     void displayMenu() {
         int choice;
         do {
@@ -295,30 +346,46 @@ public:
             cout << "\n[4] | Borrow Book/s";
             cout << "\n[5] | Return Book/s";
             cout << "\n[6] | Search Book/s";
-            cout << "\n[7] | Exit";
+            cout << "\n[7] | Borrow History";
+            cout << "\n[8] | Return History";
+            cout << "\n[9] | Exit";
             cout << "\n-> ";
             cin >> choice;
 
             switch(choice) {
                 case 1:
                     createBook();
+                    backToMenu();
                 break;
                 case 2:
                     /*editInfo();*/
+                    backToMenu();
                 break;
                 case 3:
                     displayBookList();
+                    backToMenu();
                 break;
                 case 4:
                     borrowBook();
+                    backToMenu();
                 break;
                 case 5:
                     returnBook();
+                    backToMenu();
                 break;
                 case 6:
                     searchBook();
+                    backToMenu();
                 break;
                 case 7:
+                    printBorrowHistory();
+                    backToMenu();
+                break;
+                case 8:
+                    printReturnHistory();
+                    backToMenu();
+                break;
+                case 9:
                     cout << "\nProgram Exited.";
                     return;
                 default:
@@ -326,6 +393,25 @@ public:
                 break;
             }
         } while(true);
+    }
+
+    void backToMenu() {
+        char choice;
+        cout << "\nReturn to menu[y/n]?: ";
+        cin >> choice;
+
+        if (choice == 'y' || choice == 'Y') {
+            return;
+        }
+
+        else if (choice == 'n' || choice == 'N') {
+            cout << "\nProgram Exited.";
+            exit(0);
+        }
+        else {
+            cout << "\nInvalid Input.\n";
+            cin >> choice;
+        }
     }
 };
 
