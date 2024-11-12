@@ -21,7 +21,7 @@ void bubbleSort(int arr[], int size) {
     }
 
     // Print New Array
-    cout << "\nNew Array:\n";
+    cout << "\nSorted Array:\n";
     for (size_t i = 0; i < size; i++) {
         cout << arr[i] << ' ';
     }
