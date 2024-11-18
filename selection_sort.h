@@ -3,7 +3,7 @@ using namespace std;
 
 void selection_sort(int array[], int arraySize) {
     // Declare Variables
-    int minNum, temp, minIndex;
+    int temp, minIndex;
 
     // Sort Algorithm
     for (size_t i = 0; i < arraySize - 1; i++) {
