@@ -3,7 +3,7 @@
 #include <memory>
 #include <string>
 using namespace std;
-
+// STATUS: Working
 class Calculator {
     char operation = '+';
     double num1 = 1, num2 = 2;
