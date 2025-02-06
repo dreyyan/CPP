@@ -1,32 +1,38 @@
 #include <iostream>
 using namespace std;
+// Write a Program that Converts a Temperature[C/F] to its Counterpart
 
 int main() {
-    double celsius, fahrenheit;
-    char input;
+    int choice;
+    double celsius = 0.0, fahrenheit = 0.0;
 
-    cout << "Celsius(c) / Fahrenheit(f): ";
-    cin >> input;
+    while (true) {
+        // Prompt User to Enter the Unit of Temperature to Enter
+        cout << "Convert:\n";
+        cout << "[1] | Celsius(C) -> Fahrenheit(F)\n";
+        cout << "[2] | Fahrenheit(F) -> Celsius(C)\n";
+        cout << ">> ";
+        cin >> choice;
 
-    if (input == 'c') {
-        cout << "Celsius -> Fahrenheit";
-        cout << "\nTemperature in Celsius: ";
+        // If Valid Choice, Exit Loop
+        if (choice == 1 || choice == 2) break;
+        // Display Error Message if Invalid Choice
+        cerr << "[ ERROR | Invalid Choice ]\n";
+        cin.clear();
+        cin.ignore();
+    }
+
+    // Prompt User to Enter Solve for The Temperature
+    if (choice == 1) { // If Input is Celsius
+        cout << "Temp. in C: ";
         cin >> celsius;
-
-        fahrenheit = 9.0 / 5.0 * celsius + 32.0;
-
-        cout << celsius << "C = " << fahrenheit << "F";
-    }
-
-    if (input == 'f') {
-        cout << "Fahrenheit -> Celsius";
-        cout << "\nTemperature in Fahrenheit: ";
+        fahrenheit = celsius * 1.8 + 32; // Solve for Fahrenheit
+        cout << celsius << "*C = " << fahrenheit << "*F\n"; // Display Result
+    } else { // If Input is Fahrenheit
+        cout << "Temp. in F: ";
         cin >> fahrenheit;
-
-        celsius = 5.0 / 9.0 * (fahrenheit - 32.0);
-
-        cout << fahrenheit << "F = " << celsius << "C";
+        celsius = (fahrenheit - 32) * 5 / 9; // Solve for Celsius
+        cout << fahrenheit << "*F = " << celsius << "*C\n"; // Display Result
     }
-
     return 0;
 }
