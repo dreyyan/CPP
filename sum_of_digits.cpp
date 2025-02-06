@@ -1,29 +1,26 @@
-// Exercise 1
 #include <iostream>
-#include <string>
-#include <cctype>
 using namespace std;
-
+// Write a program that takes an integer input and displays the sum of its digits
 int main() {
-    // Declare Variables
-    int sum = 0;
-    string num;
+    string number;
+    int sum_of_digits = 0;
+    // Prompt User to Enter Digit
+    while (true) {
+        cout << "Enter an Integer: ";
+        getline(cin, number);
 
-    // Prompt User to Enter an Integer
-    cout << "Enter an integer: ";
-    getline(cin, num);
-
-    cout << "Individual digits: ";
-    // Looping
-    for (size_t i = 0; i < num.length(); i++) {
-        // Ignores Non-Digits
-        if (!isdigit(num[i])) {
-            continue;
-        }
-        cout << num[i] - '0' << ' '; // Display Individual Digits
-        sum += num[i] - '0'; // Calculate Sum
+        if (number == " ") {
+            cerr << "[ ERROR | Blank Input ]\n";
+        } else { break; }
     }
-    cout << "\nSum of the digits: " << sum; // Display Sum
+
+    // Get the Sum of Digits
+    for (size_t i = 0; i < number.length(); ++i) {
+        sum_of_digits += static_cast<int>(number[i]) - '0';
+    }
+
+    // Display Sum of Digits
+    cout << "Sum of Digits = " << sum_of_digits << '\n';
 
     return 0;
 }
