@@ -1,22 +1,23 @@
 #include <iostream>
 using namespace std;
 
-swapPtr(double* numPtr1, double* numPtr2) {
-    double temp;
-    temp = *numPtr2;
-    *numPtr2 = *numPtr1;
-    *numPtr1 = temp;
+inline void swap_pointer(int* first_pointer, int* second_pointer) {
+    int temp;
+    temp = *second_pointer;
+    *second_pointer = *first_pointer;
+    *first_pointer = temp;
 
-    cout << "\nAfter Swap: ";
-    cout << "\n#1: " << *numPtr1;
-    cout << "\n#2: " << *numPtr2;
+    // Display Swapped Values
+    cout << "After Swap |\n";
+    cout << "*1 = " << *first_pointer << '\n';
+    cout << "*2 = " << *second_pointer << '\n';
 }
 
 int main() {
-    double num1 = 1, num2 = 2;
-    cout << "Before Swap: ";
-    cout << "\n#1: " << num1;
-    cout << "\n#2: " << num2;
-    swapPtr(&num1, &num2);
+    int num1 = 1, num2 = 2;
+    cout << "Before Swap |\n";
+    cout << "*1 = " << num1 << '\n';
+    cout << "*2 = " << num2 << '\n';
+    swap_pointer(&num1, &num2);
     return 0;
 }
