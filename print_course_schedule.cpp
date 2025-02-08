@@ -10,7 +10,6 @@ void printCourseSchedule(unordered_map<string, tuple<string, string, string, str
     int number = 1;
     // Display Schedule
     cout << "~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~` COURSE SCHEDULE `~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~`~\n";
-
     for (const auto& course : course_schedule) {
         cout << ' ' << number++ << ". " << right << setw(10)  << course.first << " || " << left << setw(33) << get<0>(course.second) << " || " << right << setw(11) << get<1>(course.second) << " | " << get<2>(course.second) << '\n';
     }
