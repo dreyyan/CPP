@@ -10,6 +10,7 @@ void algorithm_sort(vector<int> list) {
         cout << number << ' ';
     }
 }
+
 int main() {
     vector<int> numbers = {8, 3, 10, 7, 2, 9, 5, 1, 4, 6};
     algorithm_sort(numbers);
