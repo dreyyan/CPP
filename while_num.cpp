@@ -1,34 +1,19 @@
-// Exercise 9A
 #include <iostream>
 using namespace std;
-
-int main() {
-    // Declare Variables
-    int firstNum, secondNum = 0, counter, sumOfEvenNumbers = 0, sumOfOddNumberSquares = 0, squareCounter = 1;
+// CC 202 - Exercise 9A
+void display_format(size_t length) {
+    for (size_t i = 0; i < length; ++i) {
+        cout << '-';
+    } cout << '\n';
+}
+void while_num(int first_number, int second_number) {
+    int counter = first_number, sumOfEvenNumbers = 0, sumOfOddNumberSquares = 0, squareCounter = 1;
     char firstLetter = 'A';
-
-    cout << "Restriction: 1st number < 2nd number" << endl; // Display Restriction
-    // [a] Prompt User to Input Two Integers
-    cout << "Enter 1st Number: ";
-    cin >> firstNum;
-    cout << "Enter 2nd Number: ";
-    cin >> secondNum;
-
-    // Error Loop
-    while (firstNum >= secondNum) {
-        // Error Handling: First Number must be Lesser Than Second Number
-        cout << "Error. 2nd number is less than 1st number." << endl;
-        cout << "Enter 2nd Number: ";
-        cin >> secondNum;
-    }
-
-    counter = firstNum; // Set Counter
-
-    cout << "------------------------------------\n";
+    display_format(40);
 
     // [b] Odd Numbers Between the Numbers
-    cout << "Odd Numbers between " << firstNum << "-" << secondNum << ": ";
-    while(counter < secondNum) {
+    cout << "Odd numbers between " << first_number << "-" << second_number << ": ";
+    while(counter < second_number) {
         if (counter % 2 != 0) { // If Odd, Display Numbers & Add to Sum of Even Numbers
             cout << counter << ' ';
             sumOfOddNumberSquares += counter * counter;
@@ -36,34 +21,44 @@ int main() {
             sumOfEvenNumbers += counter;
         }
         counter++;
-    }
-
-    cout << "\n------------------------------------\n";
+    } cout << '\n'; display_format(40);
 
     // [c] Sum of Even Numbers
-    cout << "Sum of All Even Numbers between " << firstNum << "-" << secondNum << ": " << sumOfEvenNumbers;
-
-    cout << "\n------------------------------------";
+    cout << "Sum of All Even Numbers between " << first_number << "-" << second_number << ": " << sumOfEvenNumbers << '\n';
+    display_format(40);
 
     // [d] Squares of Numbers 1-10
-    cout << "\nSquares of Numbers 1-10:\n";
+    cout << "Squares of Numbers 1-10:\n";
     while (squareCounter <= 10) {
-        cout << squareCounter << ": " << squareCounter * squareCounter << endl;
+        cout << squareCounter << ": " << squareCounter * squareCounter << '\n';
         squareCounter++;
-    }
-
-    cout << "------------------------------------";
+    } display_format(40);
 
     // [e] Output Sum of Odd Number Squares
-    cout << "\nSum of Squares of Odd Numbers between " << firstNum << "-" << secondNum << ": " <<  sumOfOddNumberSquares;
+    cout << "Sum of Squares of Odd Numbers between " << first_number << "-" << second_number << ": " <<  sumOfOddNumberSquares << '\n';
+    display_format(40);
 
-    cout << "\n------------------------------------\n";
-
-    cout << "Letters in the Alphabet(Uppercase):\n";
     // [f] Output All Uppercase Letters
+    cout << "Letters in the Alphabet(Uppercase):\n";
     while (firstLetter <= 'Z') {
         cout << firstLetter << ' ';
         firstLetter++;
     }
+}
+
+int main() {
+    int num1, num2;
+    while (true) {
+        cout << "* 1st number < 2nd number\n"; // Display restriction
+        // [a] Prompt User to Input Two Integers
+        cout << "Enter 1st & 2nd Number: ";
+        cin >> num1 >> num2;
+
+        if (num1 >= num2) {
+            cerr << "[ ERROR | First number should be less than second number ]\n";
+        } else break;
+    }
+
+    while_num(num1, num2); // Invoke function
     return 0;
 }
