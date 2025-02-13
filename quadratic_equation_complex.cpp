@@ -1,8 +1,7 @@
-// Exercise 7
 #include<iostream>
 #include<cmath>
 using namespace std;
-
+// CC 202 - Exercise 7
 class QuadraticEquation {
 private:
     // Declare Private Variables a, b, and c

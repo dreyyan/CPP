@@ -1,11 +1,20 @@
 #include <iostream>
 using namespace std;
+// CC 202 - Exercise 4
+// Write a program that checks whether a number is prime or not
+bool is_prime(const int& number) {
+    bool isPrime = true;
+    for (size_t i = number - 1; i > 1; i--) {
+        if (number % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
 
 int main() {
     int num;
-    bool isPrime = true;
-
-    do {
+    do { // Prompt user to enter a number
         cout << "Enter a number: ";
         cin >> num;
 
@@ -13,18 +22,6 @@ int main() {
             cout << "Invalid Input. Number must be greater than 1.\n";
         }
     } while (num <= 1);
-
-    for (size_t i = num - 1; i > 1; i--) {
-        if (num % i == 0) {
-            isPrime = false;
-            cout << num << " is a composite number.";
-            break;
-        }
-    }
-
-    if (isPrime) {
-        cout << num << " is a prime number.";
-    }
-
+    cout << num << " is " << (is_prime(num) ? "" : "not ") << "a prime number.\n";
     return 0;
 }
