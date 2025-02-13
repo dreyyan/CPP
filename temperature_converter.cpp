@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 // Write a Program that Converts a Temperature[C/F] to its Counterpart
-
 int main() {
     int choice;
     double celsius = 0.0, fahrenheit = 0.0;
@@ -13,7 +12,6 @@ int main() {
         cout << "[2] | Fahrenheit(F) -> Celsius(C)\n";
         cout << ">> ";
         cin >> choice;
-
         // If Valid Choice, Exit Loop
         if (choice == 1 || choice == 2) break;
         // Display Error Message if Invalid Choice

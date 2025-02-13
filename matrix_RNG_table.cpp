@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
-
+// Write a program that manipulates a 2D(Matrix) array to generate random numbers and display in a table format
 int main() {
     int rows, columns;
     srand(time(0));
@@ -39,6 +38,5 @@ int main() {
         delete[] array[i];  // Free each row
     }
     delete[] array;  // Free the array of row pointers
-
     return 0;
 }

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Write a program that uses pointers to swap the values of two numbers
 inline void swap_pointer(int* first_pointer, int* second_pointer) {
     int temp;
     temp = *second_pointer;

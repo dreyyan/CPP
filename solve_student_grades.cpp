@@ -12,7 +12,6 @@ void clear_screen() {
     system("clear");
 #endif
 }
-
 void display_format(size_t length) {
     for (size_t i = 0; i < length; ++i) {
         cout << '-';

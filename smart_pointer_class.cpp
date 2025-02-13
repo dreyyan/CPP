@@ -2,7 +2,7 @@
 #include <string>
 #include <memory>
 using namespace std;
-
+// Write a program that defines a class that manipulates smart pointers
 class Record {
 protected:
     unique_ptr<string> name;

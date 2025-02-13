@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 // Write a program that takes an integer input and displays the sum of its digits
 int main() {

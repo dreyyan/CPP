@@ -1,10 +1,8 @@
-// Exercise 2
 #include <iostream>
 #include <cctype>
 using namespace std;
-
+// CC 202 - Exercise 2
 int main() {
-    // Declare Variables
     char letter;
     int digit, num;
 

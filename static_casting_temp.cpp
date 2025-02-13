@@ -1,19 +1,17 @@
-// Exercise 3
 #include<iostream>
 using namespace std;
-
+// CC 202 - Exercise 3
 int main() {
-    // Declare Variables
-    int t_in_fah, t_in_cel;
-    double precise_t_in_cel = static_cast<double>(t_in_cel); // Explicit Static Casting for Temperature(in Celsius)
+    int t_in_fah;
+    double precise_t_in_cel;
 
-    // Prompt User for Temperature(in Fahrenheit) as Input
+    // Prompt user for temperature(in fahrenheit) as input
     cout << "Enter a temperature in Fahrenheit: ";
     cin >> t_in_fah;
 
     // Display Output
-    precise_t_in_cel = static_cast<double>(t_in_fah - 32) * 5.0 / 9.0; // Explicit Static Casting for Temperature(in Fahrenheit)
-    cout << t_in_fah << "*F = " << precise_t_in_cel << "*C" << endl;
+    precise_t_in_cel = (t_in_fah - 32) * 5.0 / 9.0; // Explicit static casting for temperature(in fahrenheit)
+    cout << t_in_fah << "*F = " << precise_t_in_cel << "*C" << endl; // Display temperature
     return 0;
 }
 

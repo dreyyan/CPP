@@ -1,9 +1,7 @@
-// Exercise 7
 #include <iostream>
 using namespace std;
-
+// CC 202 - Exercise 7
 int main() {
-    // Declare Variables
     int townAPopulation, townBPopulation, years = 0;
     double townAGrowthRate, townBGrowthRate;
 
@@ -23,6 +21,7 @@ int main() {
     cout << "Growth Rate of Town B: ";
     cin >> townBGrowthRate;
 
+    // Calculate population over time
     while (true) {
         townAPopulation += (townAPopulation * townAGrowthRate);
         townBPopulation += (townBPopulation * townBGrowthRate);
@@ -32,6 +31,7 @@ int main() {
         }
     }
 
+    // Display results
     cout << "Population of Town A will be greater than or equal to Town B in " <<  years << " year/s." << endl;
     cout << "\nTown Populations in " << years << " year/s:" << endl;
     cout << "Town A Population: " << townAPopulation << endl;

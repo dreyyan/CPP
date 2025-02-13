@@ -1,9 +1,7 @@
-// Exercise 4
 #include<iostream>
 using namespace std;
-
+// CC 202 - Exercise 4
 int main() {
-    // Declare the variables
     int num1, num2;
     char operatorChoice;
 
@@ -21,36 +19,25 @@ int main() {
 
     if (operatorChoice == '+') {
         cout << num1 << " + " << num2 << " = " << num1 + num2;
-    }
-
-    else if (operatorChoice == '-') {
+    } else if (operatorChoice == '-') {
         cout << num1 << " - " << num2 << " = " << num1 - num2;
-    }
-
-    else if (operatorChoice == '*') {
+    } else if (operatorChoice == '*') {
         cout << num1 << " * " << num2 << " = " << num1 * num2;
-    }
-
-    else if (operatorChoice == '/') {
-        // Nested If Statement used to Prompt an Error if Division by Zero is Calculated, which is determined if num2 is not equal(!=) to 0
+    } else if (operatorChoice == '/') {
+        // Nested If Statement used to Prompt an Error if Division by Zero is Calculated
         if (num2 != 0) {
             cout << num1 << " / " << num2 << " = " << num1 / num2;
-        }
-        else {
+        } else {
             cout << "\nDivision by 0 is Not Allowed.";
         }
-    }
-
-    else if (operatorChoice == '%') {
-        // Nested If Statement used to Prompt an Error if Modulus by Zero is Calculated, which is determined if num2 is not equal(!=) to 0
+    } else if (operatorChoice == '%') {
+        // Nested If Statement used to Prompt an Error if Modulus by Zero is Calculated
         if (num2 != 0) {
             cout << num1 << " % " << num2 << " = " << num1 % num2;
-        }
-        else {
+        } else {
             cout << "\nModulus by 0 is Not Allowed.";
         }
-    }
-    else {
+    } else {
         cout << "\nInvalid Operator.";
     }
     return 0;
