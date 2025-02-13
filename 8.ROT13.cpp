@@ -8,7 +8,7 @@ void ROT13() {
     string fileName, line, code;
     cin >> fileName;
 
-    ifstream readFile("files\\" + fileName + ".rot13");
+    ifstream readFile(fileName + ".rot13");
     if (readFile.is_open()) {
         while (getline(readFile, line)) {
             code += line;
@@ -25,5 +25,9 @@ void ROT13() {
     } else {
         cout << "Inaccessible file.";
     }
+}
 
+int main() {
+    ROT13();
+    return 0;
 }

@@ -9,7 +9,7 @@ void temperatureChart() {
     string fileName, temp;
     int stars, temperature, counter = 1;
     cin >> fileName;
-    ifstream readTemperature("files\\" + fileName + ".txt");
+    ifstream readTemperature(fileName + ".txt");
 
     if (readTemperature.is_open()) {
         cout << "| Daily Temperature |" << endl;
@@ -28,4 +28,9 @@ void temperatureChart() {
     } else {
         cout << "Inacessible file.";
     }
+}
+
+int main() {
+    temperatureChart();
+    return 0;
 }
