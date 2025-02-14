@@ -1,9 +1,8 @@
-// Exercise 5
 #include <iostream>
 #include <string>
 #include <fstream>
 using namespace std;
-
+// CC 202 - Exercise 5
 int main() {
     bool enterAgain = false; // Flag Control
     do {

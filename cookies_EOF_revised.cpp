@@ -1,11 +1,10 @@
-// Exercise 6
 #include <iostream>
 #include <string>
 #include <fstream>
 #include <map>
 #include <vector>
 using namespace std;
-
+// CC 202 - Exercise 6
 int main() {
     bool enterAgain = false, validFileName = false; // Flag Control
     map<string, double> maxBoxesSoldStudents; // Contains Student /w Max Boxes Sold

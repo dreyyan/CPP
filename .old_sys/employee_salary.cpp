@@ -8,7 +8,6 @@ private:
     double hourlyRate;
     int hoursWorked;
 
-
 public:
     void inputEmployeeDetails() {
         cout << "Enter Name: ";
@@ -34,7 +33,6 @@ public:
 
 int main() {
     Employee emp1;
-
     emp1.inputEmployeeDetails();
     emp1.displayEmployeeDetails();
     emp1.totalSalary();

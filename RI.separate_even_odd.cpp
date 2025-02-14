@@ -22,6 +22,8 @@ void separate_even_odd(vector<int> numbers) {
     for (const int& number : odd) {
         cout << number << ' ';
     } cout << '\n';
+    int num;
+    cin >> num;
 }
 
 int main() {
