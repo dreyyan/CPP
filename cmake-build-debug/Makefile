@@ -116,50 +116,549 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1
+# Target rules for targets named array
 
 # Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1
-.PHONY : 1
+array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array
+.PHONY : array
 
 # fast build rule for target.
-1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/build
-.PHONY : 1/fast
+array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/build
+.PHONY : array/fast
 
 #=============================================================================
-# Target rules for targets named 2
+# Target rules for targets named array_count_even_odd
 
 # Build rule for target.
-2 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2
-.PHONY : 2
+array_count_even_odd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_count_even_odd
+.PHONY : array_count_even_odd
 
 # fast build rule for target.
-2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/build
-.PHONY : 2/fast
+array_count_even_odd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_count_even_odd.dir\build.make CMakeFiles/array_count_even_odd.dir/build
+.PHONY : array_count_even_odd/fast
 
 #=============================================================================
-# Target rules for targets named 3
+# Target rules for targets named array_find_largest_smallest_element
 
 # Build rule for target.
-3 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3
-.PHONY : 3
+array_find_largest_smallest_element: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_find_largest_smallest_element
+.PHONY : array_find_largest_smallest_element
 
 # fast build rule for target.
-3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/build
-.PHONY : 3/fast
+array_find_largest_smallest_element/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_find_largest_smallest_element.dir\build.make CMakeFiles/array_find_largest_smallest_element.dir/build
+.PHONY : array_find_largest_smallest_element/fast
+
+#=============================================================================
+# Target rules for targets named array_is_sorted
+
+# Build rule for target.
+array_is_sorted: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_is_sorted
+.PHONY : array_is_sorted
+
+# fast build rule for target.
+array_is_sorted/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_is_sorted.dir\build.make CMakeFiles/array_is_sorted.dir/build
+.PHONY : array_is_sorted/fast
+
+#=============================================================================
+# Target rules for targets named array_left_rotate
+
+# Build rule for target.
+array_left_rotate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_left_rotate
+.PHONY : array_left_rotate
+
+# fast build rule for target.
+array_left_rotate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_left_rotate.dir\build.make CMakeFiles/array_left_rotate.dir/build
+.PHONY : array_left_rotate/fast
+
+#=============================================================================
+# Target rules for targets named array_max_product_of_two_elements
+
+# Build rule for target.
+array_max_product_of_two_elements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_max_product_of_two_elements
+.PHONY : array_max_product_of_two_elements
+
+# fast build rule for target.
+array_max_product_of_two_elements/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_max_product_of_two_elements.dir\build.make CMakeFiles/array_max_product_of_two_elements.dir/build
+.PHONY : array_max_product_of_two_elements/fast
+
+#=============================================================================
+# Target rules for targets named array_merge_two_sorted_arrays
+
+# Build rule for target.
+array_merge_two_sorted_arrays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_merge_two_sorted_arrays
+.PHONY : array_merge_two_sorted_arrays
+
+# fast build rule for target.
+array_merge_two_sorted_arrays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_merge_two_sorted_arrays.dir\build.make CMakeFiles/array_merge_two_sorted_arrays.dir/build
+.PHONY : array_merge_two_sorted_arrays/fast
+
+#=============================================================================
+# Target rules for targets named array_move_zeros_to_end
+
+# Build rule for target.
+array_move_zeros_to_end: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_move_zeros_to_end
+.PHONY : array_move_zeros_to_end
+
+# fast build rule for target.
+array_move_zeros_to_end/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_move_zeros_to_end.dir\build.make CMakeFiles/array_move_zeros_to_end.dir/build
+.PHONY : array_move_zeros_to_end/fast
+
+#=============================================================================
+# Target rules for targets named array_remove_duplicates
+
+# Build rule for target.
+array_remove_duplicates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_remove_duplicates
+.PHONY : array_remove_duplicates
+
+# fast build rule for target.
+array_remove_duplicates/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_remove_duplicates.dir\build.make CMakeFiles/array_remove_duplicates.dir/build
+.PHONY : array_remove_duplicates/fast
+
+#=============================================================================
+# Target rules for targets named array_reverse
+
+# Build rule for target.
+array_reverse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_reverse
+.PHONY : array_reverse
+
+# fast build rule for target.
+array_reverse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_reverse.dir\build.make CMakeFiles/array_reverse.dir/build
+.PHONY : array_reverse/fast
+
+#=============================================================================
+# Target rules for targets named array_right_rotate
+
+# Build rule for target.
+array_right_rotate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_right_rotate
+.PHONY : array_right_rotate
+
+# fast build rule for target.
+array_right_rotate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_right_rotate.dir\build.make CMakeFiles/array_right_rotate.dir/build
+.PHONY : array_right_rotate/fast
+
+#=============================================================================
+# Target rules for targets named array_second_largest_element
+
+# Build rule for target.
+array_second_largest_element: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_second_largest_element
+.PHONY : array_second_largest_element
+
+# fast build rule for target.
+array_second_largest_element/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_second_largest_element.dir\build.make CMakeFiles/array_second_largest_element.dir/build
+.PHONY : array_second_largest_element/fast
+
+#=============================================================================
+# Target rules for targets named array_sum_of_elements
+
+# Build rule for target.
+array_sum_of_elements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_sum_of_elements
+.PHONY : array_sum_of_elements
+
+# fast build rule for target.
+array_sum_of_elements/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_sum_of_elements.dir\build.make CMakeFiles/array_sum_of_elements.dir/build
+.PHONY : array_sum_of_elements/fast
+
+#=============================================================================
+# Target rules for targets named bitset
+
+# Build rule for target.
+bitset: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bitset
+.PHONY : bitset
+
+# fast build rule for target.
+bitset/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bitset.dir\build.make CMakeFiles/bitset.dir/build
+.PHONY : bitset/fast
+
+#=============================================================================
+# Target rules for targets named deque
+
+# Build rule for target.
+deque: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deque
+.PHONY : deque
+
+# fast build rule for target.
+deque/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque.dir\build.make CMakeFiles/deque.dir/build
+.PHONY : deque/fast
+
+#=============================================================================
+# Target rules for targets named deque_max_sliding_window
+
+# Build rule for target.
+deque_max_sliding_window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deque_max_sliding_window
+.PHONY : deque_max_sliding_window
+
+# fast build rule for target.
+deque_max_sliding_window/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_max_sliding_window.dir\build.make CMakeFiles/deque_max_sliding_window.dir/build
+.PHONY : deque_max_sliding_window/fast
+
+#=============================================================================
+# Target rules for targets named deque_palindrome
+
+# Build rule for target.
+deque_palindrome: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deque_palindrome
+.PHONY : deque_palindrome
+
+# fast build rule for target.
+deque_palindrome/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_palindrome.dir\build.make CMakeFiles/deque_palindrome.dir/build
+.PHONY : deque_palindrome/fast
+
+#=============================================================================
+# Target rules for targets named deque_reversal
+
+# Build rule for target.
+deque_reversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deque_reversal
+.PHONY : deque_reversal
+
+# fast build rule for target.
+deque_reversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_reversal.dir\build.make CMakeFiles/deque_reversal.dir/build
+.PHONY : deque_reversal/fast
+
+#=============================================================================
+# Target rules for targets named deque_rotation
+
+# Build rule for target.
+deque_rotation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deque_rotation
+.PHONY : deque_rotation
+
+# fast build rule for target.
+deque_rotation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_rotation.dir\build.make CMakeFiles/deque_rotation.dir/build
+.PHONY : deque_rotation/fast
+
+#=============================================================================
+# Target rules for targets named deque_sort
+
+# Build rule for target.
+deque_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deque_sort
+.PHONY : deque_sort
+
+# fast build rule for target.
+deque_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_sort.dir\build.make CMakeFiles/deque_sort.dir/build
+.PHONY : deque_sort/fast
+
+#=============================================================================
+# Target rules for targets named deque_unique_elements
+
+# Build rule for target.
+deque_unique_elements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deque_unique_elements
+.PHONY : deque_unique_elements
+
+# fast build rule for target.
+deque_unique_elements/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_unique_elements.dir\build.make CMakeFiles/deque_unique_elements.dir/build
+.PHONY : deque_unique_elements/fast
+
+#=============================================================================
+# Target rules for targets named forward_list
+
+# Build rule for target.
+forward_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 forward_list
+.PHONY : forward_list
+
+# fast build rule for target.
+forward_list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\forward_list.dir\build.make CMakeFiles/forward_list.dir/build
+.PHONY : forward_list/fast
+
+#=============================================================================
+# Target rules for targets named list
+
+# Build rule for target.
+list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 list
+.PHONY : list
+
+# fast build rule for target.
+list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/build
+.PHONY : list/fast
+
+#=============================================================================
+# Target rules for targets named map_multimap
+
+# Build rule for target.
+map_multimap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 map_multimap
+.PHONY : map_multimap
+
+# fast build rule for target.
+map_multimap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\map_multimap.dir\build.make CMakeFiles/map_multimap.dir/build
+.PHONY : map_multimap/fast
+
+#=============================================================================
+# Target rules for targets named priority_queue
+
+# Build rule for target.
+priority_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 priority_queue
+.PHONY : priority_queue
+
+# fast build rule for target.
+priority_queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\priority_queue.dir\build.make CMakeFiles/priority_queue.dir/build
+.PHONY : priority_queue/fast
+
+#=============================================================================
+# Target rules for targets named queue_
+
+# Build rule for target.
+queue_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 queue_
+.PHONY : queue_
+
+# fast build rule for target.
+queue_/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue_.dir\build.make CMakeFiles/queue_.dir/build
+.PHONY : queue_/fast
+
+#=============================================================================
+# Target rules for targets named set_multiset
+
+# Build rule for target.
+set_multiset: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 set_multiset
+.PHONY : set_multiset
+
+# fast build rule for target.
+set_multiset/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\set_multiset.dir\build.make CMakeFiles/set_multiset.dir/build
+.PHONY : set_multiset/fast
+
+#=============================================================================
+# Target rules for targets named stack
+
+# Build rule for target.
+stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stack
+.PHONY : stack
+
+# fast build rule for target.
+stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/build
+.PHONY : stack/fast
+
+#=============================================================================
+# Target rules for targets named stack_balanced_parentheses
+
+# Build rule for target.
+stack_balanced_parentheses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stack_balanced_parentheses
+.PHONY : stack_balanced_parentheses
+
+# fast build rule for target.
+stack_balanced_parentheses/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_balanced_parentheses.dir\build.make CMakeFiles/stack_balanced_parentheses.dir/build
+.PHONY : stack_balanced_parentheses/fast
+
+#=============================================================================
+# Target rules for targets named stack_class
+
+# Build rule for target.
+stack_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stack_class
+.PHONY : stack_class
+
+# fast build rule for target.
+stack_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_class.dir\build.make CMakeFiles/stack_class.dir/build
+.PHONY : stack_class/fast
+
+#=============================================================================
+# Target rules for targets named stack_next_greater_element
+
+# Build rule for target.
+stack_next_greater_element: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stack_next_greater_element
+.PHONY : stack_next_greater_element
+
+# fast build rule for target.
+stack_next_greater_element/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_next_greater_element.dir\build.make CMakeFiles/stack_next_greater_element.dir/build
+.PHONY : stack_next_greater_element/fast
+
+#=============================================================================
+# Target rules for targets named stack_recursion_sort
+
+# Build rule for target.
+stack_recursion_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stack_recursion_sort
+.PHONY : stack_recursion_sort
+
+# fast build rule for target.
+stack_recursion_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_recursion_sort.dir\build.make CMakeFiles/stack_recursion_sort.dir/build
+.PHONY : stack_recursion_sort/fast
+
+#=============================================================================
+# Target rules for targets named stack_reverse_string
+
+# Build rule for target.
+stack_reverse_string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stack_reverse_string
+.PHONY : stack_reverse_string
+
+# fast build rule for target.
+stack_reverse_string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_reverse_string.dir\build.make CMakeFiles/stack_reverse_string.dir/build
+.PHONY : stack_reverse_string/fast
+
+#=============================================================================
+# Target rules for targets named vector
+
+# Build rule for target.
+vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector
+.PHONY : vector
+
+# fast build rule for target.
+vector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector.dir\build.make CMakeFiles/vector.dir/build
+.PHONY : vector/fast
+
+STL_containers/array.obj: STL_containers/array.cpp.obj
+.PHONY : STL_containers/array.obj
+
+# target to build an object file
+STL_containers/array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/STL_containers/array.cpp.obj
+.PHONY : STL_containers/array.cpp.obj
+
+STL_containers/array.i: STL_containers/array.cpp.i
+.PHONY : STL_containers/array.i
+
+# target to preprocess a source file
+STL_containers/array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/STL_containers/array.cpp.i
+.PHONY : STL_containers/array.cpp.i
+
+STL_containers/array.s: STL_containers/array.cpp.s
+.PHONY : STL_containers/array.s
+
+# target to generate assembly for a file
+STL_containers/array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/STL_containers/array.cpp.s
+.PHONY : STL_containers/array.cpp.s
+
+STL_containers/array_count_even_odd.obj: STL_containers/array_count_even_odd.cpp.obj
+.PHONY : STL_containers/array_count_even_odd.obj
+
+# target to build an object file
+STL_containers/array_count_even_odd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_count_even_odd.dir\build.make CMakeFiles/array_count_even_odd.dir/STL_containers/array_count_even_odd.cpp.obj
+.PHONY : STL_containers/array_count_even_odd.cpp.obj
+
+STL_containers/array_count_even_odd.i: STL_containers/array_count_even_odd.cpp.i
+.PHONY : STL_containers/array_count_even_odd.i
+
+# target to preprocess a source file
+STL_containers/array_count_even_odd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_count_even_odd.dir\build.make CMakeFiles/array_count_even_odd.dir/STL_containers/array_count_even_odd.cpp.i
+.PHONY : STL_containers/array_count_even_odd.cpp.i
+
+STL_containers/array_count_even_odd.s: STL_containers/array_count_even_odd.cpp.s
+.PHONY : STL_containers/array_count_even_odd.s
+
+# target to generate assembly for a file
+STL_containers/array_count_even_odd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_count_even_odd.dir\build.make CMakeFiles/array_count_even_odd.dir/STL_containers/array_count_even_odd.cpp.s
+.PHONY : STL_containers/array_count_even_odd.cpp.s
+
+STL_containers/array_find_largest_smallest_element.obj: STL_containers/array_find_largest_smallest_element.cpp.obj
+.PHONY : STL_containers/array_find_largest_smallest_element.obj
+
+# target to build an object file
+STL_containers/array_find_largest_smallest_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_find_largest_smallest_element.dir\build.make CMakeFiles/array_find_largest_smallest_element.dir/STL_containers/array_find_largest_smallest_element.cpp.obj
+.PHONY : STL_containers/array_find_largest_smallest_element.cpp.obj
+
+STL_containers/array_find_largest_smallest_element.i: STL_containers/array_find_largest_smallest_element.cpp.i
+.PHONY : STL_containers/array_find_largest_smallest_element.i
+
+# target to preprocess a source file
+STL_containers/array_find_largest_smallest_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_find_largest_smallest_element.dir\build.make CMakeFiles/array_find_largest_smallest_element.dir/STL_containers/array_find_largest_smallest_element.cpp.i
+.PHONY : STL_containers/array_find_largest_smallest_element.cpp.i
+
+STL_containers/array_find_largest_smallest_element.s: STL_containers/array_find_largest_smallest_element.cpp.s
+.PHONY : STL_containers/array_find_largest_smallest_element.s
+
+# target to generate assembly for a file
+STL_containers/array_find_largest_smallest_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_find_largest_smallest_element.dir\build.make CMakeFiles/array_find_largest_smallest_element.dir/STL_containers/array_find_largest_smallest_element.cpp.s
+.PHONY : STL_containers/array_find_largest_smallest_element.cpp.s
+
+STL_containers/array_is_sorted.obj: STL_containers/array_is_sorted.cpp.obj
+.PHONY : STL_containers/array_is_sorted.obj
+
+# target to build an object file
+STL_containers/array_is_sorted.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_is_sorted.dir\build.make CMakeFiles/array_is_sorted.dir/STL_containers/array_is_sorted.cpp.obj
+.PHONY : STL_containers/array_is_sorted.cpp.obj
+
+STL_containers/array_is_sorted.i: STL_containers/array_is_sorted.cpp.i
+.PHONY : STL_containers/array_is_sorted.i
+
+# target to preprocess a source file
+STL_containers/array_is_sorted.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_is_sorted.dir\build.make CMakeFiles/array_is_sorted.dir/STL_containers/array_is_sorted.cpp.i
+.PHONY : STL_containers/array_is_sorted.cpp.i
+
+STL_containers/array_is_sorted.s: STL_containers/array_is_sorted.cpp.s
+.PHONY : STL_containers/array_is_sorted.s
+
+# target to generate assembly for a file
+STL_containers/array_is_sorted.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_is_sorted.dir\build.make CMakeFiles/array_is_sorted.dir/STL_containers/array_is_sorted.cpp.s
+.PHONY : STL_containers/array_is_sorted.cpp.s
 
 STL_containers/array_left_rotate.obj: STL_containers/array_left_rotate.cpp.obj
 .PHONY : STL_containers/array_left_rotate.obj
 
 # target to build an object file
 STL_containers/array_left_rotate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/STL_containers/array_left_rotate.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_left_rotate.dir\build.make CMakeFiles/array_left_rotate.dir/STL_containers/array_left_rotate.cpp.obj
 .PHONY : STL_containers/array_left_rotate.cpp.obj
 
 STL_containers/array_left_rotate.i: STL_containers/array_left_rotate.cpp.i
@@ -167,7 +666,7 @@ STL_containers/array_left_rotate.i: STL_containers/array_left_rotate.cpp.i
 
 # target to preprocess a source file
 STL_containers/array_left_rotate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/STL_containers/array_left_rotate.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_left_rotate.dir\build.make CMakeFiles/array_left_rotate.dir/STL_containers/array_left_rotate.cpp.i
 .PHONY : STL_containers/array_left_rotate.cpp.i
 
 STL_containers/array_left_rotate.s: STL_containers/array_left_rotate.cpp.s
@@ -175,15 +674,87 @@ STL_containers/array_left_rotate.s: STL_containers/array_left_rotate.cpp.s
 
 # target to generate assembly for a file
 STL_containers/array_left_rotate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/STL_containers/array_left_rotate.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_left_rotate.dir\build.make CMakeFiles/array_left_rotate.dir/STL_containers/array_left_rotate.cpp.s
 .PHONY : STL_containers/array_left_rotate.cpp.s
+
+STL_containers/array_max_product_of_two_elements.obj: STL_containers/array_max_product_of_two_elements.cpp.obj
+.PHONY : STL_containers/array_max_product_of_two_elements.obj
+
+# target to build an object file
+STL_containers/array_max_product_of_two_elements.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_max_product_of_two_elements.dir\build.make CMakeFiles/array_max_product_of_two_elements.dir/STL_containers/array_max_product_of_two_elements.cpp.obj
+.PHONY : STL_containers/array_max_product_of_two_elements.cpp.obj
+
+STL_containers/array_max_product_of_two_elements.i: STL_containers/array_max_product_of_two_elements.cpp.i
+.PHONY : STL_containers/array_max_product_of_two_elements.i
+
+# target to preprocess a source file
+STL_containers/array_max_product_of_two_elements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_max_product_of_two_elements.dir\build.make CMakeFiles/array_max_product_of_two_elements.dir/STL_containers/array_max_product_of_two_elements.cpp.i
+.PHONY : STL_containers/array_max_product_of_two_elements.cpp.i
+
+STL_containers/array_max_product_of_two_elements.s: STL_containers/array_max_product_of_two_elements.cpp.s
+.PHONY : STL_containers/array_max_product_of_two_elements.s
+
+# target to generate assembly for a file
+STL_containers/array_max_product_of_two_elements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_max_product_of_two_elements.dir\build.make CMakeFiles/array_max_product_of_two_elements.dir/STL_containers/array_max_product_of_two_elements.cpp.s
+.PHONY : STL_containers/array_max_product_of_two_elements.cpp.s
+
+STL_containers/array_merge_two_sorted_arrays.obj: STL_containers/array_merge_two_sorted_arrays.cpp.obj
+.PHONY : STL_containers/array_merge_two_sorted_arrays.obj
+
+# target to build an object file
+STL_containers/array_merge_two_sorted_arrays.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_merge_two_sorted_arrays.dir\build.make CMakeFiles/array_merge_two_sorted_arrays.dir/STL_containers/array_merge_two_sorted_arrays.cpp.obj
+.PHONY : STL_containers/array_merge_two_sorted_arrays.cpp.obj
+
+STL_containers/array_merge_two_sorted_arrays.i: STL_containers/array_merge_two_sorted_arrays.cpp.i
+.PHONY : STL_containers/array_merge_two_sorted_arrays.i
+
+# target to preprocess a source file
+STL_containers/array_merge_two_sorted_arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_merge_two_sorted_arrays.dir\build.make CMakeFiles/array_merge_two_sorted_arrays.dir/STL_containers/array_merge_two_sorted_arrays.cpp.i
+.PHONY : STL_containers/array_merge_two_sorted_arrays.cpp.i
+
+STL_containers/array_merge_two_sorted_arrays.s: STL_containers/array_merge_two_sorted_arrays.cpp.s
+.PHONY : STL_containers/array_merge_two_sorted_arrays.s
+
+# target to generate assembly for a file
+STL_containers/array_merge_two_sorted_arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_merge_two_sorted_arrays.dir\build.make CMakeFiles/array_merge_two_sorted_arrays.dir/STL_containers/array_merge_two_sorted_arrays.cpp.s
+.PHONY : STL_containers/array_merge_two_sorted_arrays.cpp.s
+
+STL_containers/array_move_zeros_to_end.obj: STL_containers/array_move_zeros_to_end.cpp.obj
+.PHONY : STL_containers/array_move_zeros_to_end.obj
+
+# target to build an object file
+STL_containers/array_move_zeros_to_end.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_move_zeros_to_end.dir\build.make CMakeFiles/array_move_zeros_to_end.dir/STL_containers/array_move_zeros_to_end.cpp.obj
+.PHONY : STL_containers/array_move_zeros_to_end.cpp.obj
+
+STL_containers/array_move_zeros_to_end.i: STL_containers/array_move_zeros_to_end.cpp.i
+.PHONY : STL_containers/array_move_zeros_to_end.i
+
+# target to preprocess a source file
+STL_containers/array_move_zeros_to_end.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_move_zeros_to_end.dir\build.make CMakeFiles/array_move_zeros_to_end.dir/STL_containers/array_move_zeros_to_end.cpp.i
+.PHONY : STL_containers/array_move_zeros_to_end.cpp.i
+
+STL_containers/array_move_zeros_to_end.s: STL_containers/array_move_zeros_to_end.cpp.s
+.PHONY : STL_containers/array_move_zeros_to_end.s
+
+# target to generate assembly for a file
+STL_containers/array_move_zeros_to_end.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_move_zeros_to_end.dir\build.make CMakeFiles/array_move_zeros_to_end.dir/STL_containers/array_move_zeros_to_end.cpp.s
+.PHONY : STL_containers/array_move_zeros_to_end.cpp.s
 
 STL_containers/array_remove_duplicates.obj: STL_containers/array_remove_duplicates.cpp.obj
 .PHONY : STL_containers/array_remove_duplicates.obj
 
 # target to build an object file
 STL_containers/array_remove_duplicates.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/STL_containers/array_remove_duplicates.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_remove_duplicates.dir\build.make CMakeFiles/array_remove_duplicates.dir/STL_containers/array_remove_duplicates.cpp.obj
 .PHONY : STL_containers/array_remove_duplicates.cpp.obj
 
 STL_containers/array_remove_duplicates.i: STL_containers/array_remove_duplicates.cpp.i
@@ -191,7 +762,7 @@ STL_containers/array_remove_duplicates.i: STL_containers/array_remove_duplicates
 
 # target to preprocess a source file
 STL_containers/array_remove_duplicates.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/STL_containers/array_remove_duplicates.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_remove_duplicates.dir\build.make CMakeFiles/array_remove_duplicates.dir/STL_containers/array_remove_duplicates.cpp.i
 .PHONY : STL_containers/array_remove_duplicates.cpp.i
 
 STL_containers/array_remove_duplicates.s: STL_containers/array_remove_duplicates.cpp.s
@@ -199,15 +770,39 @@ STL_containers/array_remove_duplicates.s: STL_containers/array_remove_duplicates
 
 # target to generate assembly for a file
 STL_containers/array_remove_duplicates.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/STL_containers/array_remove_duplicates.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_remove_duplicates.dir\build.make CMakeFiles/array_remove_duplicates.dir/STL_containers/array_remove_duplicates.cpp.s
 .PHONY : STL_containers/array_remove_duplicates.cpp.s
+
+STL_containers/array_reverse.obj: STL_containers/array_reverse.cpp.obj
+.PHONY : STL_containers/array_reverse.obj
+
+# target to build an object file
+STL_containers/array_reverse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_reverse.dir\build.make CMakeFiles/array_reverse.dir/STL_containers/array_reverse.cpp.obj
+.PHONY : STL_containers/array_reverse.cpp.obj
+
+STL_containers/array_reverse.i: STL_containers/array_reverse.cpp.i
+.PHONY : STL_containers/array_reverse.i
+
+# target to preprocess a source file
+STL_containers/array_reverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_reverse.dir\build.make CMakeFiles/array_reverse.dir/STL_containers/array_reverse.cpp.i
+.PHONY : STL_containers/array_reverse.cpp.i
+
+STL_containers/array_reverse.s: STL_containers/array_reverse.cpp.s
+.PHONY : STL_containers/array_reverse.s
+
+# target to generate assembly for a file
+STL_containers/array_reverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_reverse.dir\build.make CMakeFiles/array_reverse.dir/STL_containers/array_reverse.cpp.s
+.PHONY : STL_containers/array_reverse.cpp.s
 
 STL_containers/array_right_rotate.obj: STL_containers/array_right_rotate.cpp.obj
 .PHONY : STL_containers/array_right_rotate.obj
 
 # target to build an object file
 STL_containers/array_right_rotate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/STL_containers/array_right_rotate.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_right_rotate.dir\build.make CMakeFiles/array_right_rotate.dir/STL_containers/array_right_rotate.cpp.obj
 .PHONY : STL_containers/array_right_rotate.cpp.obj
 
 STL_containers/array_right_rotate.i: STL_containers/array_right_rotate.cpp.i
@@ -215,7 +810,7 @@ STL_containers/array_right_rotate.i: STL_containers/array_right_rotate.cpp.i
 
 # target to preprocess a source file
 STL_containers/array_right_rotate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/STL_containers/array_right_rotate.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_right_rotate.dir\build.make CMakeFiles/array_right_rotate.dir/STL_containers/array_right_rotate.cpp.i
 .PHONY : STL_containers/array_right_rotate.cpp.i
 
 STL_containers/array_right_rotate.s: STL_containers/array_right_rotate.cpp.s
@@ -223,8 +818,560 @@ STL_containers/array_right_rotate.s: STL_containers/array_right_rotate.cpp.s
 
 # target to generate assembly for a file
 STL_containers/array_right_rotate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/STL_containers/array_right_rotate.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_right_rotate.dir\build.make CMakeFiles/array_right_rotate.dir/STL_containers/array_right_rotate.cpp.s
 .PHONY : STL_containers/array_right_rotate.cpp.s
+
+STL_containers/array_second_largest_element.obj: STL_containers/array_second_largest_element.cpp.obj
+.PHONY : STL_containers/array_second_largest_element.obj
+
+# target to build an object file
+STL_containers/array_second_largest_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_second_largest_element.dir\build.make CMakeFiles/array_second_largest_element.dir/STL_containers/array_second_largest_element.cpp.obj
+.PHONY : STL_containers/array_second_largest_element.cpp.obj
+
+STL_containers/array_second_largest_element.i: STL_containers/array_second_largest_element.cpp.i
+.PHONY : STL_containers/array_second_largest_element.i
+
+# target to preprocess a source file
+STL_containers/array_second_largest_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_second_largest_element.dir\build.make CMakeFiles/array_second_largest_element.dir/STL_containers/array_second_largest_element.cpp.i
+.PHONY : STL_containers/array_second_largest_element.cpp.i
+
+STL_containers/array_second_largest_element.s: STL_containers/array_second_largest_element.cpp.s
+.PHONY : STL_containers/array_second_largest_element.s
+
+# target to generate assembly for a file
+STL_containers/array_second_largest_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_second_largest_element.dir\build.make CMakeFiles/array_second_largest_element.dir/STL_containers/array_second_largest_element.cpp.s
+.PHONY : STL_containers/array_second_largest_element.cpp.s
+
+STL_containers/array_sum_of_elements.obj: STL_containers/array_sum_of_elements.cpp.obj
+.PHONY : STL_containers/array_sum_of_elements.obj
+
+# target to build an object file
+STL_containers/array_sum_of_elements.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_sum_of_elements.dir\build.make CMakeFiles/array_sum_of_elements.dir/STL_containers/array_sum_of_elements.cpp.obj
+.PHONY : STL_containers/array_sum_of_elements.cpp.obj
+
+STL_containers/array_sum_of_elements.i: STL_containers/array_sum_of_elements.cpp.i
+.PHONY : STL_containers/array_sum_of_elements.i
+
+# target to preprocess a source file
+STL_containers/array_sum_of_elements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_sum_of_elements.dir\build.make CMakeFiles/array_sum_of_elements.dir/STL_containers/array_sum_of_elements.cpp.i
+.PHONY : STL_containers/array_sum_of_elements.cpp.i
+
+STL_containers/array_sum_of_elements.s: STL_containers/array_sum_of_elements.cpp.s
+.PHONY : STL_containers/array_sum_of_elements.s
+
+# target to generate assembly for a file
+STL_containers/array_sum_of_elements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_sum_of_elements.dir\build.make CMakeFiles/array_sum_of_elements.dir/STL_containers/array_sum_of_elements.cpp.s
+.PHONY : STL_containers/array_sum_of_elements.cpp.s
+
+STL_containers/bitset.obj: STL_containers/bitset.cpp.obj
+.PHONY : STL_containers/bitset.obj
+
+# target to build an object file
+STL_containers/bitset.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bitset.dir\build.make CMakeFiles/bitset.dir/STL_containers/bitset.cpp.obj
+.PHONY : STL_containers/bitset.cpp.obj
+
+STL_containers/bitset.i: STL_containers/bitset.cpp.i
+.PHONY : STL_containers/bitset.i
+
+# target to preprocess a source file
+STL_containers/bitset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bitset.dir\build.make CMakeFiles/bitset.dir/STL_containers/bitset.cpp.i
+.PHONY : STL_containers/bitset.cpp.i
+
+STL_containers/bitset.s: STL_containers/bitset.cpp.s
+.PHONY : STL_containers/bitset.s
+
+# target to generate assembly for a file
+STL_containers/bitset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bitset.dir\build.make CMakeFiles/bitset.dir/STL_containers/bitset.cpp.s
+.PHONY : STL_containers/bitset.cpp.s
+
+STL_containers/deque.obj: STL_containers/deque.cpp.obj
+.PHONY : STL_containers/deque.obj
+
+# target to build an object file
+STL_containers/deque.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque.dir\build.make CMakeFiles/deque.dir/STL_containers/deque.cpp.obj
+.PHONY : STL_containers/deque.cpp.obj
+
+STL_containers/deque.i: STL_containers/deque.cpp.i
+.PHONY : STL_containers/deque.i
+
+# target to preprocess a source file
+STL_containers/deque.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque.dir\build.make CMakeFiles/deque.dir/STL_containers/deque.cpp.i
+.PHONY : STL_containers/deque.cpp.i
+
+STL_containers/deque.s: STL_containers/deque.cpp.s
+.PHONY : STL_containers/deque.s
+
+# target to generate assembly for a file
+STL_containers/deque.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque.dir\build.make CMakeFiles/deque.dir/STL_containers/deque.cpp.s
+.PHONY : STL_containers/deque.cpp.s
+
+STL_containers/deque_max_sliding_window.obj: STL_containers/deque_max_sliding_window.cpp.obj
+.PHONY : STL_containers/deque_max_sliding_window.obj
+
+# target to build an object file
+STL_containers/deque_max_sliding_window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_max_sliding_window.dir\build.make CMakeFiles/deque_max_sliding_window.dir/STL_containers/deque_max_sliding_window.cpp.obj
+.PHONY : STL_containers/deque_max_sliding_window.cpp.obj
+
+STL_containers/deque_max_sliding_window.i: STL_containers/deque_max_sliding_window.cpp.i
+.PHONY : STL_containers/deque_max_sliding_window.i
+
+# target to preprocess a source file
+STL_containers/deque_max_sliding_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_max_sliding_window.dir\build.make CMakeFiles/deque_max_sliding_window.dir/STL_containers/deque_max_sliding_window.cpp.i
+.PHONY : STL_containers/deque_max_sliding_window.cpp.i
+
+STL_containers/deque_max_sliding_window.s: STL_containers/deque_max_sliding_window.cpp.s
+.PHONY : STL_containers/deque_max_sliding_window.s
+
+# target to generate assembly for a file
+STL_containers/deque_max_sliding_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_max_sliding_window.dir\build.make CMakeFiles/deque_max_sliding_window.dir/STL_containers/deque_max_sliding_window.cpp.s
+.PHONY : STL_containers/deque_max_sliding_window.cpp.s
+
+STL_containers/deque_palindrome.obj: STL_containers/deque_palindrome.cpp.obj
+.PHONY : STL_containers/deque_palindrome.obj
+
+# target to build an object file
+STL_containers/deque_palindrome.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_palindrome.dir\build.make CMakeFiles/deque_palindrome.dir/STL_containers/deque_palindrome.cpp.obj
+.PHONY : STL_containers/deque_palindrome.cpp.obj
+
+STL_containers/deque_palindrome.i: STL_containers/deque_palindrome.cpp.i
+.PHONY : STL_containers/deque_palindrome.i
+
+# target to preprocess a source file
+STL_containers/deque_palindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_palindrome.dir\build.make CMakeFiles/deque_palindrome.dir/STL_containers/deque_palindrome.cpp.i
+.PHONY : STL_containers/deque_palindrome.cpp.i
+
+STL_containers/deque_palindrome.s: STL_containers/deque_palindrome.cpp.s
+.PHONY : STL_containers/deque_palindrome.s
+
+# target to generate assembly for a file
+STL_containers/deque_palindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_palindrome.dir\build.make CMakeFiles/deque_palindrome.dir/STL_containers/deque_palindrome.cpp.s
+.PHONY : STL_containers/deque_palindrome.cpp.s
+
+STL_containers/deque_reversal.obj: STL_containers/deque_reversal.cpp.obj
+.PHONY : STL_containers/deque_reversal.obj
+
+# target to build an object file
+STL_containers/deque_reversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_reversal.dir\build.make CMakeFiles/deque_reversal.dir/STL_containers/deque_reversal.cpp.obj
+.PHONY : STL_containers/deque_reversal.cpp.obj
+
+STL_containers/deque_reversal.i: STL_containers/deque_reversal.cpp.i
+.PHONY : STL_containers/deque_reversal.i
+
+# target to preprocess a source file
+STL_containers/deque_reversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_reversal.dir\build.make CMakeFiles/deque_reversal.dir/STL_containers/deque_reversal.cpp.i
+.PHONY : STL_containers/deque_reversal.cpp.i
+
+STL_containers/deque_reversal.s: STL_containers/deque_reversal.cpp.s
+.PHONY : STL_containers/deque_reversal.s
+
+# target to generate assembly for a file
+STL_containers/deque_reversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_reversal.dir\build.make CMakeFiles/deque_reversal.dir/STL_containers/deque_reversal.cpp.s
+.PHONY : STL_containers/deque_reversal.cpp.s
+
+STL_containers/deque_rotation.obj: STL_containers/deque_rotation.cpp.obj
+.PHONY : STL_containers/deque_rotation.obj
+
+# target to build an object file
+STL_containers/deque_rotation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_rotation.dir\build.make CMakeFiles/deque_rotation.dir/STL_containers/deque_rotation.cpp.obj
+.PHONY : STL_containers/deque_rotation.cpp.obj
+
+STL_containers/deque_rotation.i: STL_containers/deque_rotation.cpp.i
+.PHONY : STL_containers/deque_rotation.i
+
+# target to preprocess a source file
+STL_containers/deque_rotation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_rotation.dir\build.make CMakeFiles/deque_rotation.dir/STL_containers/deque_rotation.cpp.i
+.PHONY : STL_containers/deque_rotation.cpp.i
+
+STL_containers/deque_rotation.s: STL_containers/deque_rotation.cpp.s
+.PHONY : STL_containers/deque_rotation.s
+
+# target to generate assembly for a file
+STL_containers/deque_rotation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_rotation.dir\build.make CMakeFiles/deque_rotation.dir/STL_containers/deque_rotation.cpp.s
+.PHONY : STL_containers/deque_rotation.cpp.s
+
+STL_containers/deque_sort.obj: STL_containers/deque_sort.cpp.obj
+.PHONY : STL_containers/deque_sort.obj
+
+# target to build an object file
+STL_containers/deque_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_sort.dir\build.make CMakeFiles/deque_sort.dir/STL_containers/deque_sort.cpp.obj
+.PHONY : STL_containers/deque_sort.cpp.obj
+
+STL_containers/deque_sort.i: STL_containers/deque_sort.cpp.i
+.PHONY : STL_containers/deque_sort.i
+
+# target to preprocess a source file
+STL_containers/deque_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_sort.dir\build.make CMakeFiles/deque_sort.dir/STL_containers/deque_sort.cpp.i
+.PHONY : STL_containers/deque_sort.cpp.i
+
+STL_containers/deque_sort.s: STL_containers/deque_sort.cpp.s
+.PHONY : STL_containers/deque_sort.s
+
+# target to generate assembly for a file
+STL_containers/deque_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_sort.dir\build.make CMakeFiles/deque_sort.dir/STL_containers/deque_sort.cpp.s
+.PHONY : STL_containers/deque_sort.cpp.s
+
+STL_containers/deque_unique_elements.obj: STL_containers/deque_unique_elements.cpp.obj
+.PHONY : STL_containers/deque_unique_elements.obj
+
+# target to build an object file
+STL_containers/deque_unique_elements.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_unique_elements.dir\build.make CMakeFiles/deque_unique_elements.dir/STL_containers/deque_unique_elements.cpp.obj
+.PHONY : STL_containers/deque_unique_elements.cpp.obj
+
+STL_containers/deque_unique_elements.i: STL_containers/deque_unique_elements.cpp.i
+.PHONY : STL_containers/deque_unique_elements.i
+
+# target to preprocess a source file
+STL_containers/deque_unique_elements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_unique_elements.dir\build.make CMakeFiles/deque_unique_elements.dir/STL_containers/deque_unique_elements.cpp.i
+.PHONY : STL_containers/deque_unique_elements.cpp.i
+
+STL_containers/deque_unique_elements.s: STL_containers/deque_unique_elements.cpp.s
+.PHONY : STL_containers/deque_unique_elements.s
+
+# target to generate assembly for a file
+STL_containers/deque_unique_elements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deque_unique_elements.dir\build.make CMakeFiles/deque_unique_elements.dir/STL_containers/deque_unique_elements.cpp.s
+.PHONY : STL_containers/deque_unique_elements.cpp.s
+
+STL_containers/forward_list.obj: STL_containers/forward_list.cpp.obj
+.PHONY : STL_containers/forward_list.obj
+
+# target to build an object file
+STL_containers/forward_list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\forward_list.dir\build.make CMakeFiles/forward_list.dir/STL_containers/forward_list.cpp.obj
+.PHONY : STL_containers/forward_list.cpp.obj
+
+STL_containers/forward_list.i: STL_containers/forward_list.cpp.i
+.PHONY : STL_containers/forward_list.i
+
+# target to preprocess a source file
+STL_containers/forward_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\forward_list.dir\build.make CMakeFiles/forward_list.dir/STL_containers/forward_list.cpp.i
+.PHONY : STL_containers/forward_list.cpp.i
+
+STL_containers/forward_list.s: STL_containers/forward_list.cpp.s
+.PHONY : STL_containers/forward_list.s
+
+# target to generate assembly for a file
+STL_containers/forward_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\forward_list.dir\build.make CMakeFiles/forward_list.dir/STL_containers/forward_list.cpp.s
+.PHONY : STL_containers/forward_list.cpp.s
+
+STL_containers/list.obj: STL_containers/list.cpp.obj
+.PHONY : STL_containers/list.obj
+
+# target to build an object file
+STL_containers/list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/STL_containers/list.cpp.obj
+.PHONY : STL_containers/list.cpp.obj
+
+STL_containers/list.i: STL_containers/list.cpp.i
+.PHONY : STL_containers/list.i
+
+# target to preprocess a source file
+STL_containers/list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/STL_containers/list.cpp.i
+.PHONY : STL_containers/list.cpp.i
+
+STL_containers/list.s: STL_containers/list.cpp.s
+.PHONY : STL_containers/list.s
+
+# target to generate assembly for a file
+STL_containers/list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/STL_containers/list.cpp.s
+.PHONY : STL_containers/list.cpp.s
+
+STL_containers/map_multimap.obj: STL_containers/map_multimap.cpp.obj
+.PHONY : STL_containers/map_multimap.obj
+
+# target to build an object file
+STL_containers/map_multimap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\map_multimap.dir\build.make CMakeFiles/map_multimap.dir/STL_containers/map_multimap.cpp.obj
+.PHONY : STL_containers/map_multimap.cpp.obj
+
+STL_containers/map_multimap.i: STL_containers/map_multimap.cpp.i
+.PHONY : STL_containers/map_multimap.i
+
+# target to preprocess a source file
+STL_containers/map_multimap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\map_multimap.dir\build.make CMakeFiles/map_multimap.dir/STL_containers/map_multimap.cpp.i
+.PHONY : STL_containers/map_multimap.cpp.i
+
+STL_containers/map_multimap.s: STL_containers/map_multimap.cpp.s
+.PHONY : STL_containers/map_multimap.s
+
+# target to generate assembly for a file
+STL_containers/map_multimap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\map_multimap.dir\build.make CMakeFiles/map_multimap.dir/STL_containers/map_multimap.cpp.s
+.PHONY : STL_containers/map_multimap.cpp.s
+
+STL_containers/priority_queue.obj: STL_containers/priority_queue.cpp.obj
+.PHONY : STL_containers/priority_queue.obj
+
+# target to build an object file
+STL_containers/priority_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\priority_queue.dir\build.make CMakeFiles/priority_queue.dir/STL_containers/priority_queue.cpp.obj
+.PHONY : STL_containers/priority_queue.cpp.obj
+
+STL_containers/priority_queue.i: STL_containers/priority_queue.cpp.i
+.PHONY : STL_containers/priority_queue.i
+
+# target to preprocess a source file
+STL_containers/priority_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\priority_queue.dir\build.make CMakeFiles/priority_queue.dir/STL_containers/priority_queue.cpp.i
+.PHONY : STL_containers/priority_queue.cpp.i
+
+STL_containers/priority_queue.s: STL_containers/priority_queue.cpp.s
+.PHONY : STL_containers/priority_queue.s
+
+# target to generate assembly for a file
+STL_containers/priority_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\priority_queue.dir\build.make CMakeFiles/priority_queue.dir/STL_containers/priority_queue.cpp.s
+.PHONY : STL_containers/priority_queue.cpp.s
+
+STL_containers/queue_.obj: STL_containers/queue_.cpp.obj
+.PHONY : STL_containers/queue_.obj
+
+# target to build an object file
+STL_containers/queue_.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue_.dir\build.make CMakeFiles/queue_.dir/STL_containers/queue_.cpp.obj
+.PHONY : STL_containers/queue_.cpp.obj
+
+STL_containers/queue_.i: STL_containers/queue_.cpp.i
+.PHONY : STL_containers/queue_.i
+
+# target to preprocess a source file
+STL_containers/queue_.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue_.dir\build.make CMakeFiles/queue_.dir/STL_containers/queue_.cpp.i
+.PHONY : STL_containers/queue_.cpp.i
+
+STL_containers/queue_.s: STL_containers/queue_.cpp.s
+.PHONY : STL_containers/queue_.s
+
+# target to generate assembly for a file
+STL_containers/queue_.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue_.dir\build.make CMakeFiles/queue_.dir/STL_containers/queue_.cpp.s
+.PHONY : STL_containers/queue_.cpp.s
+
+STL_containers/set_multiset.obj: STL_containers/set_multiset.cpp.obj
+.PHONY : STL_containers/set_multiset.obj
+
+# target to build an object file
+STL_containers/set_multiset.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\set_multiset.dir\build.make CMakeFiles/set_multiset.dir/STL_containers/set_multiset.cpp.obj
+.PHONY : STL_containers/set_multiset.cpp.obj
+
+STL_containers/set_multiset.i: STL_containers/set_multiset.cpp.i
+.PHONY : STL_containers/set_multiset.i
+
+# target to preprocess a source file
+STL_containers/set_multiset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\set_multiset.dir\build.make CMakeFiles/set_multiset.dir/STL_containers/set_multiset.cpp.i
+.PHONY : STL_containers/set_multiset.cpp.i
+
+STL_containers/set_multiset.s: STL_containers/set_multiset.cpp.s
+.PHONY : STL_containers/set_multiset.s
+
+# target to generate assembly for a file
+STL_containers/set_multiset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\set_multiset.dir\build.make CMakeFiles/set_multiset.dir/STL_containers/set_multiset.cpp.s
+.PHONY : STL_containers/set_multiset.cpp.s
+
+STL_containers/stack.obj: STL_containers/stack.cpp.obj
+.PHONY : STL_containers/stack.obj
+
+# target to build an object file
+STL_containers/stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/STL_containers/stack.cpp.obj
+.PHONY : STL_containers/stack.cpp.obj
+
+STL_containers/stack.i: STL_containers/stack.cpp.i
+.PHONY : STL_containers/stack.i
+
+# target to preprocess a source file
+STL_containers/stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/STL_containers/stack.cpp.i
+.PHONY : STL_containers/stack.cpp.i
+
+STL_containers/stack.s: STL_containers/stack.cpp.s
+.PHONY : STL_containers/stack.s
+
+# target to generate assembly for a file
+STL_containers/stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/STL_containers/stack.cpp.s
+.PHONY : STL_containers/stack.cpp.s
+
+STL_containers/stack_balanced_parentheses.obj: STL_containers/stack_balanced_parentheses.cpp.obj
+.PHONY : STL_containers/stack_balanced_parentheses.obj
+
+# target to build an object file
+STL_containers/stack_balanced_parentheses.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_balanced_parentheses.dir\build.make CMakeFiles/stack_balanced_parentheses.dir/STL_containers/stack_balanced_parentheses.cpp.obj
+.PHONY : STL_containers/stack_balanced_parentheses.cpp.obj
+
+STL_containers/stack_balanced_parentheses.i: STL_containers/stack_balanced_parentheses.cpp.i
+.PHONY : STL_containers/stack_balanced_parentheses.i
+
+# target to preprocess a source file
+STL_containers/stack_balanced_parentheses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_balanced_parentheses.dir\build.make CMakeFiles/stack_balanced_parentheses.dir/STL_containers/stack_balanced_parentheses.cpp.i
+.PHONY : STL_containers/stack_balanced_parentheses.cpp.i
+
+STL_containers/stack_balanced_parentheses.s: STL_containers/stack_balanced_parentheses.cpp.s
+.PHONY : STL_containers/stack_balanced_parentheses.s
+
+# target to generate assembly for a file
+STL_containers/stack_balanced_parentheses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_balanced_parentheses.dir\build.make CMakeFiles/stack_balanced_parentheses.dir/STL_containers/stack_balanced_parentheses.cpp.s
+.PHONY : STL_containers/stack_balanced_parentheses.cpp.s
+
+STL_containers/stack_class.obj: STL_containers/stack_class.cpp.obj
+.PHONY : STL_containers/stack_class.obj
+
+# target to build an object file
+STL_containers/stack_class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_class.dir\build.make CMakeFiles/stack_class.dir/STL_containers/stack_class.cpp.obj
+.PHONY : STL_containers/stack_class.cpp.obj
+
+STL_containers/stack_class.i: STL_containers/stack_class.cpp.i
+.PHONY : STL_containers/stack_class.i
+
+# target to preprocess a source file
+STL_containers/stack_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_class.dir\build.make CMakeFiles/stack_class.dir/STL_containers/stack_class.cpp.i
+.PHONY : STL_containers/stack_class.cpp.i
+
+STL_containers/stack_class.s: STL_containers/stack_class.cpp.s
+.PHONY : STL_containers/stack_class.s
+
+# target to generate assembly for a file
+STL_containers/stack_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_class.dir\build.make CMakeFiles/stack_class.dir/STL_containers/stack_class.cpp.s
+.PHONY : STL_containers/stack_class.cpp.s
+
+STL_containers/stack_next_greater_element.obj: STL_containers/stack_next_greater_element.cpp.obj
+.PHONY : STL_containers/stack_next_greater_element.obj
+
+# target to build an object file
+STL_containers/stack_next_greater_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_next_greater_element.dir\build.make CMakeFiles/stack_next_greater_element.dir/STL_containers/stack_next_greater_element.cpp.obj
+.PHONY : STL_containers/stack_next_greater_element.cpp.obj
+
+STL_containers/stack_next_greater_element.i: STL_containers/stack_next_greater_element.cpp.i
+.PHONY : STL_containers/stack_next_greater_element.i
+
+# target to preprocess a source file
+STL_containers/stack_next_greater_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_next_greater_element.dir\build.make CMakeFiles/stack_next_greater_element.dir/STL_containers/stack_next_greater_element.cpp.i
+.PHONY : STL_containers/stack_next_greater_element.cpp.i
+
+STL_containers/stack_next_greater_element.s: STL_containers/stack_next_greater_element.cpp.s
+.PHONY : STL_containers/stack_next_greater_element.s
+
+# target to generate assembly for a file
+STL_containers/stack_next_greater_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_next_greater_element.dir\build.make CMakeFiles/stack_next_greater_element.dir/STL_containers/stack_next_greater_element.cpp.s
+.PHONY : STL_containers/stack_next_greater_element.cpp.s
+
+STL_containers/stack_recursion_sort.obj: STL_containers/stack_recursion_sort.cpp.obj
+.PHONY : STL_containers/stack_recursion_sort.obj
+
+# target to build an object file
+STL_containers/stack_recursion_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_recursion_sort.dir\build.make CMakeFiles/stack_recursion_sort.dir/STL_containers/stack_recursion_sort.cpp.obj
+.PHONY : STL_containers/stack_recursion_sort.cpp.obj
+
+STL_containers/stack_recursion_sort.i: STL_containers/stack_recursion_sort.cpp.i
+.PHONY : STL_containers/stack_recursion_sort.i
+
+# target to preprocess a source file
+STL_containers/stack_recursion_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_recursion_sort.dir\build.make CMakeFiles/stack_recursion_sort.dir/STL_containers/stack_recursion_sort.cpp.i
+.PHONY : STL_containers/stack_recursion_sort.cpp.i
+
+STL_containers/stack_recursion_sort.s: STL_containers/stack_recursion_sort.cpp.s
+.PHONY : STL_containers/stack_recursion_sort.s
+
+# target to generate assembly for a file
+STL_containers/stack_recursion_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_recursion_sort.dir\build.make CMakeFiles/stack_recursion_sort.dir/STL_containers/stack_recursion_sort.cpp.s
+.PHONY : STL_containers/stack_recursion_sort.cpp.s
+
+STL_containers/stack_reverse_string.obj: STL_containers/stack_reverse_string.cpp.obj
+.PHONY : STL_containers/stack_reverse_string.obj
+
+# target to build an object file
+STL_containers/stack_reverse_string.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_reverse_string.dir\build.make CMakeFiles/stack_reverse_string.dir/STL_containers/stack_reverse_string.cpp.obj
+.PHONY : STL_containers/stack_reverse_string.cpp.obj
+
+STL_containers/stack_reverse_string.i: STL_containers/stack_reverse_string.cpp.i
+.PHONY : STL_containers/stack_reverse_string.i
+
+# target to preprocess a source file
+STL_containers/stack_reverse_string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_reverse_string.dir\build.make CMakeFiles/stack_reverse_string.dir/STL_containers/stack_reverse_string.cpp.i
+.PHONY : STL_containers/stack_reverse_string.cpp.i
+
+STL_containers/stack_reverse_string.s: STL_containers/stack_reverse_string.cpp.s
+.PHONY : STL_containers/stack_reverse_string.s
+
+# target to generate assembly for a file
+STL_containers/stack_reverse_string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_reverse_string.dir\build.make CMakeFiles/stack_reverse_string.dir/STL_containers/stack_reverse_string.cpp.s
+.PHONY : STL_containers/stack_reverse_string.cpp.s
+
+STL_containers/vector.obj: STL_containers/vector.cpp.obj
+.PHONY : STL_containers/vector.obj
+
+# target to build an object file
+STL_containers/vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector.dir\build.make CMakeFiles/vector.dir/STL_containers/vector.cpp.obj
+.PHONY : STL_containers/vector.cpp.obj
+
+STL_containers/vector.i: STL_containers/vector.cpp.i
+.PHONY : STL_containers/vector.i
+
+# target to preprocess a source file
+STL_containers/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector.dir\build.make CMakeFiles/vector.dir/STL_containers/vector.cpp.i
+.PHONY : STL_containers/vector.cpp.i
+
+STL_containers/vector.s: STL_containers/vector.cpp.s
+.PHONY : STL_containers/vector.s
+
+# target to generate assembly for a file
+STL_containers/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector.dir\build.make CMakeFiles/vector.dir/STL_containers/vector.cpp.s
+.PHONY : STL_containers/vector.cpp.s
 
 # Help Target
 help:
@@ -234,18 +1381,142 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 1
-	@echo ... 2
-	@echo ... 3
+	@echo ... array
+	@echo ... array_count_even_odd
+	@echo ... array_find_largest_smallest_element
+	@echo ... array_is_sorted
+	@echo ... array_left_rotate
+	@echo ... array_max_product_of_two_elements
+	@echo ... array_merge_two_sorted_arrays
+	@echo ... array_move_zeros_to_end
+	@echo ... array_remove_duplicates
+	@echo ... array_reverse
+	@echo ... array_right_rotate
+	@echo ... array_second_largest_element
+	@echo ... array_sum_of_elements
+	@echo ... bitset
+	@echo ... deque
+	@echo ... deque_max_sliding_window
+	@echo ... deque_palindrome
+	@echo ... deque_reversal
+	@echo ... deque_rotation
+	@echo ... deque_sort
+	@echo ... deque_unique_elements
+	@echo ... forward_list
+	@echo ... list
+	@echo ... map_multimap
+	@echo ... priority_queue
+	@echo ... queue_
+	@echo ... set_multiset
+	@echo ... stack
+	@echo ... stack_balanced_parentheses
+	@echo ... stack_class
+	@echo ... stack_next_greater_element
+	@echo ... stack_recursion_sort
+	@echo ... stack_reverse_string
+	@echo ... vector
+	@echo ... STL_containers/array.obj
+	@echo ... STL_containers/array.i
+	@echo ... STL_containers/array.s
+	@echo ... STL_containers/array_count_even_odd.obj
+	@echo ... STL_containers/array_count_even_odd.i
+	@echo ... STL_containers/array_count_even_odd.s
+	@echo ... STL_containers/array_find_largest_smallest_element.obj
+	@echo ... STL_containers/array_find_largest_smallest_element.i
+	@echo ... STL_containers/array_find_largest_smallest_element.s
+	@echo ... STL_containers/array_is_sorted.obj
+	@echo ... STL_containers/array_is_sorted.i
+	@echo ... STL_containers/array_is_sorted.s
 	@echo ... STL_containers/array_left_rotate.obj
 	@echo ... STL_containers/array_left_rotate.i
 	@echo ... STL_containers/array_left_rotate.s
+	@echo ... STL_containers/array_max_product_of_two_elements.obj
+	@echo ... STL_containers/array_max_product_of_two_elements.i
+	@echo ... STL_containers/array_max_product_of_two_elements.s
+	@echo ... STL_containers/array_merge_two_sorted_arrays.obj
+	@echo ... STL_containers/array_merge_two_sorted_arrays.i
+	@echo ... STL_containers/array_merge_two_sorted_arrays.s
+	@echo ... STL_containers/array_move_zeros_to_end.obj
+	@echo ... STL_containers/array_move_zeros_to_end.i
+	@echo ... STL_containers/array_move_zeros_to_end.s
 	@echo ... STL_containers/array_remove_duplicates.obj
 	@echo ... STL_containers/array_remove_duplicates.i
 	@echo ... STL_containers/array_remove_duplicates.s
+	@echo ... STL_containers/array_reverse.obj
+	@echo ... STL_containers/array_reverse.i
+	@echo ... STL_containers/array_reverse.s
 	@echo ... STL_containers/array_right_rotate.obj
 	@echo ... STL_containers/array_right_rotate.i
 	@echo ... STL_containers/array_right_rotate.s
+	@echo ... STL_containers/array_second_largest_element.obj
+	@echo ... STL_containers/array_second_largest_element.i
+	@echo ... STL_containers/array_second_largest_element.s
+	@echo ... STL_containers/array_sum_of_elements.obj
+	@echo ... STL_containers/array_sum_of_elements.i
+	@echo ... STL_containers/array_sum_of_elements.s
+	@echo ... STL_containers/bitset.obj
+	@echo ... STL_containers/bitset.i
+	@echo ... STL_containers/bitset.s
+	@echo ... STL_containers/deque.obj
+	@echo ... STL_containers/deque.i
+	@echo ... STL_containers/deque.s
+	@echo ... STL_containers/deque_max_sliding_window.obj
+	@echo ... STL_containers/deque_max_sliding_window.i
+	@echo ... STL_containers/deque_max_sliding_window.s
+	@echo ... STL_containers/deque_palindrome.obj
+	@echo ... STL_containers/deque_palindrome.i
+	@echo ... STL_containers/deque_palindrome.s
+	@echo ... STL_containers/deque_reversal.obj
+	@echo ... STL_containers/deque_reversal.i
+	@echo ... STL_containers/deque_reversal.s
+	@echo ... STL_containers/deque_rotation.obj
+	@echo ... STL_containers/deque_rotation.i
+	@echo ... STL_containers/deque_rotation.s
+	@echo ... STL_containers/deque_sort.obj
+	@echo ... STL_containers/deque_sort.i
+	@echo ... STL_containers/deque_sort.s
+	@echo ... STL_containers/deque_unique_elements.obj
+	@echo ... STL_containers/deque_unique_elements.i
+	@echo ... STL_containers/deque_unique_elements.s
+	@echo ... STL_containers/forward_list.obj
+	@echo ... STL_containers/forward_list.i
+	@echo ... STL_containers/forward_list.s
+	@echo ... STL_containers/list.obj
+	@echo ... STL_containers/list.i
+	@echo ... STL_containers/list.s
+	@echo ... STL_containers/map_multimap.obj
+	@echo ... STL_containers/map_multimap.i
+	@echo ... STL_containers/map_multimap.s
+	@echo ... STL_containers/priority_queue.obj
+	@echo ... STL_containers/priority_queue.i
+	@echo ... STL_containers/priority_queue.s
+	@echo ... STL_containers/queue_.obj
+	@echo ... STL_containers/queue_.i
+	@echo ... STL_containers/queue_.s
+	@echo ... STL_containers/set_multiset.obj
+	@echo ... STL_containers/set_multiset.i
+	@echo ... STL_containers/set_multiset.s
+	@echo ... STL_containers/stack.obj
+	@echo ... STL_containers/stack.i
+	@echo ... STL_containers/stack.s
+	@echo ... STL_containers/stack_balanced_parentheses.obj
+	@echo ... STL_containers/stack_balanced_parentheses.i
+	@echo ... STL_containers/stack_balanced_parentheses.s
+	@echo ... STL_containers/stack_class.obj
+	@echo ... STL_containers/stack_class.i
+	@echo ... STL_containers/stack_class.s
+	@echo ... STL_containers/stack_next_greater_element.obj
+	@echo ... STL_containers/stack_next_greater_element.i
+	@echo ... STL_containers/stack_next_greater_element.s
+	@echo ... STL_containers/stack_recursion_sort.obj
+	@echo ... STL_containers/stack_recursion_sort.i
+	@echo ... STL_containers/stack_recursion_sort.s
+	@echo ... STL_containers/stack_reverse_string.obj
+	@echo ... STL_containers/stack_reverse_string.i
+	@echo ... STL_containers/stack_reverse_string.s
+	@echo ... STL_containers/vector.obj
+	@echo ... STL_containers/vector.i
+	@echo ... STL_containers/vector.s
 .PHONY : help
 
 
