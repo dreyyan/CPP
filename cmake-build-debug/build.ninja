@@ -49,11 +49,83 @@ cmake_ninja_workdir = C$:/Code/C++/cppFiles/cmake-build-debug/
 
 build cmake_object_order_depends_target_C__: phony || .
 
-build CMakeFiles/C__.dir/RI.separate_even_odd.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/RI.separate_even_odd.cpp || cmake_object_order_depends_target_C__
-  DEP_FILE = CMakeFiles\C__.dir\RI.separate_even_odd.cpp.obj.d
+build CMakeFiles/C__.dir/deque_max_sliding_window.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/deque_max_sliding_window.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\deque_max_sliding_window.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C__.dir
   OBJECT_FILE_DIR = CMakeFiles\C__.dir
+
+build CMakeFiles/C__.dir/STL_containers/stack_reverse_string.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/stack_reverse_string.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\stack_reverse_string.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/stack_balanced_parentheses.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/stack_balanced_parentheses.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\stack_balanced_parentheses.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/stack_class.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/stack_class.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\stack_class.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/stack_next_greater_element.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/stack_next_greater_element.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\stack_next_greater_element.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/stack_recursion_sort.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/stack_recursion_sort.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\stack_recursion_sort.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/array_find_largest_smallest_element.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/array_find_largest_smallest_element.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\array_find_largest_smallest_element.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/array_reverse.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/array_reverse.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\array_reverse.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/array_sum_of_elements.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/array_sum_of_elements.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\array_sum_of_elements.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/array_count_even_odd.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/array_count_even_odd.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\array_count_even_odd.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/array_second_largest_element.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/array_second_largest_element.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\array_second_largest_element.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/array_is_sorted.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/array_is_sorted.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\array_is_sorted.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
+
+build CMakeFiles/C__.dir/STL_containers/array_merge_two_sorted_arrays.cpp.obj: CXX_COMPILER__C___unscanned_Debug C$:/Code/C++/cppFiles/STL_containers/array_merge_two_sorted_arrays.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\STL_containers\array_merge_two_sorted_arrays.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\STL_containers
 
 
 # =============================================================================
@@ -63,7 +135,7 @@ build CMakeFiles/C__.dir/RI.separate_even_odd.cpp.obj: CXX_COMPILER__C___unscann
 #############################################
 # Link the executable C__.exe
 
-build C__.exe: CXX_EXECUTABLE_LINKER__C___Debug CMakeFiles/C__.dir/RI.separate_even_odd.cpp.obj
+build C__.exe: CXX_EXECUTABLE_LINKER__C___Debug CMakeFiles/C__.dir/deque_max_sliding_window.cpp.obj CMakeFiles/C__.dir/STL_containers/stack_reverse_string.cpp.obj CMakeFiles/C__.dir/STL_containers/stack_balanced_parentheses.cpp.obj CMakeFiles/C__.dir/STL_containers/stack_class.cpp.obj CMakeFiles/C__.dir/STL_containers/stack_next_greater_element.cpp.obj CMakeFiles/C__.dir/STL_containers/stack_recursion_sort.cpp.obj CMakeFiles/C__.dir/STL_containers/array_find_largest_smallest_element.cpp.obj CMakeFiles/C__.dir/STL_containers/array_reverse.cpp.obj CMakeFiles/C__.dir/STL_containers/array_sum_of_elements.cpp.obj CMakeFiles/C__.dir/STL_containers/array_count_even_odd.cpp.obj CMakeFiles/C__.dir/STL_containers/array_second_largest_element.cpp.obj CMakeFiles/C__.dir/STL_containers/array_is_sorted.cpp.obj CMakeFiles/C__.dir/STL_containers/array_merge_two_sorted_arrays.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C__.dir
