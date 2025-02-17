@@ -1,0 +1,3 @@
+C:/Code/C++/D.S.A/cmake-build-debug-mingw/CMakeFiles/D_S_A.dir
+C:/Code/C++/D.S.A/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Code/C++/D.S.A/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
