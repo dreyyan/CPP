@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <iostream>
 using namespace std;
-
+// Write a program that reverses all elements in the array
 void array_reverse(int arr[], int size) {
     reverse(arr, arr + size); // Use algorithm to reverse array
     // Display array

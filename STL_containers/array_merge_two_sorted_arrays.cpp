@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <iostream>
 using namespace std;
-
+// Write a program that merges two arrays that are sorted
 void array_merge_two_sorted_arrays(int arr1[], int arr2[], int size1, int size2) {
     int merged_size = size1 + size2;
     int merged_array[merged_size];

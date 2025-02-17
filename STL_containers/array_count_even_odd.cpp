@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <iostream>
 using namespace std;
-
+// Write a program that counts all even and odd elements in an array
 void array_count_even_odd(int arr[], int size) {
     int even_count = 0, odd_count = 0;
     for (int i = 0; i < size; ++i) {

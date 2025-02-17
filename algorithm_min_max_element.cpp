@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+// min/max_element (returns the minimum/maximum element in a given set of container)
 void algorithm_min_max_element(int list[], size_t size) {
     // Display minimum & maximum element
     // End iterator is one past the last element of the array[list + size]

@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <iostream>
 using namespace std;
-
+// Write a program that finds the largest and smallest element in an array
 bool array_is_sorted(int arr[], int size) {
     for (int i = 0; i < size - 1; ++i) {
         if (arr[i] > arr[i + 1]) {

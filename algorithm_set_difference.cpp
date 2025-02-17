@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-
+// set_difference (returns the unique elements found in A that are not in B)
 int main() {
     vector<int> numbers1 = {1, 2, 3, 4, 5};
     vector<int> numbers2 = {3, 4, 5, 6, 7};
