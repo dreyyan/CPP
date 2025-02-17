@@ -1,0 +1,21 @@
+# Ensure proper handling of line endings
+* text=auto
+
+# Force LF for shell scripts
+*.sh text eol=lf
+
+# Force CRLF for batch files
+*.bat text eol=crlf
+
+# Mark all images as binary
+*.jpg binary
+*.png binary
+
+# Always take the current version of .lock files during merge
+*.lock merge=ours
+
+# Always take the incoming version of markdown files during merge
+*.md merge=theirs
+
+# Set encoding for .html files to UTF-8
+*.html text encoding=utf-8

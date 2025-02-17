@@ -1,7 +1,0 @@
-# ninja log v6
-13	329	7602800605880129	CMakeFiles/D_S_A.dir/main.cpp.obj.ddi	a644b8190d0bb56c
-330	381	7602800609042736	CMakeFiles/D_S_A.dir/CXX.dd	fc9ef86faf2c7ffc
-330	381	7602800609042736	C:/Code/C++/D.S.A/cmake-build-debug/CMakeFiles/D_S_A.dir/CXXModules.json	fc9ef86faf2c7ffc
-1507	1724	7602800620814327	D_S_A.exe	b18dd5d0ae7153df
-330	381	7602800609042736	CMakeFiles/D_S_A.dir/main.cpp.obj.modmap	fc9ef86faf2c7ffc
-383	1506	7602800609573180	CMakeFiles/D_S_A.dir/main.cpp.obj	c117a84593521ef8

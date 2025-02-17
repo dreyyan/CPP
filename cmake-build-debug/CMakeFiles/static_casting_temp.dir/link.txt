@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\static_casting_temp.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\static_casting_temp.dir/objects.a @CMakeFiles\static_casting_temp.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\static_casting_temp.dir/objects.a -Wl,--no-whole-archive -o static_casting_temp.exe -Wl,--out-implib,libstatic_casting_temp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\static_casting_temp.dir\linkLibs.rsp
