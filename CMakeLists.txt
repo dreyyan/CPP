@@ -4,7 +4,7 @@ project(_cpp)
 set(CMAKE_CXX_STANDARD 20)
 
 # Gather all .cpp files from both STL_containers and the current directory
-file(GLOB SOURCES "STL_containers/*.cpp" ".prog/*.cpp" "sorting_algorithms/*.cpp" "C_style/*.cpp" "*.cpp")
+file(GLOB SOURCES "STL_containers/*.cpp" ".prog/*.cpp" "sorting_algorithms/*.cpp" "C_style/*.cpp" ".exercises/*.cpp" "*.cpp")
 
 # Use a set to track unique target names
 set(TARGET_NAMES)

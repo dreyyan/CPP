@@ -23,3 +23,10 @@ void insertion_sort(int array[], int arraySize) {
         cout << array[i] << " ";
     }
 }
+
+int main() {
+    int arr[] = {9, 5, 2, 7, 1 , 8, 4, 6, 3};
+    int size = sizeof(arr) / sizeof(int);
+    insertion_sort(arr, size);
+    return 0;
+}

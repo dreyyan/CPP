@@ -22,3 +22,10 @@ void quick_sort(int array[], int low, int high) {
         quick_sort(array, mid + 1, high);
     }
 }
+
+int main() {
+    int arr[] = {9, 5, 2, 7, 1 , 8, 4, 6, 3};
+    int size = sizeof(arr) / sizeof(int);
+    quick_sort(arr, size);
+    return 0;
+}

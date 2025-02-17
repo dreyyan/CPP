@@ -26,7 +26,7 @@ void selection_sort(int array[], int arraySize) {
 }
 
 int main() {
-    int arr[] = {3, 8, 1, 7, 5, 4, 9, 2, 6};
+    int arr[] = {9, 5, 2, 7, 1 , 8, 4, 6, 3};
     int size = sizeof(arr) / sizeof(int);
     selection_sort(arr, size);
     return 0;

@@ -116,108 +116,186 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named .prog_BMI_calculator_v2.0
+# Target rules for targets named .exercises_BMI_calculator_v2.0
 
 # Build rule for target.
-.prog_BMI_calculator_v2.0: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .prog_BMI_calculator_v2.0
-.PHONY : .prog_BMI_calculator_v2.0
+.exercises_BMI_calculator_v2.0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_BMI_calculator_v2.0
+.PHONY : .exercises_BMI_calculator_v2.0
 
 # fast build rule for target.
-.prog_BMI_calculator_v2.0/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_BMI_calculator_v2.0.dir\build.make CMakeFiles/.prog_BMI_calculator_v2.0.dir/build
-.PHONY : .prog_BMI_calculator_v2.0/fast
+.exercises_BMI_calculator_v2.0/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_BMI_calculator_v2.0.dir\build.make CMakeFiles/.exercises_BMI_calculator_v2.0.dir/build
+.PHONY : .exercises_BMI_calculator_v2.0/fast
 
 #=============================================================================
-# Target rules for targets named .prog_basic_calculator
+# Target rules for targets named .exercises_alpha
 
 # Build rule for target.
-.prog_basic_calculator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .prog_basic_calculator
-.PHONY : .prog_basic_calculator
+.exercises_alpha: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_alpha
+.PHONY : .exercises_alpha
 
 # fast build rule for target.
-.prog_basic_calculator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_basic_calculator.dir\build.make CMakeFiles/.prog_basic_calculator.dir/build
-.PHONY : .prog_basic_calculator/fast
+.exercises_alpha/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_alpha.dir\build.make CMakeFiles/.exercises_alpha.dir/build
+.PHONY : .exercises_alpha/fast
 
 #=============================================================================
-# Target rules for targets named .prog_group_randomizer
+# Target rules for targets named .exercises_cookies_EOF
 
 # Build rule for target.
-.prog_group_randomizer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .prog_group_randomizer
-.PHONY : .prog_group_randomizer
+.exercises_cookies_EOF: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_cookies_EOF
+.PHONY : .exercises_cookies_EOF
 
 # fast build rule for target.
-.prog_group_randomizer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_group_randomizer.dir\build.make CMakeFiles/.prog_group_randomizer.dir/build
-.PHONY : .prog_group_randomizer/fast
+.exercises_cookies_EOF/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_cookies_EOF.dir\build.make CMakeFiles/.exercises_cookies_EOF.dir/build
+.PHONY : .exercises_cookies_EOF/fast
 
 #=============================================================================
-# Target rules for targets named .prog_sequence_randomizer
+# Target rules for targets named .exercises_cookies_EOF_revised
 
 # Build rule for target.
-.prog_sequence_randomizer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .prog_sequence_randomizer
-.PHONY : .prog_sequence_randomizer
+.exercises_cookies_EOF_revised: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_cookies_EOF_revised
+.PHONY : .exercises_cookies_EOF_revised
 
 # fast build rule for target.
-.prog_sequence_randomizer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_sequence_randomizer.dir\build.make CMakeFiles/.prog_sequence_randomizer.dir/build
-.PHONY : .prog_sequence_randomizer/fast
+.exercises_cookies_EOF_revised/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_cookies_EOF_revised.dir\build.make CMakeFiles/.exercises_cookies_EOF_revised.dir/build
+.PHONY : .exercises_cookies_EOF_revised/fast
 
 #=============================================================================
-# Target rules for targets named .prog_solve_the_password
+# Target rules for targets named .exercises_do_while_num
 
 # Build rule for target.
-.prog_solve_the_password: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .prog_solve_the_password
-.PHONY : .prog_solve_the_password
+.exercises_do_while_num: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_do_while_num
+.PHONY : .exercises_do_while_num
 
 # fast build rule for target.
-.prog_solve_the_password/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_solve_the_password.dir\build.make CMakeFiles/.prog_solve_the_password.dir/build
-.PHONY : .prog_solve_the_password/fast
+.exercises_do_while_num/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_do_while_num.dir\build.make CMakeFiles/.exercises_do_while_num.dir/build
+.PHONY : .exercises_do_while_num/fast
 
 #=============================================================================
-# Target rules for targets named C_style_strcmp
+# Target rules for targets named .exercises_for_num
 
 # Build rule for target.
-C_style_strcmp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C_style_strcmp
-.PHONY : C_style_strcmp
+.exercises_for_num: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_for_num
+.PHONY : .exercises_for_num
 
 # fast build rule for target.
-C_style_strcmp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strcmp.dir\build.make CMakeFiles/C_style_strcmp.dir/build
-.PHONY : C_style_strcmp/fast
+.exercises_for_num/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_for_num.dir\build.make CMakeFiles/.exercises_for_num.dir/build
+.PHONY : .exercises_for_num/fast
 
 #=============================================================================
-# Target rules for targets named C_style_strcpy
+# Target rules for targets named .exercises_largest
 
 # Build rule for target.
-C_style_strcpy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C_style_strcpy
-.PHONY : C_style_strcpy
+.exercises_largest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_largest
+.PHONY : .exercises_largest
 
 # fast build rule for target.
-C_style_strcpy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strcpy.dir\build.make CMakeFiles/C_style_strcpy.dir/build
-.PHONY : C_style_strcpy/fast
+.exercises_largest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest.dir\build.make CMakeFiles/.exercises_largest.dir/build
+.PHONY : .exercises_largest/fast
 
 #=============================================================================
-# Target rules for targets named C_style_strlen
+# Target rules for targets named .exercises_largest_sale
 
 # Build rule for target.
-C_style_strlen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C_style_strlen
-.PHONY : C_style_strlen
+.exercises_largest_sale: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_largest_sale
+.PHONY : .exercises_largest_sale
 
 # fast build rule for target.
-C_style_strlen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strlen.dir\build.make CMakeFiles/C_style_strlen.dir/build
-.PHONY : C_style_strlen/fast
+.exercises_largest_sale/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest_sale.dir\build.make CMakeFiles/.exercises_largest_sale.dir/build
+.PHONY : .exercises_largest_sale/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_simple_calculator2
+
+# Build rule for target.
+.exercises_simple_calculator2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_simple_calculator2
+.PHONY : .exercises_simple_calculator2
+
+# fast build rule for target.
+.exercises_simple_calculator2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_simple_calculator2.dir\build.make CMakeFiles/.exercises_simple_calculator2.dir/build
+.PHONY : .exercises_simple_calculator2/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_smallest
+
+# Build rule for target.
+.exercises_smallest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_smallest
+.PHONY : .exercises_smallest
+
+# fast build rule for target.
+.exercises_smallest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_smallest.dir\build.make CMakeFiles/.exercises_smallest.dir/build
+.PHONY : .exercises_smallest/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_static_casting_temp
+
+# Build rule for target.
+.exercises_static_casting_temp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_static_casting_temp
+.PHONY : .exercises_static_casting_temp
+
+# fast build rule for target.
+.exercises_static_casting_temp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_static_casting_temp.dir\build.make CMakeFiles/.exercises_static_casting_temp.dir/build
+.PHONY : .exercises_static_casting_temp/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_town_population
+
+# Build rule for target.
+.exercises_town_population: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_town_population
+.PHONY : .exercises_town_population
+
+# fast build rule for target.
+.exercises_town_population/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_town_population.dir\build.make CMakeFiles/.exercises_town_population.dir/build
+.PHONY : .exercises_town_population/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_value_of_pi
+
+# Build rule for target.
+.exercises_value_of_pi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_value_of_pi
+.PHONY : .exercises_value_of_pi
+
+# fast build rule for target.
+.exercises_value_of_pi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_value_of_pi.dir\build.make CMakeFiles/.exercises_value_of_pi.dir/build
+.PHONY : .exercises_value_of_pi/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_while_num
+
+# Build rule for target.
+.exercises_while_num: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_while_num
+.PHONY : .exercises_while_num
+
+# fast build rule for target.
+.exercises_while_num/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_while_num.dir\build.make CMakeFiles/.exercises_while_num.dir/build
+.PHONY : .exercises_while_num/fast
 
 #=============================================================================
 # Target rules for targets named RI.missing_number
@@ -753,201 +831,6 @@ STL_containers_vector/fast:
 .PHONY : STL_containers_vector/fast
 
 #=============================================================================
-# Target rules for targets named algorithm_binary_search
-
-# Build rule for target.
-algorithm_binary_search: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_binary_search
-.PHONY : algorithm_binary_search
-
-# fast build rule for target.
-algorithm_binary_search/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_binary_search.dir\build.make CMakeFiles/algorithm_binary_search.dir/build
-.PHONY : algorithm_binary_search/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_copy
-
-# Build rule for target.
-algorithm_copy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_copy
-.PHONY : algorithm_copy
-
-# fast build rule for target.
-algorithm_copy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_copy.dir\build.make CMakeFiles/algorithm_copy.dir/build
-.PHONY : algorithm_copy/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_find
-
-# Build rule for target.
-algorithm_find: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_find
-.PHONY : algorithm_find
-
-# fast build rule for target.
-algorithm_find/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_find.dir\build.make CMakeFiles/algorithm_find.dir/build
-.PHONY : algorithm_find/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_find_if
-
-# Build rule for target.
-algorithm_find_if: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_find_if
-.PHONY : algorithm_find_if
-
-# fast build rule for target.
-algorithm_find_if/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_find_if.dir\build.make CMakeFiles/algorithm_find_if.dir/build
-.PHONY : algorithm_find_if/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_min_max_element
-
-# Build rule for target.
-algorithm_min_max_element: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_min_max_element
-.PHONY : algorithm_min_max_element
-
-# fast build rule for target.
-algorithm_min_max_element/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_min_max_element.dir\build.make CMakeFiles/algorithm_min_max_element.dir/build
-.PHONY : algorithm_min_max_element/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_nth_element
-
-# Build rule for target.
-algorithm_nth_element: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_nth_element
-.PHONY : algorithm_nth_element
-
-# fast build rule for target.
-algorithm_nth_element/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_nth_element.dir\build.make CMakeFiles/algorithm_nth_element.dir/build
-.PHONY : algorithm_nth_element/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_partial_sort
-
-# Build rule for target.
-algorithm_partial_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_partial_sort
-.PHONY : algorithm_partial_sort
-
-# fast build rule for target.
-algorithm_partial_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_partial_sort.dir\build.make CMakeFiles/algorithm_partial_sort.dir/build
-.PHONY : algorithm_partial_sort/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_partition
-
-# Build rule for target.
-algorithm_partition: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_partition
-.PHONY : algorithm_partition
-
-# fast build rule for target.
-algorithm_partition/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_partition.dir\build.make CMakeFiles/algorithm_partition.dir/build
-.PHONY : algorithm_partition/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_reverse
-
-# Build rule for target.
-algorithm_reverse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_reverse
-.PHONY : algorithm_reverse
-
-# fast build rule for target.
-algorithm_reverse/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_reverse.dir\build.make CMakeFiles/algorithm_reverse.dir/build
-.PHONY : algorithm_reverse/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_set_difference
-
-# Build rule for target.
-algorithm_set_difference: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_set_difference
-.PHONY : algorithm_set_difference
-
-# fast build rule for target.
-algorithm_set_difference/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_set_difference.dir\build.make CMakeFiles/algorithm_set_difference.dir/build
-.PHONY : algorithm_set_difference/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_sort
-
-# Build rule for target.
-algorithm_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_sort
-.PHONY : algorithm_sort
-
-# fast build rule for target.
-algorithm_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_sort.dir\build.make CMakeFiles/algorithm_sort.dir/build
-.PHONY : algorithm_sort/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_stable_sort
-
-# Build rule for target.
-algorithm_stable_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_stable_sort
-.PHONY : algorithm_stable_sort
-
-# fast build rule for target.
-algorithm_stable_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_stable_sort.dir\build.make CMakeFiles/algorithm_stable_sort.dir/build
-.PHONY : algorithm_stable_sort/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_transform
-
-# Build rule for target.
-algorithm_transform: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_transform
-.PHONY : algorithm_transform
-
-# fast build rule for target.
-algorithm_transform/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_transform.dir\build.make CMakeFiles/algorithm_transform.dir/build
-.PHONY : algorithm_transform/fast
-
-#=============================================================================
-# Target rules for targets named algorithm_unique
-
-# Build rule for target.
-algorithm_unique: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_unique
-.PHONY : algorithm_unique
-
-# fast build rule for target.
-algorithm_unique/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_unique.dir\build.make CMakeFiles/algorithm_unique.dir/build
-.PHONY : algorithm_unique/fast
-
-#=============================================================================
-# Target rules for targets named bubble_sort
-
-# Build rule for target.
-bubble_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bubble_sort
-.PHONY : bubble_sort
-
-# fast build rule for target.
-bubble_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bubble_sort.dir\build.make CMakeFiles/bubble_sort.dir/build
-.PHONY : bubble_sort/fast
-
-#=============================================================================
 # Target rules for targets named caesar_cipher
 
 # Build rule for target.
@@ -985,32 +868,6 @@ calculate_factorial: cmake_check_build_system
 calculate_factorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculate_factorial.dir\build.make CMakeFiles/calculate_factorial.dir/build
 .PHONY : calculate_factorial/fast
-
-#=============================================================================
-# Target rules for targets named cookies_EOF
-
-# Build rule for target.
-cookies_EOF: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cookies_EOF
-.PHONY : cookies_EOF
-
-# fast build rule for target.
-cookies_EOF/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cookies_EOF.dir\build.make CMakeFiles/cookies_EOF.dir/build
-.PHONY : cookies_EOF/fast
-
-#=============================================================================
-# Target rules for targets named cookies_EOF_revised
-
-# Build rule for target.
-cookies_EOF_revised: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cookies_EOF_revised
-.PHONY : cookies_EOF_revised
-
-# fast build rule for target.
-cookies_EOF_revised/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cookies_EOF_revised.dir\build.make CMakeFiles/cookies_EOF_revised.dir/build
-.PHONY : cookies_EOF_revised/fast
 
 #=============================================================================
 # Target rules for targets named count_multiples
@@ -1063,19 +920,6 @@ display_date_time: cmake_check_build_system
 display_date_time/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\display_date_time.dir\build.make CMakeFiles/display_date_time.dir/build
 .PHONY : display_date_time/fast
-
-#=============================================================================
-# Target rules for targets named do_while_num
-
-# Build rule for target.
-do_while_num: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 do_while_num
-.PHONY : do_while_num
-
-# fast build rule for target.
-do_while_num/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\do_while_num.dir\build.make CMakeFiles/do_while_num.dir/build
-.PHONY : do_while_num/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_allocation
@@ -1156,19 +1000,6 @@ find_if/fast:
 .PHONY : find_if/fast
 
 #=============================================================================
-# Target rules for targets named for_num
-
-# Build rule for target.
-for_num: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 for_num
-.PHONY : for_num
-
-# fast build rule for target.
-for_num/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_num.dir\build.make CMakeFiles/for_num.dir/build
-.PHONY : for_num/fast
-
-#=============================================================================
 # Target rules for targets named fstream_append
 
 # Build rule for target.
@@ -1234,17 +1065,17 @@ future_async/fast:
 .PHONY : future_async/fast
 
 #=============================================================================
-# Target rules for targets named iostreamCoutPrecision
+# Target rules for targets named iostream_cout_precision
 
 # Build rule for target.
-iostreamCoutPrecision: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 iostreamCoutPrecision
-.PHONY : iostreamCoutPrecision
+iostream_cout_precision: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 iostream_cout_precision
+.PHONY : iostream_cout_precision
 
 # fast build rule for target.
-iostreamCoutPrecision/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\iostreamCoutPrecision.dir\build.make CMakeFiles/iostreamCoutPrecision.dir/build
-.PHONY : iostreamCoutPrecision/fast
+iostream_cout_precision/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\iostream_cout_precision.dir\build.make CMakeFiles/iostream_cout_precision.dir/build
+.PHONY : iostream_cout_precision/fast
 
 #=============================================================================
 # Target rules for targets named iostream_sync_with_studio
@@ -1323,19 +1154,6 @@ largest_of_three: cmake_check_build_system
 largest_of_three/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\largest_of_three.dir\build.make CMakeFiles/largest_of_three.dir/build
 .PHONY : largest_of_three/fast
-
-#=============================================================================
-# Target rules for targets named largest_sale
-
-# Build rule for target.
-largest_sale: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 largest_sale
-.PHONY : largest_sale
-
-# fast build rule for target.
-largest_sale/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\largest_sale.dir\build.make CMakeFiles/largest_sale.dir/build
-.PHONY : largest_sale/fast
 
 #=============================================================================
 # Target rules for targets named matrix_RNG_table
@@ -1507,19 +1325,6 @@ quadratic_equation_simple/fast:
 .PHONY : quadratic_equation_simple/fast
 
 #=============================================================================
-# Target rules for targets named simple_calculator2
-
-# Build rule for target.
-simple_calculator2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simple_calculator2
-.PHONY : simple_calculator2
-
-# fast build rule for target.
-simple_calculator2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_calculator2.dir\build.make CMakeFiles/simple_calculator2.dir/build
-.PHONY : simple_calculator2/fast
-
-#=============================================================================
 # Target rules for targets named smart_pointer_class
 
 # Build rule for target.
@@ -1609,19 +1414,6 @@ sorting_algorithms_selection_sort: cmake_check_build_system
 sorting_algorithms_selection_sort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_selection_sort.dir\build.make CMakeFiles/sorting_algorithms_selection_sort.dir/build
 .PHONY : sorting_algorithms_selection_sort/fast
-
-#=============================================================================
-# Target rules for targets named static_casting_temp
-
-# Build rule for target.
-static_casting_temp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 static_casting_temp
-.PHONY : static_casting_temp
-
-# fast build rule for target.
-static_casting_temp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_casting_temp.dir\build.make CMakeFiles/static_casting_temp.dir/build
-.PHONY : static_casting_temp/fast
 
 #=============================================================================
 # Target rules for targets named string_ptr
@@ -1741,19 +1533,6 @@ thread_concurrency/fast:
 .PHONY : thread_concurrency/fast
 
 #=============================================================================
-# Target rules for targets named town_population
-
-# Build rule for target.
-town_population: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 town_population
-.PHONY : town_population
-
-# fast build rule for target.
-town_population/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\town_population.dir\build.make CMakeFiles/town_population.dir/build
-.PHONY : town_population/fast
-
-#=============================================================================
 # Target rules for targets named triangle_pattern
 
 # Build rule for target.
@@ -1792,223 +1571,341 @@ type_info_typeid/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\type_info_typeid.dir\build.make CMakeFiles/type_info_typeid.dir/build
 .PHONY : type_info_typeid/fast
 
-#=============================================================================
-# Target rules for targets named value_of_pi
-
-# Build rule for target.
-value_of_pi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 value_of_pi
-.PHONY : value_of_pi
-
-# fast build rule for target.
-value_of_pi/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\value_of_pi.dir\build.make CMakeFiles/value_of_pi.dir/build
-.PHONY : value_of_pi/fast
-
-#=============================================================================
-# Target rules for targets named while_num
-
-# Build rule for target.
-while_num: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 while_num
-.PHONY : while_num
-
-# fast build rule for target.
-while_num/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_num.dir\build.make CMakeFiles/while_num.dir/build
-.PHONY : while_num/fast
-
-.prog/BMI_calculator_v2.0.obj: .prog/BMI_calculator_v2.0.cpp.obj
-.PHONY : .prog/BMI_calculator_v2.0.obj
+.exercises/BMI_calculator_v2.0.obj: .exercises/BMI_calculator_v2.0.cpp.obj
+.PHONY : .exercises/BMI_calculator_v2.0.obj
 
 # target to build an object file
-.prog/BMI_calculator_v2.0.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_BMI_calculator_v2.0.dir\build.make CMakeFiles/.prog_BMI_calculator_v2.0.dir/.prog/BMI_calculator_v2.0.cpp.obj
-.PHONY : .prog/BMI_calculator_v2.0.cpp.obj
+.exercises/BMI_calculator_v2.0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_BMI_calculator_v2.0.dir\build.make CMakeFiles/.exercises_BMI_calculator_v2.0.dir/.exercises/BMI_calculator_v2.0.cpp.obj
+.PHONY : .exercises/BMI_calculator_v2.0.cpp.obj
 
-.prog/BMI_calculator_v2.0.i: .prog/BMI_calculator_v2.0.cpp.i
-.PHONY : .prog/BMI_calculator_v2.0.i
+.exercises/BMI_calculator_v2.0.i: .exercises/BMI_calculator_v2.0.cpp.i
+.PHONY : .exercises/BMI_calculator_v2.0.i
 
 # target to preprocess a source file
-.prog/BMI_calculator_v2.0.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_BMI_calculator_v2.0.dir\build.make CMakeFiles/.prog_BMI_calculator_v2.0.dir/.prog/BMI_calculator_v2.0.cpp.i
-.PHONY : .prog/BMI_calculator_v2.0.cpp.i
+.exercises/BMI_calculator_v2.0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_BMI_calculator_v2.0.dir\build.make CMakeFiles/.exercises_BMI_calculator_v2.0.dir/.exercises/BMI_calculator_v2.0.cpp.i
+.PHONY : .exercises/BMI_calculator_v2.0.cpp.i
 
-.prog/BMI_calculator_v2.0.s: .prog/BMI_calculator_v2.0.cpp.s
-.PHONY : .prog/BMI_calculator_v2.0.s
+.exercises/BMI_calculator_v2.0.s: .exercises/BMI_calculator_v2.0.cpp.s
+.PHONY : .exercises/BMI_calculator_v2.0.s
 
 # target to generate assembly for a file
-.prog/BMI_calculator_v2.0.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_BMI_calculator_v2.0.dir\build.make CMakeFiles/.prog_BMI_calculator_v2.0.dir/.prog/BMI_calculator_v2.0.cpp.s
-.PHONY : .prog/BMI_calculator_v2.0.cpp.s
+.exercises/BMI_calculator_v2.0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_BMI_calculator_v2.0.dir\build.make CMakeFiles/.exercises_BMI_calculator_v2.0.dir/.exercises/BMI_calculator_v2.0.cpp.s
+.PHONY : .exercises/BMI_calculator_v2.0.cpp.s
 
-.prog/basic_calculator.obj: .prog/basic_calculator.cpp.obj
-.PHONY : .prog/basic_calculator.obj
+.exercises/alpha.obj: .exercises/alpha.cpp.obj
+.PHONY : .exercises/alpha.obj
 
 # target to build an object file
-.prog/basic_calculator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_basic_calculator.dir\build.make CMakeFiles/.prog_basic_calculator.dir/.prog/basic_calculator.cpp.obj
-.PHONY : .prog/basic_calculator.cpp.obj
+.exercises/alpha.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_alpha.dir\build.make CMakeFiles/.exercises_alpha.dir/.exercises/alpha.cpp.obj
+.PHONY : .exercises/alpha.cpp.obj
 
-.prog/basic_calculator.i: .prog/basic_calculator.cpp.i
-.PHONY : .prog/basic_calculator.i
+.exercises/alpha.i: .exercises/alpha.cpp.i
+.PHONY : .exercises/alpha.i
 
 # target to preprocess a source file
-.prog/basic_calculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_basic_calculator.dir\build.make CMakeFiles/.prog_basic_calculator.dir/.prog/basic_calculator.cpp.i
-.PHONY : .prog/basic_calculator.cpp.i
+.exercises/alpha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_alpha.dir\build.make CMakeFiles/.exercises_alpha.dir/.exercises/alpha.cpp.i
+.PHONY : .exercises/alpha.cpp.i
 
-.prog/basic_calculator.s: .prog/basic_calculator.cpp.s
-.PHONY : .prog/basic_calculator.s
+.exercises/alpha.s: .exercises/alpha.cpp.s
+.PHONY : .exercises/alpha.s
 
 # target to generate assembly for a file
-.prog/basic_calculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_basic_calculator.dir\build.make CMakeFiles/.prog_basic_calculator.dir/.prog/basic_calculator.cpp.s
-.PHONY : .prog/basic_calculator.cpp.s
+.exercises/alpha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_alpha.dir\build.make CMakeFiles/.exercises_alpha.dir/.exercises/alpha.cpp.s
+.PHONY : .exercises/alpha.cpp.s
 
-.prog/group_randomizer.obj: .prog/group_randomizer.cpp.obj
-.PHONY : .prog/group_randomizer.obj
+.exercises/cookies_EOF.obj: .exercises/cookies_EOF.cpp.obj
+.PHONY : .exercises/cookies_EOF.obj
 
 # target to build an object file
-.prog/group_randomizer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_group_randomizer.dir\build.make CMakeFiles/.prog_group_randomizer.dir/.prog/group_randomizer.cpp.obj
-.PHONY : .prog/group_randomizer.cpp.obj
+.exercises/cookies_EOF.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_cookies_EOF.dir\build.make CMakeFiles/.exercises_cookies_EOF.dir/.exercises/cookies_EOF.cpp.obj
+.PHONY : .exercises/cookies_EOF.cpp.obj
 
-.prog/group_randomizer.i: .prog/group_randomizer.cpp.i
-.PHONY : .prog/group_randomizer.i
+.exercises/cookies_EOF.i: .exercises/cookies_EOF.cpp.i
+.PHONY : .exercises/cookies_EOF.i
 
 # target to preprocess a source file
-.prog/group_randomizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_group_randomizer.dir\build.make CMakeFiles/.prog_group_randomizer.dir/.prog/group_randomizer.cpp.i
-.PHONY : .prog/group_randomizer.cpp.i
+.exercises/cookies_EOF.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_cookies_EOF.dir\build.make CMakeFiles/.exercises_cookies_EOF.dir/.exercises/cookies_EOF.cpp.i
+.PHONY : .exercises/cookies_EOF.cpp.i
 
-.prog/group_randomizer.s: .prog/group_randomizer.cpp.s
-.PHONY : .prog/group_randomizer.s
+.exercises/cookies_EOF.s: .exercises/cookies_EOF.cpp.s
+.PHONY : .exercises/cookies_EOF.s
 
 # target to generate assembly for a file
-.prog/group_randomizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_group_randomizer.dir\build.make CMakeFiles/.prog_group_randomizer.dir/.prog/group_randomizer.cpp.s
-.PHONY : .prog/group_randomizer.cpp.s
+.exercises/cookies_EOF.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_cookies_EOF.dir\build.make CMakeFiles/.exercises_cookies_EOF.dir/.exercises/cookies_EOF.cpp.s
+.PHONY : .exercises/cookies_EOF.cpp.s
 
-.prog/sequence_randomizer.obj: .prog/sequence_randomizer.cpp.obj
-.PHONY : .prog/sequence_randomizer.obj
+.exercises/cookies_EOF_revised.obj: .exercises/cookies_EOF_revised.cpp.obj
+.PHONY : .exercises/cookies_EOF_revised.obj
 
 # target to build an object file
-.prog/sequence_randomizer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_sequence_randomizer.dir\build.make CMakeFiles/.prog_sequence_randomizer.dir/.prog/sequence_randomizer.cpp.obj
-.PHONY : .prog/sequence_randomizer.cpp.obj
+.exercises/cookies_EOF_revised.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_cookies_EOF_revised.dir\build.make CMakeFiles/.exercises_cookies_EOF_revised.dir/.exercises/cookies_EOF_revised.cpp.obj
+.PHONY : .exercises/cookies_EOF_revised.cpp.obj
 
-.prog/sequence_randomizer.i: .prog/sequence_randomizer.cpp.i
-.PHONY : .prog/sequence_randomizer.i
+.exercises/cookies_EOF_revised.i: .exercises/cookies_EOF_revised.cpp.i
+.PHONY : .exercises/cookies_EOF_revised.i
 
 # target to preprocess a source file
-.prog/sequence_randomizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_sequence_randomizer.dir\build.make CMakeFiles/.prog_sequence_randomizer.dir/.prog/sequence_randomizer.cpp.i
-.PHONY : .prog/sequence_randomizer.cpp.i
+.exercises/cookies_EOF_revised.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_cookies_EOF_revised.dir\build.make CMakeFiles/.exercises_cookies_EOF_revised.dir/.exercises/cookies_EOF_revised.cpp.i
+.PHONY : .exercises/cookies_EOF_revised.cpp.i
 
-.prog/sequence_randomizer.s: .prog/sequence_randomizer.cpp.s
-.PHONY : .prog/sequence_randomizer.s
+.exercises/cookies_EOF_revised.s: .exercises/cookies_EOF_revised.cpp.s
+.PHONY : .exercises/cookies_EOF_revised.s
 
 # target to generate assembly for a file
-.prog/sequence_randomizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_sequence_randomizer.dir\build.make CMakeFiles/.prog_sequence_randomizer.dir/.prog/sequence_randomizer.cpp.s
-.PHONY : .prog/sequence_randomizer.cpp.s
+.exercises/cookies_EOF_revised.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_cookies_EOF_revised.dir\build.make CMakeFiles/.exercises_cookies_EOF_revised.dir/.exercises/cookies_EOF_revised.cpp.s
+.PHONY : .exercises/cookies_EOF_revised.cpp.s
 
-.prog/solve_the_password.obj: .prog/solve_the_password.cpp.obj
-.PHONY : .prog/solve_the_password.obj
+.exercises/do_while_num.obj: .exercises/do_while_num.cpp.obj
+.PHONY : .exercises/do_while_num.obj
 
 # target to build an object file
-.prog/solve_the_password.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_solve_the_password.dir\build.make CMakeFiles/.prog_solve_the_password.dir/.prog/solve_the_password.cpp.obj
-.PHONY : .prog/solve_the_password.cpp.obj
+.exercises/do_while_num.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_do_while_num.dir\build.make CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.obj
+.PHONY : .exercises/do_while_num.cpp.obj
 
-.prog/solve_the_password.i: .prog/solve_the_password.cpp.i
-.PHONY : .prog/solve_the_password.i
+.exercises/do_while_num.i: .exercises/do_while_num.cpp.i
+.PHONY : .exercises/do_while_num.i
 
 # target to preprocess a source file
-.prog/solve_the_password.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_solve_the_password.dir\build.make CMakeFiles/.prog_solve_the_password.dir/.prog/solve_the_password.cpp.i
-.PHONY : .prog/solve_the_password.cpp.i
+.exercises/do_while_num.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_do_while_num.dir\build.make CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.i
+.PHONY : .exercises/do_while_num.cpp.i
 
-.prog/solve_the_password.s: .prog/solve_the_password.cpp.s
-.PHONY : .prog/solve_the_password.s
+.exercises/do_while_num.s: .exercises/do_while_num.cpp.s
+.PHONY : .exercises/do_while_num.s
 
 # target to generate assembly for a file
-.prog/solve_the_password.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\.prog_solve_the_password.dir\build.make CMakeFiles/.prog_solve_the_password.dir/.prog/solve_the_password.cpp.s
-.PHONY : .prog/solve_the_password.cpp.s
+.exercises/do_while_num.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_do_while_num.dir\build.make CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.s
+.PHONY : .exercises/do_while_num.cpp.s
 
-C_style/strcmp.obj: C_style/strcmp.cpp.obj
-.PHONY : C_style/strcmp.obj
+.exercises/for_num.obj: .exercises/for_num.cpp.obj
+.PHONY : .exercises/for_num.obj
 
 # target to build an object file
-C_style/strcmp.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strcmp.dir\build.make CMakeFiles/C_style_strcmp.dir/C_style/strcmp.cpp.obj
-.PHONY : C_style/strcmp.cpp.obj
+.exercises/for_num.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_for_num.dir\build.make CMakeFiles/.exercises_for_num.dir/.exercises/for_num.cpp.obj
+.PHONY : .exercises/for_num.cpp.obj
 
-C_style/strcmp.i: C_style/strcmp.cpp.i
-.PHONY : C_style/strcmp.i
+.exercises/for_num.i: .exercises/for_num.cpp.i
+.PHONY : .exercises/for_num.i
 
 # target to preprocess a source file
-C_style/strcmp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strcmp.dir\build.make CMakeFiles/C_style_strcmp.dir/C_style/strcmp.cpp.i
-.PHONY : C_style/strcmp.cpp.i
+.exercises/for_num.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_for_num.dir\build.make CMakeFiles/.exercises_for_num.dir/.exercises/for_num.cpp.i
+.PHONY : .exercises/for_num.cpp.i
 
-C_style/strcmp.s: C_style/strcmp.cpp.s
-.PHONY : C_style/strcmp.s
+.exercises/for_num.s: .exercises/for_num.cpp.s
+.PHONY : .exercises/for_num.s
 
 # target to generate assembly for a file
-C_style/strcmp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strcmp.dir\build.make CMakeFiles/C_style_strcmp.dir/C_style/strcmp.cpp.s
-.PHONY : C_style/strcmp.cpp.s
+.exercises/for_num.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_for_num.dir\build.make CMakeFiles/.exercises_for_num.dir/.exercises/for_num.cpp.s
+.PHONY : .exercises/for_num.cpp.s
 
-C_style/strcpy.obj: C_style/strcpy.cpp.obj
-.PHONY : C_style/strcpy.obj
+.exercises/largest.obj: .exercises/largest.cpp.obj
+.PHONY : .exercises/largest.obj
 
 # target to build an object file
-C_style/strcpy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strcpy.dir\build.make CMakeFiles/C_style_strcpy.dir/C_style/strcpy.cpp.obj
-.PHONY : C_style/strcpy.cpp.obj
+.exercises/largest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest.dir\build.make CMakeFiles/.exercises_largest.dir/.exercises/largest.cpp.obj
+.PHONY : .exercises/largest.cpp.obj
 
-C_style/strcpy.i: C_style/strcpy.cpp.i
-.PHONY : C_style/strcpy.i
+.exercises/largest.i: .exercises/largest.cpp.i
+.PHONY : .exercises/largest.i
 
 # target to preprocess a source file
-C_style/strcpy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strcpy.dir\build.make CMakeFiles/C_style_strcpy.dir/C_style/strcpy.cpp.i
-.PHONY : C_style/strcpy.cpp.i
+.exercises/largest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest.dir\build.make CMakeFiles/.exercises_largest.dir/.exercises/largest.cpp.i
+.PHONY : .exercises/largest.cpp.i
 
-C_style/strcpy.s: C_style/strcpy.cpp.s
-.PHONY : C_style/strcpy.s
+.exercises/largest.s: .exercises/largest.cpp.s
+.PHONY : .exercises/largest.s
 
 # target to generate assembly for a file
-C_style/strcpy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strcpy.dir\build.make CMakeFiles/C_style_strcpy.dir/C_style/strcpy.cpp.s
-.PHONY : C_style/strcpy.cpp.s
+.exercises/largest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest.dir\build.make CMakeFiles/.exercises_largest.dir/.exercises/largest.cpp.s
+.PHONY : .exercises/largest.cpp.s
 
-C_style/strlen.obj: C_style/strlen.cpp.obj
-.PHONY : C_style/strlen.obj
+.exercises/largest_sale.obj: .exercises/largest_sale.cpp.obj
+.PHONY : .exercises/largest_sale.obj
 
 # target to build an object file
-C_style/strlen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strlen.dir\build.make CMakeFiles/C_style_strlen.dir/C_style/strlen.cpp.obj
-.PHONY : C_style/strlen.cpp.obj
+.exercises/largest_sale.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest_sale.dir\build.make CMakeFiles/.exercises_largest_sale.dir/.exercises/largest_sale.cpp.obj
+.PHONY : .exercises/largest_sale.cpp.obj
 
-C_style/strlen.i: C_style/strlen.cpp.i
-.PHONY : C_style/strlen.i
+.exercises/largest_sale.i: .exercises/largest_sale.cpp.i
+.PHONY : .exercises/largest_sale.i
 
 # target to preprocess a source file
-C_style/strlen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strlen.dir\build.make CMakeFiles/C_style_strlen.dir/C_style/strlen.cpp.i
-.PHONY : C_style/strlen.cpp.i
+.exercises/largest_sale.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest_sale.dir\build.make CMakeFiles/.exercises_largest_sale.dir/.exercises/largest_sale.cpp.i
+.PHONY : .exercises/largest_sale.cpp.i
 
-C_style/strlen.s: C_style/strlen.cpp.s
-.PHONY : C_style/strlen.s
+.exercises/largest_sale.s: .exercises/largest_sale.cpp.s
+.PHONY : .exercises/largest_sale.s
 
 # target to generate assembly for a file
-C_style/strlen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_style_strlen.dir\build.make CMakeFiles/C_style_strlen.dir/C_style/strlen.cpp.s
-.PHONY : C_style/strlen.cpp.s
+.exercises/largest_sale.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest_sale.dir\build.make CMakeFiles/.exercises_largest_sale.dir/.exercises/largest_sale.cpp.s
+.PHONY : .exercises/largest_sale.cpp.s
+
+.exercises/simple_calculator2.obj: .exercises/simple_calculator2.cpp.obj
+.PHONY : .exercises/simple_calculator2.obj
+
+# target to build an object file
+.exercises/simple_calculator2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_simple_calculator2.dir\build.make CMakeFiles/.exercises_simple_calculator2.dir/.exercises/simple_calculator2.cpp.obj
+.PHONY : .exercises/simple_calculator2.cpp.obj
+
+.exercises/simple_calculator2.i: .exercises/simple_calculator2.cpp.i
+.PHONY : .exercises/simple_calculator2.i
+
+# target to preprocess a source file
+.exercises/simple_calculator2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_simple_calculator2.dir\build.make CMakeFiles/.exercises_simple_calculator2.dir/.exercises/simple_calculator2.cpp.i
+.PHONY : .exercises/simple_calculator2.cpp.i
+
+.exercises/simple_calculator2.s: .exercises/simple_calculator2.cpp.s
+.PHONY : .exercises/simple_calculator2.s
+
+# target to generate assembly for a file
+.exercises/simple_calculator2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_simple_calculator2.dir\build.make CMakeFiles/.exercises_simple_calculator2.dir/.exercises/simple_calculator2.cpp.s
+.PHONY : .exercises/simple_calculator2.cpp.s
+
+.exercises/smallest.obj: .exercises/smallest.cpp.obj
+.PHONY : .exercises/smallest.obj
+
+# target to build an object file
+.exercises/smallest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_smallest.dir\build.make CMakeFiles/.exercises_smallest.dir/.exercises/smallest.cpp.obj
+.PHONY : .exercises/smallest.cpp.obj
+
+.exercises/smallest.i: .exercises/smallest.cpp.i
+.PHONY : .exercises/smallest.i
+
+# target to preprocess a source file
+.exercises/smallest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_smallest.dir\build.make CMakeFiles/.exercises_smallest.dir/.exercises/smallest.cpp.i
+.PHONY : .exercises/smallest.cpp.i
+
+.exercises/smallest.s: .exercises/smallest.cpp.s
+.PHONY : .exercises/smallest.s
+
+# target to generate assembly for a file
+.exercises/smallest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_smallest.dir\build.make CMakeFiles/.exercises_smallest.dir/.exercises/smallest.cpp.s
+.PHONY : .exercises/smallest.cpp.s
+
+.exercises/static_casting_temp.obj: .exercises/static_casting_temp.cpp.obj
+.PHONY : .exercises/static_casting_temp.obj
+
+# target to build an object file
+.exercises/static_casting_temp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_static_casting_temp.dir\build.make CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.obj
+.PHONY : .exercises/static_casting_temp.cpp.obj
+
+.exercises/static_casting_temp.i: .exercises/static_casting_temp.cpp.i
+.PHONY : .exercises/static_casting_temp.i
+
+# target to preprocess a source file
+.exercises/static_casting_temp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_static_casting_temp.dir\build.make CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.i
+.PHONY : .exercises/static_casting_temp.cpp.i
+
+.exercises/static_casting_temp.s: .exercises/static_casting_temp.cpp.s
+.PHONY : .exercises/static_casting_temp.s
+
+# target to generate assembly for a file
+.exercises/static_casting_temp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_static_casting_temp.dir\build.make CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.s
+.PHONY : .exercises/static_casting_temp.cpp.s
+
+.exercises/town_population.obj: .exercises/town_population.cpp.obj
+.PHONY : .exercises/town_population.obj
+
+# target to build an object file
+.exercises/town_population.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_town_population.dir\build.make CMakeFiles/.exercises_town_population.dir/.exercises/town_population.cpp.obj
+.PHONY : .exercises/town_population.cpp.obj
+
+.exercises/town_population.i: .exercises/town_population.cpp.i
+.PHONY : .exercises/town_population.i
+
+# target to preprocess a source file
+.exercises/town_population.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_town_population.dir\build.make CMakeFiles/.exercises_town_population.dir/.exercises/town_population.cpp.i
+.PHONY : .exercises/town_population.cpp.i
+
+.exercises/town_population.s: .exercises/town_population.cpp.s
+.PHONY : .exercises/town_population.s
+
+# target to generate assembly for a file
+.exercises/town_population.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_town_population.dir\build.make CMakeFiles/.exercises_town_population.dir/.exercises/town_population.cpp.s
+.PHONY : .exercises/town_population.cpp.s
+
+.exercises/value_of_pi.obj: .exercises/value_of_pi.cpp.obj
+.PHONY : .exercises/value_of_pi.obj
+
+# target to build an object file
+.exercises/value_of_pi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_value_of_pi.dir\build.make CMakeFiles/.exercises_value_of_pi.dir/.exercises/value_of_pi.cpp.obj
+.PHONY : .exercises/value_of_pi.cpp.obj
+
+.exercises/value_of_pi.i: .exercises/value_of_pi.cpp.i
+.PHONY : .exercises/value_of_pi.i
+
+# target to preprocess a source file
+.exercises/value_of_pi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_value_of_pi.dir\build.make CMakeFiles/.exercises_value_of_pi.dir/.exercises/value_of_pi.cpp.i
+.PHONY : .exercises/value_of_pi.cpp.i
+
+.exercises/value_of_pi.s: .exercises/value_of_pi.cpp.s
+.PHONY : .exercises/value_of_pi.s
+
+# target to generate assembly for a file
+.exercises/value_of_pi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_value_of_pi.dir\build.make CMakeFiles/.exercises_value_of_pi.dir/.exercises/value_of_pi.cpp.s
+.PHONY : .exercises/value_of_pi.cpp.s
+
+.exercises/while_num.obj: .exercises/while_num.cpp.obj
+.PHONY : .exercises/while_num.obj
+
+# target to build an object file
+.exercises/while_num.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_while_num.dir\build.make CMakeFiles/.exercises_while_num.dir/.exercises/while_num.cpp.obj
+.PHONY : .exercises/while_num.cpp.obj
+
+.exercises/while_num.i: .exercises/while_num.cpp.i
+.PHONY : .exercises/while_num.i
+
+# target to preprocess a source file
+.exercises/while_num.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_while_num.dir\build.make CMakeFiles/.exercises_while_num.dir/.exercises/while_num.cpp.i
+.PHONY : .exercises/while_num.cpp.i
+
+.exercises/while_num.s: .exercises/while_num.cpp.s
+.PHONY : .exercises/while_num.s
+
+# target to generate assembly for a file
+.exercises/while_num.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_while_num.dir\build.make CMakeFiles/.exercises_while_num.dir/.exercises/while_num.cpp.s
+.PHONY : .exercises/while_num.cpp.s
 
 RI.missing_number.obj: RI.missing_number.cpp.obj
 .PHONY : RI.missing_number.obj
@@ -2994,366 +2891,6 @@ STL_containers/vector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_vector.dir\build.make CMakeFiles/STL_containers_vector.dir/STL_containers/vector.cpp.s
 .PHONY : STL_containers/vector.cpp.s
 
-algorithm_binary_search.obj: algorithm_binary_search.cpp.obj
-.PHONY : algorithm_binary_search.obj
-
-# target to build an object file
-algorithm_binary_search.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_binary_search.dir\build.make CMakeFiles/algorithm_binary_search.dir/algorithm_binary_search.cpp.obj
-.PHONY : algorithm_binary_search.cpp.obj
-
-algorithm_binary_search.i: algorithm_binary_search.cpp.i
-.PHONY : algorithm_binary_search.i
-
-# target to preprocess a source file
-algorithm_binary_search.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_binary_search.dir\build.make CMakeFiles/algorithm_binary_search.dir/algorithm_binary_search.cpp.i
-.PHONY : algorithm_binary_search.cpp.i
-
-algorithm_binary_search.s: algorithm_binary_search.cpp.s
-.PHONY : algorithm_binary_search.s
-
-# target to generate assembly for a file
-algorithm_binary_search.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_binary_search.dir\build.make CMakeFiles/algorithm_binary_search.dir/algorithm_binary_search.cpp.s
-.PHONY : algorithm_binary_search.cpp.s
-
-algorithm_copy.obj: algorithm_copy.cpp.obj
-.PHONY : algorithm_copy.obj
-
-# target to build an object file
-algorithm_copy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_copy.dir\build.make CMakeFiles/algorithm_copy.dir/algorithm_copy.cpp.obj
-.PHONY : algorithm_copy.cpp.obj
-
-algorithm_copy.i: algorithm_copy.cpp.i
-.PHONY : algorithm_copy.i
-
-# target to preprocess a source file
-algorithm_copy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_copy.dir\build.make CMakeFiles/algorithm_copy.dir/algorithm_copy.cpp.i
-.PHONY : algorithm_copy.cpp.i
-
-algorithm_copy.s: algorithm_copy.cpp.s
-.PHONY : algorithm_copy.s
-
-# target to generate assembly for a file
-algorithm_copy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_copy.dir\build.make CMakeFiles/algorithm_copy.dir/algorithm_copy.cpp.s
-.PHONY : algorithm_copy.cpp.s
-
-algorithm_find.obj: algorithm_find.cpp.obj
-.PHONY : algorithm_find.obj
-
-# target to build an object file
-algorithm_find.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_find.dir\build.make CMakeFiles/algorithm_find.dir/algorithm_find.cpp.obj
-.PHONY : algorithm_find.cpp.obj
-
-algorithm_find.i: algorithm_find.cpp.i
-.PHONY : algorithm_find.i
-
-# target to preprocess a source file
-algorithm_find.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_find.dir\build.make CMakeFiles/algorithm_find.dir/algorithm_find.cpp.i
-.PHONY : algorithm_find.cpp.i
-
-algorithm_find.s: algorithm_find.cpp.s
-.PHONY : algorithm_find.s
-
-# target to generate assembly for a file
-algorithm_find.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_find.dir\build.make CMakeFiles/algorithm_find.dir/algorithm_find.cpp.s
-.PHONY : algorithm_find.cpp.s
-
-algorithm_find_if.obj: algorithm_find_if.cpp.obj
-.PHONY : algorithm_find_if.obj
-
-# target to build an object file
-algorithm_find_if.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_find_if.dir\build.make CMakeFiles/algorithm_find_if.dir/algorithm_find_if.cpp.obj
-.PHONY : algorithm_find_if.cpp.obj
-
-algorithm_find_if.i: algorithm_find_if.cpp.i
-.PHONY : algorithm_find_if.i
-
-# target to preprocess a source file
-algorithm_find_if.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_find_if.dir\build.make CMakeFiles/algorithm_find_if.dir/algorithm_find_if.cpp.i
-.PHONY : algorithm_find_if.cpp.i
-
-algorithm_find_if.s: algorithm_find_if.cpp.s
-.PHONY : algorithm_find_if.s
-
-# target to generate assembly for a file
-algorithm_find_if.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_find_if.dir\build.make CMakeFiles/algorithm_find_if.dir/algorithm_find_if.cpp.s
-.PHONY : algorithm_find_if.cpp.s
-
-algorithm_min_max_element.obj: algorithm_min_max_element.cpp.obj
-.PHONY : algorithm_min_max_element.obj
-
-# target to build an object file
-algorithm_min_max_element.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_min_max_element.dir\build.make CMakeFiles/algorithm_min_max_element.dir/algorithm_min_max_element.cpp.obj
-.PHONY : algorithm_min_max_element.cpp.obj
-
-algorithm_min_max_element.i: algorithm_min_max_element.cpp.i
-.PHONY : algorithm_min_max_element.i
-
-# target to preprocess a source file
-algorithm_min_max_element.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_min_max_element.dir\build.make CMakeFiles/algorithm_min_max_element.dir/algorithm_min_max_element.cpp.i
-.PHONY : algorithm_min_max_element.cpp.i
-
-algorithm_min_max_element.s: algorithm_min_max_element.cpp.s
-.PHONY : algorithm_min_max_element.s
-
-# target to generate assembly for a file
-algorithm_min_max_element.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_min_max_element.dir\build.make CMakeFiles/algorithm_min_max_element.dir/algorithm_min_max_element.cpp.s
-.PHONY : algorithm_min_max_element.cpp.s
-
-algorithm_nth_element.obj: algorithm_nth_element.cpp.obj
-.PHONY : algorithm_nth_element.obj
-
-# target to build an object file
-algorithm_nth_element.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_nth_element.dir\build.make CMakeFiles/algorithm_nth_element.dir/algorithm_nth_element.cpp.obj
-.PHONY : algorithm_nth_element.cpp.obj
-
-algorithm_nth_element.i: algorithm_nth_element.cpp.i
-.PHONY : algorithm_nth_element.i
-
-# target to preprocess a source file
-algorithm_nth_element.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_nth_element.dir\build.make CMakeFiles/algorithm_nth_element.dir/algorithm_nth_element.cpp.i
-.PHONY : algorithm_nth_element.cpp.i
-
-algorithm_nth_element.s: algorithm_nth_element.cpp.s
-.PHONY : algorithm_nth_element.s
-
-# target to generate assembly for a file
-algorithm_nth_element.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_nth_element.dir\build.make CMakeFiles/algorithm_nth_element.dir/algorithm_nth_element.cpp.s
-.PHONY : algorithm_nth_element.cpp.s
-
-algorithm_partial_sort.obj: algorithm_partial_sort.cpp.obj
-.PHONY : algorithm_partial_sort.obj
-
-# target to build an object file
-algorithm_partial_sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_partial_sort.dir\build.make CMakeFiles/algorithm_partial_sort.dir/algorithm_partial_sort.cpp.obj
-.PHONY : algorithm_partial_sort.cpp.obj
-
-algorithm_partial_sort.i: algorithm_partial_sort.cpp.i
-.PHONY : algorithm_partial_sort.i
-
-# target to preprocess a source file
-algorithm_partial_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_partial_sort.dir\build.make CMakeFiles/algorithm_partial_sort.dir/algorithm_partial_sort.cpp.i
-.PHONY : algorithm_partial_sort.cpp.i
-
-algorithm_partial_sort.s: algorithm_partial_sort.cpp.s
-.PHONY : algorithm_partial_sort.s
-
-# target to generate assembly for a file
-algorithm_partial_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_partial_sort.dir\build.make CMakeFiles/algorithm_partial_sort.dir/algorithm_partial_sort.cpp.s
-.PHONY : algorithm_partial_sort.cpp.s
-
-algorithm_partition.obj: algorithm_partition.cpp.obj
-.PHONY : algorithm_partition.obj
-
-# target to build an object file
-algorithm_partition.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_partition.dir\build.make CMakeFiles/algorithm_partition.dir/algorithm_partition.cpp.obj
-.PHONY : algorithm_partition.cpp.obj
-
-algorithm_partition.i: algorithm_partition.cpp.i
-.PHONY : algorithm_partition.i
-
-# target to preprocess a source file
-algorithm_partition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_partition.dir\build.make CMakeFiles/algorithm_partition.dir/algorithm_partition.cpp.i
-.PHONY : algorithm_partition.cpp.i
-
-algorithm_partition.s: algorithm_partition.cpp.s
-.PHONY : algorithm_partition.s
-
-# target to generate assembly for a file
-algorithm_partition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_partition.dir\build.make CMakeFiles/algorithm_partition.dir/algorithm_partition.cpp.s
-.PHONY : algorithm_partition.cpp.s
-
-algorithm_reverse.obj: algorithm_reverse.cpp.obj
-.PHONY : algorithm_reverse.obj
-
-# target to build an object file
-algorithm_reverse.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_reverse.dir\build.make CMakeFiles/algorithm_reverse.dir/algorithm_reverse.cpp.obj
-.PHONY : algorithm_reverse.cpp.obj
-
-algorithm_reverse.i: algorithm_reverse.cpp.i
-.PHONY : algorithm_reverse.i
-
-# target to preprocess a source file
-algorithm_reverse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_reverse.dir\build.make CMakeFiles/algorithm_reverse.dir/algorithm_reverse.cpp.i
-.PHONY : algorithm_reverse.cpp.i
-
-algorithm_reverse.s: algorithm_reverse.cpp.s
-.PHONY : algorithm_reverse.s
-
-# target to generate assembly for a file
-algorithm_reverse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_reverse.dir\build.make CMakeFiles/algorithm_reverse.dir/algorithm_reverse.cpp.s
-.PHONY : algorithm_reverse.cpp.s
-
-algorithm_set_difference.obj: algorithm_set_difference.cpp.obj
-.PHONY : algorithm_set_difference.obj
-
-# target to build an object file
-algorithm_set_difference.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_set_difference.dir\build.make CMakeFiles/algorithm_set_difference.dir/algorithm_set_difference.cpp.obj
-.PHONY : algorithm_set_difference.cpp.obj
-
-algorithm_set_difference.i: algorithm_set_difference.cpp.i
-.PHONY : algorithm_set_difference.i
-
-# target to preprocess a source file
-algorithm_set_difference.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_set_difference.dir\build.make CMakeFiles/algorithm_set_difference.dir/algorithm_set_difference.cpp.i
-.PHONY : algorithm_set_difference.cpp.i
-
-algorithm_set_difference.s: algorithm_set_difference.cpp.s
-.PHONY : algorithm_set_difference.s
-
-# target to generate assembly for a file
-algorithm_set_difference.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_set_difference.dir\build.make CMakeFiles/algorithm_set_difference.dir/algorithm_set_difference.cpp.s
-.PHONY : algorithm_set_difference.cpp.s
-
-algorithm_sort.obj: algorithm_sort.cpp.obj
-.PHONY : algorithm_sort.obj
-
-# target to build an object file
-algorithm_sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_sort.dir\build.make CMakeFiles/algorithm_sort.dir/algorithm_sort.cpp.obj
-.PHONY : algorithm_sort.cpp.obj
-
-algorithm_sort.i: algorithm_sort.cpp.i
-.PHONY : algorithm_sort.i
-
-# target to preprocess a source file
-algorithm_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_sort.dir\build.make CMakeFiles/algorithm_sort.dir/algorithm_sort.cpp.i
-.PHONY : algorithm_sort.cpp.i
-
-algorithm_sort.s: algorithm_sort.cpp.s
-.PHONY : algorithm_sort.s
-
-# target to generate assembly for a file
-algorithm_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_sort.dir\build.make CMakeFiles/algorithm_sort.dir/algorithm_sort.cpp.s
-.PHONY : algorithm_sort.cpp.s
-
-algorithm_stable_sort.obj: algorithm_stable_sort.cpp.obj
-.PHONY : algorithm_stable_sort.obj
-
-# target to build an object file
-algorithm_stable_sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_stable_sort.dir\build.make CMakeFiles/algorithm_stable_sort.dir/algorithm_stable_sort.cpp.obj
-.PHONY : algorithm_stable_sort.cpp.obj
-
-algorithm_stable_sort.i: algorithm_stable_sort.cpp.i
-.PHONY : algorithm_stable_sort.i
-
-# target to preprocess a source file
-algorithm_stable_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_stable_sort.dir\build.make CMakeFiles/algorithm_stable_sort.dir/algorithm_stable_sort.cpp.i
-.PHONY : algorithm_stable_sort.cpp.i
-
-algorithm_stable_sort.s: algorithm_stable_sort.cpp.s
-.PHONY : algorithm_stable_sort.s
-
-# target to generate assembly for a file
-algorithm_stable_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_stable_sort.dir\build.make CMakeFiles/algorithm_stable_sort.dir/algorithm_stable_sort.cpp.s
-.PHONY : algorithm_stable_sort.cpp.s
-
-algorithm_transform.obj: algorithm_transform.cpp.obj
-.PHONY : algorithm_transform.obj
-
-# target to build an object file
-algorithm_transform.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_transform.dir\build.make CMakeFiles/algorithm_transform.dir/algorithm_transform.cpp.obj
-.PHONY : algorithm_transform.cpp.obj
-
-algorithm_transform.i: algorithm_transform.cpp.i
-.PHONY : algorithm_transform.i
-
-# target to preprocess a source file
-algorithm_transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_transform.dir\build.make CMakeFiles/algorithm_transform.dir/algorithm_transform.cpp.i
-.PHONY : algorithm_transform.cpp.i
-
-algorithm_transform.s: algorithm_transform.cpp.s
-.PHONY : algorithm_transform.s
-
-# target to generate assembly for a file
-algorithm_transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_transform.dir\build.make CMakeFiles/algorithm_transform.dir/algorithm_transform.cpp.s
-.PHONY : algorithm_transform.cpp.s
-
-algorithm_unique.obj: algorithm_unique.cpp.obj
-.PHONY : algorithm_unique.obj
-
-# target to build an object file
-algorithm_unique.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_unique.dir\build.make CMakeFiles/algorithm_unique.dir/algorithm_unique.cpp.obj
-.PHONY : algorithm_unique.cpp.obj
-
-algorithm_unique.i: algorithm_unique.cpp.i
-.PHONY : algorithm_unique.i
-
-# target to preprocess a source file
-algorithm_unique.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_unique.dir\build.make CMakeFiles/algorithm_unique.dir/algorithm_unique.cpp.i
-.PHONY : algorithm_unique.cpp.i
-
-algorithm_unique.s: algorithm_unique.cpp.s
-.PHONY : algorithm_unique.s
-
-# target to generate assembly for a file
-algorithm_unique.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_unique.dir\build.make CMakeFiles/algorithm_unique.dir/algorithm_unique.cpp.s
-.PHONY : algorithm_unique.cpp.s
-
-bubble_sort.obj: bubble_sort.cpp.obj
-.PHONY : bubble_sort.obj
-
-# target to build an object file
-bubble_sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bubble_sort.dir\build.make CMakeFiles/bubble_sort.dir/bubble_sort.cpp.obj
-.PHONY : bubble_sort.cpp.obj
-
-bubble_sort.i: bubble_sort.cpp.i
-.PHONY : bubble_sort.i
-
-# target to preprocess a source file
-bubble_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bubble_sort.dir\build.make CMakeFiles/bubble_sort.dir/bubble_sort.cpp.i
-.PHONY : bubble_sort.cpp.i
-
-bubble_sort.s: bubble_sort.cpp.s
-.PHONY : bubble_sort.s
-
-# target to generate assembly for a file
-bubble_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bubble_sort.dir\build.make CMakeFiles/bubble_sort.dir/bubble_sort.cpp.s
-.PHONY : bubble_sort.cpp.s
-
 caesar_cipher.obj: caesar_cipher.cpp.obj
 .PHONY : caesar_cipher.obj
 
@@ -3425,54 +2962,6 @@ calculate_factorial.s: calculate_factorial.cpp.s
 calculate_factorial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculate_factorial.dir\build.make CMakeFiles/calculate_factorial.dir/calculate_factorial.cpp.s
 .PHONY : calculate_factorial.cpp.s
-
-cookies_EOF.obj: cookies_EOF.cpp.obj
-.PHONY : cookies_EOF.obj
-
-# target to build an object file
-cookies_EOF.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cookies_EOF.dir\build.make CMakeFiles/cookies_EOF.dir/cookies_EOF.cpp.obj
-.PHONY : cookies_EOF.cpp.obj
-
-cookies_EOF.i: cookies_EOF.cpp.i
-.PHONY : cookies_EOF.i
-
-# target to preprocess a source file
-cookies_EOF.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cookies_EOF.dir\build.make CMakeFiles/cookies_EOF.dir/cookies_EOF.cpp.i
-.PHONY : cookies_EOF.cpp.i
-
-cookies_EOF.s: cookies_EOF.cpp.s
-.PHONY : cookies_EOF.s
-
-# target to generate assembly for a file
-cookies_EOF.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cookies_EOF.dir\build.make CMakeFiles/cookies_EOF.dir/cookies_EOF.cpp.s
-.PHONY : cookies_EOF.cpp.s
-
-cookies_EOF_revised.obj: cookies_EOF_revised.cpp.obj
-.PHONY : cookies_EOF_revised.obj
-
-# target to build an object file
-cookies_EOF_revised.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cookies_EOF_revised.dir\build.make CMakeFiles/cookies_EOF_revised.dir/cookies_EOF_revised.cpp.obj
-.PHONY : cookies_EOF_revised.cpp.obj
-
-cookies_EOF_revised.i: cookies_EOF_revised.cpp.i
-.PHONY : cookies_EOF_revised.i
-
-# target to preprocess a source file
-cookies_EOF_revised.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cookies_EOF_revised.dir\build.make CMakeFiles/cookies_EOF_revised.dir/cookies_EOF_revised.cpp.i
-.PHONY : cookies_EOF_revised.cpp.i
-
-cookies_EOF_revised.s: cookies_EOF_revised.cpp.s
-.PHONY : cookies_EOF_revised.s
-
-# target to generate assembly for a file
-cookies_EOF_revised.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cookies_EOF_revised.dir\build.make CMakeFiles/cookies_EOF_revised.dir/cookies_EOF_revised.cpp.s
-.PHONY : cookies_EOF_revised.cpp.s
 
 count_multiples.obj: count_multiples.cpp.obj
 .PHONY : count_multiples.obj
@@ -3569,30 +3058,6 @@ display_date_time.s: display_date_time.cpp.s
 display_date_time.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\display_date_time.dir\build.make CMakeFiles/display_date_time.dir/display_date_time.cpp.s
 .PHONY : display_date_time.cpp.s
-
-do_while_num.obj: do_while_num.cpp.obj
-.PHONY : do_while_num.obj
-
-# target to build an object file
-do_while_num.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\do_while_num.dir\build.make CMakeFiles/do_while_num.dir/do_while_num.cpp.obj
-.PHONY : do_while_num.cpp.obj
-
-do_while_num.i: do_while_num.cpp.i
-.PHONY : do_while_num.i
-
-# target to preprocess a source file
-do_while_num.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\do_while_num.dir\build.make CMakeFiles/do_while_num.dir/do_while_num.cpp.i
-.PHONY : do_while_num.cpp.i
-
-do_while_num.s: do_while_num.cpp.s
-.PHONY : do_while_num.s
-
-# target to generate assembly for a file
-do_while_num.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\do_while_num.dir\build.make CMakeFiles/do_while_num.dir/do_while_num.cpp.s
-.PHONY : do_while_num.cpp.s
 
 dynamic_allocation.obj: dynamic_allocation.cpp.obj
 .PHONY : dynamic_allocation.obj
@@ -3738,30 +3203,6 @@ find_if.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_if.dir\build.make CMakeFiles/find_if.dir/find_if.cpp.s
 .PHONY : find_if.cpp.s
 
-for_num.obj: for_num.cpp.obj
-.PHONY : for_num.obj
-
-# target to build an object file
-for_num.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_num.dir\build.make CMakeFiles/for_num.dir/for_num.cpp.obj
-.PHONY : for_num.cpp.obj
-
-for_num.i: for_num.cpp.i
-.PHONY : for_num.i
-
-# target to preprocess a source file
-for_num.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_num.dir\build.make CMakeFiles/for_num.dir/for_num.cpp.i
-.PHONY : for_num.cpp.i
-
-for_num.s: for_num.cpp.s
-.PHONY : for_num.s
-
-# target to generate assembly for a file
-for_num.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_num.dir\build.make CMakeFiles/for_num.dir/for_num.cpp.s
-.PHONY : for_num.cpp.s
-
 fstream_append.obj: fstream_append.cpp.obj
 .PHONY : fstream_append.obj
 
@@ -3882,29 +3323,29 @@ future_async.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\future_async.dir\build.make CMakeFiles/future_async.dir/future_async.cpp.s
 .PHONY : future_async.cpp.s
 
-iostreamCoutPrecision.obj: iostreamCoutPrecision.cpp.obj
-.PHONY : iostreamCoutPrecision.obj
+iostream_cout_precision.obj: iostream_cout_precision.cpp.obj
+.PHONY : iostream_cout_precision.obj
 
 # target to build an object file
-iostreamCoutPrecision.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\iostreamCoutPrecision.dir\build.make CMakeFiles/iostreamCoutPrecision.dir/iostreamCoutPrecision.cpp.obj
-.PHONY : iostreamCoutPrecision.cpp.obj
+iostream_cout_precision.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\iostream_cout_precision.dir\build.make CMakeFiles/iostream_cout_precision.dir/iostream_cout_precision.cpp.obj
+.PHONY : iostream_cout_precision.cpp.obj
 
-iostreamCoutPrecision.i: iostreamCoutPrecision.cpp.i
-.PHONY : iostreamCoutPrecision.i
+iostream_cout_precision.i: iostream_cout_precision.cpp.i
+.PHONY : iostream_cout_precision.i
 
 # target to preprocess a source file
-iostreamCoutPrecision.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\iostreamCoutPrecision.dir\build.make CMakeFiles/iostreamCoutPrecision.dir/iostreamCoutPrecision.cpp.i
-.PHONY : iostreamCoutPrecision.cpp.i
+iostream_cout_precision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\iostream_cout_precision.dir\build.make CMakeFiles/iostream_cout_precision.dir/iostream_cout_precision.cpp.i
+.PHONY : iostream_cout_precision.cpp.i
 
-iostreamCoutPrecision.s: iostreamCoutPrecision.cpp.s
-.PHONY : iostreamCoutPrecision.s
+iostream_cout_precision.s: iostream_cout_precision.cpp.s
+.PHONY : iostream_cout_precision.s
 
 # target to generate assembly for a file
-iostreamCoutPrecision.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\iostreamCoutPrecision.dir\build.make CMakeFiles/iostreamCoutPrecision.dir/iostreamCoutPrecision.cpp.s
-.PHONY : iostreamCoutPrecision.cpp.s
+iostream_cout_precision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\iostream_cout_precision.dir\build.make CMakeFiles/iostream_cout_precision.dir/iostream_cout_precision.cpp.s
+.PHONY : iostream_cout_precision.cpp.s
 
 iostream_sync_with_studio.obj: iostream_sync_with_studio.cpp.obj
 .PHONY : iostream_sync_with_studio.obj
@@ -4049,30 +3490,6 @@ largest_of_three.s: largest_of_three.cpp.s
 largest_of_three.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\largest_of_three.dir\build.make CMakeFiles/largest_of_three.dir/largest_of_three.cpp.s
 .PHONY : largest_of_three.cpp.s
-
-largest_sale.obj: largest_sale.cpp.obj
-.PHONY : largest_sale.obj
-
-# target to build an object file
-largest_sale.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\largest_sale.dir\build.make CMakeFiles/largest_sale.dir/largest_sale.cpp.obj
-.PHONY : largest_sale.cpp.obj
-
-largest_sale.i: largest_sale.cpp.i
-.PHONY : largest_sale.i
-
-# target to preprocess a source file
-largest_sale.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\largest_sale.dir\build.make CMakeFiles/largest_sale.dir/largest_sale.cpp.i
-.PHONY : largest_sale.cpp.i
-
-largest_sale.s: largest_sale.cpp.s
-.PHONY : largest_sale.s
-
-# target to generate assembly for a file
-largest_sale.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\largest_sale.dir\build.make CMakeFiles/largest_sale.dir/largest_sale.cpp.s
-.PHONY : largest_sale.cpp.s
 
 matrix_RNG_table.obj: matrix_RNG_table.cpp.obj
 .PHONY : matrix_RNG_table.obj
@@ -4386,30 +3803,6 @@ quadratic_equation_simple.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quadratic_equation_simple.dir\build.make CMakeFiles/quadratic_equation_simple.dir/quadratic_equation_simple.cpp.s
 .PHONY : quadratic_equation_simple.cpp.s
 
-simple_calculator2.obj: simple_calculator2.cpp.obj
-.PHONY : simple_calculator2.obj
-
-# target to build an object file
-simple_calculator2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_calculator2.dir\build.make CMakeFiles/simple_calculator2.dir/simple_calculator2.cpp.obj
-.PHONY : simple_calculator2.cpp.obj
-
-simple_calculator2.i: simple_calculator2.cpp.i
-.PHONY : simple_calculator2.i
-
-# target to preprocess a source file
-simple_calculator2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_calculator2.dir\build.make CMakeFiles/simple_calculator2.dir/simple_calculator2.cpp.i
-.PHONY : simple_calculator2.cpp.i
-
-simple_calculator2.s: simple_calculator2.cpp.s
-.PHONY : simple_calculator2.s
-
-# target to generate assembly for a file
-simple_calculator2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\simple_calculator2.dir\build.make CMakeFiles/simple_calculator2.dir/simple_calculator2.cpp.s
-.PHONY : simple_calculator2.cpp.s
-
 smart_pointer_class.obj: smart_pointer_class.cpp.obj
 .PHONY : smart_pointer_class.obj
 
@@ -4577,30 +3970,6 @@ sorting_algorithms/selection_sort.s: sorting_algorithms/selection_sort.cpp.s
 sorting_algorithms/selection_sort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_selection_sort.dir\build.make CMakeFiles/sorting_algorithms_selection_sort.dir/sorting_algorithms/selection_sort.cpp.s
 .PHONY : sorting_algorithms/selection_sort.cpp.s
-
-static_casting_temp.obj: static_casting_temp.cpp.obj
-.PHONY : static_casting_temp.obj
-
-# target to build an object file
-static_casting_temp.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_casting_temp.dir\build.make CMakeFiles/static_casting_temp.dir/static_casting_temp.cpp.obj
-.PHONY : static_casting_temp.cpp.obj
-
-static_casting_temp.i: static_casting_temp.cpp.i
-.PHONY : static_casting_temp.i
-
-# target to preprocess a source file
-static_casting_temp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_casting_temp.dir\build.make CMakeFiles/static_casting_temp.dir/static_casting_temp.cpp.i
-.PHONY : static_casting_temp.cpp.i
-
-static_casting_temp.s: static_casting_temp.cpp.s
-.PHONY : static_casting_temp.s
-
-# target to generate assembly for a file
-static_casting_temp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_casting_temp.dir\build.make CMakeFiles/static_casting_temp.dir/static_casting_temp.cpp.s
-.PHONY : static_casting_temp.cpp.s
 
 string_ptr.obj: string_ptr.cpp.obj
 .PHONY : string_ptr.obj
@@ -4818,30 +4187,6 @@ thread_concurrency.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\thread_concurrency.dir\build.make CMakeFiles/thread_concurrency.dir/thread_concurrency.cpp.s
 .PHONY : thread_concurrency.cpp.s
 
-town_population.obj: town_population.cpp.obj
-.PHONY : town_population.obj
-
-# target to build an object file
-town_population.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\town_population.dir\build.make CMakeFiles/town_population.dir/town_population.cpp.obj
-.PHONY : town_population.cpp.obj
-
-town_population.i: town_population.cpp.i
-.PHONY : town_population.i
-
-# target to preprocess a source file
-town_population.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\town_population.dir\build.make CMakeFiles/town_population.dir/town_population.cpp.i
-.PHONY : town_population.cpp.i
-
-town_population.s: town_population.cpp.s
-.PHONY : town_population.s
-
-# target to generate assembly for a file
-town_population.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\town_population.dir\build.make CMakeFiles/town_population.dir/town_population.cpp.s
-.PHONY : town_population.cpp.s
-
 triangle_pattern.obj: triangle_pattern.cpp.obj
 .PHONY : triangle_pattern.obj
 
@@ -4914,54 +4259,6 @@ type_info_typeid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\type_info_typeid.dir\build.make CMakeFiles/type_info_typeid.dir/type_info_typeid.cpp.s
 .PHONY : type_info_typeid.cpp.s
 
-value_of_pi.obj: value_of_pi.cpp.obj
-.PHONY : value_of_pi.obj
-
-# target to build an object file
-value_of_pi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\value_of_pi.dir\build.make CMakeFiles/value_of_pi.dir/value_of_pi.cpp.obj
-.PHONY : value_of_pi.cpp.obj
-
-value_of_pi.i: value_of_pi.cpp.i
-.PHONY : value_of_pi.i
-
-# target to preprocess a source file
-value_of_pi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\value_of_pi.dir\build.make CMakeFiles/value_of_pi.dir/value_of_pi.cpp.i
-.PHONY : value_of_pi.cpp.i
-
-value_of_pi.s: value_of_pi.cpp.s
-.PHONY : value_of_pi.s
-
-# target to generate assembly for a file
-value_of_pi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\value_of_pi.dir\build.make CMakeFiles/value_of_pi.dir/value_of_pi.cpp.s
-.PHONY : value_of_pi.cpp.s
-
-while_num.obj: while_num.cpp.obj
-.PHONY : while_num.obj
-
-# target to build an object file
-while_num.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_num.dir\build.make CMakeFiles/while_num.dir/while_num.cpp.obj
-.PHONY : while_num.cpp.obj
-
-while_num.i: while_num.cpp.i
-.PHONY : while_num.i
-
-# target to preprocess a source file
-while_num.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_num.dir\build.make CMakeFiles/while_num.dir/while_num.cpp.i
-.PHONY : while_num.cpp.i
-
-while_num.s: while_num.cpp.s
-.PHONY : while_num.s
-
-# target to generate assembly for a file
-while_num.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_num.dir\build.make CMakeFiles/while_num.dir/while_num.cpp.s
-.PHONY : while_num.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -4970,14 +4267,20 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... .prog_BMI_calculator_v2.0
-	@echo ... .prog_basic_calculator
-	@echo ... .prog_group_randomizer
-	@echo ... .prog_sequence_randomizer
-	@echo ... .prog_solve_the_password
-	@echo ... C_style_strcmp
-	@echo ... C_style_strcpy
-	@echo ... C_style_strlen
+	@echo ... .exercises_BMI_calculator_v2.0
+	@echo ... .exercises_alpha
+	@echo ... .exercises_cookies_EOF
+	@echo ... .exercises_cookies_EOF_revised
+	@echo ... .exercises_do_while_num
+	@echo ... .exercises_for_num
+	@echo ... .exercises_largest
+	@echo ... .exercises_largest_sale
+	@echo ... .exercises_simple_calculator2
+	@echo ... .exercises_smallest
+	@echo ... .exercises_static_casting_temp
+	@echo ... .exercises_town_population
+	@echo ... .exercises_value_of_pi
+	@echo ... .exercises_while_num
 	@echo ... RI.missing_number
 	@echo ... RI.rotate_elements
 	@echo ... RI.separate_even_odd
@@ -5019,51 +4322,31 @@ help:
 	@echo ... STL_containers_stack_recursion_sort
 	@echo ... STL_containers_stack_reverse_string
 	@echo ... STL_containers_vector
-	@echo ... algorithm_binary_search
-	@echo ... algorithm_copy
-	@echo ... algorithm_find
-	@echo ... algorithm_find_if
-	@echo ... algorithm_min_max_element
-	@echo ... algorithm_nth_element
-	@echo ... algorithm_partial_sort
-	@echo ... algorithm_partition
-	@echo ... algorithm_reverse
-	@echo ... algorithm_set_difference
-	@echo ... algorithm_sort
-	@echo ... algorithm_stable_sort
-	@echo ... algorithm_transform
-	@echo ... algorithm_unique
-	@echo ... bubble_sort
 	@echo ... caesar_cipher
 	@echo ... calculate_GCD_LCM
 	@echo ... calculate_factorial
-	@echo ... cookies_EOF
-	@echo ... cookies_EOF_revised
 	@echo ... count_multiples
 	@echo ... crypto_ROT13
 	@echo ... display_date_calendar
 	@echo ... display_date_time
-	@echo ... do_while_num
 	@echo ... dynamic_allocation
 	@echo ... dynamic_grade_ptr
 	@echo ... elapsed_time
 	@echo ... element_occurence
 	@echo ... fibonacci_numbers_less_than
 	@echo ... find_if
-	@echo ... for_num
 	@echo ... fstream_append
 	@echo ... fstream_in
 	@echo ... fstream_out
 	@echo ... function_ptr
 	@echo ... future_async
-	@echo ... iostreamCoutPrecision
+	@echo ... iostream_cout_precision
 	@echo ... iostream_sync_with_studio
 	@echo ... istream
 	@echo ... iterate_ptr
 	@echo ... lambda_add
 	@echo ... largest_number_array
 	@echo ... largest_of_three
-	@echo ... largest_sale
 	@echo ... matrix_RNG_table
 	@echo ... matrix_operations
 	@echo ... number_guessing_game
@@ -5077,7 +4360,6 @@ help:
 	@echo ... ptr_to_ptr
 	@echo ... quadratic_equation_complex
 	@echo ... quadratic_equation_simple
-	@echo ... simple_calculator2
 	@echo ... smart_pointer_class
 	@echo ... solve_student_grades
 	@echo ... sorting_algorithms_bubble_sort
@@ -5085,7 +4367,6 @@ help:
 	@echo ... sorting_algorithms_merge_sort
 	@echo ... sorting_algorithms_quick_sort
 	@echo ... sorting_algorithms_selection_sort
-	@echo ... static_casting_temp
 	@echo ... string_ptr
 	@echo ... string_reversal
 	@echo ... sum_of_digits
@@ -5095,36 +4376,51 @@ help:
 	@echo ... temperature_chart
 	@echo ... temperature_converter
 	@echo ... thread_concurrency
-	@echo ... town_population
 	@echo ... triangle_pattern
 	@echo ... try_throw_catch
 	@echo ... type_info_typeid
-	@echo ... value_of_pi
-	@echo ... while_num
-	@echo ... .prog/BMI_calculator_v2.0.obj
-	@echo ... .prog/BMI_calculator_v2.0.i
-	@echo ... .prog/BMI_calculator_v2.0.s
-	@echo ... .prog/basic_calculator.obj
-	@echo ... .prog/basic_calculator.i
-	@echo ... .prog/basic_calculator.s
-	@echo ... .prog/group_randomizer.obj
-	@echo ... .prog/group_randomizer.i
-	@echo ... .prog/group_randomizer.s
-	@echo ... .prog/sequence_randomizer.obj
-	@echo ... .prog/sequence_randomizer.i
-	@echo ... .prog/sequence_randomizer.s
-	@echo ... .prog/solve_the_password.obj
-	@echo ... .prog/solve_the_password.i
-	@echo ... .prog/solve_the_password.s
-	@echo ... C_style/strcmp.obj
-	@echo ... C_style/strcmp.i
-	@echo ... C_style/strcmp.s
-	@echo ... C_style/strcpy.obj
-	@echo ... C_style/strcpy.i
-	@echo ... C_style/strcpy.s
-	@echo ... C_style/strlen.obj
-	@echo ... C_style/strlen.i
-	@echo ... C_style/strlen.s
+	@echo ... .exercises/BMI_calculator_v2.0.obj
+	@echo ... .exercises/BMI_calculator_v2.0.i
+	@echo ... .exercises/BMI_calculator_v2.0.s
+	@echo ... .exercises/alpha.obj
+	@echo ... .exercises/alpha.i
+	@echo ... .exercises/alpha.s
+	@echo ... .exercises/cookies_EOF.obj
+	@echo ... .exercises/cookies_EOF.i
+	@echo ... .exercises/cookies_EOF.s
+	@echo ... .exercises/cookies_EOF_revised.obj
+	@echo ... .exercises/cookies_EOF_revised.i
+	@echo ... .exercises/cookies_EOF_revised.s
+	@echo ... .exercises/do_while_num.obj
+	@echo ... .exercises/do_while_num.i
+	@echo ... .exercises/do_while_num.s
+	@echo ... .exercises/for_num.obj
+	@echo ... .exercises/for_num.i
+	@echo ... .exercises/for_num.s
+	@echo ... .exercises/largest.obj
+	@echo ... .exercises/largest.i
+	@echo ... .exercises/largest.s
+	@echo ... .exercises/largest_sale.obj
+	@echo ... .exercises/largest_sale.i
+	@echo ... .exercises/largest_sale.s
+	@echo ... .exercises/simple_calculator2.obj
+	@echo ... .exercises/simple_calculator2.i
+	@echo ... .exercises/simple_calculator2.s
+	@echo ... .exercises/smallest.obj
+	@echo ... .exercises/smallest.i
+	@echo ... .exercises/smallest.s
+	@echo ... .exercises/static_casting_temp.obj
+	@echo ... .exercises/static_casting_temp.i
+	@echo ... .exercises/static_casting_temp.s
+	@echo ... .exercises/town_population.obj
+	@echo ... .exercises/town_population.i
+	@echo ... .exercises/town_population.s
+	@echo ... .exercises/value_of_pi.obj
+	@echo ... .exercises/value_of_pi.i
+	@echo ... .exercises/value_of_pi.s
+	@echo ... .exercises/while_num.obj
+	@echo ... .exercises/while_num.i
+	@echo ... .exercises/while_num.s
 	@echo ... RI.missing_number.obj
 	@echo ... RI.missing_number.i
 	@echo ... RI.missing_number.s
@@ -5248,51 +4544,6 @@ help:
 	@echo ... STL_containers/vector.obj
 	@echo ... STL_containers/vector.i
 	@echo ... STL_containers/vector.s
-	@echo ... algorithm_binary_search.obj
-	@echo ... algorithm_binary_search.i
-	@echo ... algorithm_binary_search.s
-	@echo ... algorithm_copy.obj
-	@echo ... algorithm_copy.i
-	@echo ... algorithm_copy.s
-	@echo ... algorithm_find.obj
-	@echo ... algorithm_find.i
-	@echo ... algorithm_find.s
-	@echo ... algorithm_find_if.obj
-	@echo ... algorithm_find_if.i
-	@echo ... algorithm_find_if.s
-	@echo ... algorithm_min_max_element.obj
-	@echo ... algorithm_min_max_element.i
-	@echo ... algorithm_min_max_element.s
-	@echo ... algorithm_nth_element.obj
-	@echo ... algorithm_nth_element.i
-	@echo ... algorithm_nth_element.s
-	@echo ... algorithm_partial_sort.obj
-	@echo ... algorithm_partial_sort.i
-	@echo ... algorithm_partial_sort.s
-	@echo ... algorithm_partition.obj
-	@echo ... algorithm_partition.i
-	@echo ... algorithm_partition.s
-	@echo ... algorithm_reverse.obj
-	@echo ... algorithm_reverse.i
-	@echo ... algorithm_reverse.s
-	@echo ... algorithm_set_difference.obj
-	@echo ... algorithm_set_difference.i
-	@echo ... algorithm_set_difference.s
-	@echo ... algorithm_sort.obj
-	@echo ... algorithm_sort.i
-	@echo ... algorithm_sort.s
-	@echo ... algorithm_stable_sort.obj
-	@echo ... algorithm_stable_sort.i
-	@echo ... algorithm_stable_sort.s
-	@echo ... algorithm_transform.obj
-	@echo ... algorithm_transform.i
-	@echo ... algorithm_transform.s
-	@echo ... algorithm_unique.obj
-	@echo ... algorithm_unique.i
-	@echo ... algorithm_unique.s
-	@echo ... bubble_sort.obj
-	@echo ... bubble_sort.i
-	@echo ... bubble_sort.s
 	@echo ... caesar_cipher.obj
 	@echo ... caesar_cipher.i
 	@echo ... caesar_cipher.s
@@ -5302,12 +4553,6 @@ help:
 	@echo ... calculate_factorial.obj
 	@echo ... calculate_factorial.i
 	@echo ... calculate_factorial.s
-	@echo ... cookies_EOF.obj
-	@echo ... cookies_EOF.i
-	@echo ... cookies_EOF.s
-	@echo ... cookies_EOF_revised.obj
-	@echo ... cookies_EOF_revised.i
-	@echo ... cookies_EOF_revised.s
 	@echo ... count_multiples.obj
 	@echo ... count_multiples.i
 	@echo ... count_multiples.s
@@ -5320,9 +4565,6 @@ help:
 	@echo ... display_date_time.obj
 	@echo ... display_date_time.i
 	@echo ... display_date_time.s
-	@echo ... do_while_num.obj
-	@echo ... do_while_num.i
-	@echo ... do_while_num.s
 	@echo ... dynamic_allocation.obj
 	@echo ... dynamic_allocation.i
 	@echo ... dynamic_allocation.s
@@ -5341,9 +4583,6 @@ help:
 	@echo ... find_if.obj
 	@echo ... find_if.i
 	@echo ... find_if.s
-	@echo ... for_num.obj
-	@echo ... for_num.i
-	@echo ... for_num.s
 	@echo ... fstream_append.obj
 	@echo ... fstream_append.i
 	@echo ... fstream_append.s
@@ -5359,9 +4598,9 @@ help:
 	@echo ... future_async.obj
 	@echo ... future_async.i
 	@echo ... future_async.s
-	@echo ... iostreamCoutPrecision.obj
-	@echo ... iostreamCoutPrecision.i
-	@echo ... iostreamCoutPrecision.s
+	@echo ... iostream_cout_precision.obj
+	@echo ... iostream_cout_precision.i
+	@echo ... iostream_cout_precision.s
 	@echo ... iostream_sync_with_studio.obj
 	@echo ... iostream_sync_with_studio.i
 	@echo ... iostream_sync_with_studio.s
@@ -5380,9 +4619,6 @@ help:
 	@echo ... largest_of_three.obj
 	@echo ... largest_of_three.i
 	@echo ... largest_of_three.s
-	@echo ... largest_sale.obj
-	@echo ... largest_sale.i
-	@echo ... largest_sale.s
 	@echo ... matrix_RNG_table.obj
 	@echo ... matrix_RNG_table.i
 	@echo ... matrix_RNG_table.s
@@ -5422,9 +4658,6 @@ help:
 	@echo ... quadratic_equation_simple.obj
 	@echo ... quadratic_equation_simple.i
 	@echo ... quadratic_equation_simple.s
-	@echo ... simple_calculator2.obj
-	@echo ... simple_calculator2.i
-	@echo ... simple_calculator2.s
 	@echo ... smart_pointer_class.obj
 	@echo ... smart_pointer_class.i
 	@echo ... smart_pointer_class.s
@@ -5446,9 +4679,6 @@ help:
 	@echo ... sorting_algorithms/selection_sort.obj
 	@echo ... sorting_algorithms/selection_sort.i
 	@echo ... sorting_algorithms/selection_sort.s
-	@echo ... static_casting_temp.obj
-	@echo ... static_casting_temp.i
-	@echo ... static_casting_temp.s
 	@echo ... string_ptr.obj
 	@echo ... string_ptr.i
 	@echo ... string_ptr.s
@@ -5476,9 +4706,6 @@ help:
 	@echo ... thread_concurrency.obj
 	@echo ... thread_concurrency.i
 	@echo ... thread_concurrency.s
-	@echo ... town_population.obj
-	@echo ... town_population.i
-	@echo ... town_population.s
 	@echo ... triangle_pattern.obj
 	@echo ... triangle_pattern.i
 	@echo ... triangle_pattern.s
@@ -5488,12 +4715,6 @@ help:
 	@echo ... type_info_typeid.obj
 	@echo ... type_info_typeid.i
 	@echo ... type_info_typeid.s
-	@echo ... value_of_pi.obj
-	@echo ... value_of_pi.i
-	@echo ... value_of_pi.s
-	@echo ... while_num.obj
-	@echo ... while_num.i
-	@echo ... while_num.s
 .PHONY : help
 
 

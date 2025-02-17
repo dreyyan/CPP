@@ -42,3 +42,10 @@ void print_array(const vector<int>& arr) {
         cout << i << " ";
     }
 }
+
+int main() {
+    int arr[] = {9, 5, 2, 7, 1 , 8, 4, 6, 3};
+    int size = sizeof(arr) / sizeof(int);
+    merge_sort(arr, size);
+    return 0;
+}
