@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\ostringstream.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\ostringstream.dir/objects.a @CMakeFiles\ostringstream.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\ostringstream.dir/objects.a -Wl,--no-whole-archive -o ostringstream.exe -Wl,--out-implib,libostringstream.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ostringstream.dir\linkLibs.rsp

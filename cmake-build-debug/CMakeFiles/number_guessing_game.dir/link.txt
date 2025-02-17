@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\number_guessing_game.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\number_guessing_game.dir/objects.a @CMakeFiles\number_guessing_game.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\number_guessing_game.dir/objects.a -Wl,--no-whole-archive -o number_guessing_game.exe -Wl,--out-implib,libnumber_guessing_game.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\number_guessing_game.dir\linkLibs.rsp

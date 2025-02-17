@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\iostream_cout_precision.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\iostream_cout_precision.dir/objects.a @CMakeFiles\iostream_cout_precision.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\iostream_cout_precision.dir/objects.a -Wl,--no-whole-archive -o iostream_cout_precision.exe -Wl,--out-implib,libiostream_cout_precision.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\iostream_cout_precision.dir\linkLibs.rsp

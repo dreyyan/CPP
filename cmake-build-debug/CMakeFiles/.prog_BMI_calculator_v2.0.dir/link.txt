@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\.prog_BMI_calculator_v2.0.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\.prog_BMI_calculator_v2.0.dir/objects.a @CMakeFiles\.prog_BMI_calculator_v2.0.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\.prog_BMI_calculator_v2.0.dir/objects.a -Wl,--no-whole-archive -o .prog_BMI_calculator_v2.0.exe -Wl,--out-implib,lib.prog_BMI_calculator_v2.0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.prog_BMI_calculator_v2.0.dir\linkLibs.rsp
