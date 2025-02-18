@@ -8,8 +8,10 @@ CMakeFiles/sorting_algorithms_selection_sort.dir/sorting_algorithms/selection_so
   C:/msys64/mingw64/include/_mingw_secapi.h \
   C:/msys64/mingw64/include/_mingw_stat64.h \
   C:/msys64/mingw64/include/_timeval.h \
+  C:/msys64/mingw64/include/c++/14.2.0/algorithm \
   C:/msys64/mingw64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/mingw64/include/c++/14.2.0/bit \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/alloc_traits.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/allocator.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.h \
@@ -54,6 +56,8 @@ CMakeFiles/sorting_algorithms_selection_sort.dir/sorting_algorithms/selection_so
   C:/msys64/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/quoted_string.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/range_access.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_algo.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_algobase.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_base.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_cmp.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_util.h \
@@ -61,20 +65,24 @@ CMakeFiles/sorting_algorithms_selection_sort.dir/sorting_algorithms/selection_so
   C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
   C:/msys64/mingw64/include/c++/14.2.0/bits/std_abs.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algo.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_bvector.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_construct.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_function.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_heap.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_pair.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/streambuf.tcc \
   C:/msys64/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/string_view.tcc \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stringfwd.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/utility.h \
@@ -109,6 +117,8 @@ CMakeFiles/sorting_algorithms_selection_sort.dir/sorting_algorithms/selection_so
   C:/msys64/mingw64/include/c++/14.2.0/new \
   C:/msys64/mingw64/include/c++/14.2.0/numbers \
   C:/msys64/mingw64/include/c++/14.2.0/ostream \
+  C:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
+  C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
   C:/msys64/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
   C:/msys64/mingw64/include/c++/14.2.0/sstream \
   C:/msys64/mingw64/include/c++/14.2.0/stdexcept \
@@ -173,11 +183,11 @@ CMakeFiles/sorting_algorithms_selection_sort.dir/sorting_algorithms/selection_so
   C:/.code/.cpp/sorting_algorithms/print_array.h
 
 
-C:/msys64/mingw64/include/c++/14.2.0/bits/new_allocator.h:
-
-C:/msys64/mingw64/include/c++/14.2.0/backward/binders.h:
-
 C:/msys64/mingw64/include/_timeval.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/ios:
+
+C:/msys64/mingw64/include/c++/14.2.0/algorithm:
 
 C:/.code/.cpp/sorting_algorithms/selection_sort.cpp:
 
@@ -209,7 +219,15 @@ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_conv.h:
 
 C:/msys64/mingw64/include/_mingw_stat64.h:
 
+C:/msys64/mingw64/include/c++/14.2.0/bits/new_allocator.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/backward/binders.h:
+
 C:/msys64/mingw64/include/c++/14.2.0/bit:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/algorithmfwd.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/charconv.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/postypes.h:
 
@@ -245,17 +263,15 @@ C:/msys64/mingw64/include/c++/14.2.0/bits/quoted_string.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/char_traits.h:
 
-C:/msys64/mingw64/include/c++/14.2.0/bits/stl_function.h:
-
-C:/msys64/mingw64/include/c++/14.2.0/bits/charconv.h:
-
 C:/msys64/mingw64/include/c++/14.2.0/bits/concept_check.h:
-
-C:/msys64/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/stl_construct.h:
 
+C:/msys64/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h:
+
 C:/msys64/mingw64/include/c++/14.2.0/bits/exception.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/stl_heap.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/exception_defines.h:
 
@@ -273,10 +289,6 @@ C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc:
 
-C:/msys64/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h:
-
-C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algobase.h:
-
 C:/msys64/mingw64/include/c++/14.2.0/bits/iterator_concepts.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:
@@ -288,6 +300,8 @@ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.h:
 C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.tcc:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_algobase.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.tcc:
 
@@ -301,13 +315,11 @@ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/memoryfwd.h:
 
-C:/msys64/mingw64/include/errno.h:
-
-C:/msys64/mingw64/include/c++/14.2.0/bits/stl_bvector.h:
-
 C:/msys64/mingw64/include/c++/14.2.0/bits/move.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/nested_exception.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_algo.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_base.h:
 
@@ -316,6 +328,18 @@ C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_cmp.h:
 C:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/std_abs.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algo.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algobase.h:
+
+C:/msys64/mingw64/include/errno.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/stl_bvector.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/stl_function.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator.h:
 
@@ -327,6 +351,8 @@ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/stl_pair.h:
 
+C:/msys64/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h:
+
 C:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/streambuf.tcc:
@@ -334,6 +360,8 @@ C:/msys64/mingw64/include/c++/14.2.0/bits/streambuf.tcc:
 C:/msys64/mingw64/include/c++/14.2.0/bits/string_view.tcc:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/stringfwd.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator.h:
 
@@ -387,8 +415,6 @@ C:/msys64/mingw64/include/c++/14.2.0/ext/type_traits.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/initializer_list:
 
-C:/msys64/mingw64/include/c++/14.2.0/ios:
-
 C:/msys64/mingw64/include/c++/14.2.0/iosfwd:
 
 C:/msys64/mingw64/include/c++/14.2.0/iostream:
@@ -402,6 +428,10 @@ C:/msys64/mingw64/include/c++/14.2.0/new:
 C:/msys64/mingw64/include/c++/14.2.0/numbers:
 
 C:/msys64/mingw64/include/c++/14.2.0/ostream:
+
+C:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/pstl/pstl_config.h:
 

@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iomanip>
 #include <iostream>
 #include "print_array.h"
@@ -8,27 +9,23 @@ SELECTION SORT [Not Stable | O(n²)]
 * Repeats until the array is fully sorted
 * Use Case: When swaps are expensive(takes too much time), small datasets, when memory writes are costly
 */
-void selection_sort(int array[], int arraySize) {
-    // Declare Variables
-    int temp, minIndex;
+void selection_sort(int arr[], size_t size) {
+    size_t min_index;
 
-    // Sort Algorithm
-    for (size_t i = 0; i < arraySize - 1; i++) {
-        minIndex = i;
-        for (size_t j = i + 1; j < arraySize; j++) {
-            if (array[j] < array[minIndex]) {
-                minIndex = j;
+    for (size_t i = 0; i < size - 1; ++i) {
+        min_index = i;
+        for (size_t j = i + 1; j < size; ++j) {
+            if (arr[j] < arr[min_index]) {
+                min_index = j;
             }
         }
-        temp = array[i];
-        array[i] = array[minIndex];
-        array[minIndex] = temp;
+        swap(arr[i], arr[min_index]);
     }
 }
 
 int main() {
     int arr[] = {9, 5, 2, 7, 1 , 8, 4, 6, 3};
-    int size = sizeof(arr) / sizeof(int);
+    size_t size = sizeof(arr) / sizeof(int);
 
     cout << setw(10) << "Original: ";
     print_array(arr, size);

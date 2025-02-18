@@ -9,9 +9,9 @@ BUBBLE SORT [ Stable | O(n²) ]
 * Moves largest element to its correct position in each pass
 * Use Case: Small datasets, learning purposes
 */
-void bubble_sort(int arr[], int size) {
-    for (int i = 0; i < size - 1; ++i) {
-        for (int j = 0; j < size - i - 1; ++j) {
+void bubble_sort(int arr[], size_t size) {
+    for (size_t i = 0; i < size - 1; ++i) {
+        for (size_t j = 0; j < size - i - 1; ++j) {
             if (arr[j] > arr[j + 1]) {
                 swap(arr[j], arr[j + 1]);
             }
@@ -21,7 +21,7 @@ void bubble_sort(int arr[], int size) {
 
 int main() {
     int arr[] = {9, 5, 2, 7, 1 , 8, 4, 6, 3};
-    int size = sizeof(arr) / sizeof(int);
+    size_t size = sizeof(arr) / sizeof(int);
 
     cout << setw(10) << "Original: ";
     print_array(arr, size);
