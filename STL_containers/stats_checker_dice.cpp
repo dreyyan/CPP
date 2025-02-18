@@ -8,33 +8,34 @@
 using namespace std;
 
 int main() {
-    auto roll = []() { return rand() % 6 + 1; };
+    auto roll = []() { return rand() % 6 + 1; }; // Roll a dice
 
     // Insert container
     vector<int> container;
-
     // Add item
     container.push_back(roll());
-    const int* address_of_original_item_zero = &(*container.begin());
-
+    // Get address of original item
+    const int* address_of_original_item_zero = container.data();
+    //
     chrono::duration<double> duration_insert_time(0);
 
     do {
         // Get address of first item
         const int* address_of_item_zero = &(*container.begin());
 
-        cout << "Contains " << container.size() << " elements\n";
-        cout << "Took " << chrono::duration_cast<chrono::microseconds>(duration_insert_time).count() << "µs\n";
+        // Display element count and time used
+        cout << "Count: " << container.size() << " element/s\t";
+        cout << "Time: " << chrono::duration_cast<chrono::microseconds>(duration_insert_time).count() << "ms\n";
 
         for (const auto& i: container) {
             const int* address_of_item_x = &i; // Get memory address of current element
             int item_offset = address_of_item_x - address_of_item_zero; // Offset of current element and item
             int item_offset_original = address_of_item_x - address_of_original_item_zero; // Offset of current element and original item
-            cout << "Offset [Original]: " << item_offset_original << '\n';
-            cout << "Offset [Zero]: " << item_offset << '\n';
-            cout << "Content: " << i << '\n';
+            // Display original & zero offset, and value
+            cout << "Offset [Original]: " << item_offset_original << '\t';
+            cout << "Offset [Zero]: " << item_offset << '\t';
+            cout << "Value: " << i << '\n';
         }
-
         auto first_time_period = chrono::high_resolution_clock::now();
         container.push_back(roll());
         auto second_time_period = chrono::high_resolution_clock::now();
