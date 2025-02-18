@@ -116,6 +116,214 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named .algorithm_algorithm_binary_search
+
+# Build rule for target.
+.algorithm_algorithm_binary_search: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_binary_search
+.PHONY : .algorithm_algorithm_binary_search
+
+# fast build rule for target.
+.algorithm_algorithm_binary_search/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_binary_search.dir\build.make CMakeFiles/.algorithm_algorithm_binary_search.dir/build
+.PHONY : .algorithm_algorithm_binary_search/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_copy
+
+# Build rule for target.
+.algorithm_algorithm_copy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_copy
+.PHONY : .algorithm_algorithm_copy
+
+# fast build rule for target.
+.algorithm_algorithm_copy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_copy.dir\build.make CMakeFiles/.algorithm_algorithm_copy.dir/build
+.PHONY : .algorithm_algorithm_copy/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_count
+
+# Build rule for target.
+.algorithm_algorithm_count: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_count
+.PHONY : .algorithm_algorithm_count
+
+# fast build rule for target.
+.algorithm_algorithm_count/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_count.dir\build.make CMakeFiles/.algorithm_algorithm_count.dir/build
+.PHONY : .algorithm_algorithm_count/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_fill
+
+# Build rule for target.
+.algorithm_algorithm_fill: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_fill
+.PHONY : .algorithm_algorithm_fill
+
+# fast build rule for target.
+.algorithm_algorithm_fill/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_fill.dir\build.make CMakeFiles/.algorithm_algorithm_fill.dir/build
+.PHONY : .algorithm_algorithm_fill/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_find
+
+# Build rule for target.
+.algorithm_algorithm_find: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_find
+.PHONY : .algorithm_algorithm_find
+
+# fast build rule for target.
+.algorithm_algorithm_find/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_find.dir\build.make CMakeFiles/.algorithm_algorithm_find.dir/build
+.PHONY : .algorithm_algorithm_find/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_find_if
+
+# Build rule for target.
+.algorithm_algorithm_find_if: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_find_if
+.PHONY : .algorithm_algorithm_find_if
+
+# fast build rule for target.
+.algorithm_algorithm_find_if/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_find_if.dir\build.make CMakeFiles/.algorithm_algorithm_find_if.dir/build
+.PHONY : .algorithm_algorithm_find_if/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_min_max_element
+
+# Build rule for target.
+.algorithm_algorithm_min_max_element: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_min_max_element
+.PHONY : .algorithm_algorithm_min_max_element
+
+# fast build rule for target.
+.algorithm_algorithm_min_max_element/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_min_max_element.dir\build.make CMakeFiles/.algorithm_algorithm_min_max_element.dir/build
+.PHONY : .algorithm_algorithm_min_max_element/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_nth_element
+
+# Build rule for target.
+.algorithm_algorithm_nth_element: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_nth_element
+.PHONY : .algorithm_algorithm_nth_element
+
+# fast build rule for target.
+.algorithm_algorithm_nth_element/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_nth_element.dir\build.make CMakeFiles/.algorithm_algorithm_nth_element.dir/build
+.PHONY : .algorithm_algorithm_nth_element/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_partial_sort
+
+# Build rule for target.
+.algorithm_algorithm_partial_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_partial_sort
+.PHONY : .algorithm_algorithm_partial_sort
+
+# fast build rule for target.
+.algorithm_algorithm_partial_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_partial_sort.dir\build.make CMakeFiles/.algorithm_algorithm_partial_sort.dir/build
+.PHONY : .algorithm_algorithm_partial_sort/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_partition
+
+# Build rule for target.
+.algorithm_algorithm_partition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_partition
+.PHONY : .algorithm_algorithm_partition
+
+# fast build rule for target.
+.algorithm_algorithm_partition/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_partition.dir\build.make CMakeFiles/.algorithm_algorithm_partition.dir/build
+.PHONY : .algorithm_algorithm_partition/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_reverse
+
+# Build rule for target.
+.algorithm_algorithm_reverse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_reverse
+.PHONY : .algorithm_algorithm_reverse
+
+# fast build rule for target.
+.algorithm_algorithm_reverse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_reverse.dir\build.make CMakeFiles/.algorithm_algorithm_reverse.dir/build
+.PHONY : .algorithm_algorithm_reverse/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_set_difference
+
+# Build rule for target.
+.algorithm_algorithm_set_difference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_set_difference
+.PHONY : .algorithm_algorithm_set_difference
+
+# fast build rule for target.
+.algorithm_algorithm_set_difference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_set_difference.dir\build.make CMakeFiles/.algorithm_algorithm_set_difference.dir/build
+.PHONY : .algorithm_algorithm_set_difference/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_sort
+
+# Build rule for target.
+.algorithm_algorithm_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_sort
+.PHONY : .algorithm_algorithm_sort
+
+# fast build rule for target.
+.algorithm_algorithm_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_sort.dir\build.make CMakeFiles/.algorithm_algorithm_sort.dir/build
+.PHONY : .algorithm_algorithm_sort/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_stable_sort
+
+# Build rule for target.
+.algorithm_algorithm_stable_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_stable_sort
+.PHONY : .algorithm_algorithm_stable_sort
+
+# fast build rule for target.
+.algorithm_algorithm_stable_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_stable_sort.dir\build.make CMakeFiles/.algorithm_algorithm_stable_sort.dir/build
+.PHONY : .algorithm_algorithm_stable_sort/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_transform
+
+# Build rule for target.
+.algorithm_algorithm_transform: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_transform
+.PHONY : .algorithm_algorithm_transform
+
+# fast build rule for target.
+.algorithm_algorithm_transform/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_transform.dir\build.make CMakeFiles/.algorithm_algorithm_transform.dir/build
+.PHONY : .algorithm_algorithm_transform/fast
+
+#=============================================================================
+# Target rules for targets named .algorithm_algorithm_unique
+
+# Build rule for target.
+.algorithm_algorithm_unique: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_unique
+.PHONY : .algorithm_algorithm_unique
+
+# fast build rule for target.
+.algorithm_algorithm_unique/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_unique.dir\build.make CMakeFiles/.algorithm_algorithm_unique.dir/build
+.PHONY : .algorithm_algorithm_unique/fast
+
+#=============================================================================
 # Target rules for targets named .exercises_BMI_calculator_v2.0
 
 # Build rule for target.
@@ -1039,6 +1247,32 @@ STL_containers_stack_reverse_string/fast:
 .PHONY : STL_containers_stack_reverse_string/fast
 
 #=============================================================================
+# Target rules for targets named STL_containers_stats_checker_benchmark
+
+# Build rule for target.
+STL_containers_stats_checker_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_containers_stats_checker_benchmark
+.PHONY : STL_containers_stats_checker_benchmark
+
+# fast build rule for target.
+STL_containers_stats_checker_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_benchmark.dir\build.make CMakeFiles/STL_containers_stats_checker_benchmark.dir/build
+.PHONY : STL_containers_stats_checker_benchmark/fast
+
+#=============================================================================
+# Target rules for targets named STL_containers_stats_checker_dice
+
+# Build rule for target.
+STL_containers_stats_checker_dice: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_containers_stats_checker_dice
+.PHONY : STL_containers_stats_checker_dice
+
+# fast build rule for target.
+STL_containers_stats_checker_dice/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_dice.dir\build.make CMakeFiles/STL_containers_stats_checker_dice.dir/build
+.PHONY : STL_containers_stats_checker_dice/fast
+
+#=============================================================================
 # Target rules for targets named STL_containers_vector
 
 # Build rule for target.
@@ -1141,6 +1375,390 @@ try_throw_catch: cmake_check_build_system
 try_throw_catch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\try_throw_catch.dir\build.make CMakeFiles/try_throw_catch.dir/build
 .PHONY : try_throw_catch/fast
+
+.algorithm/algorithm_binary_search.obj: .algorithm/algorithm_binary_search.cpp.obj
+.PHONY : .algorithm/algorithm_binary_search.obj
+
+# target to build an object file
+.algorithm/algorithm_binary_search.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_binary_search.dir\build.make CMakeFiles/.algorithm_algorithm_binary_search.dir/.algorithm/algorithm_binary_search.cpp.obj
+.PHONY : .algorithm/algorithm_binary_search.cpp.obj
+
+.algorithm/algorithm_binary_search.i: .algorithm/algorithm_binary_search.cpp.i
+.PHONY : .algorithm/algorithm_binary_search.i
+
+# target to preprocess a source file
+.algorithm/algorithm_binary_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_binary_search.dir\build.make CMakeFiles/.algorithm_algorithm_binary_search.dir/.algorithm/algorithm_binary_search.cpp.i
+.PHONY : .algorithm/algorithm_binary_search.cpp.i
+
+.algorithm/algorithm_binary_search.s: .algorithm/algorithm_binary_search.cpp.s
+.PHONY : .algorithm/algorithm_binary_search.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_binary_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_binary_search.dir\build.make CMakeFiles/.algorithm_algorithm_binary_search.dir/.algorithm/algorithm_binary_search.cpp.s
+.PHONY : .algorithm/algorithm_binary_search.cpp.s
+
+.algorithm/algorithm_copy.obj: .algorithm/algorithm_copy.cpp.obj
+.PHONY : .algorithm/algorithm_copy.obj
+
+# target to build an object file
+.algorithm/algorithm_copy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_copy.dir\build.make CMakeFiles/.algorithm_algorithm_copy.dir/.algorithm/algorithm_copy.cpp.obj
+.PHONY : .algorithm/algorithm_copy.cpp.obj
+
+.algorithm/algorithm_copy.i: .algorithm/algorithm_copy.cpp.i
+.PHONY : .algorithm/algorithm_copy.i
+
+# target to preprocess a source file
+.algorithm/algorithm_copy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_copy.dir\build.make CMakeFiles/.algorithm_algorithm_copy.dir/.algorithm/algorithm_copy.cpp.i
+.PHONY : .algorithm/algorithm_copy.cpp.i
+
+.algorithm/algorithm_copy.s: .algorithm/algorithm_copy.cpp.s
+.PHONY : .algorithm/algorithm_copy.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_copy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_copy.dir\build.make CMakeFiles/.algorithm_algorithm_copy.dir/.algorithm/algorithm_copy.cpp.s
+.PHONY : .algorithm/algorithm_copy.cpp.s
+
+.algorithm/algorithm_count.obj: .algorithm/algorithm_count.cpp.obj
+.PHONY : .algorithm/algorithm_count.obj
+
+# target to build an object file
+.algorithm/algorithm_count.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_count.dir\build.make CMakeFiles/.algorithm_algorithm_count.dir/.algorithm/algorithm_count.cpp.obj
+.PHONY : .algorithm/algorithm_count.cpp.obj
+
+.algorithm/algorithm_count.i: .algorithm/algorithm_count.cpp.i
+.PHONY : .algorithm/algorithm_count.i
+
+# target to preprocess a source file
+.algorithm/algorithm_count.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_count.dir\build.make CMakeFiles/.algorithm_algorithm_count.dir/.algorithm/algorithm_count.cpp.i
+.PHONY : .algorithm/algorithm_count.cpp.i
+
+.algorithm/algorithm_count.s: .algorithm/algorithm_count.cpp.s
+.PHONY : .algorithm/algorithm_count.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_count.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_count.dir\build.make CMakeFiles/.algorithm_algorithm_count.dir/.algorithm/algorithm_count.cpp.s
+.PHONY : .algorithm/algorithm_count.cpp.s
+
+.algorithm/algorithm_fill.obj: .algorithm/algorithm_fill.cpp.obj
+.PHONY : .algorithm/algorithm_fill.obj
+
+# target to build an object file
+.algorithm/algorithm_fill.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_fill.dir\build.make CMakeFiles/.algorithm_algorithm_fill.dir/.algorithm/algorithm_fill.cpp.obj
+.PHONY : .algorithm/algorithm_fill.cpp.obj
+
+.algorithm/algorithm_fill.i: .algorithm/algorithm_fill.cpp.i
+.PHONY : .algorithm/algorithm_fill.i
+
+# target to preprocess a source file
+.algorithm/algorithm_fill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_fill.dir\build.make CMakeFiles/.algorithm_algorithm_fill.dir/.algorithm/algorithm_fill.cpp.i
+.PHONY : .algorithm/algorithm_fill.cpp.i
+
+.algorithm/algorithm_fill.s: .algorithm/algorithm_fill.cpp.s
+.PHONY : .algorithm/algorithm_fill.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_fill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_fill.dir\build.make CMakeFiles/.algorithm_algorithm_fill.dir/.algorithm/algorithm_fill.cpp.s
+.PHONY : .algorithm/algorithm_fill.cpp.s
+
+.algorithm/algorithm_find.obj: .algorithm/algorithm_find.cpp.obj
+.PHONY : .algorithm/algorithm_find.obj
+
+# target to build an object file
+.algorithm/algorithm_find.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_find.dir\build.make CMakeFiles/.algorithm_algorithm_find.dir/.algorithm/algorithm_find.cpp.obj
+.PHONY : .algorithm/algorithm_find.cpp.obj
+
+.algorithm/algorithm_find.i: .algorithm/algorithm_find.cpp.i
+.PHONY : .algorithm/algorithm_find.i
+
+# target to preprocess a source file
+.algorithm/algorithm_find.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_find.dir\build.make CMakeFiles/.algorithm_algorithm_find.dir/.algorithm/algorithm_find.cpp.i
+.PHONY : .algorithm/algorithm_find.cpp.i
+
+.algorithm/algorithm_find.s: .algorithm/algorithm_find.cpp.s
+.PHONY : .algorithm/algorithm_find.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_find.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_find.dir\build.make CMakeFiles/.algorithm_algorithm_find.dir/.algorithm/algorithm_find.cpp.s
+.PHONY : .algorithm/algorithm_find.cpp.s
+
+.algorithm/algorithm_find_if.obj: .algorithm/algorithm_find_if.cpp.obj
+.PHONY : .algorithm/algorithm_find_if.obj
+
+# target to build an object file
+.algorithm/algorithm_find_if.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_find_if.dir\build.make CMakeFiles/.algorithm_algorithm_find_if.dir/.algorithm/algorithm_find_if.cpp.obj
+.PHONY : .algorithm/algorithm_find_if.cpp.obj
+
+.algorithm/algorithm_find_if.i: .algorithm/algorithm_find_if.cpp.i
+.PHONY : .algorithm/algorithm_find_if.i
+
+# target to preprocess a source file
+.algorithm/algorithm_find_if.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_find_if.dir\build.make CMakeFiles/.algorithm_algorithm_find_if.dir/.algorithm/algorithm_find_if.cpp.i
+.PHONY : .algorithm/algorithm_find_if.cpp.i
+
+.algorithm/algorithm_find_if.s: .algorithm/algorithm_find_if.cpp.s
+.PHONY : .algorithm/algorithm_find_if.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_find_if.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_find_if.dir\build.make CMakeFiles/.algorithm_algorithm_find_if.dir/.algorithm/algorithm_find_if.cpp.s
+.PHONY : .algorithm/algorithm_find_if.cpp.s
+
+.algorithm/algorithm_min_max_element.obj: .algorithm/algorithm_min_max_element.cpp.obj
+.PHONY : .algorithm/algorithm_min_max_element.obj
+
+# target to build an object file
+.algorithm/algorithm_min_max_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_min_max_element.dir\build.make CMakeFiles/.algorithm_algorithm_min_max_element.dir/.algorithm/algorithm_min_max_element.cpp.obj
+.PHONY : .algorithm/algorithm_min_max_element.cpp.obj
+
+.algorithm/algorithm_min_max_element.i: .algorithm/algorithm_min_max_element.cpp.i
+.PHONY : .algorithm/algorithm_min_max_element.i
+
+# target to preprocess a source file
+.algorithm/algorithm_min_max_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_min_max_element.dir\build.make CMakeFiles/.algorithm_algorithm_min_max_element.dir/.algorithm/algorithm_min_max_element.cpp.i
+.PHONY : .algorithm/algorithm_min_max_element.cpp.i
+
+.algorithm/algorithm_min_max_element.s: .algorithm/algorithm_min_max_element.cpp.s
+.PHONY : .algorithm/algorithm_min_max_element.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_min_max_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_min_max_element.dir\build.make CMakeFiles/.algorithm_algorithm_min_max_element.dir/.algorithm/algorithm_min_max_element.cpp.s
+.PHONY : .algorithm/algorithm_min_max_element.cpp.s
+
+.algorithm/algorithm_nth_element.obj: .algorithm/algorithm_nth_element.cpp.obj
+.PHONY : .algorithm/algorithm_nth_element.obj
+
+# target to build an object file
+.algorithm/algorithm_nth_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_nth_element.dir\build.make CMakeFiles/.algorithm_algorithm_nth_element.dir/.algorithm/algorithm_nth_element.cpp.obj
+.PHONY : .algorithm/algorithm_nth_element.cpp.obj
+
+.algorithm/algorithm_nth_element.i: .algorithm/algorithm_nth_element.cpp.i
+.PHONY : .algorithm/algorithm_nth_element.i
+
+# target to preprocess a source file
+.algorithm/algorithm_nth_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_nth_element.dir\build.make CMakeFiles/.algorithm_algorithm_nth_element.dir/.algorithm/algorithm_nth_element.cpp.i
+.PHONY : .algorithm/algorithm_nth_element.cpp.i
+
+.algorithm/algorithm_nth_element.s: .algorithm/algorithm_nth_element.cpp.s
+.PHONY : .algorithm/algorithm_nth_element.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_nth_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_nth_element.dir\build.make CMakeFiles/.algorithm_algorithm_nth_element.dir/.algorithm/algorithm_nth_element.cpp.s
+.PHONY : .algorithm/algorithm_nth_element.cpp.s
+
+.algorithm/algorithm_partial_sort.obj: .algorithm/algorithm_partial_sort.cpp.obj
+.PHONY : .algorithm/algorithm_partial_sort.obj
+
+# target to build an object file
+.algorithm/algorithm_partial_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_partial_sort.dir\build.make CMakeFiles/.algorithm_algorithm_partial_sort.dir/.algorithm/algorithm_partial_sort.cpp.obj
+.PHONY : .algorithm/algorithm_partial_sort.cpp.obj
+
+.algorithm/algorithm_partial_sort.i: .algorithm/algorithm_partial_sort.cpp.i
+.PHONY : .algorithm/algorithm_partial_sort.i
+
+# target to preprocess a source file
+.algorithm/algorithm_partial_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_partial_sort.dir\build.make CMakeFiles/.algorithm_algorithm_partial_sort.dir/.algorithm/algorithm_partial_sort.cpp.i
+.PHONY : .algorithm/algorithm_partial_sort.cpp.i
+
+.algorithm/algorithm_partial_sort.s: .algorithm/algorithm_partial_sort.cpp.s
+.PHONY : .algorithm/algorithm_partial_sort.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_partial_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_partial_sort.dir\build.make CMakeFiles/.algorithm_algorithm_partial_sort.dir/.algorithm/algorithm_partial_sort.cpp.s
+.PHONY : .algorithm/algorithm_partial_sort.cpp.s
+
+.algorithm/algorithm_partition.obj: .algorithm/algorithm_partition.cpp.obj
+.PHONY : .algorithm/algorithm_partition.obj
+
+# target to build an object file
+.algorithm/algorithm_partition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_partition.dir\build.make CMakeFiles/.algorithm_algorithm_partition.dir/.algorithm/algorithm_partition.cpp.obj
+.PHONY : .algorithm/algorithm_partition.cpp.obj
+
+.algorithm/algorithm_partition.i: .algorithm/algorithm_partition.cpp.i
+.PHONY : .algorithm/algorithm_partition.i
+
+# target to preprocess a source file
+.algorithm/algorithm_partition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_partition.dir\build.make CMakeFiles/.algorithm_algorithm_partition.dir/.algorithm/algorithm_partition.cpp.i
+.PHONY : .algorithm/algorithm_partition.cpp.i
+
+.algorithm/algorithm_partition.s: .algorithm/algorithm_partition.cpp.s
+.PHONY : .algorithm/algorithm_partition.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_partition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_partition.dir\build.make CMakeFiles/.algorithm_algorithm_partition.dir/.algorithm/algorithm_partition.cpp.s
+.PHONY : .algorithm/algorithm_partition.cpp.s
+
+.algorithm/algorithm_reverse.obj: .algorithm/algorithm_reverse.cpp.obj
+.PHONY : .algorithm/algorithm_reverse.obj
+
+# target to build an object file
+.algorithm/algorithm_reverse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_reverse.dir\build.make CMakeFiles/.algorithm_algorithm_reverse.dir/.algorithm/algorithm_reverse.cpp.obj
+.PHONY : .algorithm/algorithm_reverse.cpp.obj
+
+.algorithm/algorithm_reverse.i: .algorithm/algorithm_reverse.cpp.i
+.PHONY : .algorithm/algorithm_reverse.i
+
+# target to preprocess a source file
+.algorithm/algorithm_reverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_reverse.dir\build.make CMakeFiles/.algorithm_algorithm_reverse.dir/.algorithm/algorithm_reverse.cpp.i
+.PHONY : .algorithm/algorithm_reverse.cpp.i
+
+.algorithm/algorithm_reverse.s: .algorithm/algorithm_reverse.cpp.s
+.PHONY : .algorithm/algorithm_reverse.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_reverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_reverse.dir\build.make CMakeFiles/.algorithm_algorithm_reverse.dir/.algorithm/algorithm_reverse.cpp.s
+.PHONY : .algorithm/algorithm_reverse.cpp.s
+
+.algorithm/algorithm_set_difference.obj: .algorithm/algorithm_set_difference.cpp.obj
+.PHONY : .algorithm/algorithm_set_difference.obj
+
+# target to build an object file
+.algorithm/algorithm_set_difference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_set_difference.dir\build.make CMakeFiles/.algorithm_algorithm_set_difference.dir/.algorithm/algorithm_set_difference.cpp.obj
+.PHONY : .algorithm/algorithm_set_difference.cpp.obj
+
+.algorithm/algorithm_set_difference.i: .algorithm/algorithm_set_difference.cpp.i
+.PHONY : .algorithm/algorithm_set_difference.i
+
+# target to preprocess a source file
+.algorithm/algorithm_set_difference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_set_difference.dir\build.make CMakeFiles/.algorithm_algorithm_set_difference.dir/.algorithm/algorithm_set_difference.cpp.i
+.PHONY : .algorithm/algorithm_set_difference.cpp.i
+
+.algorithm/algorithm_set_difference.s: .algorithm/algorithm_set_difference.cpp.s
+.PHONY : .algorithm/algorithm_set_difference.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_set_difference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_set_difference.dir\build.make CMakeFiles/.algorithm_algorithm_set_difference.dir/.algorithm/algorithm_set_difference.cpp.s
+.PHONY : .algorithm/algorithm_set_difference.cpp.s
+
+.algorithm/algorithm_sort.obj: .algorithm/algorithm_sort.cpp.obj
+.PHONY : .algorithm/algorithm_sort.obj
+
+# target to build an object file
+.algorithm/algorithm_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_sort.dir\build.make CMakeFiles/.algorithm_algorithm_sort.dir/.algorithm/algorithm_sort.cpp.obj
+.PHONY : .algorithm/algorithm_sort.cpp.obj
+
+.algorithm/algorithm_sort.i: .algorithm/algorithm_sort.cpp.i
+.PHONY : .algorithm/algorithm_sort.i
+
+# target to preprocess a source file
+.algorithm/algorithm_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_sort.dir\build.make CMakeFiles/.algorithm_algorithm_sort.dir/.algorithm/algorithm_sort.cpp.i
+.PHONY : .algorithm/algorithm_sort.cpp.i
+
+.algorithm/algorithm_sort.s: .algorithm/algorithm_sort.cpp.s
+.PHONY : .algorithm/algorithm_sort.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_sort.dir\build.make CMakeFiles/.algorithm_algorithm_sort.dir/.algorithm/algorithm_sort.cpp.s
+.PHONY : .algorithm/algorithm_sort.cpp.s
+
+.algorithm/algorithm_stable_sort.obj: .algorithm/algorithm_stable_sort.cpp.obj
+.PHONY : .algorithm/algorithm_stable_sort.obj
+
+# target to build an object file
+.algorithm/algorithm_stable_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_stable_sort.dir\build.make CMakeFiles/.algorithm_algorithm_stable_sort.dir/.algorithm/algorithm_stable_sort.cpp.obj
+.PHONY : .algorithm/algorithm_stable_sort.cpp.obj
+
+.algorithm/algorithm_stable_sort.i: .algorithm/algorithm_stable_sort.cpp.i
+.PHONY : .algorithm/algorithm_stable_sort.i
+
+# target to preprocess a source file
+.algorithm/algorithm_stable_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_stable_sort.dir\build.make CMakeFiles/.algorithm_algorithm_stable_sort.dir/.algorithm/algorithm_stable_sort.cpp.i
+.PHONY : .algorithm/algorithm_stable_sort.cpp.i
+
+.algorithm/algorithm_stable_sort.s: .algorithm/algorithm_stable_sort.cpp.s
+.PHONY : .algorithm/algorithm_stable_sort.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_stable_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_stable_sort.dir\build.make CMakeFiles/.algorithm_algorithm_stable_sort.dir/.algorithm/algorithm_stable_sort.cpp.s
+.PHONY : .algorithm/algorithm_stable_sort.cpp.s
+
+.algorithm/algorithm_transform.obj: .algorithm/algorithm_transform.cpp.obj
+.PHONY : .algorithm/algorithm_transform.obj
+
+# target to build an object file
+.algorithm/algorithm_transform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_transform.dir\build.make CMakeFiles/.algorithm_algorithm_transform.dir/.algorithm/algorithm_transform.cpp.obj
+.PHONY : .algorithm/algorithm_transform.cpp.obj
+
+.algorithm/algorithm_transform.i: .algorithm/algorithm_transform.cpp.i
+.PHONY : .algorithm/algorithm_transform.i
+
+# target to preprocess a source file
+.algorithm/algorithm_transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_transform.dir\build.make CMakeFiles/.algorithm_algorithm_transform.dir/.algorithm/algorithm_transform.cpp.i
+.PHONY : .algorithm/algorithm_transform.cpp.i
+
+.algorithm/algorithm_transform.s: .algorithm/algorithm_transform.cpp.s
+.PHONY : .algorithm/algorithm_transform.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_transform.dir\build.make CMakeFiles/.algorithm_algorithm_transform.dir/.algorithm/algorithm_transform.cpp.s
+.PHONY : .algorithm/algorithm_transform.cpp.s
+
+.algorithm/algorithm_unique.obj: .algorithm/algorithm_unique.cpp.obj
+.PHONY : .algorithm/algorithm_unique.obj
+
+# target to build an object file
+.algorithm/algorithm_unique.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_unique.dir\build.make CMakeFiles/.algorithm_algorithm_unique.dir/.algorithm/algorithm_unique.cpp.obj
+.PHONY : .algorithm/algorithm_unique.cpp.obj
+
+.algorithm/algorithm_unique.i: .algorithm/algorithm_unique.cpp.i
+.PHONY : .algorithm/algorithm_unique.i
+
+# target to preprocess a source file
+.algorithm/algorithm_unique.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_unique.dir\build.make CMakeFiles/.algorithm_algorithm_unique.dir/.algorithm/algorithm_unique.cpp.i
+.PHONY : .algorithm/algorithm_unique.cpp.i
+
+.algorithm/algorithm_unique.s: .algorithm/algorithm_unique.cpp.s
+.PHONY : .algorithm/algorithm_unique.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_unique.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_unique.dir\build.make CMakeFiles/.algorithm_algorithm_unique.dir/.algorithm/algorithm_unique.cpp.s
+.PHONY : .algorithm/algorithm_unique.cpp.s
 
 .exercises/BMI_calculator_v2.0.obj: .exercises/BMI_calculator_v2.0.cpp.obj
 .PHONY : .exercises/BMI_calculator_v2.0.obj
@@ -2846,6 +3464,54 @@ STL_containers/stack_reverse_string.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_reverse_string.dir\build.make CMakeFiles/STL_containers_stack_reverse_string.dir/STL_containers/stack_reverse_string.cpp.s
 .PHONY : STL_containers/stack_reverse_string.cpp.s
 
+STL_containers/stats_checker_benchmark.obj: STL_containers/stats_checker_benchmark.cpp.obj
+.PHONY : STL_containers/stats_checker_benchmark.obj
+
+# target to build an object file
+STL_containers/stats_checker_benchmark.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_benchmark.dir\build.make CMakeFiles/STL_containers_stats_checker_benchmark.dir/STL_containers/stats_checker_benchmark.cpp.obj
+.PHONY : STL_containers/stats_checker_benchmark.cpp.obj
+
+STL_containers/stats_checker_benchmark.i: STL_containers/stats_checker_benchmark.cpp.i
+.PHONY : STL_containers/stats_checker_benchmark.i
+
+# target to preprocess a source file
+STL_containers/stats_checker_benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_benchmark.dir\build.make CMakeFiles/STL_containers_stats_checker_benchmark.dir/STL_containers/stats_checker_benchmark.cpp.i
+.PHONY : STL_containers/stats_checker_benchmark.cpp.i
+
+STL_containers/stats_checker_benchmark.s: STL_containers/stats_checker_benchmark.cpp.s
+.PHONY : STL_containers/stats_checker_benchmark.s
+
+# target to generate assembly for a file
+STL_containers/stats_checker_benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_benchmark.dir\build.make CMakeFiles/STL_containers_stats_checker_benchmark.dir/STL_containers/stats_checker_benchmark.cpp.s
+.PHONY : STL_containers/stats_checker_benchmark.cpp.s
+
+STL_containers/stats_checker_dice.obj: STL_containers/stats_checker_dice.cpp.obj
+.PHONY : STL_containers/stats_checker_dice.obj
+
+# target to build an object file
+STL_containers/stats_checker_dice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_dice.dir\build.make CMakeFiles/STL_containers_stats_checker_dice.dir/STL_containers/stats_checker_dice.cpp.obj
+.PHONY : STL_containers/stats_checker_dice.cpp.obj
+
+STL_containers/stats_checker_dice.i: STL_containers/stats_checker_dice.cpp.i
+.PHONY : STL_containers/stats_checker_dice.i
+
+# target to preprocess a source file
+STL_containers/stats_checker_dice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_dice.dir\build.make CMakeFiles/STL_containers_stats_checker_dice.dir/STL_containers/stats_checker_dice.cpp.i
+.PHONY : STL_containers/stats_checker_dice.cpp.i
+
+STL_containers/stats_checker_dice.s: STL_containers/stats_checker_dice.cpp.s
+.PHONY : STL_containers/stats_checker_dice.s
+
+# target to generate assembly for a file
+STL_containers/stats_checker_dice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_dice.dir\build.make CMakeFiles/STL_containers_stats_checker_dice.dir/STL_containers/stats_checker_dice.cpp.s
+.PHONY : STL_containers/stats_checker_dice.cpp.s
+
 STL_containers/vector.obj: STL_containers/vector.cpp.obj
 .PHONY : STL_containers/vector.obj
 
@@ -3046,6 +3712,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... .algorithm_algorithm_binary_search
+	@echo ... .algorithm_algorithm_copy
+	@echo ... .algorithm_algorithm_count
+	@echo ... .algorithm_algorithm_fill
+	@echo ... .algorithm_algorithm_find
+	@echo ... .algorithm_algorithm_find_if
+	@echo ... .algorithm_algorithm_min_max_element
+	@echo ... .algorithm_algorithm_nth_element
+	@echo ... .algorithm_algorithm_partial_sort
+	@echo ... .algorithm_algorithm_partition
+	@echo ... .algorithm_algorithm_reverse
+	@echo ... .algorithm_algorithm_set_difference
+	@echo ... .algorithm_algorithm_sort
+	@echo ... .algorithm_algorithm_stable_sort
+	@echo ... .algorithm_algorithm_transform
+	@echo ... .algorithm_algorithm_unique
 	@echo ... .exercises_BMI_calculator_v2.0
 	@echo ... .exercises_age_in_days
 	@echo ... .exercises_alpha
@@ -3117,6 +3799,8 @@ help:
 	@echo ... STL_containers_stack_next_greater_element
 	@echo ... STL_containers_stack_recursion_sort
 	@echo ... STL_containers_stack_reverse_string
+	@echo ... STL_containers_stats_checker_benchmark
+	@echo ... STL_containers_stats_checker_dice
 	@echo ... STL_containers_vector
 	@echo ... sorting_algorithms_bubble_sort
 	@echo ... sorting_algorithms_insertion_sort
@@ -3125,6 +3809,54 @@ help:
 	@echo ... sorting_algorithms_radix_sort
 	@echo ... sorting_algorithms_selection_sort
 	@echo ... try_throw_catch
+	@echo ... .algorithm/algorithm_binary_search.obj
+	@echo ... .algorithm/algorithm_binary_search.i
+	@echo ... .algorithm/algorithm_binary_search.s
+	@echo ... .algorithm/algorithm_copy.obj
+	@echo ... .algorithm/algorithm_copy.i
+	@echo ... .algorithm/algorithm_copy.s
+	@echo ... .algorithm/algorithm_count.obj
+	@echo ... .algorithm/algorithm_count.i
+	@echo ... .algorithm/algorithm_count.s
+	@echo ... .algorithm/algorithm_fill.obj
+	@echo ... .algorithm/algorithm_fill.i
+	@echo ... .algorithm/algorithm_fill.s
+	@echo ... .algorithm/algorithm_find.obj
+	@echo ... .algorithm/algorithm_find.i
+	@echo ... .algorithm/algorithm_find.s
+	@echo ... .algorithm/algorithm_find_if.obj
+	@echo ... .algorithm/algorithm_find_if.i
+	@echo ... .algorithm/algorithm_find_if.s
+	@echo ... .algorithm/algorithm_min_max_element.obj
+	@echo ... .algorithm/algorithm_min_max_element.i
+	@echo ... .algorithm/algorithm_min_max_element.s
+	@echo ... .algorithm/algorithm_nth_element.obj
+	@echo ... .algorithm/algorithm_nth_element.i
+	@echo ... .algorithm/algorithm_nth_element.s
+	@echo ... .algorithm/algorithm_partial_sort.obj
+	@echo ... .algorithm/algorithm_partial_sort.i
+	@echo ... .algorithm/algorithm_partial_sort.s
+	@echo ... .algorithm/algorithm_partition.obj
+	@echo ... .algorithm/algorithm_partition.i
+	@echo ... .algorithm/algorithm_partition.s
+	@echo ... .algorithm/algorithm_reverse.obj
+	@echo ... .algorithm/algorithm_reverse.i
+	@echo ... .algorithm/algorithm_reverse.s
+	@echo ... .algorithm/algorithm_set_difference.obj
+	@echo ... .algorithm/algorithm_set_difference.i
+	@echo ... .algorithm/algorithm_set_difference.s
+	@echo ... .algorithm/algorithm_sort.obj
+	@echo ... .algorithm/algorithm_sort.i
+	@echo ... .algorithm/algorithm_sort.s
+	@echo ... .algorithm/algorithm_stable_sort.obj
+	@echo ... .algorithm/algorithm_stable_sort.i
+	@echo ... .algorithm/algorithm_stable_sort.s
+	@echo ... .algorithm/algorithm_transform.obj
+	@echo ... .algorithm/algorithm_transform.i
+	@echo ... .algorithm/algorithm_transform.s
+	@echo ... .algorithm/algorithm_unique.obj
+	@echo ... .algorithm/algorithm_unique.i
+	@echo ... .algorithm/algorithm_unique.s
 	@echo ... .exercises/BMI_calculator_v2.0.obj
 	@echo ... .exercises/BMI_calculator_v2.0.i
 	@echo ... .exercises/BMI_calculator_v2.0.s
@@ -3338,6 +4070,12 @@ help:
 	@echo ... STL_containers/stack_reverse_string.obj
 	@echo ... STL_containers/stack_reverse_string.i
 	@echo ... STL_containers/stack_reverse_string.s
+	@echo ... STL_containers/stats_checker_benchmark.obj
+	@echo ... STL_containers/stats_checker_benchmark.i
+	@echo ... STL_containers/stats_checker_benchmark.s
+	@echo ... STL_containers/stats_checker_dice.obj
+	@echo ... STL_containers/stats_checker_dice.i
+	@echo ... STL_containers/stats_checker_dice.s
 	@echo ... STL_containers/vector.obj
 	@echo ... STL_containers/vector.i
 	@echo ... STL_containers/vector.s
