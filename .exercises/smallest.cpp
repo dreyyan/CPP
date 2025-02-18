@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-
-// Write a function that returns the index of the first occurrence of the smallest element in the array
+// CC 203: Exercise 1
+// [#2] Write a function that returns the index of the first occurrence of the smallest element in the array
 int smallestIndex(int arr[], int size) {
     int smallest_number_index = 0; // Initialize current smallest number index as first index
     for (int i = 1; i < size; ++i) {

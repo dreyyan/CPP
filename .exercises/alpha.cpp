@@ -1,7 +1,12 @@
 #include <iomanip>
 #include <iostream>
 using namespace std;
-// CC 203 - Exercise 1
+// CC 203: Exercise 1
+// [#1] Write a program that performs the following:
+// 1. Declare an array 'alpha' of 50 components of type 'double'
+// 2. Initialize the first 25 elements of the array equal to the square of the index variable
+// 3. Initialize the last 25 elements of the array equal to thrice the index variable
+// 4. Output the array up to 10 elements per line
 int main() {
     // 1. Declare an array 'alpha' of 50 components of type 'double'
     double alpha[50];

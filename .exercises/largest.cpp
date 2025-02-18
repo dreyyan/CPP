@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-
-// Write a function that returns the index of the last occurrence of the largest element in the array
+// CC 203: Exercise 1
+// [#3] Write a function that returns the index of the last occurrence of the largest element in the array
 int lastLargestIndex(int arr[], int size) {
     int largest_number_index = 0; // Initialize current largest number index as first index
     for (int i = 1; i < size; ++i) {
