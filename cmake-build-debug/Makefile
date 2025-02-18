@@ -1104,6 +1104,19 @@ sorting_algorithms_quick_sort/fast:
 .PHONY : sorting_algorithms_quick_sort/fast
 
 #=============================================================================
+# Target rules for targets named sorting_algorithms_radix_sort
+
+# Build rule for target.
+sorting_algorithms_radix_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sorting_algorithms_radix_sort
+.PHONY : sorting_algorithms_radix_sort
+
+# fast build rule for target.
+sorting_algorithms_radix_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/build
+.PHONY : sorting_algorithms_radix_sort/fast
+
+#=============================================================================
 # Target rules for targets named sorting_algorithms_selection_sort
 
 # Build rule for target.
@@ -2953,6 +2966,30 @@ sorting_algorithms/quick_sort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_quick_sort.dir\build.make CMakeFiles/sorting_algorithms_quick_sort.dir/sorting_algorithms/quick_sort.cpp.s
 .PHONY : sorting_algorithms/quick_sort.cpp.s
 
+sorting_algorithms/radix_sort.obj: sorting_algorithms/radix_sort.cpp.obj
+.PHONY : sorting_algorithms/radix_sort.obj
+
+# target to build an object file
+sorting_algorithms/radix_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/sorting_algorithms/radix_sort.cpp.obj
+.PHONY : sorting_algorithms/radix_sort.cpp.obj
+
+sorting_algorithms/radix_sort.i: sorting_algorithms/radix_sort.cpp.i
+.PHONY : sorting_algorithms/radix_sort.i
+
+# target to preprocess a source file
+sorting_algorithms/radix_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/sorting_algorithms/radix_sort.cpp.i
+.PHONY : sorting_algorithms/radix_sort.cpp.i
+
+sorting_algorithms/radix_sort.s: sorting_algorithms/radix_sort.cpp.s
+.PHONY : sorting_algorithms/radix_sort.s
+
+# target to generate assembly for a file
+sorting_algorithms/radix_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/sorting_algorithms/radix_sort.cpp.s
+.PHONY : sorting_algorithms/radix_sort.cpp.s
+
 sorting_algorithms/selection_sort.obj: sorting_algorithms/selection_sort.cpp.obj
 .PHONY : sorting_algorithms/selection_sort.obj
 
@@ -3085,6 +3122,7 @@ help:
 	@echo ... sorting_algorithms_insertion_sort
 	@echo ... sorting_algorithms_merge_sort
 	@echo ... sorting_algorithms_quick_sort
+	@echo ... sorting_algorithms_radix_sort
 	@echo ... sorting_algorithms_selection_sort
 	@echo ... try_throw_catch
 	@echo ... .exercises/BMI_calculator_v2.0.obj
@@ -3315,6 +3353,9 @@ help:
 	@echo ... sorting_algorithms/quick_sort.obj
 	@echo ... sorting_algorithms/quick_sort.i
 	@echo ... sorting_algorithms/quick_sort.s
+	@echo ... sorting_algorithms/radix_sort.obj
+	@echo ... sorting_algorithms/radix_sort.i
+	@echo ... sorting_algorithms/radix_sort.s
 	@echo ... sorting_algorithms/selection_sort.obj
 	@echo ... sorting_algorithms/selection_sort.i
 	@echo ... sorting_algorithms/selection_sort.s

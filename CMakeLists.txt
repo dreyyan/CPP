@@ -30,5 +30,6 @@ foreach(SOURCE ${SOURCES})
     list(APPEND TARGET_NAMES ${EXEC_NAME})
 
     # Create an executable
-    add_executable(${EXEC_NAME} ${SOURCE})
+    add_executable(${EXEC_NAME} ${SOURCE}
+            sorting_algorithms/print_array.h)
 endforeach()

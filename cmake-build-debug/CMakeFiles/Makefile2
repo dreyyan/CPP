@@ -138,6 +138,7 @@ all: CMakeFiles/sorting_algorithms_bubble_sort.dir/all
 all: CMakeFiles/sorting_algorithms_insertion_sort.dir/all
 all: CMakeFiles/sorting_algorithms_merge_sort.dir/all
 all: CMakeFiles/sorting_algorithms_quick_sort.dir/all
+all: CMakeFiles/sorting_algorithms_radix_sort.dir/all
 all: CMakeFiles/sorting_algorithms_selection_sort.dir/all
 all: CMakeFiles/try_throw_catch.dir/all
 .PHONY : all
@@ -223,6 +224,7 @@ clean: CMakeFiles/sorting_algorithms_bubble_sort.dir/clean
 clean: CMakeFiles/sorting_algorithms_insertion_sort.dir/clean
 clean: CMakeFiles/sorting_algorithms_merge_sort.dir/clean
 clean: CMakeFiles/sorting_algorithms_quick_sort.dir/clean
+clean: CMakeFiles/sorting_algorithms_radix_sort.dir/clean
 clean: CMakeFiles/sorting_algorithms_selection_sort.dir/clean
 clean: CMakeFiles/try_throw_catch.dir/clean
 .PHONY : clean
@@ -494,12 +496,12 @@ CMakeFiles/.exercises_errors.dir/clean:
 CMakeFiles/.exercises_for_num.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_for_num.dir\build.make CMakeFiles/.exercises_for_num.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_for_num.dir\build.make CMakeFiles/.exercises_for_num.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target .exercises_for_num"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=13 "Built target .exercises_for_num"
 .PHONY : CMakeFiles/.exercises_for_num.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_for_num.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_for_num.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_for_num.dir/rule
@@ -520,12 +522,12 @@ CMakeFiles/.exercises_for_num.dir/clean:
 CMakeFiles/.exercises_grade_average.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_grade_average.dir\build.make CMakeFiles/.exercises_grade_average.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_grade_average.dir\build.make CMakeFiles/.exercises_grade_average.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=15 "Built target .exercises_grade_average"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target .exercises_grade_average"
 .PHONY : CMakeFiles/.exercises_grade_average.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_grade_average.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_grade_average.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_grade_average.dir/rule
@@ -598,12 +600,12 @@ CMakeFiles/.exercises_largest.dir/clean:
 CMakeFiles/.exercises_largest_sale.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest_sale.dir\build.make CMakeFiles/.exercises_largest_sale.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest_sale.dir\build.make CMakeFiles/.exercises_largest_sale.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target .exercises_largest_sale"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=18 "Built target .exercises_largest_sale"
 .PHONY : CMakeFiles/.exercises_largest_sale.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_largest_sale.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_largest_sale.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_largest_sale.dir/rule
@@ -624,12 +626,12 @@ CMakeFiles/.exercises_largest_sale.dir/clean:
 CMakeFiles/.exercises_my_first_cpp_program.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_my_first_cpp_program.dir\build.make CMakeFiles/.exercises_my_first_cpp_program.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_my_first_cpp_program.dir\build.make CMakeFiles/.exercises_my_first_cpp_program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=20 "Built target .exercises_my_first_cpp_program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target .exercises_my_first_cpp_program"
 .PHONY : CMakeFiles/.exercises_my_first_cpp_program.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_my_first_cpp_program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_my_first_cpp_program.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_my_first_cpp_program.dir/rule
@@ -676,12 +678,12 @@ CMakeFiles/.exercises_name.dir/clean:
 CMakeFiles/.exercises_number_guessing_game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_number_guessing_game.dir\build.make CMakeFiles/.exercises_number_guessing_game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_number_guessing_game.dir\build.make CMakeFiles/.exercises_number_guessing_game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target .exercises_number_guessing_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=22 "Built target .exercises_number_guessing_game"
 .PHONY : CMakeFiles/.exercises_number_guessing_game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_number_guessing_game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_number_guessing_game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_number_guessing_game.dir/rule
@@ -702,12 +704,12 @@ CMakeFiles/.exercises_number_guessing_game.dir/clean:
 CMakeFiles/.exercises_prime_number.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_prime_number.dir\build.make CMakeFiles/.exercises_prime_number.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_prime_number.dir\build.make CMakeFiles/.exercises_prime_number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=24 "Built target .exercises_prime_number"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target .exercises_prime_number"
 .PHONY : CMakeFiles/.exercises_prime_number.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_prime_number.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_prime_number.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_prime_number.dir/rule
@@ -780,12 +782,12 @@ CMakeFiles/.exercises_product_of_three.dir/clean:
 CMakeFiles/.exercises_quadratic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_quadratic.dir\build.make CMakeFiles/.exercises_quadratic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_quadratic.dir\build.make CMakeFiles/.exercises_quadratic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target .exercises_quadratic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=27 "Built target .exercises_quadratic"
 .PHONY : CMakeFiles/.exercises_quadratic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_quadratic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_quadratic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_quadratic.dir/rule
@@ -806,12 +808,12 @@ CMakeFiles/.exercises_quadratic.dir/clean:
 CMakeFiles/.exercises_simple_calculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_simple_calculator.dir\build.make CMakeFiles/.exercises_simple_calculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_simple_calculator.dir\build.make CMakeFiles/.exercises_simple_calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=29 "Built target .exercises_simple_calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target .exercises_simple_calculator"
 .PHONY : CMakeFiles/.exercises_simple_calculator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_simple_calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_simple_calculator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_simple_calculator.dir/rule
@@ -858,12 +860,12 @@ CMakeFiles/.exercises_simple_calculator2.dir/clean:
 CMakeFiles/.exercises_simple_interest_calculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_simple_interest_calculator.dir\build.make CMakeFiles/.exercises_simple_interest_calculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_simple_interest_calculator.dir\build.make CMakeFiles/.exercises_simple_interest_calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target .exercises_simple_interest_calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=31 "Built target .exercises_simple_interest_calculator"
 .PHONY : CMakeFiles/.exercises_simple_interest_calculator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_simple_interest_calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_simple_interest_calculator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_simple_interest_calculator.dir/rule
@@ -884,7 +886,7 @@ CMakeFiles/.exercises_simple_interest_calculator.dir/clean:
 CMakeFiles/.exercises_smallest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_smallest.dir\build.make CMakeFiles/.exercises_smallest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_smallest.dir\build.make CMakeFiles/.exercises_smallest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=33 "Built target .exercises_smallest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=32 "Built target .exercises_smallest"
 .PHONY : CMakeFiles/.exercises_smallest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -910,12 +912,12 @@ CMakeFiles/.exercises_smallest.dir/clean:
 CMakeFiles/.exercises_softdrinks_new.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_softdrinks_new.dir\build.make CMakeFiles/.exercises_softdrinks_new.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_softdrinks_new.dir\build.make CMakeFiles/.exercises_softdrinks_new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=34 "Built target .exercises_softdrinks_new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target .exercises_softdrinks_new"
 .PHONY : CMakeFiles/.exercises_softdrinks_new.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_softdrinks_new.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_softdrinks_new.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_softdrinks_new.dir/rule
@@ -962,12 +964,12 @@ CMakeFiles/.exercises_static_casting_temp.dir/clean:
 CMakeFiles/.exercises_sum_of_digits1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_sum_of_digits1.dir\build.make CMakeFiles/.exercises_sum_of_digits1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_sum_of_digits1.dir\build.make CMakeFiles/.exercises_sum_of_digits1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target .exercises_sum_of_digits1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=36 "Built target .exercises_sum_of_digits1"
 .PHONY : CMakeFiles/.exercises_sum_of_digits1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_sum_of_digits1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_sum_of_digits1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_sum_of_digits1.dir/rule
@@ -988,7 +990,7 @@ CMakeFiles/.exercises_sum_of_digits1.dir/clean:
 CMakeFiles/.exercises_sum_of_digits2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_sum_of_digits2.dir\build.make CMakeFiles/.exercises_sum_of_digits2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_sum_of_digits2.dir\build.make CMakeFiles/.exercises_sum_of_digits2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=38 "Built target .exercises_sum_of_digits2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=37 "Built target .exercises_sum_of_digits2"
 .PHONY : CMakeFiles/.exercises_sum_of_digits2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1014,12 +1016,12 @@ CMakeFiles/.exercises_sum_of_digits2.dir/clean:
 CMakeFiles/.exercises_telephone_digits_new.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_telephone_digits_new.dir\build.make CMakeFiles/.exercises_telephone_digits_new.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_telephone_digits_new.dir\build.make CMakeFiles/.exercises_telephone_digits_new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=39 "Built target .exercises_telephone_digits_new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target .exercises_telephone_digits_new"
 .PHONY : CMakeFiles/.exercises_telephone_digits_new.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_telephone_digits_new.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_telephone_digits_new.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_telephone_digits_new.dir/rule
@@ -1040,12 +1042,12 @@ CMakeFiles/.exercises_telephone_digits_new.dir/clean:
 CMakeFiles/.exercises_ticket2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_ticket2.dir\build.make CMakeFiles/.exercises_ticket2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_ticket2.dir\build.make CMakeFiles/.exercises_ticket2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target .exercises_ticket2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=40 "Built target .exercises_ticket2"
 .PHONY : CMakeFiles/.exercises_ticket2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_ticket2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_ticket2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_ticket2.dir/rule
@@ -1066,7 +1068,7 @@ CMakeFiles/.exercises_ticket2.dir/clean:
 CMakeFiles/.exercises_town_population.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_town_population.dir\build.make CMakeFiles/.exercises_town_population.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_town_population.dir\build.make CMakeFiles/.exercises_town_population.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=42 "Built target .exercises_town_population"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=41 "Built target .exercises_town_population"
 .PHONY : CMakeFiles/.exercises_town_population.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1092,12 +1094,12 @@ CMakeFiles/.exercises_town_population.dir/clean:
 CMakeFiles/.exercises_value_of_pi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_value_of_pi.dir\build.make CMakeFiles/.exercises_value_of_pi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_value_of_pi.dir\build.make CMakeFiles/.exercises_value_of_pi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=43 "Built target .exercises_value_of_pi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target .exercises_value_of_pi"
 .PHONY : CMakeFiles/.exercises_value_of_pi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/.exercises_value_of_pi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/.exercises_value_of_pi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/.exercises_value_of_pi.dir/rule
@@ -1144,12 +1146,12 @@ CMakeFiles/.exercises_while_num.dir/clean:
 CMakeFiles/STL_containers_array.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array.dir\build.make CMakeFiles/STL_containers_array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array.dir\build.make CMakeFiles/STL_containers_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target STL_containers_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=45 "Built target STL_containers_array"
 .PHONY : CMakeFiles/STL_containers_array.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array.dir/rule
@@ -1170,7 +1172,7 @@ CMakeFiles/STL_containers_array.dir/clean:
 CMakeFiles/STL_containers_array_count_even_odd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_count_even_odd.dir\build.make CMakeFiles/STL_containers_array_count_even_odd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_count_even_odd.dir\build.make CMakeFiles/STL_containers_array_count_even_odd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=47 "Built target STL_containers_array_count_even_odd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=46 "Built target STL_containers_array_count_even_odd"
 .PHONY : CMakeFiles/STL_containers_array_count_even_odd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1196,12 +1198,12 @@ CMakeFiles/STL_containers_array_count_even_odd.dir/clean:
 CMakeFiles/STL_containers_array_find_kth_largest_element.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_find_kth_largest_element.dir\build.make CMakeFiles/STL_containers_array_find_kth_largest_element.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_find_kth_largest_element.dir\build.make CMakeFiles/STL_containers_array_find_kth_largest_element.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=48 "Built target STL_containers_array_find_kth_largest_element"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target STL_containers_array_find_kth_largest_element"
 .PHONY : CMakeFiles/STL_containers_array_find_kth_largest_element.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array_find_kth_largest_element.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array_find_kth_largest_element.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array_find_kth_largest_element.dir/rule
@@ -1222,12 +1224,12 @@ CMakeFiles/STL_containers_array_find_kth_largest_element.dir/clean:
 CMakeFiles/STL_containers_array_find_largest_smallest_element.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_find_largest_smallest_element.dir\build.make CMakeFiles/STL_containers_array_find_largest_smallest_element.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_find_largest_smallest_element.dir\build.make CMakeFiles/STL_containers_array_find_largest_smallest_element.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target STL_containers_array_find_largest_smallest_element"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=49 "Built target STL_containers_array_find_largest_smallest_element"
 .PHONY : CMakeFiles/STL_containers_array_find_largest_smallest_element.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array_find_largest_smallest_element.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array_find_largest_smallest_element.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array_find_largest_smallest_element.dir/rule
@@ -1248,7 +1250,7 @@ CMakeFiles/STL_containers_array_find_largest_smallest_element.dir/clean:
 CMakeFiles/STL_containers_array_is_sorted.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_is_sorted.dir\build.make CMakeFiles/STL_containers_array_is_sorted.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_is_sorted.dir\build.make CMakeFiles/STL_containers_array_is_sorted.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=51 "Built target STL_containers_array_is_sorted"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=50 "Built target STL_containers_array_is_sorted"
 .PHONY : CMakeFiles/STL_containers_array_is_sorted.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1274,7 +1276,7 @@ CMakeFiles/STL_containers_array_is_sorted.dir/clean:
 CMakeFiles/STL_containers_array_largest_number.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_largest_number.dir\build.make CMakeFiles/STL_containers_array_largest_number.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_largest_number.dir\build.make CMakeFiles/STL_containers_array_largest_number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=52 "Built target STL_containers_array_largest_number"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=51 "Built target STL_containers_array_largest_number"
 .PHONY : CMakeFiles/STL_containers_array_largest_number.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1300,12 +1302,12 @@ CMakeFiles/STL_containers_array_largest_number.dir/clean:
 CMakeFiles/STL_containers_array_largest_of_three.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_largest_of_three.dir\build.make CMakeFiles/STL_containers_array_largest_of_three.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_largest_of_three.dir\build.make CMakeFiles/STL_containers_array_largest_of_three.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=53 "Built target STL_containers_array_largest_of_three"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target STL_containers_array_largest_of_three"
 .PHONY : CMakeFiles/STL_containers_array_largest_of_three.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array_largest_of_three.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array_largest_of_three.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array_largest_of_three.dir/rule
@@ -1326,12 +1328,12 @@ CMakeFiles/STL_containers_array_largest_of_three.dir/clean:
 CMakeFiles/STL_containers_array_left_rotate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_left_rotate.dir\build.make CMakeFiles/STL_containers_array_left_rotate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_left_rotate.dir\build.make CMakeFiles/STL_containers_array_left_rotate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target STL_containers_array_left_rotate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=54 "Built target STL_containers_array_left_rotate"
 .PHONY : CMakeFiles/STL_containers_array_left_rotate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array_left_rotate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array_left_rotate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array_left_rotate.dir/rule
@@ -1352,7 +1354,7 @@ CMakeFiles/STL_containers_array_left_rotate.dir/clean:
 CMakeFiles/STL_containers_array_max_product_of_two_elements.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_max_product_of_two_elements.dir\build.make CMakeFiles/STL_containers_array_max_product_of_two_elements.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_max_product_of_two_elements.dir\build.make CMakeFiles/STL_containers_array_max_product_of_two_elements.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=56 "Built target STL_containers_array_max_product_of_two_elements"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=55 "Built target STL_containers_array_max_product_of_two_elements"
 .PHONY : CMakeFiles/STL_containers_array_max_product_of_two_elements.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1378,7 +1380,7 @@ CMakeFiles/STL_containers_array_max_product_of_two_elements.dir/clean:
 CMakeFiles/STL_containers_array_merge_two_sorted_arrays.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_merge_two_sorted_arrays.dir\build.make CMakeFiles/STL_containers_array_merge_two_sorted_arrays.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_merge_two_sorted_arrays.dir\build.make CMakeFiles/STL_containers_array_merge_two_sorted_arrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=57 "Built target STL_containers_array_merge_two_sorted_arrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=56 "Built target STL_containers_array_merge_two_sorted_arrays"
 .PHONY : CMakeFiles/STL_containers_array_merge_two_sorted_arrays.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1404,12 +1406,12 @@ CMakeFiles/STL_containers_array_merge_two_sorted_arrays.dir/clean:
 CMakeFiles/STL_containers_array_move_zeros_to_end.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_move_zeros_to_end.dir\build.make CMakeFiles/STL_containers_array_move_zeros_to_end.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_move_zeros_to_end.dir\build.make CMakeFiles/STL_containers_array_move_zeros_to_end.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=58 "Built target STL_containers_array_move_zeros_to_end"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target STL_containers_array_move_zeros_to_end"
 .PHONY : CMakeFiles/STL_containers_array_move_zeros_to_end.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array_move_zeros_to_end.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array_move_zeros_to_end.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array_move_zeros_to_end.dir/rule
@@ -1430,12 +1432,12 @@ CMakeFiles/STL_containers_array_move_zeros_to_end.dir/clean:
 CMakeFiles/STL_containers_array_remove_duplicates.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_remove_duplicates.dir\build.make CMakeFiles/STL_containers_array_remove_duplicates.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_remove_duplicates.dir\build.make CMakeFiles/STL_containers_array_remove_duplicates.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target STL_containers_array_remove_duplicates"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=59 "Built target STL_containers_array_remove_duplicates"
 .PHONY : CMakeFiles/STL_containers_array_remove_duplicates.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array_remove_duplicates.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array_remove_duplicates.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array_remove_duplicates.dir/rule
@@ -1456,7 +1458,7 @@ CMakeFiles/STL_containers_array_remove_duplicates.dir/clean:
 CMakeFiles/STL_containers_array_reverse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_reverse.dir\build.make CMakeFiles/STL_containers_array_reverse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_reverse.dir\build.make CMakeFiles/STL_containers_array_reverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=61 "Built target STL_containers_array_reverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=60 "Built target STL_containers_array_reverse"
 .PHONY : CMakeFiles/STL_containers_array_reverse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1482,12 +1484,12 @@ CMakeFiles/STL_containers_array_reverse.dir/clean:
 CMakeFiles/STL_containers_array_right_rotate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_right_rotate.dir\build.make CMakeFiles/STL_containers_array_right_rotate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_right_rotate.dir\build.make CMakeFiles/STL_containers_array_right_rotate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=62 "Built target STL_containers_array_right_rotate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target STL_containers_array_right_rotate"
 .PHONY : CMakeFiles/STL_containers_array_right_rotate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array_right_rotate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array_right_rotate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array_right_rotate.dir/rule
@@ -1508,12 +1510,12 @@ CMakeFiles/STL_containers_array_right_rotate.dir/clean:
 CMakeFiles/STL_containers_array_second_largest_element.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_second_largest_element.dir\build.make CMakeFiles/STL_containers_array_second_largest_element.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_second_largest_element.dir\build.make CMakeFiles/STL_containers_array_second_largest_element.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target STL_containers_array_second_largest_element"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=63 "Built target STL_containers_array_second_largest_element"
 .PHONY : CMakeFiles/STL_containers_array_second_largest_element.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_array_second_largest_element.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_array_second_largest_element.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_array_second_largest_element.dir/rule
@@ -1534,7 +1536,7 @@ CMakeFiles/STL_containers_array_second_largest_element.dir/clean:
 CMakeFiles/STL_containers_array_sum_of_elements.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_sum_of_elements.dir\build.make CMakeFiles/STL_containers_array_sum_of_elements.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_array_sum_of_elements.dir\build.make CMakeFiles/STL_containers_array_sum_of_elements.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=65 "Built target STL_containers_array_sum_of_elements"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=64 "Built target STL_containers_array_sum_of_elements"
 .PHONY : CMakeFiles/STL_containers_array_sum_of_elements.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1560,7 +1562,7 @@ CMakeFiles/STL_containers_array_sum_of_elements.dir/clean:
 CMakeFiles/STL_containers_bitset.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_bitset.dir\build.make CMakeFiles/STL_containers_bitset.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_bitset.dir\build.make CMakeFiles/STL_containers_bitset.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=66 "Built target STL_containers_bitset"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=65 "Built target STL_containers_bitset"
 .PHONY : CMakeFiles/STL_containers_bitset.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1586,12 +1588,12 @@ CMakeFiles/STL_containers_bitset.dir/clean:
 CMakeFiles/STL_containers_deque.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque.dir\build.make CMakeFiles/STL_containers_deque.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque.dir\build.make CMakeFiles/STL_containers_deque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=67 "Built target STL_containers_deque"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target STL_containers_deque"
 .PHONY : CMakeFiles/STL_containers_deque.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_deque.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_deque.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_deque.dir/rule
@@ -1612,12 +1614,12 @@ CMakeFiles/STL_containers_deque.dir/clean:
 CMakeFiles/STL_containers_deque_max_sliding_window.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_max_sliding_window.dir\build.make CMakeFiles/STL_containers_deque_max_sliding_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_max_sliding_window.dir\build.make CMakeFiles/STL_containers_deque_max_sliding_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=68,69 "Built target STL_containers_deque_max_sliding_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=68 "Built target STL_containers_deque_max_sliding_window"
 .PHONY : CMakeFiles/STL_containers_deque_max_sliding_window.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_deque_max_sliding_window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_deque_max_sliding_window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_deque_max_sliding_window.dir/rule
@@ -1638,7 +1640,7 @@ CMakeFiles/STL_containers_deque_max_sliding_window.dir/clean:
 CMakeFiles/STL_containers_deque_palindrome.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_palindrome.dir\build.make CMakeFiles/STL_containers_deque_palindrome.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_palindrome.dir\build.make CMakeFiles/STL_containers_deque_palindrome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=70 "Built target STL_containers_deque_palindrome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=69 "Built target STL_containers_deque_palindrome"
 .PHONY : CMakeFiles/STL_containers_deque_palindrome.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1664,7 +1666,7 @@ CMakeFiles/STL_containers_deque_palindrome.dir/clean:
 CMakeFiles/STL_containers_deque_reversal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_reversal.dir\build.make CMakeFiles/STL_containers_deque_reversal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_reversal.dir\build.make CMakeFiles/STL_containers_deque_reversal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=71 "Built target STL_containers_deque_reversal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=70 "Built target STL_containers_deque_reversal"
 .PHONY : CMakeFiles/STL_containers_deque_reversal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1690,7 +1692,7 @@ CMakeFiles/STL_containers_deque_reversal.dir/clean:
 CMakeFiles/STL_containers_deque_rotation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_rotation.dir\build.make CMakeFiles/STL_containers_deque_rotation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_rotation.dir\build.make CMakeFiles/STL_containers_deque_rotation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target STL_containers_deque_rotation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target STL_containers_deque_rotation"
 .PHONY : CMakeFiles/STL_containers_deque_rotation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1716,7 +1718,7 @@ CMakeFiles/STL_containers_deque_rotation.dir/clean:
 CMakeFiles/STL_containers_deque_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_sort.dir\build.make CMakeFiles/STL_containers_deque_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_sort.dir\build.make CMakeFiles/STL_containers_deque_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=74 "Built target STL_containers_deque_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=73 "Built target STL_containers_deque_sort"
 .PHONY : CMakeFiles/STL_containers_deque_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1742,7 +1744,7 @@ CMakeFiles/STL_containers_deque_sort.dir/clean:
 CMakeFiles/STL_containers_deque_unique_elements.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_unique_elements.dir\build.make CMakeFiles/STL_containers_deque_unique_elements.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_deque_unique_elements.dir\build.make CMakeFiles/STL_containers_deque_unique_elements.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=75 "Built target STL_containers_deque_unique_elements"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=74 "Built target STL_containers_deque_unique_elements"
 .PHONY : CMakeFiles/STL_containers_deque_unique_elements.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1768,7 +1770,7 @@ CMakeFiles/STL_containers_deque_unique_elements.dir/clean:
 CMakeFiles/STL_containers_forward_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_forward_list.dir\build.make CMakeFiles/STL_containers_forward_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_forward_list.dir\build.make CMakeFiles/STL_containers_forward_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=76 "Built target STL_containers_forward_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=75 "Built target STL_containers_forward_list"
 .PHONY : CMakeFiles/STL_containers_forward_list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1794,7 +1796,7 @@ CMakeFiles/STL_containers_forward_list.dir/clean:
 CMakeFiles/STL_containers_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_list.dir\build.make CMakeFiles/STL_containers_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_list.dir\build.make CMakeFiles/STL_containers_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target STL_containers_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=76,77 "Built target STL_containers_list"
 .PHONY : CMakeFiles/STL_containers_list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1820,7 +1822,7 @@ CMakeFiles/STL_containers_list.dir/clean:
 CMakeFiles/STL_containers_map_multimap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_map_multimap.dir\build.make CMakeFiles/STL_containers_map_multimap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_map_multimap.dir\build.make CMakeFiles/STL_containers_map_multimap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=79 "Built target STL_containers_map_multimap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=78 "Built target STL_containers_map_multimap"
 .PHONY : CMakeFiles/STL_containers_map_multimap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1846,7 +1848,7 @@ CMakeFiles/STL_containers_map_multimap.dir/clean:
 CMakeFiles/STL_containers_priority_queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_priority_queue.dir\build.make CMakeFiles/STL_containers_priority_queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_priority_queue.dir\build.make CMakeFiles/STL_containers_priority_queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=80 "Built target STL_containers_priority_queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=79 "Built target STL_containers_priority_queue"
 .PHONY : CMakeFiles/STL_containers_priority_queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1872,7 +1874,7 @@ CMakeFiles/STL_containers_priority_queue.dir/clean:
 CMakeFiles/STL_containers_queue_.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_queue_.dir\build.make CMakeFiles/STL_containers_queue_.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_queue_.dir\build.make CMakeFiles/STL_containers_queue_.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target STL_containers_queue_"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=80,81 "Built target STL_containers_queue_"
 .PHONY : CMakeFiles/STL_containers_queue_.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1898,7 +1900,7 @@ CMakeFiles/STL_containers_queue_.dir/clean:
 CMakeFiles/STL_containers_set_multiset.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_set_multiset.dir\build.make CMakeFiles/STL_containers_set_multiset.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_set_multiset.dir\build.make CMakeFiles/STL_containers_set_multiset.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=83 "Built target STL_containers_set_multiset"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=82 "Built target STL_containers_set_multiset"
 .PHONY : CMakeFiles/STL_containers_set_multiset.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1924,7 +1926,7 @@ CMakeFiles/STL_containers_set_multiset.dir/clean:
 CMakeFiles/STL_containers_stack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack.dir\build.make CMakeFiles/STL_containers_stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack.dir\build.make CMakeFiles/STL_containers_stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=84 "Built target STL_containers_stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=83 "Built target STL_containers_stack"
 .PHONY : CMakeFiles/STL_containers_stack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1950,7 +1952,7 @@ CMakeFiles/STL_containers_stack.dir/clean:
 CMakeFiles/STL_containers_stack_balanced_parentheses.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_balanced_parentheses.dir\build.make CMakeFiles/STL_containers_stack_balanced_parentheses.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_balanced_parentheses.dir\build.make CMakeFiles/STL_containers_stack_balanced_parentheses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=85 "Built target STL_containers_stack_balanced_parentheses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=84 "Built target STL_containers_stack_balanced_parentheses"
 .PHONY : CMakeFiles/STL_containers_stack_balanced_parentheses.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1976,7 +1978,7 @@ CMakeFiles/STL_containers_stack_balanced_parentheses.dir/clean:
 CMakeFiles/STL_containers_stack_class.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_class.dir\build.make CMakeFiles/STL_containers_stack_class.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_class.dir\build.make CMakeFiles/STL_containers_stack_class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=86,87 "Built target STL_containers_stack_class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target STL_containers_stack_class"
 .PHONY : CMakeFiles/STL_containers_stack_class.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2002,7 +2004,7 @@ CMakeFiles/STL_containers_stack_class.dir/clean:
 CMakeFiles/STL_containers_stack_next_greater_element.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_next_greater_element.dir\build.make CMakeFiles/STL_containers_stack_next_greater_element.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_next_greater_element.dir\build.make CMakeFiles/STL_containers_stack_next_greater_element.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=88 "Built target STL_containers_stack_next_greater_element"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=87 "Built target STL_containers_stack_next_greater_element"
 .PHONY : CMakeFiles/STL_containers_stack_next_greater_element.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2028,7 +2030,7 @@ CMakeFiles/STL_containers_stack_next_greater_element.dir/clean:
 CMakeFiles/STL_containers_stack_recursion_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_recursion_sort.dir\build.make CMakeFiles/STL_containers_stack_recursion_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_recursion_sort.dir\build.make CMakeFiles/STL_containers_stack_recursion_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=89 "Built target STL_containers_stack_recursion_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=88 "Built target STL_containers_stack_recursion_sort"
 .PHONY : CMakeFiles/STL_containers_stack_recursion_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2054,12 +2056,12 @@ CMakeFiles/STL_containers_stack_recursion_sort.dir/clean:
 CMakeFiles/STL_containers_stack_reverse_string.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_reverse_string.dir\build.make CMakeFiles/STL_containers_stack_reverse_string.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stack_reverse_string.dir\build.make CMakeFiles/STL_containers_stack_reverse_string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=90,91 "Built target STL_containers_stack_reverse_string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=89 "Built target STL_containers_stack_reverse_string"
 .PHONY : CMakeFiles/STL_containers_stack_reverse_string.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_stack_reverse_string.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_stack_reverse_string.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_stack_reverse_string.dir/rule
@@ -2080,12 +2082,12 @@ CMakeFiles/STL_containers_stack_reverse_string.dir/clean:
 CMakeFiles/STL_containers_vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_vector.dir\build.make CMakeFiles/STL_containers_vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_vector.dir\build.make CMakeFiles/STL_containers_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=92 "Built target STL_containers_vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=90,91 "Built target STL_containers_vector"
 .PHONY : CMakeFiles/STL_containers_vector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STL_containers_vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_vector.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STL_containers_vector.dir/rule
@@ -2106,7 +2108,7 @@ CMakeFiles/STL_containers_vector.dir/clean:
 CMakeFiles/sorting_algorithms_bubble_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_bubble_sort.dir\build.make CMakeFiles/sorting_algorithms_bubble_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_bubble_sort.dir\build.make CMakeFiles/sorting_algorithms_bubble_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=93 "Built target sorting_algorithms_bubble_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=92 "Built target sorting_algorithms_bubble_sort"
 .PHONY : CMakeFiles/sorting_algorithms_bubble_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2132,7 +2134,7 @@ CMakeFiles/sorting_algorithms_bubble_sort.dir/clean:
 CMakeFiles/sorting_algorithms_insertion_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_insertion_sort.dir\build.make CMakeFiles/sorting_algorithms_insertion_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_insertion_sort.dir\build.make CMakeFiles/sorting_algorithms_insertion_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=94 "Built target sorting_algorithms_insertion_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=93 "Built target sorting_algorithms_insertion_sort"
 .PHONY : CMakeFiles/sorting_algorithms_insertion_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2158,12 +2160,12 @@ CMakeFiles/sorting_algorithms_insertion_sort.dir/clean:
 CMakeFiles/sorting_algorithms_merge_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_merge_sort.dir\build.make CMakeFiles/sorting_algorithms_merge_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_merge_sort.dir\build.make CMakeFiles/sorting_algorithms_merge_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=95,96 "Built target sorting_algorithms_merge_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=94 "Built target sorting_algorithms_merge_sort"
 .PHONY : CMakeFiles/sorting_algorithms_merge_sort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sorting_algorithms_merge_sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sorting_algorithms_merge_sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sorting_algorithms_merge_sort.dir/rule
@@ -2184,12 +2186,12 @@ CMakeFiles/sorting_algorithms_merge_sort.dir/clean:
 CMakeFiles/sorting_algorithms_quick_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_quick_sort.dir\build.make CMakeFiles/sorting_algorithms_quick_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_quick_sort.dir\build.make CMakeFiles/sorting_algorithms_quick_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=97 "Built target sorting_algorithms_quick_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=95,96 "Built target sorting_algorithms_quick_sort"
 .PHONY : CMakeFiles/sorting_algorithms_quick_sort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sorting_algorithms_quick_sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sorting_algorithms_quick_sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sorting_algorithms_quick_sort.dir/rule
@@ -2202,6 +2204,32 @@ sorting_algorithms_quick_sort: CMakeFiles/sorting_algorithms_quick_sort.dir/rule
 CMakeFiles/sorting_algorithms_quick_sort.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_quick_sort.dir\build.make CMakeFiles/sorting_algorithms_quick_sort.dir/clean
 .PHONY : CMakeFiles/sorting_algorithms_quick_sort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sorting_algorithms_radix_sort.dir
+
+# All Build rule for target.
+CMakeFiles/sorting_algorithms_radix_sort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\.code\.cpp\cmake-build-debug\CMakeFiles --progress-num=97 "Built target sorting_algorithms_radix_sort"
+.PHONY : CMakeFiles/sorting_algorithms_radix_sort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sorting_algorithms_radix_sort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sorting_algorithms_radix_sort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\.code\.cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/sorting_algorithms_radix_sort.dir/rule
+
+# Convenience name for target.
+sorting_algorithms_radix_sort: CMakeFiles/sorting_algorithms_radix_sort.dir/rule
+.PHONY : sorting_algorithms_radix_sort
+
+# clean rule for target.
+CMakeFiles/sorting_algorithms_radix_sort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/clean
+.PHONY : CMakeFiles/sorting_algorithms_radix_sort.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/sorting_algorithms_selection_sort.dir

@@ -1,7 +1,15 @@
+#include <iomanip>
 #include <iostream>
 #include <vector>
+#include "print_array.h"
 using namespace std;
 
+/*
+MERGE SORT [ Stable | O(n log n) ]
+* Divide-and-conquer algorithm
+* Recursively splits the array into two halves and merges them back in sorted order
+* Use Case: Large datasets, external sorting (when data can't fit in memory)
+*/
 void merge(vector<int>& arr, int left, int mid, int right) {
     int n1 = mid - left + 1;
     int n2 = right - mid;
@@ -12,12 +20,16 @@ void merge(vector<int>& arr, int left, int mid, int right) {
         L[i] = arr[left + i];
     }
     for (int j = 0; j < n2; j++) {
-        R[j] = arr[mid + j + 1];
+        R[j] = arr[mid + 1 + j];  // Corrected indexing here
     }
 
     int i = 0, j = 0, k = left;
     while (i < n1 && j < n2) {
-        arr[k++] = (L[i] <= R[j] ? L[i++] : R[j++]);
+        if (L[i] <= R[j]) {
+            arr[k++] = L[i++];
+        } else {
+            arr[k++] = R[j++];
+        }
     }
 
     while (i < n1) {
@@ -37,15 +49,17 @@ void merge_sort(vector<int>& arr, int left, int right) {
     }
 }
 
-void print_array(const vector<int>& arr) {
-    for (int i : arr) {
-        cout << i << " ";
-    }
-}
-
 int main() {
-    int arr[] = {9, 5, 2, 7, 1 , 8, 4, 6, 3};
-    int size = sizeof(arr) / sizeof(int);
-    merge_sort(arr, size);
+    vector<int> arr = {9, 5, 2, 7, 1 , 8, 4, 6, 3};
+    int size = arr.size();
+
+    cout << setw(10) << "Original: ";
+    print_array(arr);
+
+    merge_sort(arr, 0, size - 1);
+    cout << '\n';
+
+    cout << setw(10) << "Sorted: ";
+    print_array(arr);
     return 0;
 }
