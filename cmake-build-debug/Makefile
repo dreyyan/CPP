@@ -1273,6 +1273,19 @@ STL_containers_stats_checker_dice/fast:
 .PHONY : STL_containers_stats_checker_dice/fast
 
 #=============================================================================
+# Target rules for targets named STL_containers_system_menu_order
+
+# Build rule for target.
+STL_containers_system_menu_order: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_containers_system_menu_order
+.PHONY : STL_containers_system_menu_order
+
+# fast build rule for target.
+STL_containers_system_menu_order/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_menu_order.dir\build.make CMakeFiles/STL_containers_system_menu_order.dir/build
+.PHONY : STL_containers_system_menu_order/fast
+
+#=============================================================================
 # Target rules for targets named STL_containers_vector
 
 # Build rule for target.
@@ -3512,6 +3525,30 @@ STL_containers/stats_checker_dice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_dice.dir\build.make CMakeFiles/STL_containers_stats_checker_dice.dir/STL_containers/stats_checker_dice.cpp.s
 .PHONY : STL_containers/stats_checker_dice.cpp.s
 
+STL_containers/system_menu_order.obj: STL_containers/system_menu_order.cpp.obj
+.PHONY : STL_containers/system_menu_order.obj
+
+# target to build an object file
+STL_containers/system_menu_order.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_menu_order.dir\build.make CMakeFiles/STL_containers_system_menu_order.dir/STL_containers/system_menu_order.cpp.obj
+.PHONY : STL_containers/system_menu_order.cpp.obj
+
+STL_containers/system_menu_order.i: STL_containers/system_menu_order.cpp.i
+.PHONY : STL_containers/system_menu_order.i
+
+# target to preprocess a source file
+STL_containers/system_menu_order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_menu_order.dir\build.make CMakeFiles/STL_containers_system_menu_order.dir/STL_containers/system_menu_order.cpp.i
+.PHONY : STL_containers/system_menu_order.cpp.i
+
+STL_containers/system_menu_order.s: STL_containers/system_menu_order.cpp.s
+.PHONY : STL_containers/system_menu_order.s
+
+# target to generate assembly for a file
+STL_containers/system_menu_order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_menu_order.dir\build.make CMakeFiles/STL_containers_system_menu_order.dir/STL_containers/system_menu_order.cpp.s
+.PHONY : STL_containers/system_menu_order.cpp.s
+
 STL_containers/vector.obj: STL_containers/vector.cpp.obj
 .PHONY : STL_containers/vector.obj
 
@@ -3801,6 +3838,7 @@ help:
 	@echo ... STL_containers_stack_reverse_string
 	@echo ... STL_containers_stats_checker_benchmark
 	@echo ... STL_containers_stats_checker_dice
+	@echo ... STL_containers_system_menu_order
 	@echo ... STL_containers_vector
 	@echo ... sorting_algorithms_bubble_sort
 	@echo ... sorting_algorithms_insertion_sort
@@ -4076,6 +4114,9 @@ help:
 	@echo ... STL_containers/stats_checker_dice.obj
 	@echo ... STL_containers/stats_checker_dice.i
 	@echo ... STL_containers/stats_checker_dice.s
+	@echo ... STL_containers/system_menu_order.obj
+	@echo ... STL_containers/system_menu_order.i
+	@echo ... STL_containers/system_menu_order.s
 	@echo ... STL_containers/vector.obj
 	@echo ... STL_containers/vector.i
 	@echo ... STL_containers/vector.s

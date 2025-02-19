@@ -206,5 +206,6 @@ int main() {
     duration = duration_cast<microseconds>(end - start);
     // Display
     cout << setw(34) << "- Element from Beginning: " << duration.count() << " microseconds\n";
+    getc(stdin);
     return 0;
 }
