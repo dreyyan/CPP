@@ -138,6 +138,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/STL_containers_stack_reverse_string.dir/DependInfo.cmake"
   "CMakeFiles/STL_containers_stats_checker_benchmark.dir/DependInfo.cmake"
   "CMakeFiles/STL_containers_stats_checker_dice.dir/DependInfo.cmake"
+  "CMakeFiles/STL_containers_system_inventory_management.dir/DependInfo.cmake"
   "CMakeFiles/STL_containers_system_menu_order.dir/DependInfo.cmake"
   "CMakeFiles/STL_containers_vector.dir/DependInfo.cmake"
   "CMakeFiles/sorting_algorithms_bubble_sort.dir/DependInfo.cmake"

@@ -1273,6 +1273,19 @@ STL_containers_stats_checker_dice/fast:
 .PHONY : STL_containers_stats_checker_dice/fast
 
 #=============================================================================
+# Target rules for targets named STL_containers_system_inventory_management
+
+# Build rule for target.
+STL_containers_system_inventory_management: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_containers_system_inventory_management
+.PHONY : STL_containers_system_inventory_management
+
+# fast build rule for target.
+STL_containers_system_inventory_management/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_inventory_management.dir\build.make CMakeFiles/STL_containers_system_inventory_management.dir/build
+.PHONY : STL_containers_system_inventory_management/fast
+
+#=============================================================================
 # Target rules for targets named STL_containers_system_menu_order
 
 # Build rule for target.
@@ -3525,6 +3538,30 @@ STL_containers/stats_checker_dice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_stats_checker_dice.dir\build.make CMakeFiles/STL_containers_stats_checker_dice.dir/STL_containers/stats_checker_dice.cpp.s
 .PHONY : STL_containers/stats_checker_dice.cpp.s
 
+STL_containers/system_inventory_management.obj: STL_containers/system_inventory_management.cpp.obj
+.PHONY : STL_containers/system_inventory_management.obj
+
+# target to build an object file
+STL_containers/system_inventory_management.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_inventory_management.dir\build.make CMakeFiles/STL_containers_system_inventory_management.dir/STL_containers/system_inventory_management.cpp.obj
+.PHONY : STL_containers/system_inventory_management.cpp.obj
+
+STL_containers/system_inventory_management.i: STL_containers/system_inventory_management.cpp.i
+.PHONY : STL_containers/system_inventory_management.i
+
+# target to preprocess a source file
+STL_containers/system_inventory_management.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_inventory_management.dir\build.make CMakeFiles/STL_containers_system_inventory_management.dir/STL_containers/system_inventory_management.cpp.i
+.PHONY : STL_containers/system_inventory_management.cpp.i
+
+STL_containers/system_inventory_management.s: STL_containers/system_inventory_management.cpp.s
+.PHONY : STL_containers/system_inventory_management.s
+
+# target to generate assembly for a file
+STL_containers/system_inventory_management.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_inventory_management.dir\build.make CMakeFiles/STL_containers_system_inventory_management.dir/STL_containers/system_inventory_management.cpp.s
+.PHONY : STL_containers/system_inventory_management.cpp.s
+
 STL_containers/system_menu_order.obj: STL_containers/system_menu_order.cpp.obj
 .PHONY : STL_containers/system_menu_order.obj
 
@@ -3838,6 +3875,7 @@ help:
 	@echo ... STL_containers_stack_reverse_string
 	@echo ... STL_containers_stats_checker_benchmark
 	@echo ... STL_containers_stats_checker_dice
+	@echo ... STL_containers_system_inventory_management
 	@echo ... STL_containers_system_menu_order
 	@echo ... STL_containers_vector
 	@echo ... sorting_algorithms_bubble_sort
@@ -4114,6 +4152,9 @@ help:
 	@echo ... STL_containers/stats_checker_dice.obj
 	@echo ... STL_containers/stats_checker_dice.i
 	@echo ... STL_containers/stats_checker_dice.s
+	@echo ... STL_containers/system_inventory_management.obj
+	@echo ... STL_containers/system_inventory_management.i
+	@echo ... STL_containers/system_inventory_management.s
 	@echo ... STL_containers/system_menu_order.obj
 	@echo ... STL_containers/system_menu_order.i
 	@echo ... STL_containers/system_menu_order.s

@@ -87,6 +87,7 @@ C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_stack_recursion_sort.di
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_stack_reverse_string.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_stats_checker_benchmark.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_stats_checker_dice.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_system_inventory_management.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_system_menu_order.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_vector.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/sorting_algorithms_bubble_sort.dir
