@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/.code/.cpp/.exercises/product_of_three.cpp" "CMakeFiles/.exercises_product_of_three.dir/.exercises/product_of_three.cpp.obj" "gcc" "CMakeFiles/.exercises_product_of_three.dir/.exercises/product_of_three.cpp.obj.d"
+  "C:/Code/.cpp/.exercises/product_of_three.cpp" "CMakeFiles/.exercises_product_of_three.dir/.exercises/product_of_three.cpp.obj" "gcc" "CMakeFiles/.exercises_product_of_three.dir/.exercises/product_of_three.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

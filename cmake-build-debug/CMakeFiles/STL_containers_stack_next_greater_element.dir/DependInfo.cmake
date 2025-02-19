@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/.code/.cpp/STL_containers/stack_next_greater_element.cpp" "CMakeFiles/STL_containers_stack_next_greater_element.dir/STL_containers/stack_next_greater_element.cpp.obj" "gcc" "CMakeFiles/STL_containers_stack_next_greater_element.dir/STL_containers/stack_next_greater_element.cpp.obj.d"
+  "C:/Code/.cpp/STL_containers/stack_next_greater_element.cpp" "CMakeFiles/STL_containers_stack_next_greater_element.dir/STL_containers/stack_next_greater_element.cpp.obj" "gcc" "CMakeFiles/STL_containers_stack_next_greater_element.dir/STL_containers/stack_next_greater_element.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

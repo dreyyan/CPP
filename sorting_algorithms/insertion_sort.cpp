@@ -11,11 +11,10 @@ INSERTION SORT [ Stable | O(n²) ]
  * j i _ _ _
  */
 void insertion_sort(int arr[], size_t size) {
-    size_t current;
-
+    int current;
     for (size_t i = 1; i < size; ++i) {
         current = arr[i];
-        size_t j = i - 1;
+        int j = i - 1;
 
         while (j < size && current < arr[j]) {
             arr[j + 1] = arr[j];

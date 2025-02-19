@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/.code/.cpp/.algorithm/algorithm_sort.cpp" "CMakeFiles/.algorithm_algorithm_sort.dir/.algorithm/algorithm_sort.cpp.obj" "gcc" "CMakeFiles/.algorithm_algorithm_sort.dir/.algorithm/algorithm_sort.cpp.obj.d"
+  "C:/Code/.cpp/.algorithm/algorithm_sort.cpp" "CMakeFiles/.algorithm_algorithm_sort.dir/.algorithm/algorithm_sort.cpp.obj" "gcc" "CMakeFiles/.algorithm_algorithm_sort.dir/.algorithm/algorithm_sort.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

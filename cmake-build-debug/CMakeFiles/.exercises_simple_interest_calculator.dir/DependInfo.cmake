@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/.code/.cpp/.exercises/simple_interest_calculator.cpp" "CMakeFiles/.exercises_simple_interest_calculator.dir/.exercises/simple_interest_calculator.cpp.obj" "gcc" "CMakeFiles/.exercises_simple_interest_calculator.dir/.exercises/simple_interest_calculator.cpp.obj.d"
+  "C:/Code/.cpp/.exercises/simple_interest_calculator.cpp" "CMakeFiles/.exercises_simple_interest_calculator.dir/.exercises/simple_interest_calculator.cpp.obj" "gcc" "CMakeFiles/.exercises_simple_interest_calculator.dir/.exercises/simple_interest_calculator.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -11,8 +11,7 @@ SELECTION SORT [Not Stable | O(n²)]
 */
 void selection_sort(int arr[], size_t size) {
     size_t min_index;
-
-    for (size_t i = 0; i < size - 1; ++i) {
+    for (size_t i = 0; i < size; ++i) {
         min_index = i;
         for (size_t j = i + 1; j < size; ++j) {
             if (arr[j] < arr[min_index]) {

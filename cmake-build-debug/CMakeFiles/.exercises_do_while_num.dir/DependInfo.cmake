@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/.code/.cpp/.exercises/do_while_num.cpp" "CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.obj" "gcc" "CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.obj.d"
+  "C:/Code/.cpp/.exercises/do_while_num.cpp" "CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.obj" "gcc" "CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

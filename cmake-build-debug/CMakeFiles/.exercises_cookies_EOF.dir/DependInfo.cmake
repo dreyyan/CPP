@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/.code/.cpp/.exercises/cookies_EOF.cpp" "CMakeFiles/.exercises_cookies_EOF.dir/.exercises/cookies_EOF.cpp.obj" "gcc" "CMakeFiles/.exercises_cookies_EOF.dir/.exercises/cookies_EOF.cpp.obj.d"
+  "C:/Code/.cpp/.exercises/cookies_EOF.cpp" "CMakeFiles/.exercises_cookies_EOF.dir/.exercises/cookies_EOF.cpp.obj" "gcc" "CMakeFiles/.exercises_cookies_EOF.dir/.exercises/cookies_EOF.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

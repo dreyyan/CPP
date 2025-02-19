@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/.code/.cpp/.exercises/static_casting_temp.cpp" "CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.obj" "gcc" "CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.obj.d"
+  "C:/Code/.cpp/.exercises/static_casting_temp.cpp" "CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.obj" "gcc" "CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

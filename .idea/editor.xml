@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BackendCodeEditorSettings">
-    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
-    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/CodeStyle/CodeFormatting/CppClangFormat/EnableClangFormatSupport/@EntryValue" value="false" type="bool" />
     <option name="/Default/CodeStyle/EditorConfig/EnableClangFormatSupport/@EntryValue" value="false" type="bool" />
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/ALIGN_MULTILINE_BINARY_EXPRESSIONS_CHAIN/@EntryValue" value="true" type="bool" />
@@ -100,486 +98,245 @@
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/INDENT_SIZE/@EntryValue" value="4" type="int" />
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/CONTINUOUS_LINE_INDENT/@EntryValue" value="Double" type="string" />
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/TAB_WIDTH/@EntryValue" value="4" type="int" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSmartPointerVsMakeFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSmartPointerVsMakeFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCStyleCast/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCStyleCast/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionalStyleCast/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionalStyleCast/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReinterpretCastFromVoidPtr/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReinterpretCastFromVoidPtr/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExplicitConvertingConstructor/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExplicitConvertingConstructor/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExplicitConversionOperator/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExplicitConversionOperator/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDiscardedPostfixOperatorResult/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDiscardedPostfixOperatorResult/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConstValueFunctionReturnType/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConstValueFunctionReturnType/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberFunctionMayBeConst/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberFunctionMayBeConst/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberFunctionMayBeStatic/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberFunctionMayBeStatic/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableMayBeConst/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableMayBeConst/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterMayBeConst/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterMayBeConst/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVariableCanBeMadeConstexpr/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVariableCanBeMadeConstexpr/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterMayBeConstPtrOrRef/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterMayBeConstPtrOrRef/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPassValueParameterByConstReference/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPassValueParameterByConstReference/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppThrowExpressionCanBeReplacedWithRethrow/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppThrowExpressionCanBeReplacedWithRethrow/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppZeroConstantCanBeReplacedWithNullptr/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppZeroConstantCanBeReplacedWithNullptr/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCompileTimeConstantCanBeReplacedWithBooleanConstant/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCompileTimeConstantCanBeReplacedWithBooleanConstant/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIfCanBeReplacedByConstexprIf/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIfCanBeReplacedByConstexprIf/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IfStdIsConstantEvaluatedCanBeReplaced/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IfStdIsConstantEvaluatedCanBeReplaced/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=StdIsConstantEvaluatedWillAlwaysEvaluateToConstant/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=StdIsConstantEvaluatedWillAlwaysEvaluateToConstant/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConstevalIfIsAlwaysConstant/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConstevalIfIsAlwaysConstant/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassCanBeFinal/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassCanBeFinal/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseStructuredBinding/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseStructuredBinding/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseTypeTraitAlias/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseTypeTraitAlias/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAlgorithmWithCount/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAlgorithmWithCount/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseRangeAlgorithm/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseRangeAlgorithm/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseElementsView/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseElementsView/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseStdSize/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseStdSize/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppForLoopCanBeReplacedWithWhile/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppForLoopCanBeReplacedWithWhile/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppJoinDeclarationAndAssignment/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppJoinDeclarationAndAssignment/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReplaceTieWithStructuredBinding/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReplaceTieWithStructuredBinding/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReplaceMemsetWithZeroInitialization/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReplaceMemsetWithZeroInitialization/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAssociativeContains/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAssociativeContains/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseEraseAlgorithm/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseEraseAlgorithm/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseFamiliarTemplateSyntaxForGenericLambdas/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseFamiliarTemplateSyntaxForGenericLambdas/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTooWideScope/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTooWideScope/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTooWideScopeInitStatement/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTooWideScopeInitStatement/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantNamespaceDefinition/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantNamespaceDefinition/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonInlineFunctionDefinitionInHeaderFile/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonInlineFunctionDefinitionInHeaderFile/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonInlineVariableDefinitionInHeaderFile/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonInlineVariableDefinitionInHeaderFile/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionIsNotImplemented/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionIsNotImplemented/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrivateSpecialMemberFunctionIsNotImplemented/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrivateSpecialMemberFunctionIsNotImplemented/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHiddenFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHiddenFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHidingFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHidingFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPolymorphicClassWithNonVirtualPublicDestructor/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPolymorphicClassWithNonVirtualPublicDestructor/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractClassWithoutSpecifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractClassWithoutSpecifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIncompleteSwitchStatement/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIncompleteSwitchStatement/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultCaseNotHandledInSwitchStatement/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultCaseNotHandledInSwitchStatement/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyErroneousEmptyStatements/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyErroneousEmptyStatements/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppExpressionWithoutSideEffects/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppExpressionWithoutSideEffects/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNoDiscardExpression/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNoDiscardExpression/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionResultShouldBeUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionResultShouldBeUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMissingKeywordThrow/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMissingKeywordThrow/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDependentTypeWithoutTypenameKeyword/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDependentTypeWithoutTypenameKeyword/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDependentTemplateWithoutTemplateKeyword/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDependentTemplateWithoutTemplateKeyword/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppImplicitDefaultConstructorNotAvailable/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppImplicitDefaultConstructorNotAvailable/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassNeedsConstructorBecauseOfUninitializedMember/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassNeedsConstructorBecauseOfUninitializedMember/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUninitializedNonStaticDataMember/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUninitializedNonStaticDataMember/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRangeBasedForIncompatibleReference/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRangeBasedForIncompatibleReference/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppZeroValuedExpressionUsedAsNullPointer/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppZeroValuedExpressionUsedAsNullPointer/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyUnintendedObjectSlicing/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyUnintendedObjectSlicing/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyUninitializedMember/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyUninitializedMember/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorDisambiguatedAsFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorDisambiguatedAsFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVirtualFunctionInFinalClass/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVirtualFunctionInFinalClass/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMustBePublicVirtualToImplementInterface/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMustBePublicVirtualToImplementInterface/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationSpecifierWithoutDeclarators/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationSpecifierWithoutDeclarators/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEmptyDeclaration/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEmptyDeclaration/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationHidesLocal/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationHidesLocal/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationHidesUncapturedLocal/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationHidesUncapturedLocal/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMismatchedClassTags/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMismatchedClassTags/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUsingResultOfAssignmentAsCondition/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUsingResultOfAssignmentAsCondition/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIntegralToPointerConversion/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIntegralToPointerConversion/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPointerToIntegralConversion/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPointerToIntegralConversion/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIncompatiblePointerConversion/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIncompatiblePointerConversion/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPointerConversionDropsQualifiers/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPointerConversionDropsQualifiers/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStringLiteralToCharPointerConversion/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStringLiteralToCharPointerConversion/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExceptionSafeResourceAcquisition/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExceptionSafeResourceAcquisition/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVirtualFunctionCallInsideCtor/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVirtualFunctionCallInsideCtor/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractVirtualFunctionCallInCtor/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractVirtualFunctionCallInCtor/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppInvalidLineContinuation/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppInvalidLineContinuation/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfBadFormat/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfBadFormat/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfRiskyFormat/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfRiskyFormat/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfMissedArg/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfMissedArg/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfExtraArg/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfExtraArg/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatBadCode/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatBadCode/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatLegacyCode/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatLegacyCode/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatMixedArgs/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatMixedArgs/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatTooFewArgs/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatTooFewArgs/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatTooManyArgs/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatTooManyArgs/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeprecatedEntity/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeprecatedEntity/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMissingIncludeGuard/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMissingIncludeGuard/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenSyntaxError/@EntryIndexedValue" value="WARNING" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenSyntaxError/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenUnresolvedReference/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenUnresolvedReference/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenUndocumentedParameter/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenUndocumentedParameter/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeletingVoidPointer/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeletingVoidPointer/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBooleanIncrementExpression/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBooleanIncrementExpression/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeprecatedRegisterStorageClassSpecifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeprecatedRegisterStorageClassSpecifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIdenticalOperandsInBinaryExpression/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIdenticalOperandsInBinaryExpression/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEqualOperandsInBinaryExpression/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEqualOperandsInBinaryExpression/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedefinitionOfDefaultArgumentInOverrideFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedefinitionOfDefaultArgumentInOverrideFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnnamedNamespaceInHeaderFile/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnnamedNamespaceInHeaderFile/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterNamesMismatch/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterNamesMismatch/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultedSpecialMemberFunctionIsImplicitlyDeleted/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultedSpecialMemberFunctionIsImplicitlyDeleted/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNodiscardFunctionWithoutReturnValue/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNodiscardFunctionWithoutReturnValue/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantComplexityInComparison/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantComplexityInComparison/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractFinalClass/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractFinalClass/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSpecialFunctionWithoutNoexceptSpecification/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSpecialFunctionWithoutNoexceptSpecification/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnsignedZeroComparison/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnsignedZeroComparison/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMultiCharacterLiteral/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMultiCharacterLiteral/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMultiCharacterWideLiteral/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMultiCharacterWideLiteral/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantQualifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantQualifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantAccessSpecifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantAccessSpecifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAccessSpecifierWithNoDeclarations/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAccessSpecifierWithNoDeclarations/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTypenameKeyword/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTypenameKeyword/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTemplateKeyword/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTemplateKeyword/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElseKeyword/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElseKeyword/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElseKeywordInsideCompoundStatement/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElseKeywordInsideCompoundStatement/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantControlFlowJump/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantControlFlowJump/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantEmptyStatement/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantEmptyStatement/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantEmptyDeclaration/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantEmptyDeclaration/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantParentheses/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantParentheses/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantLambdaParameterList/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantLambdaParameterList/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantCastExpression/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantCastExpression/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHeaderHasBeenAlreadyIncluded/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHeaderHasBeenAlreadyIncluded/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateArgumentsCanBeDeduced/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateArgumentsCanBeDeduced/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTemplateArguments/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTemplateArguments/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticSpecifierOnAnonymousNamespaceMember/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticSpecifierOnAnonymousNamespaceMember/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantStaticSpecifierOnMemberAllocationFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantStaticSpecifierOnMemberAllocationFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantStaticSpecifierOnThreadLocalLocalVariable/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantStaticSpecifierOnThreadLocalLocalVariable/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBaseClassAccessSpecifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBaseClassAccessSpecifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantInlineSpecifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantInlineSpecifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantConstSpecifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantConstSpecifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBooleanExpressionArgument/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBooleanExpressionArgument/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantVoidArgumentList/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantVoidArgumentList/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantMemberInitializer/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantMemberInitializer/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBaseClassInitializer/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBaseClassInitializer/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConstParameterInDeclaration/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConstParameterInDeclaration/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVolatileParameterInDeclaration/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVolatileParameterInDeclaration/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFinalFunctionInFinalClass/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFinalFunctionInFinalClass/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFinalNonOverridingVirtualFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFinalNonOverridingVirtualFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElaboratedTypeSpecifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElaboratedTypeSpecifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantDereferencingAndTakingAddress/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantDereferencingAndTakingAddress/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantConditionalExpression/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantConditionalExpression/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConditionalExpressionCanBeSimplified/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConditionalExpressionCanBeSimplified/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantExportKeyword/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantExportKeyword/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantZeroInitializerInAggregateInitialization/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantZeroInitializerInAggregateInitialization/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUserDefinedLiteralSuffixDoesNotStartWithUnderscore/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUserDefinedLiteralSuffixDoesNotStartWithUnderscore/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassIsIncomplete/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassIsIncomplete/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateParameterShadowing/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateParameterShadowing/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMutableSpecifierOnReferenceMember/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMutableSpecifierOnReferenceMember/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultInitializationWithNoUserConstructor/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultInitializationWithNoUserConstructor/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppExplicitSpecializationInNonNamespaceScope/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppExplicitSpecializationInNonNamespaceScope/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnionMemberOfReferenceType/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnionMemberOfReferenceType/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUninitializedDependentBaseClass/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUninitializedDependentBaseClass/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrecompiledHeaderIsNotIncluded/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrecompiledHeaderIsNotIncluded/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrecompiledHeaderNotFound/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrecompiledHeaderNotFound/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCoroutineCallResolveError/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCoroutineCallResolveError/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAwaiterTypeIsNotClass/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAwaiterTypeIsNotClass/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppOutParameterMustBeWritten/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppOutParameterMustBeWritten/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWarningDirective/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWarningDirective/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticAssertFailure/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticAssertFailure/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEvaluationFailure/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEvaluationFailure/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTypeAliasNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTypeAliasNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConceptNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConceptNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnumeratorNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnumeratorNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLambdaCaptureNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLambdaCaptureNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableWithNonTrivialDtorIsNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableWithNonTrivialDtorIsNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateParameterNeverUsed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateParameterNeverUsed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEntityAssignedButNoRead/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEntityAssignedButNoRead/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEntityUsedOnlyInUnevaluatedContext/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEntityUsedOnlyInUnevaluatedContext/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableMightNotBeInitialized/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableMightNotBeInitialized/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppObjectMemberMightNotBeInitialized/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppObjectMemberMightNotBeInitialized/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSomeObjectMembersMightNotBeInitialized/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSomeObjectMembersMightNotBeInitialized/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorUsedBeforeInitialization/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorUsedBeforeInitialization/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnusedIncludeDirective/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnusedIncludeDirective/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNotAllPathsReturnValue/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNotAllPathsReturnValue/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CDeclarationWithImplicitIntType/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CDeclarationWithImplicitIntType/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionDoesntReturnValue/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionDoesntReturnValue/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReturnNoValueInNonVoidFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReturnNoValueInNonVoidFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCVQualifierCanNotBeAppliedToReference/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCVQualifierCanNotBeAppliedToReference/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDereferenceOperatorLimitExceeded/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDereferenceOperatorLimitExceeded/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppForwardEnumDeclarationWithoutUnderlyingType/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppForwardEnumDeclarationWithoutUnderlyingType/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnmatchedPragmaRegionDirective/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnmatchedPragmaRegionDirective/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnmatchedPragmaEndRegionDirective/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnmatchedPragmaEndRegionDirective/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticDataMemberInUnnamedStruct/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticDataMemberInUnnamedStruct/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultIsUsedAsIdentifier/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultIsUsedAsIdentifier/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLongFloat/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLongFloat/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtReinterpretCastFromNullptr/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtReinterpretCastFromNullptr/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtBindingRValueToLvalueReference/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtBindingRValueToLvalueReference/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtAddressOfClassRValue/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtAddressOfClassRValue/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtDoubleUserConversionInCopyInit/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtDoubleUserConversionInCopyInit/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtCopyElisionInCopyInitDeclarator/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtCopyElisionInCopyInitDeclarator/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtNotInitializedStaticConstLocalVar/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtNotInitializedStaticConstLocalVar/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRemoveRedundantBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRemoveRedundantBraces/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceIfStatementBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceIfStatementBraces/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceForStatementBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceForStatementBraces/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceWhileStatementBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceWhileStatementBraces/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceDoStatementBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceDoStatementBraces/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWrongIncludesOrder/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWrongIncludesOrder/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWrongSlashesInIncludeDirective/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWrongSlashesInIncludeDirective/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceNestedNamespacesStyle/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceNestedNamespacesStyle/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceTypeAliasCodeStyle/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceTypeAliasCodeStyle/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceFunctionDeclarationStyle/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceFunctionDeclarationStyle/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberInitializersOrder/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberInitializersOrder/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceOverridingFunctionStyle/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceOverridingFunctionStyle/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceOverridingDestructorStyle/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceOverridingDestructorStyle/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAuto/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAuto/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAutoForNumeric/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAutoForNumeric/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceCVQualifiersPlacement/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceCVQualifiersPlacement/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceCVQualifiersOrder/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceCVQualifiersOrder/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnnecessaryWhitespace/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnnecessaryWhitespace/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTabsAreDisallowed/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTabsAreDisallowed/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantConditions/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantConditions/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFANullDereference/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFANullDereference/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFANotInitializedField/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFANotInitializedField/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALoopConditionNotUpdated/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALoopConditionNotUpdated/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFADeletedPointer/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFADeletedPointer/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAMemoryLeak/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAMemoryLeak/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAInvalidatedMemory/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAInvalidatedMemory/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALocalValueEscapesScope/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALocalValueEscapesScope/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALocalValueEscapesFunction/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALocalValueEscapesFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantParameter/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantParameter/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantFunctionResult/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantFunctionResult/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAArrayIndexOutOfBounds/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAArrayIndexOutOfBounds/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreachableCode/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreachableCode/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreachableFunctionCall/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreachableFunctionCall/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAEndlessLoop/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAEndlessLoop/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAInfiniteRecursion/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAInfiniteRecursion/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnusedValue/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnusedValue/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreadVariable/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreadVariable/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFATimeOver/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFATimeOver/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppInconsistentNaming/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppInconsistentNaming/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=StringLiteralTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=StringLiteralTypo/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CommentTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CommentTypo/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IdentifierTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
-    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IdentifierTypo/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Ff_003Areview_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Ff_003Abasic_005Fcalculator_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Ff_003AGUI_002Eh/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
@@ -588,279 +345,247 @@
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Ff_003Astats_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Ff_003Astats_002Eh/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Ff_003AalgorithmFind_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="RiderCppLiveTemplatesSettings" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE3436585409EB448157380FA9915F8A/Shortcut/@EntryValue" value="main" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE3436585409EB448157380FA9915F8A/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE3436585409EB448157380FA9915F8A/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE3436585409EB448157380FA9915F8A/Text/@EntryValue" value="int main() {&#10;&#10;    return 0;&#10;}" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE3436585409EB448157380FA9915F8A/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE3436585409EB448157380FA9915F8A/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE3436585409EB448157380FA9915F8A/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE3436585409EB448157380FA9915F8A/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C6783D266023354E83EB049E533E2E17/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C6783D266023354E83EB049E533E2E17/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C6783D266023354E83EB049E533E2E17/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C6783D266023354E83EB049E533E2E17/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C6783D266023354E83EB049E533E2E17/Shortcut/@EntryValue" value="mainf" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C6783D266023354E83EB049E533E2E17/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C6783D266023354E83EB049E533E2E17/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C6783D266023354E83EB049E533E2E17/Text/@EntryValue" value="#include &lt;iostream&gt;&#10;using namespace std;&#10;&#10;int main() {&#10;&#10;    return 0;&#10;}" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/@KeyIndexDefined" value="false" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=075F3EB13AFC99419FE95555B1023225/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=075F3EB13AFC99419FE95555B1023225/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=075F3EB13AFC99419FE95555B1023225/Shortcut/@EntryValue" value="hstring" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=075F3EB13AFC99419FE95555B1023225/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=075F3EB13AFC99419FE95555B1023225/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=075F3EB13AFC99419FE95555B1023225/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=075F3EB13AFC99419FE95555B1023225/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=075F3EB13AFC99419FE95555B1023225/Text/@EntryValue" value="#include &lt;string&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C18604D17295684683967E94A44C5000/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C18604D17295684683967E94A44C5000/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C18604D17295684683967E94A44C5000/Shortcut/@EntryValue" value="harray" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5EA9EDC9B6C3CD49BF28EBD1D1F152D3/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C18604D17295684683967E94A44C5000/Text/@EntryValue" value="#include &lt;array&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5EA9EDC9B6C3CD49BF28EBD1D1F152D3/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5EA9EDC9B6C3CD49BF28EBD1D1F152D3/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C18604D17295684683967E94A44C5000/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5EA9EDC9B6C3CD49BF28EBD1D1F152D3/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C18604D17295684683967E94A44C5000/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C18604D17295684683967E94A44C5000/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C18604D17295684683967E94A44C5000/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5EA9EDC9B6C3CD49BF28EBD1D1F152D3/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=351CFAAEED9B8A45B92CE625D9673445/Text/@EntryValue" value="#include &lt;vector&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=351CFAAEED9B8A45B92CE625D9673445/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=351CFAAEED9B8A45B92CE625D9673445/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=351CFAAEED9B8A45B92CE625D9673445/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=351CFAAEED9B8A45B92CE625D9673445/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=351CFAAEED9B8A45B92CE625D9673445/Shortcut/@EntryValue" value="hvector" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=351CFAAEED9B8A45B92CE625D9673445/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=351CFAAEED9B8A45B92CE625D9673445/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=B379D6505D203F45A05607B4E994603C/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=B379D6505D203F45A05607B4E994603C/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=B379D6505D203F45A05607B4E994603C/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=B379D6505D203F45A05607B4E994603C/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=B379D6505D203F45A05607B4E994603C/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=B379D6505D203F45A05607B4E994603C/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=429C86DAC3BE9748B110585F9AEA1389/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=429C86DAC3BE9748B110585F9AEA1389/Text/@EntryValue" value="#include &lt;limits&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=429C86DAC3BE9748B110585F9AEA1389/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=429C86DAC3BE9748B110585F9AEA1389/Shortcut/@EntryValue" value="hlimits" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=429C86DAC3BE9748B110585F9AEA1389/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=429C86DAC3BE9748B110585F9AEA1389/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=429C86DAC3BE9748B110585F9AEA1389/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=429C86DAC3BE9748B110585F9AEA1389/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=29ABC5EA5029E145ACF46360A6AF5C82/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=29ABC5EA5029E145ACF46360A6AF5C82/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=29ABC5EA5029E145ACF46360A6AF5C82/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=29ABC5EA5029E145ACF46360A6AF5C82/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=29ABC5EA5029E145ACF46360A6AF5C82/Shortcut/@EntryValue" value="hnumeric" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=29ABC5EA5029E145ACF46360A6AF5C82/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=29ABC5EA5029E145ACF46360A6AF5C82/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=29ABC5EA5029E145ACF46360A6AF5C82/Text/@EntryValue" value="#include &lt;numeric&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFA02AF2B7CEF340B670C07A2389C0B9/Shortcut/@EntryValue" value="hthrono" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFA02AF2B7CEF340B670C07A2389C0B9/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFA02AF2B7CEF340B670C07A2389C0B9/Text/@EntryValue" value="#include &lt;chrono&gt;&#10;#include &lt;thread&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFA02AF2B7CEF340B670C07A2389C0B9/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFA02AF2B7CEF340B670C07A2389C0B9/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFA02AF2B7CEF340B670C07A2389C0B9/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFA02AF2B7CEF340B670C07A2389C0B9/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFA02AF2B7CEF340B670C07A2389C0B9/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=608391A59608D845ADF630FFC8A4BC84/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=608391A59608D845ADF630FFC8A4BC84/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=608391A59608D845ADF630FFC8A4BC84/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=608391A59608D845ADF630FFC8A4BC84/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=608391A59608D845ADF630FFC8A4BC84/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=608391A59608D845ADF630FFC8A4BC84/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=608391A59608D845ADF630FFC8A4BC84/Shortcut/@EntryValue" value="hchrono" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=608391A59608D845ADF630FFC8A4BC84/Text/@EntryValue" value="#include &lt;chrono&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=E960B90F8DF0ED4BAE3E0031066A6D11/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=E960B90F8DF0ED4BAE3E0031066A6D11/Shortcut/@EntryValue" value="hthread" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=E960B90F8DF0ED4BAE3E0031066A6D11/Text/@EntryValue" value="#include &lt;thread&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=E960B90F8DF0ED4BAE3E0031066A6D11/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=E960B90F8DF0ED4BAE3E0031066A6D11/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=E960B90F8DF0ED4BAE3E0031066A6D11/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=E960B90F8DF0ED4BAE3E0031066A6D11/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=E960B90F8DF0ED4BAE3E0031066A6D11/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C154B3056428024AAAB63C3C95DBE926/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C154B3056428024AAAB63C3C95DBE926/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C154B3056428024AAAB63C3C95DBE926/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C154B3056428024AAAB63C3C95DBE926/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C154B3056428024AAAB63C3C95DBE926/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C154B3056428024AAAB63C3C95DBE926/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C154B3056428024AAAB63C3C95DBE926/Text/@EntryValue" value="#include &lt;algorithm&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=C154B3056428024AAAB63C3C95DBE926/Shortcut/@EntryValue" value="halgorithm" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=183C7BD1BD1C0047A9DA7B708DCEC399/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=183C7BD1BD1C0047A9DA7B708DCEC399/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=183C7BD1BD1C0047A9DA7B708DCEC399/Shortcut/@EntryValue" value="parray" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=183C7BD1BD1C0047A9DA7B708DCEC399/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=183C7BD1BD1C0047A9DA7B708DCEC399/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=183C7BD1BD1C0047A9DA7B708DCEC399/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=183C7BD1BD1C0047A9DA7B708DCEC399/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=183C7BD1BD1C0047A9DA7B708DCEC399/Text/@EntryValue" value="#include &lt;algorithm&gt;&#10;#include &lt;iostream&gt;&#10;using namespace std;&#10;&#10;void array_(int arr[], int size) {&#10;    &#10;}&#10;&#10;int main() {&#10;    int arr[] = ;&#10;    int size = sizeof(arr) / sizeof(int);&#10;    array_(arr, size);&#10;    return 0;&#10;}&#10;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B3F2A0AAFAB74396F41EFCB0D02077/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B3F2A0AAFAB74396F41EFCB0D02077/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B3F2A0AAFAB74396F41EFCB0D02077/Text/@EntryValue" value="{3, 8, 1, 7, 5, 4, 9, 2, 6}" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B3F2A0AAFAB74396F41EFCB0D02077/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B3F2A0AAFAB74396F41EFCB0D02077/Shortcut/@EntryValue" value="ran" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B3F2A0AAFAB74396F41EFCB0D02077/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B3F2A0AAFAB74396F41EFCB0D02077/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B3F2A0AAFAB74396F41EFCB0D02077/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E6CA47134071E46AEC273BCF2C77892/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E6CA47134071E46AEC273BCF2C77892/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E6CA47134071E46AEC273BCF2C77892/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E6CA47134071E46AEC273BCF2C77892/Shortcut/@EntryValue" value="order" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E6CA47134071E46AEC273BCF2C77892/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E6CA47134071E46AEC273BCF2C77892/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E6CA47134071E46AEC273BCF2C77892/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E6CA47134071E46AEC273BCF2C77892/Text/@EntryValue" value="{1, 2, 3, 4, 5, 6, 7, 8, 9}" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDFA84B1A792CA4F9D5B4BFCC0990F53/Text/@EntryValue" value="cout &lt;&lt; &quot;[ ERROR |  ]\n&quot;;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDFA84B1A792CA4F9D5B4BFCC0990F53/Shortcut/@EntryValue" value="error" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDFA84B1A792CA4F9D5B4BFCC0990F53/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDFA84B1A792CA4F9D5B4BFCC0990F53/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDFA84B1A792CA4F9D5B4BFCC0990F53/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDFA84B1A792CA4F9D5B4BFCC0990F53/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDFA84B1A792CA4F9D5B4BFCC0990F53/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDFA84B1A792CA4F9D5B4BFCC0990F53/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBF6A07EE91DC546BF49F1163D44331E/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBF6A07EE91DC546BF49F1163D44331E/Text/@EntryValue" value="if (cin.fail()) {&#10;    cin.clear();&#10;    cin.ignore(numeric_limits&lt;streamsize&gt;::max(), '\n');&#10;    cout &lt;&lt; &quot;[ ERROR |  ]\n&quot;;&#10;}" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBF6A07EE91DC546BF49F1163D44331E/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBF6A07EE91DC546BF49F1163D44331E/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBF6A07EE91DC546BF49F1163D44331E/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBF6A07EE91DC546BF49F1163D44331E/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBF6A07EE91DC546BF49F1163D44331E/Shortcut/@EntryValue" value="fail" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBF6A07EE91DC546BF49F1163D44331E/Reformat/@EntryValue" value="true" type="bool" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Fd_003ASTL_005Fcontainers_002Ff_003Aarray_005Fremove_005Fduplicates_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D79C9FC1DADF4248933FAC1DF08513D0/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D79C9FC1DADF4248933FAC1DF08513D0/Shortcut/@EntryValue" value="hctime" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D79C9FC1DADF4248933FAC1DF08513D0/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D79C9FC1DADF4248933FAC1DF08513D0/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D79C9FC1DADF4248933FAC1DF08513D0/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D79C9FC1DADF4248933FAC1DF08513D0/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D79C9FC1DADF4248933FAC1DF08513D0/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D79C9FC1DADF4248933FAC1DF08513D0/Text/@EntryValue" value="#include &lt;ctime&gt;" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Fd_003A_002Eprog_002Ff_003Agroup_005Frandomizer_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8BC9CEB8_002D8B4A_002D11D0_002D8D11_002D00A0C91BC942_002Fd_003A_002Eprog_002Ff_003Asequence_005Frandomizer_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6A19DC0486C214F95CFEC993FB6B2B8/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6A19DC0486C214F95CFEC993FB6B2B8/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6A19DC0486C214F95CFEC993FB6B2B8/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6A19DC0486C214F95CFEC993FB6B2B8/Text/@EntryValue" value="#include &lt;random&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6A19DC0486C214F95CFEC993FB6B2B8/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6A19DC0486C214F95CFEC993FB6B2B8/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6A19DC0486C214F95CFEC993FB6B2B8/Shortcut/@EntryValue" value="hrandom" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6A19DC0486C214F95CFEC993FB6B2B8/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=46EC6E2129C1EB419F346534718CC465/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=46EC6E2129C1EB419F346534718CC465/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=46EC6E2129C1EB419F346534718CC465/Text/@EntryValue" value="#include &lt;iomanip&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=46EC6E2129C1EB419F346534718CC465/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=46EC6E2129C1EB419F346534718CC465/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=46EC6E2129C1EB419F346534718CC465/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=46EC6E2129C1EB419F346534718CC465/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=46EC6E2129C1EB419F346534718CC465/Shortcut/@EntryValue" value="hiomanip" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=78BE43B5B037B447AE91491C142F9180/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=78BE43B5B037B447AE91491C142F9180/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=78BE43B5B037B447AE91491C142F9180/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=78BE43B5B037B447AE91491C142F9180/Shortcut/@EntryValue" value="hcmath" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=78BE43B5B037B447AE91491C142F9180/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=78BE43B5B037B447AE91491C142F9180/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=78BE43B5B037B447AE91491C142F9180/Text/@EntryValue" value="#include &lt;cmath&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=78BE43B5B037B447AE91491C142F9180/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=52AA371F21D94C4AAFB8E91B1ADCA3AE/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=52AA371F21D94C4AAFB8E91B1ADCA3AE/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=52AA371F21D94C4AAFB8E91B1ADCA3AE/Shortcut/@EntryValue" value="hiostream" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=52AA371F21D94C4AAFB8E91B1ADCA3AE/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=52AA371F21D94C4AAFB8E91B1ADCA3AE/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=52AA371F21D94C4AAFB8E91B1ADCA3AE/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=52AA371F21D94C4AAFB8E91B1ADCA3AE/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=52AA371F21D94C4AAFB8E91B1ADCA3AE/Text/@EntryValue" value="#include &lt;iostream&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A74FB09C3A57B4EA142FCAED34A4128/Shortcut/@EntryValue" value="uns" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A74FB09C3A57B4EA142FCAED34A4128/Text/@EntryValue" value="using namespace std;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A74FB09C3A57B4EA142FCAED34A4128/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A74FB09C3A57B4EA142FCAED34A4128/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A74FB09C3A57B4EA142FCAED34A4128/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A74FB09C3A57B4EA142FCAED34A4128/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A74FB09C3A57B4EA142FCAED34A4128/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A74FB09C3A57B4EA142FCAED34A4128/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/Shortcut/@EntryValue" value="hbitset" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/Text/@EntryValue" value="#include &lt;bitset&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=4541C41E29ADD74BB7C3D414CD7C0117/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/Shortcut/@EntryValue" value="hdeque" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/Text/@EntryValue" value="#include &lt;deque&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5818485654335146ACCF40D6326E4E5F/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/Text/@EntryValue" value="#include &lt;list&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/Shortcut/@EntryValue" value="hlist" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=20F59437299DE2478BE7EC560E4982DD/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/Shortcut/@EntryValue" value="hforwardlist" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/Text/@EntryValue" value="#include &lt;forward_list&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=BDD705952C374A4AB6A1D0263C5729E6/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/Shortcut/@EntryValue" value="hmap" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/Text/@EntryValue" value="#include &lt;map&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=55FAD2587A7E5A41AB58131C716DA45A/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/Text/@EntryValue" value="#include &lt;unordered_list&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/Shortcut/@EntryValue" value="hulist" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=08FBC52513742E46BBC477944DC4AB21/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/Shortcut/@EntryValue" value="humap" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/Text/@EntryValue" value="#include &lt;unordered_map&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF29B256C982F74294A8A93F1D2D5216/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/Text/@EntryValue" value="#include &lt;unordered_set&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/Shortcut/@EntryValue" value="huset" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2060592EB7CDF8449D7090818382086A/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/Reformat/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/Applicability/=Live/@EntryIndexRemoved" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/Text/@EntryValue" value="#include &lt;set&gt;" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/Shortcut/@EntryValue" value="hset" type="string" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
-    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B222553E66B6F42BA91FD99DE78421C/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSmartPointerVsMakeFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCStyleCast/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionalStyleCast/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReinterpretCastFromVoidPtr/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExplicitConvertingConstructor/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExplicitConversionOperator/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDiscardedPostfixOperatorResult/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConstValueFunctionReturnType/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberFunctionMayBeConst/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberFunctionMayBeStatic/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableMayBeConst/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterMayBeConst/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVariableCanBeMadeConstexpr/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterMayBeConstPtrOrRef/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPassValueParameterByConstReference/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppThrowExpressionCanBeReplacedWithRethrow/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppZeroConstantCanBeReplacedWithNullptr/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCompileTimeConstantCanBeReplacedWithBooleanConstant/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIfCanBeReplacedByConstexprIf/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IfStdIsConstantEvaluatedCanBeReplaced/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=StdIsConstantEvaluatedWillAlwaysEvaluateToConstant/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConstevalIfIsAlwaysConstant/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassCanBeFinal/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseStructuredBinding/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseTypeTraitAlias/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAlgorithmWithCount/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseRangeAlgorithm/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseElementsView/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseStdSize/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppForLoopCanBeReplacedWithWhile/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppJoinDeclarationAndAssignment/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReplaceTieWithStructuredBinding/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReplaceMemsetWithZeroInitialization/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAssociativeContains/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseEraseAlgorithm/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseFamiliarTemplateSyntaxForGenericLambdas/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTooWideScope/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTooWideScopeInitStatement/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantNamespaceDefinition/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonInlineFunctionDefinitionInHeaderFile/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonInlineVariableDefinitionInHeaderFile/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionIsNotImplemented/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrivateSpecialMemberFunctionIsNotImplemented/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHiddenFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHidingFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPolymorphicClassWithNonVirtualPublicDestructor/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractClassWithoutSpecifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIncompleteSwitchStatement/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultCaseNotHandledInSwitchStatement/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyErroneousEmptyStatements/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppExpressionWithoutSideEffects/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNoDiscardExpression/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionResultShouldBeUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMissingKeywordThrow/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDependentTypeWithoutTypenameKeyword/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDependentTemplateWithoutTemplateKeyword/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppImplicitDefaultConstructorNotAvailable/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassNeedsConstructorBecauseOfUninitializedMember/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUninitializedNonStaticDataMember/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRangeBasedForIncompatibleReference/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppZeroValuedExpressionUsedAsNullPointer/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyUnintendedObjectSlicing/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyUninitializedMember/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorDisambiguatedAsFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVirtualFunctionInFinalClass/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMustBePublicVirtualToImplementInterface/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationSpecifierWithoutDeclarators/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEmptyDeclaration/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationHidesLocal/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationHidesUncapturedLocal/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMismatchedClassTags/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUsingResultOfAssignmentAsCondition/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIntegralToPointerConversion/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPointerToIntegralConversion/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIncompatiblePointerConversion/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPointerConversionDropsQualifiers/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStringLiteralToCharPointerConversion/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNonExceptionSafeResourceAcquisition/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVirtualFunctionCallInsideCtor/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractVirtualFunctionCallInCtor/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppInvalidLineContinuation/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfBadFormat/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfRiskyFormat/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfMissedArg/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfExtraArg/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatBadCode/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatLegacyCode/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatMixedArgs/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatTooFewArgs/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatTooManyArgs/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeprecatedEntity/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMissingIncludeGuard/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenSyntaxError/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenUnresolvedReference/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenUndocumentedParameter/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeletingVoidPointer/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBooleanIncrementExpression/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeprecatedRegisterStorageClassSpecifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppIdenticalOperandsInBinaryExpression/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEqualOperandsInBinaryExpression/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedefinitionOfDefaultArgumentInOverrideFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnnamedNamespaceInHeaderFile/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterNamesMismatch/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultedSpecialMemberFunctionIsImplicitlyDeleted/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNodiscardFunctionWithoutReturnValue/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantComplexityInComparison/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractFinalClass/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSpecialFunctionWithoutNoexceptSpecification/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnsignedZeroComparison/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMultiCharacterLiteral/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMultiCharacterWideLiteral/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantQualifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantAccessSpecifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAccessSpecifierWithNoDeclarations/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTypenameKeyword/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTemplateKeyword/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElseKeyword/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElseKeywordInsideCompoundStatement/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantControlFlowJump/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantEmptyStatement/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantEmptyDeclaration/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantParentheses/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantLambdaParameterList/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantCastExpression/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppHeaderHasBeenAlreadyIncluded/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateArgumentsCanBeDeduced/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantTemplateArguments/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticSpecifierOnAnonymousNamespaceMember/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantStaticSpecifierOnMemberAllocationFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantStaticSpecifierOnThreadLocalLocalVariable/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBaseClassAccessSpecifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantInlineSpecifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantConstSpecifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBooleanExpressionArgument/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantVoidArgumentList/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantMemberInitializer/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantBaseClassInitializer/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConstParameterInDeclaration/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppVolatileParameterInDeclaration/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFinalFunctionInFinalClass/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFinalNonOverridingVirtualFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantElaboratedTypeSpecifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantDereferencingAndTakingAddress/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantConditionalExpression/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConditionalExpressionCanBeSimplified/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantExportKeyword/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantZeroInitializerInAggregateInitialization/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUserDefinedLiteralSuffixDoesNotStartWithUnderscore/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassIsIncomplete/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateParameterShadowing/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMutableSpecifierOnReferenceMember/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultInitializationWithNoUserConstructor/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppExplicitSpecializationInNonNamespaceScope/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnionMemberOfReferenceType/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUninitializedDependentBaseClass/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrecompiledHeaderIsNotIncluded/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrecompiledHeaderNotFound/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCoroutineCallResolveError/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAwaiterTypeIsNotClass/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppOutParameterMustBeWritten/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWarningDirective/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticAssertFailure/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEvaluationFailure/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTypeAliasNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppConceptNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppClassNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnumeratorNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLambdaCaptureNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableWithNonTrivialDtorIsNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppParameterNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTemplateParameterNeverUsed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEntityAssignedButNoRead/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEntityUsedOnlyInUnevaluatedContext/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableMightNotBeInitialized/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppObjectMemberMightNotBeInitialized/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSomeObjectMembersMightNotBeInitialized/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorUsedBeforeInitialization/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnusedIncludeDirective/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppNotAllPathsReturnValue/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CDeclarationWithImplicitIntType/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionDoesntReturnValue/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReturnNoValueInNonVoidFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCVQualifierCanNotBeAppliedToReference/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDereferenceOperatorLimitExceeded/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppForwardEnumDeclarationWithoutUnderlyingType/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnmatchedPragmaRegionDirective/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnmatchedPragmaEndRegionDirective/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticDataMemberInUnnamedStruct/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultIsUsedAsIdentifier/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLongFloat/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtReinterpretCastFromNullptr/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtBindingRValueToLvalueReference/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtAddressOfClassRValue/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtDoubleUserConversionInCopyInit/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtCopyElisionInCopyInitDeclarator/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtNotInitializedStaticConstLocalVar/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRemoveRedundantBraces/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceIfStatementBraces/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceForStatementBraces/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceWhileStatementBraces/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceDoStatementBraces/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWrongIncludesOrder/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWrongSlashesInIncludeDirective/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceNestedNamespacesStyle/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceTypeAliasCodeStyle/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceFunctionDeclarationStyle/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMemberInitializersOrder/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceOverridingFunctionStyle/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceOverridingDestructorStyle/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAuto/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUseAutoForNumeric/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceCVQualifiersPlacement/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceCVQualifiersOrder/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppUnnecessaryWhitespace/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppTabsAreDisallowed/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantConditions/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFANullDereference/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFANotInitializedField/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALoopConditionNotUpdated/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFADeletedPointer/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAMemoryLeak/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAInvalidatedMemory/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALocalValueEscapesScope/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFALocalValueEscapesFunction/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantParameter/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAConstantFunctionResult/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAArrayIndexOutOfBounds/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreachableCode/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreachableFunctionCall/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAEndlessLoop/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAInfiniteRecursion/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnusedValue/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFAUnreadVariable/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDFATimeOver/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppInconsistentNaming/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=StringLiteralTypo/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CommentTypo/@EntryIndexRemoved" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IdentifierTypo/@EntryIndexRemoved" />
   </component>
 </project>

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/.code/.cpp/.exercises/value_of_pi.cpp" "CMakeFiles/.exercises_value_of_pi.dir/.exercises/value_of_pi.cpp.obj" "gcc" "CMakeFiles/.exercises_value_of_pi.dir/.exercises/value_of_pi.cpp.obj.d"
+  "C:/Code/.cpp/.exercises/value_of_pi.cpp" "CMakeFiles/.exercises_value_of_pi.dir/.exercises/value_of_pi.cpp.obj" "gcc" "CMakeFiles/.exercises_value_of_pi.dir/.exercises/value_of_pi.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
