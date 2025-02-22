@@ -11,12 +11,11 @@ struct Product {
 };
 
 class Inventory {
-    Inventory* ref_inventory; // Self-referential Pointer
+    Inventory* ref_inventory; // Self-referential pointer
     unordered_map<string, Product> inventory; // Stores product name /w product details
     unordered_map<string, int> purchase_list; // Stores product name & quantity to purchase
 public:
-    Inventory() : ref_inventory(this) {} // Constructor
-
+    Inventory() {} // Constructor
     void display_format(int length) {
         for (int i = 0; i < length; ++i) {
             cout << '-';

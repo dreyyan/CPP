@@ -152,6 +152,7 @@ all: CMakeFiles/STL_containers_stack_reverse_string.dir/all
 all: CMakeFiles/STL_containers_stats_checker_benchmark.dir/all
 all: CMakeFiles/STL_containers_stats_checker_dice.dir/all
 all: CMakeFiles/STL_containers_system_inventory_management.dir/all
+all: CMakeFiles/STL_containers_system_library_management.dir/all
 all: CMakeFiles/STL_containers_system_menu_order.dir/all
 all: CMakeFiles/STL_containers_vector.dir/all
 all: CMakeFiles/sorting_algorithms_bubble_sort.dir/all
@@ -258,6 +259,7 @@ clean: CMakeFiles/STL_containers_stack_reverse_string.dir/clean
 clean: CMakeFiles/STL_containers_stats_checker_benchmark.dir/clean
 clean: CMakeFiles/STL_containers_stats_checker_dice.dir/clean
 clean: CMakeFiles/STL_containers_system_inventory_management.dir/clean
+clean: CMakeFiles/STL_containers_system_library_management.dir/clean
 clean: CMakeFiles/STL_containers_system_menu_order.dir/clean
 clean: CMakeFiles/STL_containers_vector.dir/clean
 clean: CMakeFiles/sorting_algorithms_bubble_sort.dir/clean
@@ -2610,13 +2612,39 @@ CMakeFiles/STL_containers_system_inventory_management.dir/clean:
 .PHONY : CMakeFiles/STL_containers_system_inventory_management.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/STL_containers_system_library_management.dir
+
+# All Build rule for target.
+CMakeFiles/STL_containers_system_library_management.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_library_management.dir\build.make CMakeFiles/STL_containers_system_library_management.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_library_management.dir\build.make CMakeFiles/STL_containers_system_library_management.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=91 "Built target STL_containers_system_library_management"
+.PHONY : CMakeFiles/STL_containers_system_library_management.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/STL_containers_system_library_management.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\.cpp\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_containers_system_library_management.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\.cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/STL_containers_system_library_management.dir/rule
+
+# Convenience name for target.
+STL_containers_system_library_management: CMakeFiles/STL_containers_system_library_management.dir/rule
+.PHONY : STL_containers_system_library_management
+
+# clean rule for target.
+CMakeFiles/STL_containers_system_library_management.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_library_management.dir\build.make CMakeFiles/STL_containers_system_library_management.dir/clean
+.PHONY : CMakeFiles/STL_containers_system_library_management.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/STL_containers_system_menu_order.dir
 
 # All Build rule for target.
 CMakeFiles/STL_containers_system_menu_order.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_menu_order.dir\build.make CMakeFiles/STL_containers_system_menu_order.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_system_menu_order.dir\build.make CMakeFiles/STL_containers_system_menu_order.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=91 "Built target STL_containers_system_menu_order"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=92 "Built target STL_containers_system_menu_order"
 .PHONY : CMakeFiles/STL_containers_system_menu_order.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2642,7 +2670,7 @@ CMakeFiles/STL_containers_system_menu_order.dir/clean:
 CMakeFiles/STL_containers_vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_vector.dir\build.make CMakeFiles/STL_containers_vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_vector.dir\build.make CMakeFiles/STL_containers_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=92 "Built target STL_containers_vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=93 "Built target STL_containers_vector"
 .PHONY : CMakeFiles/STL_containers_vector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2668,7 +2696,7 @@ CMakeFiles/STL_containers_vector.dir/clean:
 CMakeFiles/sorting_algorithms_bubble_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_bubble_sort.dir\build.make CMakeFiles/sorting_algorithms_bubble_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_bubble_sort.dir\build.make CMakeFiles/sorting_algorithms_bubble_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=93 "Built target sorting_algorithms_bubble_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=94 "Built target sorting_algorithms_bubble_sort"
 .PHONY : CMakeFiles/sorting_algorithms_bubble_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2694,7 +2722,7 @@ CMakeFiles/sorting_algorithms_bubble_sort.dir/clean:
 CMakeFiles/sorting_algorithms_insertion_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_insertion_sort.dir\build.make CMakeFiles/sorting_algorithms_insertion_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_insertion_sort.dir\build.make CMakeFiles/sorting_algorithms_insertion_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=94 "Built target sorting_algorithms_insertion_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=95 "Built target sorting_algorithms_insertion_sort"
 .PHONY : CMakeFiles/sorting_algorithms_insertion_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2720,7 +2748,7 @@ CMakeFiles/sorting_algorithms_insertion_sort.dir/clean:
 CMakeFiles/sorting_algorithms_merge_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_merge_sort.dir\build.make CMakeFiles/sorting_algorithms_merge_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_merge_sort.dir\build.make CMakeFiles/sorting_algorithms_merge_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=95 "Built target sorting_algorithms_merge_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=96 "Built target sorting_algorithms_merge_sort"
 .PHONY : CMakeFiles/sorting_algorithms_merge_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2746,7 +2774,7 @@ CMakeFiles/sorting_algorithms_merge_sort.dir/clean:
 CMakeFiles/sorting_algorithms_quick_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_quick_sort.dir\build.make CMakeFiles/sorting_algorithms_quick_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_quick_sort.dir\build.make CMakeFiles/sorting_algorithms_quick_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=96 "Built target sorting_algorithms_quick_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=97 "Built target sorting_algorithms_quick_sort"
 .PHONY : CMakeFiles/sorting_algorithms_quick_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2772,7 +2800,7 @@ CMakeFiles/sorting_algorithms_quick_sort.dir/clean:
 CMakeFiles/sorting_algorithms_radix_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_radix_sort.dir\build.make CMakeFiles/sorting_algorithms_radix_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=97 "Built target sorting_algorithms_radix_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=98 "Built target sorting_algorithms_radix_sort"
 .PHONY : CMakeFiles/sorting_algorithms_radix_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2798,7 +2826,7 @@ CMakeFiles/sorting_algorithms_radix_sort.dir/clean:
 CMakeFiles/sorting_algorithms_selection_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_selection_sort.dir\build.make CMakeFiles/sorting_algorithms_selection_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_selection_sort.dir\build.make CMakeFiles/sorting_algorithms_selection_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=98 "Built target sorting_algorithms_selection_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=99 "Built target sorting_algorithms_selection_sort"
 .PHONY : CMakeFiles/sorting_algorithms_selection_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2824,12 +2852,12 @@ CMakeFiles/sorting_algorithms_selection_sort.dir/clean:
 CMakeFiles/try_throw_catch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\try_throw_catch.dir\build.make CMakeFiles/try_throw_catch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\try_throw_catch.dir\build.make CMakeFiles/try_throw_catch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=99,100 "Built target try_throw_catch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Code\.cpp\cmake-build-debug\CMakeFiles --progress-num=100 "Built target try_throw_catch"
 .PHONY : CMakeFiles/try_throw_catch.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/try_throw_catch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\.cpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\.cpp\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/try_throw_catch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/try_throw_catch.dir/rule

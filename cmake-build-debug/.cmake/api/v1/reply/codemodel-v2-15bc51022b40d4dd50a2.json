@@ -113,7 +113,8 @@
 						95,
 						96,
 						97,
-						98
+						98,
+						99
 					]
 				}
 			],
@@ -226,7 +227,8 @@
 						95,
 						96,
 						97,
-						98
+						98,
+						99
 					]
 				}
 			],
@@ -860,6 +862,13 @@
 					"id" : "STL_containers_system_inventory_management::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-STL_containers_system_inventory_management-Debug-d5ddcfde9d107d236de2.json",
 					"name" : "STL_containers_system_inventory_management",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_system_library_management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_system_library_management-Debug-0f22c2b801bd8e7015a7.json",
+					"name" : "STL_containers_system_library_management",
 					"projectIndex" : 0
 				},
 				{
