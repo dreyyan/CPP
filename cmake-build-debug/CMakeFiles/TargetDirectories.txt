@@ -10,6 +10,7 @@ C:/Code/.cpp/cmake-build-debug/CMakeFiles/.algorithm_algorithm_partial_sort.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.algorithm_algorithm_partition.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.algorithm_algorithm_reverse.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.algorithm_algorithm_set_difference.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/.algorithm_algorithm_shuffle.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.algorithm_algorithm_sort.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.algorithm_algorithm_stable_sort.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.algorithm_algorithm_transform.dir
@@ -23,6 +24,7 @@ C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_cookies_EOF.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_cookies_EOF_revised.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_count_multiples.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_do_while_num.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_employee_management_system.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_errors.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_for_num.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_grade_average.dir
@@ -42,6 +44,7 @@ C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_simple_interest_calculator.
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_smallest.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_softdrinks_new.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_static_casting_temp.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_student_display_grades.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_sum_of_digits1.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_sum_of_digits2.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/.exercises_telephone_digits_new.dir
@@ -91,12 +94,20 @@ C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_system_inventory_manage
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_system_library_management.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_system_menu_order.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/STL_containers_vector.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/array_variations.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/class_bank_account.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/class_book_management.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/election.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/linear.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/memory_game.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/sorting_algorithms_bubble_sort.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/sorting_algorithms_insertion_sort.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/sorting_algorithms_merge_sort.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/sorting_algorithms_quick_sort.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/sorting_algorithms_radix_sort.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/sorting_algorithms_selection_sort.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/tictac_toe.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/try_throw_catch.dir
+C:/Code/.cpp/cmake-build-debug/CMakeFiles/uppercase.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Code/.cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

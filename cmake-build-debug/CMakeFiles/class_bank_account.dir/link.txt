@@ -1,0 +1,3 @@
+"C:\Users\User\Downloads\setup\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\class_bank_account.dir/objects.a
+C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\class_bank_account.dir/objects.a @CMakeFiles\class_bank_account.dir\objects1.rsp
+C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\class_bank_account.dir/objects.a -Wl,--no-whole-archive -o class_bank_account.exe -Wl,--out-implib,libclass_bank_account.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\class_bank_account.dir\linkLibs.rsp

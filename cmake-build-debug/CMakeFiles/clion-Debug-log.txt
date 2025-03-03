@@ -1,4 +1,4 @@
 "C:\Users\User\Downloads\setup\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Code\.cpp -B C:\Code\.cpp\cmake-build-debug
--- Configuring done (1.1s)
--- Generating done (11.7s)
+-- Configuring done (0.8s)
+-- Generating done (11.0s)
 -- Build files have been written to: C:/Code/.cpp/cmake-build-debug

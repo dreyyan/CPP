@@ -272,6 +272,19 @@ depend:
 .PHONY : .algorithm_algorithm_set_difference/fast
 
 #=============================================================================
+# Target rules for targets named .algorithm_algorithm_shuffle
+
+# Build rule for target.
+.algorithm_algorithm_shuffle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .algorithm_algorithm_shuffle
+.PHONY : .algorithm_algorithm_shuffle
+
+# fast build rule for target.
+.algorithm_algorithm_shuffle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_shuffle.dir\build.make CMakeFiles/.algorithm_algorithm_shuffle.dir/build
+.PHONY : .algorithm_algorithm_shuffle/fast
+
+#=============================================================================
 # Target rules for targets named .algorithm_algorithm_sort
 
 # Build rule for target.
@@ -439,6 +452,19 @@ depend:
 .exercises_do_while_num/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_do_while_num.dir\build.make CMakeFiles/.exercises_do_while_num.dir/build
 .PHONY : .exercises_do_while_num/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_employee_management_system
+
+# Build rule for target.
+.exercises_employee_management_system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_employee_management_system
+.PHONY : .exercises_employee_management_system
+
+# fast build rule for target.
+.exercises_employee_management_system/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_employee_management_system.dir\build.make CMakeFiles/.exercises_employee_management_system.dir/build
+.PHONY : .exercises_employee_management_system/fast
 
 #=============================================================================
 # Target rules for targets named .exercises_errors
@@ -686,6 +712,19 @@ depend:
 .exercises_static_casting_temp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_static_casting_temp.dir\build.make CMakeFiles/.exercises_static_casting_temp.dir/build
 .PHONY : .exercises_static_casting_temp/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_student_display_grades
+
+# Build rule for target.
+.exercises_student_display_grades: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_student_display_grades
+.PHONY : .exercises_student_display_grades
+
+# fast build rule for target.
+.exercises_student_display_grades/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_student_display_grades.dir\build.make CMakeFiles/.exercises_student_display_grades.dir/build
+.PHONY : .exercises_student_display_grades/fast
 
 #=============================================================================
 # Target rules for targets named .exercises_sum_of_digits1
@@ -1325,6 +1364,84 @@ STL_containers_vector/fast:
 .PHONY : STL_containers_vector/fast
 
 #=============================================================================
+# Target rules for targets named array_variations
+
+# Build rule for target.
+array_variations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_variations
+.PHONY : array_variations
+
+# fast build rule for target.
+array_variations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_variations.dir\build.make CMakeFiles/array_variations.dir/build
+.PHONY : array_variations/fast
+
+#=============================================================================
+# Target rules for targets named class_bank_account
+
+# Build rule for target.
+class_bank_account: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class_bank_account
+.PHONY : class_bank_account
+
+# fast build rule for target.
+class_bank_account/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_bank_account.dir\build.make CMakeFiles/class_bank_account.dir/build
+.PHONY : class_bank_account/fast
+
+#=============================================================================
+# Target rules for targets named class_book_management
+
+# Build rule for target.
+class_book_management: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class_book_management
+.PHONY : class_book_management
+
+# fast build rule for target.
+class_book_management/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_book_management.dir\build.make CMakeFiles/class_book_management.dir/build
+.PHONY : class_book_management/fast
+
+#=============================================================================
+# Target rules for targets named election
+
+# Build rule for target.
+election: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 election
+.PHONY : election
+
+# fast build rule for target.
+election/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\election.dir\build.make CMakeFiles/election.dir/build
+.PHONY : election/fast
+
+#=============================================================================
+# Target rules for targets named linear
+
+# Build rule for target.
+linear: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linear
+.PHONY : linear
+
+# fast build rule for target.
+linear/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear.dir\build.make CMakeFiles/linear.dir/build
+.PHONY : linear/fast
+
+#=============================================================================
+# Target rules for targets named memory_game
+
+# Build rule for target.
+memory_game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 memory_game
+.PHONY : memory_game
+
+# fast build rule for target.
+memory_game/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\memory_game.dir\build.make CMakeFiles/memory_game.dir/build
+.PHONY : memory_game/fast
+
+#=============================================================================
 # Target rules for targets named sorting_algorithms_bubble_sort
 
 # Build rule for target.
@@ -1403,6 +1520,19 @@ sorting_algorithms_selection_sort/fast:
 .PHONY : sorting_algorithms_selection_sort/fast
 
 #=============================================================================
+# Target rules for targets named tictac_toe
+
+# Build rule for target.
+tictac_toe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tictac_toe
+.PHONY : tictac_toe
+
+# fast build rule for target.
+tictac_toe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tictac_toe.dir\build.make CMakeFiles/tictac_toe.dir/build
+.PHONY : tictac_toe/fast
+
+#=============================================================================
 # Target rules for targets named try_throw_catch
 
 # Build rule for target.
@@ -1414,6 +1544,19 @@ try_throw_catch: cmake_check_build_system
 try_throw_catch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\try_throw_catch.dir\build.make CMakeFiles/try_throw_catch.dir/build
 .PHONY : try_throw_catch/fast
+
+#=============================================================================
+# Target rules for targets named uppercase
+
+# Build rule for target.
+uppercase: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uppercase
+.PHONY : uppercase
+
+# fast build rule for target.
+uppercase/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uppercase.dir\build.make CMakeFiles/uppercase.dir/build
+.PHONY : uppercase/fast
 
 .algorithm/algorithm_binary_search.obj: .algorithm/algorithm_binary_search.cpp.obj
 .PHONY : .algorithm/algorithm_binary_search.obj
@@ -1702,6 +1845,30 @@ try_throw_catch/fast:
 .algorithm/algorithm_set_difference.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_set_difference.dir\build.make CMakeFiles/.algorithm_algorithm_set_difference.dir/.algorithm/algorithm_set_difference.cpp.s
 .PHONY : .algorithm/algorithm_set_difference.cpp.s
+
+.algorithm/algorithm_shuffle.obj: .algorithm/algorithm_shuffle.cpp.obj
+.PHONY : .algorithm/algorithm_shuffle.obj
+
+# target to build an object file
+.algorithm/algorithm_shuffle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_shuffle.dir\build.make CMakeFiles/.algorithm_algorithm_shuffle.dir/.algorithm/algorithm_shuffle.cpp.obj
+.PHONY : .algorithm/algorithm_shuffle.cpp.obj
+
+.algorithm/algorithm_shuffle.i: .algorithm/algorithm_shuffle.cpp.i
+.PHONY : .algorithm/algorithm_shuffle.i
+
+# target to preprocess a source file
+.algorithm/algorithm_shuffle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_shuffle.dir\build.make CMakeFiles/.algorithm_algorithm_shuffle.dir/.algorithm/algorithm_shuffle.cpp.i
+.PHONY : .algorithm/algorithm_shuffle.cpp.i
+
+.algorithm/algorithm_shuffle.s: .algorithm/algorithm_shuffle.cpp.s
+.PHONY : .algorithm/algorithm_shuffle.s
+
+# target to generate assembly for a file
+.algorithm/algorithm_shuffle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_shuffle.dir\build.make CMakeFiles/.algorithm_algorithm_shuffle.dir/.algorithm/algorithm_shuffle.cpp.s
+.PHONY : .algorithm/algorithm_shuffle.cpp.s
 
 .algorithm/algorithm_sort.obj: .algorithm/algorithm_sort.cpp.obj
 .PHONY : .algorithm/algorithm_sort.obj
@@ -2014,6 +2181,30 @@ try_throw_catch/fast:
 .exercises/do_while_num.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_do_while_num.dir\build.make CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.s
 .PHONY : .exercises/do_while_num.cpp.s
+
+.exercises/employee_management_system.obj: .exercises/employee_management_system.cpp.obj
+.PHONY : .exercises/employee_management_system.obj
+
+# target to build an object file
+.exercises/employee_management_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_employee_management_system.dir\build.make CMakeFiles/.exercises_employee_management_system.dir/.exercises/employee_management_system.cpp.obj
+.PHONY : .exercises/employee_management_system.cpp.obj
+
+.exercises/employee_management_system.i: .exercises/employee_management_system.cpp.i
+.PHONY : .exercises/employee_management_system.i
+
+# target to preprocess a source file
+.exercises/employee_management_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_employee_management_system.dir\build.make CMakeFiles/.exercises_employee_management_system.dir/.exercises/employee_management_system.cpp.i
+.PHONY : .exercises/employee_management_system.cpp.i
+
+.exercises/employee_management_system.s: .exercises/employee_management_system.cpp.s
+.PHONY : .exercises/employee_management_system.s
+
+# target to generate assembly for a file
+.exercises/employee_management_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_employee_management_system.dir\build.make CMakeFiles/.exercises_employee_management_system.dir/.exercises/employee_management_system.cpp.s
+.PHONY : .exercises/employee_management_system.cpp.s
 
 .exercises/errors.obj: .exercises/errors.cpp.obj
 .PHONY : .exercises/errors.obj
@@ -2470,6 +2661,30 @@ try_throw_catch/fast:
 .exercises/static_casting_temp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_static_casting_temp.dir\build.make CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.s
 .PHONY : .exercises/static_casting_temp.cpp.s
+
+.exercises/student_display_grades.obj: .exercises/student_display_grades.cpp.obj
+.PHONY : .exercises/student_display_grades.obj
+
+# target to build an object file
+.exercises/student_display_grades.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_student_display_grades.dir\build.make CMakeFiles/.exercises_student_display_grades.dir/.exercises/student_display_grades.cpp.obj
+.PHONY : .exercises/student_display_grades.cpp.obj
+
+.exercises/student_display_grades.i: .exercises/student_display_grades.cpp.i
+.PHONY : .exercises/student_display_grades.i
+
+# target to preprocess a source file
+.exercises/student_display_grades.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_student_display_grades.dir\build.make CMakeFiles/.exercises_student_display_grades.dir/.exercises/student_display_grades.cpp.i
+.PHONY : .exercises/student_display_grades.cpp.i
+
+.exercises/student_display_grades.s: .exercises/student_display_grades.cpp.s
+.PHONY : .exercises/student_display_grades.s
+
+# target to generate assembly for a file
+.exercises/student_display_grades.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_student_display_grades.dir\build.make CMakeFiles/.exercises_student_display_grades.dir/.exercises/student_display_grades.cpp.s
+.PHONY : .exercises/student_display_grades.cpp.s
 
 .exercises/sum_of_digits1.obj: .exercises/sum_of_digits1.cpp.obj
 .PHONY : .exercises/sum_of_digits1.obj
@@ -3647,6 +3862,150 @@ STL_containers/vector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_vector.dir\build.make CMakeFiles/STL_containers_vector.dir/STL_containers/vector.cpp.s
 .PHONY : STL_containers/vector.cpp.s
 
+array_variations.obj: array_variations.cpp.obj
+.PHONY : array_variations.obj
+
+# target to build an object file
+array_variations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_variations.dir\build.make CMakeFiles/array_variations.dir/array_variations.cpp.obj
+.PHONY : array_variations.cpp.obj
+
+array_variations.i: array_variations.cpp.i
+.PHONY : array_variations.i
+
+# target to preprocess a source file
+array_variations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_variations.dir\build.make CMakeFiles/array_variations.dir/array_variations.cpp.i
+.PHONY : array_variations.cpp.i
+
+array_variations.s: array_variations.cpp.s
+.PHONY : array_variations.s
+
+# target to generate assembly for a file
+array_variations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_variations.dir\build.make CMakeFiles/array_variations.dir/array_variations.cpp.s
+.PHONY : array_variations.cpp.s
+
+class_bank_account.obj: class_bank_account.cpp.obj
+.PHONY : class_bank_account.obj
+
+# target to build an object file
+class_bank_account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_bank_account.dir\build.make CMakeFiles/class_bank_account.dir/class_bank_account.cpp.obj
+.PHONY : class_bank_account.cpp.obj
+
+class_bank_account.i: class_bank_account.cpp.i
+.PHONY : class_bank_account.i
+
+# target to preprocess a source file
+class_bank_account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_bank_account.dir\build.make CMakeFiles/class_bank_account.dir/class_bank_account.cpp.i
+.PHONY : class_bank_account.cpp.i
+
+class_bank_account.s: class_bank_account.cpp.s
+.PHONY : class_bank_account.s
+
+# target to generate assembly for a file
+class_bank_account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_bank_account.dir\build.make CMakeFiles/class_bank_account.dir/class_bank_account.cpp.s
+.PHONY : class_bank_account.cpp.s
+
+class_book_management.obj: class_book_management.cpp.obj
+.PHONY : class_book_management.obj
+
+# target to build an object file
+class_book_management.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_book_management.dir\build.make CMakeFiles/class_book_management.dir/class_book_management.cpp.obj
+.PHONY : class_book_management.cpp.obj
+
+class_book_management.i: class_book_management.cpp.i
+.PHONY : class_book_management.i
+
+# target to preprocess a source file
+class_book_management.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_book_management.dir\build.make CMakeFiles/class_book_management.dir/class_book_management.cpp.i
+.PHONY : class_book_management.cpp.i
+
+class_book_management.s: class_book_management.cpp.s
+.PHONY : class_book_management.s
+
+# target to generate assembly for a file
+class_book_management.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_book_management.dir\build.make CMakeFiles/class_book_management.dir/class_book_management.cpp.s
+.PHONY : class_book_management.cpp.s
+
+election.obj: election.cpp.obj
+.PHONY : election.obj
+
+# target to build an object file
+election.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\election.dir\build.make CMakeFiles/election.dir/election.cpp.obj
+.PHONY : election.cpp.obj
+
+election.i: election.cpp.i
+.PHONY : election.i
+
+# target to preprocess a source file
+election.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\election.dir\build.make CMakeFiles/election.dir/election.cpp.i
+.PHONY : election.cpp.i
+
+election.s: election.cpp.s
+.PHONY : election.s
+
+# target to generate assembly for a file
+election.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\election.dir\build.make CMakeFiles/election.dir/election.cpp.s
+.PHONY : election.cpp.s
+
+linear.obj: linear.cpp.obj
+.PHONY : linear.obj
+
+# target to build an object file
+linear.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear.dir\build.make CMakeFiles/linear.dir/linear.cpp.obj
+.PHONY : linear.cpp.obj
+
+linear.i: linear.cpp.i
+.PHONY : linear.i
+
+# target to preprocess a source file
+linear.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear.dir\build.make CMakeFiles/linear.dir/linear.cpp.i
+.PHONY : linear.cpp.i
+
+linear.s: linear.cpp.s
+.PHONY : linear.s
+
+# target to generate assembly for a file
+linear.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear.dir\build.make CMakeFiles/linear.dir/linear.cpp.s
+.PHONY : linear.cpp.s
+
+memory_game.obj: memory_game.cpp.obj
+.PHONY : memory_game.obj
+
+# target to build an object file
+memory_game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\memory_game.dir\build.make CMakeFiles/memory_game.dir/memory_game.cpp.obj
+.PHONY : memory_game.cpp.obj
+
+memory_game.i: memory_game.cpp.i
+.PHONY : memory_game.i
+
+# target to preprocess a source file
+memory_game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\memory_game.dir\build.make CMakeFiles/memory_game.dir/memory_game.cpp.i
+.PHONY : memory_game.cpp.i
+
+memory_game.s: memory_game.cpp.s
+.PHONY : memory_game.s
+
+# target to generate assembly for a file
+memory_game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\memory_game.dir\build.make CMakeFiles/memory_game.dir/memory_game.cpp.s
+.PHONY : memory_game.cpp.s
+
 sorting_algorithms/bubble_sort.obj: sorting_algorithms/bubble_sort.cpp.obj
 .PHONY : sorting_algorithms/bubble_sort.obj
 
@@ -3791,6 +4150,30 @@ sorting_algorithms/selection_sort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_selection_sort.dir\build.make CMakeFiles/sorting_algorithms_selection_sort.dir/sorting_algorithms/selection_sort.cpp.s
 .PHONY : sorting_algorithms/selection_sort.cpp.s
 
+tictac_toe.obj: tictac_toe.cpp.obj
+.PHONY : tictac_toe.obj
+
+# target to build an object file
+tictac_toe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tictac_toe.dir\build.make CMakeFiles/tictac_toe.dir/tictac_toe.cpp.obj
+.PHONY : tictac_toe.cpp.obj
+
+tictac_toe.i: tictac_toe.cpp.i
+.PHONY : tictac_toe.i
+
+# target to preprocess a source file
+tictac_toe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tictac_toe.dir\build.make CMakeFiles/tictac_toe.dir/tictac_toe.cpp.i
+.PHONY : tictac_toe.cpp.i
+
+tictac_toe.s: tictac_toe.cpp.s
+.PHONY : tictac_toe.s
+
+# target to generate assembly for a file
+tictac_toe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tictac_toe.dir\build.make CMakeFiles/tictac_toe.dir/tictac_toe.cpp.s
+.PHONY : tictac_toe.cpp.s
+
 try_throw_catch.obj: try_throw_catch.cpp.obj
 .PHONY : try_throw_catch.obj
 
@@ -3815,6 +4198,30 @@ try_throw_catch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\try_throw_catch.dir\build.make CMakeFiles/try_throw_catch.dir/try_throw_catch.cpp.s
 .PHONY : try_throw_catch.cpp.s
 
+uppercase.obj: uppercase.cpp.obj
+.PHONY : uppercase.obj
+
+# target to build an object file
+uppercase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uppercase.dir\build.make CMakeFiles/uppercase.dir/uppercase.cpp.obj
+.PHONY : uppercase.cpp.obj
+
+uppercase.i: uppercase.cpp.i
+.PHONY : uppercase.i
+
+# target to preprocess a source file
+uppercase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uppercase.dir\build.make CMakeFiles/uppercase.dir/uppercase.cpp.i
+.PHONY : uppercase.cpp.i
+
+uppercase.s: uppercase.cpp.s
+.PHONY : uppercase.s
+
+# target to generate assembly for a file
+uppercase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uppercase.dir\build.make CMakeFiles/uppercase.dir/uppercase.cpp.s
+.PHONY : uppercase.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3835,6 +4242,7 @@ help:
 	@echo ... .algorithm_algorithm_partition
 	@echo ... .algorithm_algorithm_reverse
 	@echo ... .algorithm_algorithm_set_difference
+	@echo ... .algorithm_algorithm_shuffle
 	@echo ... .algorithm_algorithm_sort
 	@echo ... .algorithm_algorithm_stable_sort
 	@echo ... .algorithm_algorithm_transform
@@ -3848,6 +4256,7 @@ help:
 	@echo ... .exercises_cookies_EOF_revised
 	@echo ... .exercises_count_multiples
 	@echo ... .exercises_do_while_num
+	@echo ... .exercises_employee_management_system
 	@echo ... .exercises_errors
 	@echo ... .exercises_for_num
 	@echo ... .exercises_grade_average
@@ -3867,6 +4276,7 @@ help:
 	@echo ... .exercises_smallest
 	@echo ... .exercises_softdrinks_new
 	@echo ... .exercises_static_casting_temp
+	@echo ... .exercises_student_display_grades
 	@echo ... .exercises_sum_of_digits1
 	@echo ... .exercises_sum_of_digits2
 	@echo ... .exercises_telephone_digits_new
@@ -3916,13 +4326,21 @@ help:
 	@echo ... STL_containers_system_library_management
 	@echo ... STL_containers_system_menu_order
 	@echo ... STL_containers_vector
+	@echo ... array_variations
+	@echo ... class_bank_account
+	@echo ... class_book_management
+	@echo ... election
+	@echo ... linear
+	@echo ... memory_game
 	@echo ... sorting_algorithms_bubble_sort
 	@echo ... sorting_algorithms_insertion_sort
 	@echo ... sorting_algorithms_merge_sort
 	@echo ... sorting_algorithms_quick_sort
 	@echo ... sorting_algorithms_radix_sort
 	@echo ... sorting_algorithms_selection_sort
+	@echo ... tictac_toe
 	@echo ... try_throw_catch
+	@echo ... uppercase
 	@echo ... .algorithm/algorithm_binary_search.obj
 	@echo ... .algorithm/algorithm_binary_search.i
 	@echo ... .algorithm/algorithm_binary_search.s
@@ -3959,6 +4377,9 @@ help:
 	@echo ... .algorithm/algorithm_set_difference.obj
 	@echo ... .algorithm/algorithm_set_difference.i
 	@echo ... .algorithm/algorithm_set_difference.s
+	@echo ... .algorithm/algorithm_shuffle.obj
+	@echo ... .algorithm/algorithm_shuffle.i
+	@echo ... .algorithm/algorithm_shuffle.s
 	@echo ... .algorithm/algorithm_sort.obj
 	@echo ... .algorithm/algorithm_sort.i
 	@echo ... .algorithm/algorithm_sort.s
@@ -3998,6 +4419,9 @@ help:
 	@echo ... .exercises/do_while_num.obj
 	@echo ... .exercises/do_while_num.i
 	@echo ... .exercises/do_while_num.s
+	@echo ... .exercises/employee_management_system.obj
+	@echo ... .exercises/employee_management_system.i
+	@echo ... .exercises/employee_management_system.s
 	@echo ... .exercises/errors.obj
 	@echo ... .exercises/errors.i
 	@echo ... .exercises/errors.s
@@ -4055,6 +4479,9 @@ help:
 	@echo ... .exercises/static_casting_temp.obj
 	@echo ... .exercises/static_casting_temp.i
 	@echo ... .exercises/static_casting_temp.s
+	@echo ... .exercises/student_display_grades.obj
+	@echo ... .exercises/student_display_grades.i
+	@echo ... .exercises/student_display_grades.s
 	@echo ... .exercises/sum_of_digits1.obj
 	@echo ... .exercises/sum_of_digits1.i
 	@echo ... .exercises/sum_of_digits1.s
@@ -4202,6 +4629,24 @@ help:
 	@echo ... STL_containers/vector.obj
 	@echo ... STL_containers/vector.i
 	@echo ... STL_containers/vector.s
+	@echo ... array_variations.obj
+	@echo ... array_variations.i
+	@echo ... array_variations.s
+	@echo ... class_bank_account.obj
+	@echo ... class_bank_account.i
+	@echo ... class_bank_account.s
+	@echo ... class_book_management.obj
+	@echo ... class_book_management.i
+	@echo ... class_book_management.s
+	@echo ... election.obj
+	@echo ... election.i
+	@echo ... election.s
+	@echo ... linear.obj
+	@echo ... linear.i
+	@echo ... linear.s
+	@echo ... memory_game.obj
+	@echo ... memory_game.i
+	@echo ... memory_game.s
 	@echo ... sorting_algorithms/bubble_sort.obj
 	@echo ... sorting_algorithms/bubble_sort.i
 	@echo ... sorting_algorithms/bubble_sort.s
@@ -4220,9 +4665,15 @@ help:
 	@echo ... sorting_algorithms/selection_sort.obj
 	@echo ... sorting_algorithms/selection_sort.i
 	@echo ... sorting_algorithms/selection_sort.s
+	@echo ... tictac_toe.obj
+	@echo ... tictac_toe.i
+	@echo ... tictac_toe.s
 	@echo ... try_throw_catch.obj
 	@echo ... try_throw_catch.i
 	@echo ... try_throw_catch.s
+	@echo ... uppercase.obj
+	@echo ... uppercase.i
+	@echo ... uppercase.s
 .PHONY : help
 
 
