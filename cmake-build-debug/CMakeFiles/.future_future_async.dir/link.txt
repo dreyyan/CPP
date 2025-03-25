@@ -1,0 +1,3 @@
+"C:\Users\User\Downloads\setup\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\.future_future_async.dir/objects.a
+C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\.future_future_async.dir/objects.a @CMakeFiles\.future_future_async.dir\objects1.rsp
+C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\.future_future_async.dir/objects.a -Wl,--no-whole-archive -o .future_future_async.exe -Wl,--out-implib,lib.future_future_async.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.future_future_async.dir\linkLibs.rsp

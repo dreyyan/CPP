@@ -116,6 +116,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named .RI_RI.missing_number
+
+# Build rule for target.
+.RI_RI.missing_number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .RI_RI.missing_number
+.PHONY : .RI_RI.missing_number
+
+# fast build rule for target.
+.RI_RI.missing_number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.missing_number.dir\build.make CMakeFiles/.RI_RI.missing_number.dir/build
+.PHONY : .RI_RI.missing_number/fast
+
+#=============================================================================
+# Target rules for targets named .RI_RI.rotate_elements
+
+# Build rule for target.
+.RI_RI.rotate_elements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .RI_RI.rotate_elements
+.PHONY : .RI_RI.rotate_elements
+
+# fast build rule for target.
+.RI_RI.rotate_elements/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.rotate_elements.dir\build.make CMakeFiles/.RI_RI.rotate_elements.dir/build
+.PHONY : .RI_RI.rotate_elements/fast
+
+#=============================================================================
+# Target rules for targets named .RI_RI.separate_even_odd
+
+# Build rule for target.
+.RI_RI.separate_even_odd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .RI_RI.separate_even_odd
+.PHONY : .RI_RI.separate_even_odd
+
+# fast build rule for target.
+.RI_RI.separate_even_odd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.separate_even_odd.dir\build.make CMakeFiles/.RI_RI.separate_even_odd.dir/build
+.PHONY : .RI_RI.separate_even_odd/fast
+
+#=============================================================================
+# Target rules for targets named .RI_RI.vowel_counter
+
+# Build rule for target.
+.RI_RI.vowel_counter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .RI_RI.vowel_counter
+.PHONY : .RI_RI.vowel_counter
+
+# fast build rule for target.
+.RI_RI.vowel_counter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.vowel_counter.dir\build.make CMakeFiles/.RI_RI.vowel_counter.dir/build
+.PHONY : .RI_RI.vowel_counter/fast
+
+#=============================================================================
+# Target rules for targets named .RNG_RNG.LCG
+
+# Build rule for target.
+.RNG_RNG.LCG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .RNG_RNG.LCG
+.PHONY : .RNG_RNG.LCG
+
+# fast build rule for target.
+.RNG_RNG.LCG/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RNG_RNG.LCG.dir\build.make CMakeFiles/.RNG_RNG.LCG.dir/build
+.PHONY : .RNG_RNG.LCG/fast
+
+#=============================================================================
+# Target rules for targets named .RNG_RNG.mersenne_twister
+
+# Build rule for target.
+.RNG_RNG.mersenne_twister: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .RNG_RNG.mersenne_twister
+.PHONY : .RNG_RNG.mersenne_twister
+
+# fast build rule for target.
+.RNG_RNG.mersenne_twister/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RNG_RNG.mersenne_twister.dir\build.make CMakeFiles/.RNG_RNG.mersenne_twister.dir/build
+.PHONY : .RNG_RNG.mersenne_twister/fast
+
+#=============================================================================
 # Target rules for targets named .algorithm_algorithm_binary_search
 
 # Build rule for target.
@@ -337,6 +415,84 @@ depend:
 .PHONY : .algorithm_algorithm_unique/fast
 
 #=============================================================================
+# Target rules for targets named .c_style_strcmp
+
+# Build rule for target.
+.c_style_strcmp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .c_style_strcmp
+.PHONY : .c_style_strcmp
+
+# fast build rule for target.
+.c_style_strcmp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strcmp.dir\build.make CMakeFiles/.c_style_strcmp.dir/build
+.PHONY : .c_style_strcmp/fast
+
+#=============================================================================
+# Target rules for targets named .c_style_strcpy
+
+# Build rule for target.
+.c_style_strcpy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .c_style_strcpy
+.PHONY : .c_style_strcpy
+
+# fast build rule for target.
+.c_style_strcpy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strcpy.dir\build.make CMakeFiles/.c_style_strcpy.dir/build
+.PHONY : .c_style_strcpy/fast
+
+#=============================================================================
+# Target rules for targets named .c_style_strlen
+
+# Build rule for target.
+.c_style_strlen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .c_style_strlen
+.PHONY : .c_style_strlen
+
+# fast build rule for target.
+.c_style_strlen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strlen.dir\build.make CMakeFiles/.c_style_strlen.dir/build
+.PHONY : .c_style_strlen/fast
+
+#=============================================================================
+# Target rules for targets named .chrono_chrono_elapsed_time
+
+# Build rule for target.
+.chrono_chrono_elapsed_time: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .chrono_chrono_elapsed_time
+.PHONY : .chrono_chrono_elapsed_time
+
+# fast build rule for target.
+.chrono_chrono_elapsed_time/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.chrono_chrono_elapsed_time.dir\build.make CMakeFiles/.chrono_chrono_elapsed_time.dir/build
+.PHONY : .chrono_chrono_elapsed_time/fast
+
+#=============================================================================
+# Target rules for targets named .crypto_crypto_ROT13
+
+# Build rule for target.
+.crypto_crypto_ROT13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .crypto_crypto_ROT13
+.PHONY : .crypto_crypto_ROT13
+
+# fast build rule for target.
+.crypto_crypto_ROT13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.crypto_crypto_ROT13.dir\build.make CMakeFiles/.crypto_crypto_ROT13.dir/build
+.PHONY : .crypto_crypto_ROT13/fast
+
+#=============================================================================
+# Target rules for targets named .crypto_crypto_caesar_cipher
+
+# Build rule for target.
+.crypto_crypto_caesar_cipher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .crypto_crypto_caesar_cipher
+.PHONY : .crypto_crypto_caesar_cipher
+
+# fast build rule for target.
+.crypto_crypto_caesar_cipher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.crypto_crypto_caesar_cipher.dir\build.make CMakeFiles/.crypto_crypto_caesar_cipher.dir/build
+.PHONY : .crypto_crypto_caesar_cipher/fast
+
+#=============================================================================
 # Target rules for targets named .exercises_BMI_calculator_v2.0
 
 # Build rule for target.
@@ -376,6 +532,45 @@ depend:
 .PHONY : .exercises_alpha/fast
 
 #=============================================================================
+# Target rules for targets named .exercises_array_variations
+
+# Build rule for target.
+.exercises_array_variations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_array_variations
+.PHONY : .exercises_array_variations
+
+# fast build rule for target.
+.exercises_array_variations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_array_variations.dir\build.make CMakeFiles/.exercises_array_variations.dir/build
+.PHONY : .exercises_array_variations/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_avanced_calculator
+
+# Build rule for target.
+.exercises_avanced_calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_avanced_calculator
+.PHONY : .exercises_avanced_calculator
+
+# fast build rule for target.
+.exercises_avanced_calculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_avanced_calculator.dir\build.make CMakeFiles/.exercises_avanced_calculator.dir/build
+.PHONY : .exercises_avanced_calculator/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_bank_account
+
+# Build rule for target.
+.exercises_bank_account: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_bank_account
+.PHONY : .exercises_bank_account
+
+# fast build rule for target.
+.exercises_bank_account/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_bank_account.dir\build.make CMakeFiles/.exercises_bank_account.dir/build
+.PHONY : .exercises_bank_account/fast
+
+#=============================================================================
 # Target rules for targets named .exercises_basic_calculator
 
 # Build rule for target.
@@ -400,6 +595,32 @@ depend:
 .exercises_bmi_calculator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_bmi_calculator.dir\build.make CMakeFiles/.exercises_bmi_calculator.dir/build
 .PHONY : .exercises_bmi_calculator/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_class_bank_account
+
+# Build rule for target.
+.exercises_class_bank_account: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_class_bank_account
+.PHONY : .exercises_class_bank_account
+
+# fast build rule for target.
+.exercises_class_bank_account/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_class_bank_account.dir\build.make CMakeFiles/.exercises_class_bank_account.dir/build
+.PHONY : .exercises_class_bank_account/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_class_book_management
+
+# Build rule for target.
+.exercises_class_book_management: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_class_book_management
+.PHONY : .exercises_class_book_management
+
+# fast build rule for target.
+.exercises_class_book_management/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_class_book_management.dir\build.make CMakeFiles/.exercises_class_book_management.dir/build
+.PHONY : .exercises_class_book_management/fast
 
 #=============================================================================
 # Target rules for targets named .exercises_cookies_EOF
@@ -452,6 +673,19 @@ depend:
 .exercises_do_while_num/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_do_while_num.dir\build.make CMakeFiles/.exercises_do_while_num.dir/build
 .PHONY : .exercises_do_while_num/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_election
+
+# Build rule for target.
+.exercises_election: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_election
+.PHONY : .exercises_election
+
+# fast build rule for target.
+.exercises_election/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_election.dir\build.make CMakeFiles/.exercises_election.dir/build
+.PHONY : .exercises_election/fast
 
 #=============================================================================
 # Target rules for targets named .exercises_employee_management_system
@@ -545,6 +779,32 @@ depend:
 .PHONY : .exercises_largest_sale/fast
 
 #=============================================================================
+# Target rules for targets named .exercises_linear
+
+# Build rule for target.
+.exercises_linear: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_linear
+.PHONY : .exercises_linear
+
+# fast build rule for target.
+.exercises_linear/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_linear.dir\build.make CMakeFiles/.exercises_linear.dir/build
+.PHONY : .exercises_linear/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_memory_game
+
+# Build rule for target.
+.exercises_memory_game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_memory_game
+.PHONY : .exercises_memory_game
+
+# fast build rule for target.
+.exercises_memory_game/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_memory_game.dir\build.make CMakeFiles/.exercises_memory_game.dir/build
+.PHONY : .exercises_memory_game/fast
+
+#=============================================================================
 # Target rules for targets named .exercises_my_first_cpp_program
 
 # Build rule for target.
@@ -636,6 +896,32 @@ depend:
 .PHONY : .exercises_quadratic/fast
 
 #=============================================================================
+# Target rules for targets named .exercises_school_inheritance
+
+# Build rule for target.
+.exercises_school_inheritance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_school_inheritance
+.PHONY : .exercises_school_inheritance
+
+# fast build rule for target.
+.exercises_school_inheritance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_school_inheritance.dir\build.make CMakeFiles/.exercises_school_inheritance.dir/build
+.PHONY : .exercises_school_inheritance/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_shapes
+
+# Build rule for target.
+.exercises_shapes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_shapes
+.PHONY : .exercises_shapes
+
+# fast build rule for target.
+.exercises_shapes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_shapes.dir\build.make CMakeFiles/.exercises_shapes.dir/build
+.PHONY : .exercises_shapes/fast
+
+#=============================================================================
 # Target rules for targets named .exercises_simple_calculator
 
 # Build rule for target.
@@ -714,6 +1000,19 @@ depend:
 .PHONY : .exercises_static_casting_temp/fast
 
 #=============================================================================
+# Target rules for targets named .exercises_student_class
+
+# Build rule for target.
+.exercises_student_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_student_class
+.PHONY : .exercises_student_class
+
+# fast build rule for target.
+.exercises_student_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_student_class.dir\build.make CMakeFiles/.exercises_student_class.dir/build
+.PHONY : .exercises_student_class/fast
+
+#=============================================================================
 # Target rules for targets named .exercises_student_display_grades
 
 # Build rule for target.
@@ -779,6 +1078,19 @@ depend:
 .PHONY : .exercises_ticket2/fast
 
 #=============================================================================
+# Target rules for targets named .exercises_tictac_toe
+
+# Build rule for target.
+.exercises_tictac_toe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_tictac_toe
+.PHONY : .exercises_tictac_toe
+
+# fast build rule for target.
+.exercises_tictac_toe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_tictac_toe.dir\build.make CMakeFiles/.exercises_tictac_toe.dir/build
+.PHONY : .exercises_tictac_toe/fast
+
+#=============================================================================
 # Target rules for targets named .exercises_town_population
 
 # Build rule for target.
@@ -790,6 +1102,19 @@ depend:
 .exercises_town_population/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_town_population.dir\build.make CMakeFiles/.exercises_town_population.dir/build
 .PHONY : .exercises_town_population/fast
+
+#=============================================================================
+# Target rules for targets named .exercises_uppercase
+
+# Build rule for target.
+.exercises_uppercase: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .exercises_uppercase
+.PHONY : .exercises_uppercase
+
+# fast build rule for target.
+.exercises_uppercase/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_uppercase.dir\build.make CMakeFiles/.exercises_uppercase.dir/build
+.PHONY : .exercises_uppercase/fast
 
 #=============================================================================
 # Target rules for targets named .exercises_value_of_pi
@@ -816,6 +1141,825 @@ depend:
 .exercises_while_num/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_while_num.dir\build.make CMakeFiles/.exercises_while_num.dir/build
 .PHONY : .exercises_while_num/fast
+
+#=============================================================================
+# Target rules for targets named .fstream_fstream_append
+
+# Build rule for target.
+.fstream_fstream_append: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .fstream_fstream_append
+.PHONY : .fstream_fstream_append
+
+# fast build rule for target.
+.fstream_fstream_append/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_append.dir\build.make CMakeFiles/.fstream_fstream_append.dir/build
+.PHONY : .fstream_fstream_append/fast
+
+#=============================================================================
+# Target rules for targets named .fstream_fstream_in
+
+# Build rule for target.
+.fstream_fstream_in: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .fstream_fstream_in
+.PHONY : .fstream_fstream_in
+
+# fast build rule for target.
+.fstream_fstream_in/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_in.dir\build.make CMakeFiles/.fstream_fstream_in.dir/build
+.PHONY : .fstream_fstream_in/fast
+
+#=============================================================================
+# Target rules for targets named .fstream_fstream_out
+
+# Build rule for target.
+.fstream_fstream_out: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .fstream_fstream_out
+.PHONY : .fstream_fstream_out
+
+# fast build rule for target.
+.fstream_fstream_out/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_out.dir\build.make CMakeFiles/.fstream_fstream_out.dir/build
+.PHONY : .fstream_fstream_out/fast
+
+#=============================================================================
+# Target rules for targets named .future_future_async
+
+# Build rule for target.
+.future_future_async: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .future_future_async
+.PHONY : .future_future_async
+
+# fast build rule for target.
+.future_future_async/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.future_future_async.dir\build.make CMakeFiles/.future_future_async.dir/build
+.PHONY : .future_future_async/fast
+
+#=============================================================================
+# Target rules for targets named .iostream_iostream_cout_precision
+
+# Build rule for target.
+.iostream_iostream_cout_precision: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .iostream_iostream_cout_precision
+.PHONY : .iostream_iostream_cout_precision
+
+# fast build rule for target.
+.iostream_iostream_cout_precision/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.iostream_iostream_cout_precision.dir\build.make CMakeFiles/.iostream_iostream_cout_precision.dir/build
+.PHONY : .iostream_iostream_cout_precision/fast
+
+#=============================================================================
+# Target rules for targets named .iostream_iostream_sync_with_studio
+
+# Build rule for target.
+.iostream_iostream_sync_with_studio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .iostream_iostream_sync_with_studio
+.PHONY : .iostream_iostream_sync_with_studio
+
+# fast build rule for target.
+.iostream_iostream_sync_with_studio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.iostream_iostream_sync_with_studio.dir\build.make CMakeFiles/.iostream_iostream_sync_with_studio.dir/build
+.PHONY : .iostream_iostream_sync_with_studio/fast
+
+#=============================================================================
+# Target rules for targets named .lambda_lambda_add
+
+# Build rule for target.
+.lambda_lambda_add: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .lambda_lambda_add
+.PHONY : .lambda_lambda_add
+
+# fast build rule for target.
+.lambda_lambda_add/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.lambda_lambda_add.dir\build.make CMakeFiles/.lambda_lambda_add.dir/build
+.PHONY : .lambda_lambda_add/fast
+
+#=============================================================================
+# Target rules for targets named .memory_memory_dynamic_allocation
+
+# Build rule for target.
+.memory_memory_dynamic_allocation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .memory_memory_dynamic_allocation
+.PHONY : .memory_memory_dynamic_allocation
+
+# fast build rule for target.
+.memory_memory_dynamic_allocation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.memory_memory_dynamic_allocation.dir\build.make CMakeFiles/.memory_memory_dynamic_allocation.dir/build
+.PHONY : .memory_memory_dynamic_allocation/fast
+
+#=============================================================================
+# Target rules for targets named .memory_smart_pointer_class
+
+# Build rule for target.
+.memory_smart_pointer_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .memory_smart_pointer_class
+.PHONY : .memory_smart_pointer_class
+
+# fast build rule for target.
+.memory_smart_pointer_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.memory_smart_pointer_class.dir\build.make CMakeFiles/.memory_smart_pointer_class.dir/build
+.PHONY : .memory_smart_pointer_class/fast
+
+#=============================================================================
+# Target rules for targets named .msys_CarDisplaySystem
+
+# Build rule for target.
+.msys_CarDisplaySystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_CarDisplaySystem
+.PHONY : .msys_CarDisplaySystem
+
+# fast build rule for target.
+.msys_CarDisplaySystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_CarDisplaySystem.dir\build.make CMakeFiles/.msys_CarDisplaySystem.dir/build
+.PHONY : .msys_CarDisplaySystem/fast
+
+#=============================================================================
+# Target rules for targets named .msys_EmployeeManagementSystem
+
+# Build rule for target.
+.msys_EmployeeManagementSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_EmployeeManagementSystem
+.PHONY : .msys_EmployeeManagementSystem
+
+# fast build rule for target.
+.msys_EmployeeManagementSystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_EmployeeManagementSystem.dir\build.make CMakeFiles/.msys_EmployeeManagementSystem.dir/build
+.PHONY : .msys_EmployeeManagementSystem/fast
+
+#=============================================================================
+# Target rules for targets named .msys_LibraryManagementSystem
+
+# Build rule for target.
+.msys_LibraryManagementSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_LibraryManagementSystem
+.PHONY : .msys_LibraryManagementSystem
+
+# fast build rule for target.
+.msys_LibraryManagementSystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_LibraryManagementSystem.dir\build.make CMakeFiles/.msys_LibraryManagementSystem.dir/build
+.PHONY : .msys_LibraryManagementSystem/fast
+
+#=============================================================================
+# Target rules for targets named .msys_bank_account
+
+# Build rule for target.
+.msys_bank_account: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_bank_account
+.PHONY : .msys_bank_account
+
+# fast build rule for target.
+.msys_bank_account/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_bank_account.dir\build.make CMakeFiles/.msys_bank_account.dir/build
+.PHONY : .msys_bank_account/fast
+
+#=============================================================================
+# Target rules for targets named .msys_classAreaRectangle
+
+# Build rule for target.
+.msys_classAreaRectangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_classAreaRectangle
+.PHONY : .msys_classAreaRectangle
+
+# fast build rule for target.
+.msys_classAreaRectangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classAreaRectangle.dir\build.make CMakeFiles/.msys_classAreaRectangle.dir/build
+.PHONY : .msys_classAreaRectangle/fast
+
+#=============================================================================
+# Target rules for targets named .msys_classBankAccount
+
+# Build rule for target.
+.msys_classBankAccount: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_classBankAccount
+.PHONY : .msys_classBankAccount
+
+# fast build rule for target.
+.msys_classBankAccount/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classBankAccount.dir\build.make CMakeFiles/.msys_classBankAccount.dir/build
+.PHONY : .msys_classBankAccount/fast
+
+#=============================================================================
+# Target rules for targets named .msys_classStudent
+
+# Build rule for target.
+.msys_classStudent: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_classStudent
+.PHONY : .msys_classStudent
+
+# fast build rule for target.
+.msys_classStudent/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classStudent.dir\build.make CMakeFiles/.msys_classStudent.dir/build
+.PHONY : .msys_classStudent/fast
+
+#=============================================================================
+# Target rules for targets named .msys_class_employee
+
+# Build rule for target.
+.msys_class_employee: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_class_employee
+.PHONY : .msys_class_employee
+
+# fast build rule for target.
+.msys_class_employee/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_class_employee.dir\build.make CMakeFiles/.msys_class_employee.dir/build
+.PHONY : .msys_class_employee/fast
+
+#=============================================================================
+# Target rules for targets named .msys_class_student
+
+# Build rule for target.
+.msys_class_student: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_class_student
+.PHONY : .msys_class_student
+
+# fast build rule for target.
+.msys_class_student/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_class_student.dir\build.make CMakeFiles/.msys_class_student.dir/build
+.PHONY : .msys_class_student/fast
+
+#=============================================================================
+# Target rules for targets named .msys_employee_salary
+
+# Build rule for target.
+.msys_employee_salary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_employee_salary
+.PHONY : .msys_employee_salary
+
+# fast build rule for target.
+.msys_employee_salary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_employee_salary.dir\build.make CMakeFiles/.msys_employee_salary.dir/build
+.PHONY : .msys_employee_salary/fast
+
+#=============================================================================
+# Target rules for targets named .msys_hotel_mangement_system
+
+# Build rule for target.
+.msys_hotel_mangement_system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_hotel_mangement_system
+.PHONY : .msys_hotel_mangement_system
+
+# fast build rule for target.
+.msys_hotel_mangement_system/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_hotel_mangement_system.dir\build.make CMakeFiles/.msys_hotel_mangement_system.dir/build
+.PHONY : .msys_hotel_mangement_system/fast
+
+#=============================================================================
+# Target rules for targets named .msys_library_management_system
+
+# Build rule for target.
+.msys_library_management_system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_library_management_system
+.PHONY : .msys_library_management_system
+
+# fast build rule for target.
+.msys_library_management_system/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_library_management_system.dir\build.make CMakeFiles/.msys_library_management_system.dir/build
+.PHONY : .msys_library_management_system/fast
+
+#=============================================================================
+# Target rules for targets named .msys_old_library_system
+
+# Build rule for target.
+.msys_old_library_system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_old_library_system
+.PHONY : .msys_old_library_system
+
+# fast build rule for target.
+.msys_old_library_system/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_old_library_system.dir\build.make CMakeFiles/.msys_old_library_system.dir/build
+.PHONY : .msys_old_library_system/fast
+
+#=============================================================================
+# Target rules for targets named .msys_old_vehicle_system
+
+# Build rule for target.
+.msys_old_vehicle_system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_old_vehicle_system
+.PHONY : .msys_old_vehicle_system
+
+# fast build rule for target.
+.msys_old_vehicle_system/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_old_vehicle_system.dir\build.make CMakeFiles/.msys_old_vehicle_system.dir/build
+.PHONY : .msys_old_vehicle_system/fast
+
+#=============================================================================
+# Target rules for targets named .msys_shapes_area
+
+# Build rule for target.
+.msys_shapes_area: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_shapes_area
+.PHONY : .msys_shapes_area
+
+# fast build rule for target.
+.msys_shapes_area/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_shapes_area.dir\build.make CMakeFiles/.msys_shapes_area.dir/build
+.PHONY : .msys_shapes_area/fast
+
+#=============================================================================
+# Target rules for targets named .msys_struct_ptr
+
+# Build rule for target.
+.msys_struct_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_struct_ptr
+.PHONY : .msys_struct_ptr
+
+# fast build rule for target.
+.msys_struct_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_struct_ptr.dir\build.make CMakeFiles/.msys_struct_ptr.dir/build
+.PHONY : .msys_struct_ptr/fast
+
+#=============================================================================
+# Target rules for targets named .msys_student_management_system
+
+# Build rule for target.
+.msys_student_management_system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_student_management_system
+.PHONY : .msys_student_management_system
+
+# fast build rule for target.
+.msys_student_management_system/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_student_management_system.dir\build.make CMakeFiles/.msys_student_management_system.dir/build
+.PHONY : .msys_student_management_system/fast
+
+#=============================================================================
+# Target rules for targets named .msys_vehicle_management_system
+
+# Build rule for target.
+.msys_vehicle_management_system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .msys_vehicle_management_system
+.PHONY : .msys_vehicle_management_system
+
+# fast build rule for target.
+.msys_vehicle_management_system/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_vehicle_management_system.dir\build.make CMakeFiles/.msys_vehicle_management_system.dir/build
+.PHONY : .msys_vehicle_management_system/fast
+
+#=============================================================================
+# Target rules for targets named .numeric_numeric_accumulate
+
+# Build rule for target.
+.numeric_numeric_accumulate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .numeric_numeric_accumulate
+.PHONY : .numeric_numeric_accumulate
+
+# fast build rule for target.
+.numeric_numeric_accumulate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.numeric_numeric_accumulate.dir\build.make CMakeFiles/.numeric_numeric_accumulate.dir/build
+.PHONY : .numeric_numeric_accumulate/fast
+
+#=============================================================================
+# Target rules for targets named .numeric_numeric_iota
+
+# Build rule for target.
+.numeric_numeric_iota: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .numeric_numeric_iota
+.PHONY : .numeric_numeric_iota
+
+# fast build rule for target.
+.numeric_numeric_iota/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.numeric_numeric_iota.dir\build.make CMakeFiles/.numeric_numeric_iota.dir/build
+.PHONY : .numeric_numeric_iota/fast
+
+#=============================================================================
+# Target rules for targets named .program_FancyWord
+
+# Build rule for target.
+.program_FancyWord: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_FancyWord
+.PHONY : .program_FancyWord
+
+# fast build rule for target.
+.program_FancyWord/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_FancyWord.dir\build.make CMakeFiles/.program_FancyWord.dir/build
+.PHONY : .program_FancyWord/fast
+
+#=============================================================================
+# Target rules for targets named .program_basic_calculator
+
+# Build rule for target.
+.program_basic_calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_basic_calculator
+.PHONY : .program_basic_calculator
+
+# fast build rule for target.
+.program_basic_calculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_basic_calculator.dir\build.make CMakeFiles/.program_basic_calculator.dir/build
+.PHONY : .program_basic_calculator/fast
+
+#=============================================================================
+# Target rules for targets named .program_calculate_GCD_LCM
+
+# Build rule for target.
+.program_calculate_GCD_LCM: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_calculate_GCD_LCM
+.PHONY : .program_calculate_GCD_LCM
+
+# fast build rule for target.
+.program_calculate_GCD_LCM/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_calculate_GCD_LCM.dir\build.make CMakeFiles/.program_calculate_GCD_LCM.dir/build
+.PHONY : .program_calculate_GCD_LCM/fast
+
+#=============================================================================
+# Target rules for targets named .program_calculate_factorial
+
+# Build rule for target.
+.program_calculate_factorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_calculate_factorial
+.PHONY : .program_calculate_factorial
+
+# fast build rule for target.
+.program_calculate_factorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_calculate_factorial.dir\build.make CMakeFiles/.program_calculate_factorial.dir/build
+.PHONY : .program_calculate_factorial/fast
+
+#=============================================================================
+# Target rules for targets named .program_display_date_calendar
+
+# Build rule for target.
+.program_display_date_calendar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_display_date_calendar
+.PHONY : .program_display_date_calendar
+
+# fast build rule for target.
+.program_display_date_calendar/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_display_date_calendar.dir\build.make CMakeFiles/.program_display_date_calendar.dir/build
+.PHONY : .program_display_date_calendar/fast
+
+#=============================================================================
+# Target rules for targets named .program_display_date_time
+
+# Build rule for target.
+.program_display_date_time: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_display_date_time
+.PHONY : .program_display_date_time
+
+# fast build rule for target.
+.program_display_date_time/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_display_date_time.dir\build.make CMakeFiles/.program_display_date_time.dir/build
+.PHONY : .program_display_date_time/fast
+
+#=============================================================================
+# Target rules for targets named .program_fibonacci_numbers_less_than
+
+# Build rule for target.
+.program_fibonacci_numbers_less_than: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_fibonacci_numbers_less_than
+.PHONY : .program_fibonacci_numbers_less_than
+
+# fast build rule for target.
+.program_fibonacci_numbers_less_than/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_fibonacci_numbers_less_than.dir\build.make CMakeFiles/.program_fibonacci_numbers_less_than.dir/build
+.PHONY : .program_fibonacci_numbers_less_than/fast
+
+#=============================================================================
+# Target rules for targets named .program_group_randomizer
+
+# Build rule for target.
+.program_group_randomizer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_group_randomizer
+.PHONY : .program_group_randomizer
+
+# fast build rule for target.
+.program_group_randomizer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_group_randomizer.dir\build.make CMakeFiles/.program_group_randomizer.dir/build
+.PHONY : .program_group_randomizer/fast
+
+#=============================================================================
+# Target rules for targets named .program_matrix_RNG_table
+
+# Build rule for target.
+.program_matrix_RNG_table: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_matrix_RNG_table
+.PHONY : .program_matrix_RNG_table
+
+# fast build rule for target.
+.program_matrix_RNG_table/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_matrix_RNG_table.dir\build.make CMakeFiles/.program_matrix_RNG_table.dir/build
+.PHONY : .program_matrix_RNG_table/fast
+
+#=============================================================================
+# Target rules for targets named .program_matrix_operations
+
+# Build rule for target.
+.program_matrix_operations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_matrix_operations
+.PHONY : .program_matrix_operations
+
+# fast build rule for target.
+.program_matrix_operations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_matrix_operations.dir\build.make CMakeFiles/.program_matrix_operations.dir/build
+.PHONY : .program_matrix_operations/fast
+
+#=============================================================================
+# Target rules for targets named .program_palindrome_check
+
+# Build rule for target.
+.program_palindrome_check: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_palindrome_check
+.PHONY : .program_palindrome_check
+
+# fast build rule for target.
+.program_palindrome_check/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_palindrome_check.dir\build.make CMakeFiles/.program_palindrome_check.dir/build
+.PHONY : .program_palindrome_check/fast
+
+#=============================================================================
+# Target rules for targets named .program_print_course_schedule
+
+# Build rule for target.
+.program_print_course_schedule: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_print_course_schedule
+.PHONY : .program_print_course_schedule
+
+# fast build rule for target.
+.program_print_course_schedule/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_print_course_schedule.dir\build.make CMakeFiles/.program_print_course_schedule.dir/build
+.PHONY : .program_print_course_schedule/fast
+
+#=============================================================================
+# Target rules for targets named .program_print_current_date
+
+# Build rule for target.
+.program_print_current_date: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_print_current_date
+.PHONY : .program_print_current_date
+
+# fast build rule for target.
+.program_print_current_date/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_print_current_date.dir\build.make CMakeFiles/.program_print_current_date.dir/build
+.PHONY : .program_print_current_date/fast
+
+#=============================================================================
+# Target rules for targets named .program_quadratic_equation_complex
+
+# Build rule for target.
+.program_quadratic_equation_complex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_quadratic_equation_complex
+.PHONY : .program_quadratic_equation_complex
+
+# fast build rule for target.
+.program_quadratic_equation_complex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_quadratic_equation_complex.dir\build.make CMakeFiles/.program_quadratic_equation_complex.dir/build
+.PHONY : .program_quadratic_equation_complex/fast
+
+#=============================================================================
+# Target rules for targets named .program_quadratic_equation_simple
+
+# Build rule for target.
+.program_quadratic_equation_simple: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_quadratic_equation_simple
+.PHONY : .program_quadratic_equation_simple
+
+# fast build rule for target.
+.program_quadratic_equation_simple/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_quadratic_equation_simple.dir\build.make CMakeFiles/.program_quadratic_equation_simple.dir/build
+.PHONY : .program_quadratic_equation_simple/fast
+
+#=============================================================================
+# Target rules for targets named .program_sequence_randomizer
+
+# Build rule for target.
+.program_sequence_randomizer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_sequence_randomizer
+.PHONY : .program_sequence_randomizer
+
+# fast build rule for target.
+.program_sequence_randomizer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sequence_randomizer.dir\build.make CMakeFiles/.program_sequence_randomizer.dir/build
+.PHONY : .program_sequence_randomizer/fast
+
+#=============================================================================
+# Target rules for targets named .program_solve_student_grades
+
+# Build rule for target.
+.program_solve_student_grades: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_solve_student_grades
+.PHONY : .program_solve_student_grades
+
+# fast build rule for target.
+.program_solve_student_grades/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_solve_student_grades.dir\build.make CMakeFiles/.program_solve_student_grades.dir/build
+.PHONY : .program_solve_student_grades/fast
+
+#=============================================================================
+# Target rules for targets named .program_solve_the_password
+
+# Build rule for target.
+.program_solve_the_password: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_solve_the_password
+.PHONY : .program_solve_the_password
+
+# fast build rule for target.
+.program_solve_the_password/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_solve_the_password.dir\build.make CMakeFiles/.program_solve_the_password.dir/build
+.PHONY : .program_solve_the_password/fast
+
+#=============================================================================
+# Target rules for targets named .program_sum_of_digits
+
+# Build rule for target.
+.program_sum_of_digits: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_sum_of_digits
+.PHONY : .program_sum_of_digits
+
+# fast build rule for target.
+.program_sum_of_digits/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sum_of_digits.dir\build.make CMakeFiles/.program_sum_of_digits.dir/build
+.PHONY : .program_sum_of_digits/fast
+
+#=============================================================================
+# Target rules for targets named .program_sum_of_fibonacci_numbers
+
+# Build rule for target.
+.program_sum_of_fibonacci_numbers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_sum_of_fibonacci_numbers
+.PHONY : .program_sum_of_fibonacci_numbers
+
+# fast build rule for target.
+.program_sum_of_fibonacci_numbers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sum_of_fibonacci_numbers.dir\build.make CMakeFiles/.program_sum_of_fibonacci_numbers.dir/build
+.PHONY : .program_sum_of_fibonacci_numbers/fast
+
+#=============================================================================
+# Target rules for targets named .program_temperature_chart
+
+# Build rule for target.
+.program_temperature_chart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_temperature_chart
+.PHONY : .program_temperature_chart
+
+# fast build rule for target.
+.program_temperature_chart/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_temperature_chart.dir\build.make CMakeFiles/.program_temperature_chart.dir/build
+.PHONY : .program_temperature_chart/fast
+
+#=============================================================================
+# Target rules for targets named .program_temperature_converter
+
+# Build rule for target.
+.program_temperature_converter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_temperature_converter
+.PHONY : .program_temperature_converter
+
+# fast build rule for target.
+.program_temperature_converter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_temperature_converter.dir\build.make CMakeFiles/.program_temperature_converter.dir/build
+.PHONY : .program_temperature_converter/fast
+
+#=============================================================================
+# Target rules for targets named .program_triangle_pattern
+
+# Build rule for target.
+.program_triangle_pattern: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .program_triangle_pattern
+.PHONY : .program_triangle_pattern
+
+# fast build rule for target.
+.program_triangle_pattern/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_triangle_pattern.dir\build.make CMakeFiles/.program_triangle_pattern.dir/build
+.PHONY : .program_triangle_pattern/fast
+
+#=============================================================================
+# Target rules for targets named .ptr_function_ptr
+
+# Build rule for target.
+.ptr_function_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .ptr_function_ptr
+.PHONY : .ptr_function_ptr
+
+# fast build rule for target.
+.ptr_function_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_function_ptr.dir\build.make CMakeFiles/.ptr_function_ptr.dir/build
+.PHONY : .ptr_function_ptr/fast
+
+#=============================================================================
+# Target rules for targets named .ptr_iterate_ptr
+
+# Build rule for target.
+.ptr_iterate_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .ptr_iterate_ptr
+.PHONY : .ptr_iterate_ptr
+
+# fast build rule for target.
+.ptr_iterate_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_iterate_ptr.dir\build.make CMakeFiles/.ptr_iterate_ptr.dir/build
+.PHONY : .ptr_iterate_ptr/fast
+
+#=============================================================================
+# Target rules for targets named .ptr_ptr_dynamic_grade
+
+# Build rule for target.
+.ptr_ptr_dynamic_grade: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .ptr_ptr_dynamic_grade
+.PHONY : .ptr_ptr_dynamic_grade
+
+# fast build rule for target.
+.ptr_ptr_dynamic_grade/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_ptr_dynamic_grade.dir\build.make CMakeFiles/.ptr_ptr_dynamic_grade.dir/build
+.PHONY : .ptr_ptr_dynamic_grade/fast
+
+#=============================================================================
+# Target rules for targets named .ptr_ptr_to_ptr
+
+# Build rule for target.
+.ptr_ptr_to_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .ptr_ptr_to_ptr
+.PHONY : .ptr_ptr_to_ptr
+
+# fast build rule for target.
+.ptr_ptr_to_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_ptr_to_ptr.dir\build.make CMakeFiles/.ptr_ptr_to_ptr.dir/build
+.PHONY : .ptr_ptr_to_ptr/fast
+
+#=============================================================================
+# Target rules for targets named .ptr_string_ptr
+
+# Build rule for target.
+.ptr_string_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .ptr_string_ptr
+.PHONY : .ptr_string_ptr
+
+# fast build rule for target.
+.ptr_string_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_string_ptr.dir\build.make CMakeFiles/.ptr_string_ptr.dir/build
+.PHONY : .ptr_string_ptr/fast
+
+#=============================================================================
+# Target rules for targets named .ptr_swap_ptr
+
+# Build rule for target.
+.ptr_swap_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .ptr_swap_ptr
+.PHONY : .ptr_swap_ptr
+
+# fast build rule for target.
+.ptr_swap_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_swap_ptr.dir\build.make CMakeFiles/.ptr_swap_ptr.dir/build
+.PHONY : .ptr_swap_ptr/fast
+
+#=============================================================================
+# Target rules for targets named .sstream_sstream_istringstream
+
+# Build rule for target.
+.sstream_sstream_istringstream: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .sstream_sstream_istringstream
+.PHONY : .sstream_sstream_istringstream
+
+# fast build rule for target.
+.sstream_sstream_istringstream/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.sstream_sstream_istringstream.dir\build.make CMakeFiles/.sstream_sstream_istringstream.dir/build
+.PHONY : .sstream_sstream_istringstream/fast
+
+#=============================================================================
+# Target rules for targets named .sstream_sstream_ostringstream
+
+# Build rule for target.
+.sstream_sstream_ostringstream: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .sstream_sstream_ostringstream
+.PHONY : .sstream_sstream_ostringstream
+
+# fast build rule for target.
+.sstream_sstream_ostringstream/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.sstream_sstream_ostringstream.dir\build.make CMakeFiles/.sstream_sstream_ostringstream.dir/build
+.PHONY : .sstream_sstream_ostringstream/fast
+
+#=============================================================================
+# Target rules for targets named .string_string_reversal
+
+# Build rule for target.
+.string_string_reversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .string_string_reversal
+.PHONY : .string_string_reversal
+
+# fast build rule for target.
+.string_string_reversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.string_string_reversal.dir\build.make CMakeFiles/.string_string_reversal.dir/build
+.PHONY : .string_string_reversal/fast
+
+#=============================================================================
+# Target rules for targets named .thread_thread_concurrency
+
+# Build rule for target.
+.thread_thread_concurrency: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .thread_thread_concurrency
+.PHONY : .thread_thread_concurrency
+
+# fast build rule for target.
+.thread_thread_concurrency/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.thread_thread_concurrency.dir\build.make CMakeFiles/.thread_thread_concurrency.dir/build
+.PHONY : .thread_thread_concurrency/fast
+
+#=============================================================================
+# Target rules for targets named .typeinfo_typeinfo_typeid
+
+# Build rule for target.
+.typeinfo_typeinfo_typeid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 .typeinfo_typeinfo_typeid
+.PHONY : .typeinfo_typeinfo_typeid
+
+# fast build rule for target.
+.typeinfo_typeinfo_typeid/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.typeinfo_typeinfo_typeid.dir\build.make CMakeFiles/.typeinfo_typeinfo_typeid.dir/build
+.PHONY : .typeinfo_typeinfo_typeid/fast
 
 #=============================================================================
 # Target rules for targets named STL_containers_array
@@ -1364,84 +2508,6 @@ STL_containers_vector/fast:
 .PHONY : STL_containers_vector/fast
 
 #=============================================================================
-# Target rules for targets named array_variations
-
-# Build rule for target.
-array_variations: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_variations
-.PHONY : array_variations
-
-# fast build rule for target.
-array_variations/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_variations.dir\build.make CMakeFiles/array_variations.dir/build
-.PHONY : array_variations/fast
-
-#=============================================================================
-# Target rules for targets named class_bank_account
-
-# Build rule for target.
-class_bank_account: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class_bank_account
-.PHONY : class_bank_account
-
-# fast build rule for target.
-class_bank_account/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_bank_account.dir\build.make CMakeFiles/class_bank_account.dir/build
-.PHONY : class_bank_account/fast
-
-#=============================================================================
-# Target rules for targets named class_book_management
-
-# Build rule for target.
-class_book_management: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class_book_management
-.PHONY : class_book_management
-
-# fast build rule for target.
-class_book_management/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_book_management.dir\build.make CMakeFiles/class_book_management.dir/build
-.PHONY : class_book_management/fast
-
-#=============================================================================
-# Target rules for targets named election
-
-# Build rule for target.
-election: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 election
-.PHONY : election
-
-# fast build rule for target.
-election/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\election.dir\build.make CMakeFiles/election.dir/build
-.PHONY : election/fast
-
-#=============================================================================
-# Target rules for targets named linear
-
-# Build rule for target.
-linear: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linear
-.PHONY : linear
-
-# fast build rule for target.
-linear/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear.dir\build.make CMakeFiles/linear.dir/build
-.PHONY : linear/fast
-
-#=============================================================================
-# Target rules for targets named memory_game
-
-# Build rule for target.
-memory_game: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 memory_game
-.PHONY : memory_game
-
-# fast build rule for target.
-memory_game/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\memory_game.dir\build.make CMakeFiles/memory_game.dir/build
-.PHONY : memory_game/fast
-
-#=============================================================================
 # Target rules for targets named sorting_algorithms_bubble_sort
 
 # Build rule for target.
@@ -1520,17 +2586,17 @@ sorting_algorithms_selection_sort/fast:
 .PHONY : sorting_algorithms_selection_sort/fast
 
 #=============================================================================
-# Target rules for targets named tictac_toe
+# Target rules for targets named test
 
 # Build rule for target.
-tictac_toe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tictac_toe
-.PHONY : tictac_toe
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-tictac_toe/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tictac_toe.dir\build.make CMakeFiles/tictac_toe.dir/build
-.PHONY : tictac_toe/fast
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 #=============================================================================
 # Target rules for targets named try_throw_catch
@@ -1545,18 +2611,149 @@ try_throw_catch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\try_throw_catch.dir\build.make CMakeFiles/try_throw_catch.dir/build
 .PHONY : try_throw_catch/fast
 
-#=============================================================================
-# Target rules for targets named uppercase
+.RI/RI.missing_number.obj: .RI/RI.missing_number.cpp.obj
+.PHONY : .RI/RI.missing_number.obj
 
-# Build rule for target.
-uppercase: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uppercase
-.PHONY : uppercase
+# target to build an object file
+.RI/RI.missing_number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.missing_number.dir\build.make CMakeFiles/.RI_RI.missing_number.dir/.RI/RI.missing_number.cpp.obj
+.PHONY : .RI/RI.missing_number.cpp.obj
 
-# fast build rule for target.
-uppercase/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\uppercase.dir\build.make CMakeFiles/uppercase.dir/build
-.PHONY : uppercase/fast
+.RI/RI.missing_number.i: .RI/RI.missing_number.cpp.i
+.PHONY : .RI/RI.missing_number.i
+
+# target to preprocess a source file
+.RI/RI.missing_number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.missing_number.dir\build.make CMakeFiles/.RI_RI.missing_number.dir/.RI/RI.missing_number.cpp.i
+.PHONY : .RI/RI.missing_number.cpp.i
+
+.RI/RI.missing_number.s: .RI/RI.missing_number.cpp.s
+.PHONY : .RI/RI.missing_number.s
+
+# target to generate assembly for a file
+.RI/RI.missing_number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.missing_number.dir\build.make CMakeFiles/.RI_RI.missing_number.dir/.RI/RI.missing_number.cpp.s
+.PHONY : .RI/RI.missing_number.cpp.s
+
+.RI/RI.rotate_elements.obj: .RI/RI.rotate_elements.cpp.obj
+.PHONY : .RI/RI.rotate_elements.obj
+
+# target to build an object file
+.RI/RI.rotate_elements.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.rotate_elements.dir\build.make CMakeFiles/.RI_RI.rotate_elements.dir/.RI/RI.rotate_elements.cpp.obj
+.PHONY : .RI/RI.rotate_elements.cpp.obj
+
+.RI/RI.rotate_elements.i: .RI/RI.rotate_elements.cpp.i
+.PHONY : .RI/RI.rotate_elements.i
+
+# target to preprocess a source file
+.RI/RI.rotate_elements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.rotate_elements.dir\build.make CMakeFiles/.RI_RI.rotate_elements.dir/.RI/RI.rotate_elements.cpp.i
+.PHONY : .RI/RI.rotate_elements.cpp.i
+
+.RI/RI.rotate_elements.s: .RI/RI.rotate_elements.cpp.s
+.PHONY : .RI/RI.rotate_elements.s
+
+# target to generate assembly for a file
+.RI/RI.rotate_elements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.rotate_elements.dir\build.make CMakeFiles/.RI_RI.rotate_elements.dir/.RI/RI.rotate_elements.cpp.s
+.PHONY : .RI/RI.rotate_elements.cpp.s
+
+.RI/RI.separate_even_odd.obj: .RI/RI.separate_even_odd.cpp.obj
+.PHONY : .RI/RI.separate_even_odd.obj
+
+# target to build an object file
+.RI/RI.separate_even_odd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.separate_even_odd.dir\build.make CMakeFiles/.RI_RI.separate_even_odd.dir/.RI/RI.separate_even_odd.cpp.obj
+.PHONY : .RI/RI.separate_even_odd.cpp.obj
+
+.RI/RI.separate_even_odd.i: .RI/RI.separate_even_odd.cpp.i
+.PHONY : .RI/RI.separate_even_odd.i
+
+# target to preprocess a source file
+.RI/RI.separate_even_odd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.separate_even_odd.dir\build.make CMakeFiles/.RI_RI.separate_even_odd.dir/.RI/RI.separate_even_odd.cpp.i
+.PHONY : .RI/RI.separate_even_odd.cpp.i
+
+.RI/RI.separate_even_odd.s: .RI/RI.separate_even_odd.cpp.s
+.PHONY : .RI/RI.separate_even_odd.s
+
+# target to generate assembly for a file
+.RI/RI.separate_even_odd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.separate_even_odd.dir\build.make CMakeFiles/.RI_RI.separate_even_odd.dir/.RI/RI.separate_even_odd.cpp.s
+.PHONY : .RI/RI.separate_even_odd.cpp.s
+
+.RI/RI.vowel_counter.obj: .RI/RI.vowel_counter.cpp.obj
+.PHONY : .RI/RI.vowel_counter.obj
+
+# target to build an object file
+.RI/RI.vowel_counter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.vowel_counter.dir\build.make CMakeFiles/.RI_RI.vowel_counter.dir/.RI/RI.vowel_counter.cpp.obj
+.PHONY : .RI/RI.vowel_counter.cpp.obj
+
+.RI/RI.vowel_counter.i: .RI/RI.vowel_counter.cpp.i
+.PHONY : .RI/RI.vowel_counter.i
+
+# target to preprocess a source file
+.RI/RI.vowel_counter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.vowel_counter.dir\build.make CMakeFiles/.RI_RI.vowel_counter.dir/.RI/RI.vowel_counter.cpp.i
+.PHONY : .RI/RI.vowel_counter.cpp.i
+
+.RI/RI.vowel_counter.s: .RI/RI.vowel_counter.cpp.s
+.PHONY : .RI/RI.vowel_counter.s
+
+# target to generate assembly for a file
+.RI/RI.vowel_counter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RI_RI.vowel_counter.dir\build.make CMakeFiles/.RI_RI.vowel_counter.dir/.RI/RI.vowel_counter.cpp.s
+.PHONY : .RI/RI.vowel_counter.cpp.s
+
+.RNG/RNG.LCG.obj: .RNG/RNG.LCG.cpp.obj
+.PHONY : .RNG/RNG.LCG.obj
+
+# target to build an object file
+.RNG/RNG.LCG.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RNG_RNG.LCG.dir\build.make CMakeFiles/.RNG_RNG.LCG.dir/.RNG/RNG.LCG.cpp.obj
+.PHONY : .RNG/RNG.LCG.cpp.obj
+
+.RNG/RNG.LCG.i: .RNG/RNG.LCG.cpp.i
+.PHONY : .RNG/RNG.LCG.i
+
+# target to preprocess a source file
+.RNG/RNG.LCG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RNG_RNG.LCG.dir\build.make CMakeFiles/.RNG_RNG.LCG.dir/.RNG/RNG.LCG.cpp.i
+.PHONY : .RNG/RNG.LCG.cpp.i
+
+.RNG/RNG.LCG.s: .RNG/RNG.LCG.cpp.s
+.PHONY : .RNG/RNG.LCG.s
+
+# target to generate assembly for a file
+.RNG/RNG.LCG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RNG_RNG.LCG.dir\build.make CMakeFiles/.RNG_RNG.LCG.dir/.RNG/RNG.LCG.cpp.s
+.PHONY : .RNG/RNG.LCG.cpp.s
+
+.RNG/RNG.mersenne_twister.obj: .RNG/RNG.mersenne_twister.cpp.obj
+.PHONY : .RNG/RNG.mersenne_twister.obj
+
+# target to build an object file
+.RNG/RNG.mersenne_twister.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RNG_RNG.mersenne_twister.dir\build.make CMakeFiles/.RNG_RNG.mersenne_twister.dir/.RNG/RNG.mersenne_twister.cpp.obj
+.PHONY : .RNG/RNG.mersenne_twister.cpp.obj
+
+.RNG/RNG.mersenne_twister.i: .RNG/RNG.mersenne_twister.cpp.i
+.PHONY : .RNG/RNG.mersenne_twister.i
+
+# target to preprocess a source file
+.RNG/RNG.mersenne_twister.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RNG_RNG.mersenne_twister.dir\build.make CMakeFiles/.RNG_RNG.mersenne_twister.dir/.RNG/RNG.mersenne_twister.cpp.i
+.PHONY : .RNG/RNG.mersenne_twister.cpp.i
+
+.RNG/RNG.mersenne_twister.s: .RNG/RNG.mersenne_twister.cpp.s
+.PHONY : .RNG/RNG.mersenne_twister.s
+
+# target to generate assembly for a file
+.RNG/RNG.mersenne_twister.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.RNG_RNG.mersenne_twister.dir\build.make CMakeFiles/.RNG_RNG.mersenne_twister.dir/.RNG/RNG.mersenne_twister.cpp.s
+.PHONY : .RNG/RNG.mersenne_twister.cpp.s
 
 .algorithm/algorithm_binary_search.obj: .algorithm/algorithm_binary_search.cpp.obj
 .PHONY : .algorithm/algorithm_binary_search.obj
@@ -1966,6 +3163,150 @@ uppercase/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.algorithm_algorithm_unique.dir\build.make CMakeFiles/.algorithm_algorithm_unique.dir/.algorithm/algorithm_unique.cpp.s
 .PHONY : .algorithm/algorithm_unique.cpp.s
 
+.c_style/strcmp.obj: .c_style/strcmp.cpp.obj
+.PHONY : .c_style/strcmp.obj
+
+# target to build an object file
+.c_style/strcmp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strcmp.dir\build.make CMakeFiles/.c_style_strcmp.dir/.c_style/strcmp.cpp.obj
+.PHONY : .c_style/strcmp.cpp.obj
+
+.c_style/strcmp.i: .c_style/strcmp.cpp.i
+.PHONY : .c_style/strcmp.i
+
+# target to preprocess a source file
+.c_style/strcmp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strcmp.dir\build.make CMakeFiles/.c_style_strcmp.dir/.c_style/strcmp.cpp.i
+.PHONY : .c_style/strcmp.cpp.i
+
+.c_style/strcmp.s: .c_style/strcmp.cpp.s
+.PHONY : .c_style/strcmp.s
+
+# target to generate assembly for a file
+.c_style/strcmp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strcmp.dir\build.make CMakeFiles/.c_style_strcmp.dir/.c_style/strcmp.cpp.s
+.PHONY : .c_style/strcmp.cpp.s
+
+.c_style/strcpy.obj: .c_style/strcpy.cpp.obj
+.PHONY : .c_style/strcpy.obj
+
+# target to build an object file
+.c_style/strcpy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strcpy.dir\build.make CMakeFiles/.c_style_strcpy.dir/.c_style/strcpy.cpp.obj
+.PHONY : .c_style/strcpy.cpp.obj
+
+.c_style/strcpy.i: .c_style/strcpy.cpp.i
+.PHONY : .c_style/strcpy.i
+
+# target to preprocess a source file
+.c_style/strcpy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strcpy.dir\build.make CMakeFiles/.c_style_strcpy.dir/.c_style/strcpy.cpp.i
+.PHONY : .c_style/strcpy.cpp.i
+
+.c_style/strcpy.s: .c_style/strcpy.cpp.s
+.PHONY : .c_style/strcpy.s
+
+# target to generate assembly for a file
+.c_style/strcpy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strcpy.dir\build.make CMakeFiles/.c_style_strcpy.dir/.c_style/strcpy.cpp.s
+.PHONY : .c_style/strcpy.cpp.s
+
+.c_style/strlen.obj: .c_style/strlen.cpp.obj
+.PHONY : .c_style/strlen.obj
+
+# target to build an object file
+.c_style/strlen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strlen.dir\build.make CMakeFiles/.c_style_strlen.dir/.c_style/strlen.cpp.obj
+.PHONY : .c_style/strlen.cpp.obj
+
+.c_style/strlen.i: .c_style/strlen.cpp.i
+.PHONY : .c_style/strlen.i
+
+# target to preprocess a source file
+.c_style/strlen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strlen.dir\build.make CMakeFiles/.c_style_strlen.dir/.c_style/strlen.cpp.i
+.PHONY : .c_style/strlen.cpp.i
+
+.c_style/strlen.s: .c_style/strlen.cpp.s
+.PHONY : .c_style/strlen.s
+
+# target to generate assembly for a file
+.c_style/strlen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.c_style_strlen.dir\build.make CMakeFiles/.c_style_strlen.dir/.c_style/strlen.cpp.s
+.PHONY : .c_style/strlen.cpp.s
+
+.chrono/chrono_elapsed_time.obj: .chrono/chrono_elapsed_time.cpp.obj
+.PHONY : .chrono/chrono_elapsed_time.obj
+
+# target to build an object file
+.chrono/chrono_elapsed_time.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.chrono_chrono_elapsed_time.dir\build.make CMakeFiles/.chrono_chrono_elapsed_time.dir/.chrono/chrono_elapsed_time.cpp.obj
+.PHONY : .chrono/chrono_elapsed_time.cpp.obj
+
+.chrono/chrono_elapsed_time.i: .chrono/chrono_elapsed_time.cpp.i
+.PHONY : .chrono/chrono_elapsed_time.i
+
+# target to preprocess a source file
+.chrono/chrono_elapsed_time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.chrono_chrono_elapsed_time.dir\build.make CMakeFiles/.chrono_chrono_elapsed_time.dir/.chrono/chrono_elapsed_time.cpp.i
+.PHONY : .chrono/chrono_elapsed_time.cpp.i
+
+.chrono/chrono_elapsed_time.s: .chrono/chrono_elapsed_time.cpp.s
+.PHONY : .chrono/chrono_elapsed_time.s
+
+# target to generate assembly for a file
+.chrono/chrono_elapsed_time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.chrono_chrono_elapsed_time.dir\build.make CMakeFiles/.chrono_chrono_elapsed_time.dir/.chrono/chrono_elapsed_time.cpp.s
+.PHONY : .chrono/chrono_elapsed_time.cpp.s
+
+.crypto/crypto_ROT13.obj: .crypto/crypto_ROT13.cpp.obj
+.PHONY : .crypto/crypto_ROT13.obj
+
+# target to build an object file
+.crypto/crypto_ROT13.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.crypto_crypto_ROT13.dir\build.make CMakeFiles/.crypto_crypto_ROT13.dir/.crypto/crypto_ROT13.cpp.obj
+.PHONY : .crypto/crypto_ROT13.cpp.obj
+
+.crypto/crypto_ROT13.i: .crypto/crypto_ROT13.cpp.i
+.PHONY : .crypto/crypto_ROT13.i
+
+# target to preprocess a source file
+.crypto/crypto_ROT13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.crypto_crypto_ROT13.dir\build.make CMakeFiles/.crypto_crypto_ROT13.dir/.crypto/crypto_ROT13.cpp.i
+.PHONY : .crypto/crypto_ROT13.cpp.i
+
+.crypto/crypto_ROT13.s: .crypto/crypto_ROT13.cpp.s
+.PHONY : .crypto/crypto_ROT13.s
+
+# target to generate assembly for a file
+.crypto/crypto_ROT13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.crypto_crypto_ROT13.dir\build.make CMakeFiles/.crypto_crypto_ROT13.dir/.crypto/crypto_ROT13.cpp.s
+.PHONY : .crypto/crypto_ROT13.cpp.s
+
+.crypto/crypto_caesar_cipher.obj: .crypto/crypto_caesar_cipher.cpp.obj
+.PHONY : .crypto/crypto_caesar_cipher.obj
+
+# target to build an object file
+.crypto/crypto_caesar_cipher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.crypto_crypto_caesar_cipher.dir\build.make CMakeFiles/.crypto_crypto_caesar_cipher.dir/.crypto/crypto_caesar_cipher.cpp.obj
+.PHONY : .crypto/crypto_caesar_cipher.cpp.obj
+
+.crypto/crypto_caesar_cipher.i: .crypto/crypto_caesar_cipher.cpp.i
+.PHONY : .crypto/crypto_caesar_cipher.i
+
+# target to preprocess a source file
+.crypto/crypto_caesar_cipher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.crypto_crypto_caesar_cipher.dir\build.make CMakeFiles/.crypto_crypto_caesar_cipher.dir/.crypto/crypto_caesar_cipher.cpp.i
+.PHONY : .crypto/crypto_caesar_cipher.cpp.i
+
+.crypto/crypto_caesar_cipher.s: .crypto/crypto_caesar_cipher.cpp.s
+.PHONY : .crypto/crypto_caesar_cipher.s
+
+# target to generate assembly for a file
+.crypto/crypto_caesar_cipher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.crypto_crypto_caesar_cipher.dir\build.make CMakeFiles/.crypto_crypto_caesar_cipher.dir/.crypto/crypto_caesar_cipher.cpp.s
+.PHONY : .crypto/crypto_caesar_cipher.cpp.s
+
 .exercises/BMI_calculator_v2.0.obj: .exercises/BMI_calculator_v2.0.cpp.obj
 .PHONY : .exercises/BMI_calculator_v2.0.obj
 
@@ -2038,6 +3379,78 @@ uppercase/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_alpha.dir\build.make CMakeFiles/.exercises_alpha.dir/.exercises/alpha.cpp.s
 .PHONY : .exercises/alpha.cpp.s
 
+.exercises/array_variations.obj: .exercises/array_variations.cpp.obj
+.PHONY : .exercises/array_variations.obj
+
+# target to build an object file
+.exercises/array_variations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_array_variations.dir\build.make CMakeFiles/.exercises_array_variations.dir/.exercises/array_variations.cpp.obj
+.PHONY : .exercises/array_variations.cpp.obj
+
+.exercises/array_variations.i: .exercises/array_variations.cpp.i
+.PHONY : .exercises/array_variations.i
+
+# target to preprocess a source file
+.exercises/array_variations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_array_variations.dir\build.make CMakeFiles/.exercises_array_variations.dir/.exercises/array_variations.cpp.i
+.PHONY : .exercises/array_variations.cpp.i
+
+.exercises/array_variations.s: .exercises/array_variations.cpp.s
+.PHONY : .exercises/array_variations.s
+
+# target to generate assembly for a file
+.exercises/array_variations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_array_variations.dir\build.make CMakeFiles/.exercises_array_variations.dir/.exercises/array_variations.cpp.s
+.PHONY : .exercises/array_variations.cpp.s
+
+.exercises/avanced_calculator.obj: .exercises/avanced_calculator.cpp.obj
+.PHONY : .exercises/avanced_calculator.obj
+
+# target to build an object file
+.exercises/avanced_calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_avanced_calculator.dir\build.make CMakeFiles/.exercises_avanced_calculator.dir/.exercises/avanced_calculator.cpp.obj
+.PHONY : .exercises/avanced_calculator.cpp.obj
+
+.exercises/avanced_calculator.i: .exercises/avanced_calculator.cpp.i
+.PHONY : .exercises/avanced_calculator.i
+
+# target to preprocess a source file
+.exercises/avanced_calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_avanced_calculator.dir\build.make CMakeFiles/.exercises_avanced_calculator.dir/.exercises/avanced_calculator.cpp.i
+.PHONY : .exercises/avanced_calculator.cpp.i
+
+.exercises/avanced_calculator.s: .exercises/avanced_calculator.cpp.s
+.PHONY : .exercises/avanced_calculator.s
+
+# target to generate assembly for a file
+.exercises/avanced_calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_avanced_calculator.dir\build.make CMakeFiles/.exercises_avanced_calculator.dir/.exercises/avanced_calculator.cpp.s
+.PHONY : .exercises/avanced_calculator.cpp.s
+
+.exercises/bank_account.obj: .exercises/bank_account.cpp.obj
+.PHONY : .exercises/bank_account.obj
+
+# target to build an object file
+.exercises/bank_account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_bank_account.dir\build.make CMakeFiles/.exercises_bank_account.dir/.exercises/bank_account.cpp.obj
+.PHONY : .exercises/bank_account.cpp.obj
+
+.exercises/bank_account.i: .exercises/bank_account.cpp.i
+.PHONY : .exercises/bank_account.i
+
+# target to preprocess a source file
+.exercises/bank_account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_bank_account.dir\build.make CMakeFiles/.exercises_bank_account.dir/.exercises/bank_account.cpp.i
+.PHONY : .exercises/bank_account.cpp.i
+
+.exercises/bank_account.s: .exercises/bank_account.cpp.s
+.PHONY : .exercises/bank_account.s
+
+# target to generate assembly for a file
+.exercises/bank_account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_bank_account.dir\build.make CMakeFiles/.exercises_bank_account.dir/.exercises/bank_account.cpp.s
+.PHONY : .exercises/bank_account.cpp.s
+
 .exercises/basic_calculator.obj: .exercises/basic_calculator.cpp.obj
 .PHONY : .exercises/basic_calculator.obj
 
@@ -2085,6 +3498,54 @@ uppercase/fast:
 .exercises/bmi_calculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_bmi_calculator.dir\build.make CMakeFiles/.exercises_bmi_calculator.dir/.exercises/bmi_calculator.cpp.s
 .PHONY : .exercises/bmi_calculator.cpp.s
+
+.exercises/class_bank_account.obj: .exercises/class_bank_account.cpp.obj
+.PHONY : .exercises/class_bank_account.obj
+
+# target to build an object file
+.exercises/class_bank_account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_class_bank_account.dir\build.make CMakeFiles/.exercises_class_bank_account.dir/.exercises/class_bank_account.cpp.obj
+.PHONY : .exercises/class_bank_account.cpp.obj
+
+.exercises/class_bank_account.i: .exercises/class_bank_account.cpp.i
+.PHONY : .exercises/class_bank_account.i
+
+# target to preprocess a source file
+.exercises/class_bank_account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_class_bank_account.dir\build.make CMakeFiles/.exercises_class_bank_account.dir/.exercises/class_bank_account.cpp.i
+.PHONY : .exercises/class_bank_account.cpp.i
+
+.exercises/class_bank_account.s: .exercises/class_bank_account.cpp.s
+.PHONY : .exercises/class_bank_account.s
+
+# target to generate assembly for a file
+.exercises/class_bank_account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_class_bank_account.dir\build.make CMakeFiles/.exercises_class_bank_account.dir/.exercises/class_bank_account.cpp.s
+.PHONY : .exercises/class_bank_account.cpp.s
+
+.exercises/class_book_management.obj: .exercises/class_book_management.cpp.obj
+.PHONY : .exercises/class_book_management.obj
+
+# target to build an object file
+.exercises/class_book_management.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_class_book_management.dir\build.make CMakeFiles/.exercises_class_book_management.dir/.exercises/class_book_management.cpp.obj
+.PHONY : .exercises/class_book_management.cpp.obj
+
+.exercises/class_book_management.i: .exercises/class_book_management.cpp.i
+.PHONY : .exercises/class_book_management.i
+
+# target to preprocess a source file
+.exercises/class_book_management.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_class_book_management.dir\build.make CMakeFiles/.exercises_class_book_management.dir/.exercises/class_book_management.cpp.i
+.PHONY : .exercises/class_book_management.cpp.i
+
+.exercises/class_book_management.s: .exercises/class_book_management.cpp.s
+.PHONY : .exercises/class_book_management.s
+
+# target to generate assembly for a file
+.exercises/class_book_management.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_class_book_management.dir\build.make CMakeFiles/.exercises_class_book_management.dir/.exercises/class_book_management.cpp.s
+.PHONY : .exercises/class_book_management.cpp.s
 
 .exercises/cookies_EOF.obj: .exercises/cookies_EOF.cpp.obj
 .PHONY : .exercises/cookies_EOF.obj
@@ -2181,6 +3642,30 @@ uppercase/fast:
 .exercises/do_while_num.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_do_while_num.dir\build.make CMakeFiles/.exercises_do_while_num.dir/.exercises/do_while_num.cpp.s
 .PHONY : .exercises/do_while_num.cpp.s
+
+.exercises/election.obj: .exercises/election.cpp.obj
+.PHONY : .exercises/election.obj
+
+# target to build an object file
+.exercises/election.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_election.dir\build.make CMakeFiles/.exercises_election.dir/.exercises/election.cpp.obj
+.PHONY : .exercises/election.cpp.obj
+
+.exercises/election.i: .exercises/election.cpp.i
+.PHONY : .exercises/election.i
+
+# target to preprocess a source file
+.exercises/election.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_election.dir\build.make CMakeFiles/.exercises_election.dir/.exercises/election.cpp.i
+.PHONY : .exercises/election.cpp.i
+
+.exercises/election.s: .exercises/election.cpp.s
+.PHONY : .exercises/election.s
+
+# target to generate assembly for a file
+.exercises/election.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_election.dir\build.make CMakeFiles/.exercises_election.dir/.exercises/election.cpp.s
+.PHONY : .exercises/election.cpp.s
 
 .exercises/employee_management_system.obj: .exercises/employee_management_system.cpp.obj
 .PHONY : .exercises/employee_management_system.obj
@@ -2350,6 +3835,54 @@ uppercase/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_largest_sale.dir\build.make CMakeFiles/.exercises_largest_sale.dir/.exercises/largest_sale.cpp.s
 .PHONY : .exercises/largest_sale.cpp.s
 
+.exercises/linear.obj: .exercises/linear.cpp.obj
+.PHONY : .exercises/linear.obj
+
+# target to build an object file
+.exercises/linear.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_linear.dir\build.make CMakeFiles/.exercises_linear.dir/.exercises/linear.cpp.obj
+.PHONY : .exercises/linear.cpp.obj
+
+.exercises/linear.i: .exercises/linear.cpp.i
+.PHONY : .exercises/linear.i
+
+# target to preprocess a source file
+.exercises/linear.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_linear.dir\build.make CMakeFiles/.exercises_linear.dir/.exercises/linear.cpp.i
+.PHONY : .exercises/linear.cpp.i
+
+.exercises/linear.s: .exercises/linear.cpp.s
+.PHONY : .exercises/linear.s
+
+# target to generate assembly for a file
+.exercises/linear.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_linear.dir\build.make CMakeFiles/.exercises_linear.dir/.exercises/linear.cpp.s
+.PHONY : .exercises/linear.cpp.s
+
+.exercises/memory_game.obj: .exercises/memory_game.cpp.obj
+.PHONY : .exercises/memory_game.obj
+
+# target to build an object file
+.exercises/memory_game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_memory_game.dir\build.make CMakeFiles/.exercises_memory_game.dir/.exercises/memory_game.cpp.obj
+.PHONY : .exercises/memory_game.cpp.obj
+
+.exercises/memory_game.i: .exercises/memory_game.cpp.i
+.PHONY : .exercises/memory_game.i
+
+# target to preprocess a source file
+.exercises/memory_game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_memory_game.dir\build.make CMakeFiles/.exercises_memory_game.dir/.exercises/memory_game.cpp.i
+.PHONY : .exercises/memory_game.cpp.i
+
+.exercises/memory_game.s: .exercises/memory_game.cpp.s
+.PHONY : .exercises/memory_game.s
+
+# target to generate assembly for a file
+.exercises/memory_game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_memory_game.dir\build.make CMakeFiles/.exercises_memory_game.dir/.exercises/memory_game.cpp.s
+.PHONY : .exercises/memory_game.cpp.s
+
 .exercises/my_first_cpp_program.obj: .exercises/my_first_cpp_program.cpp.obj
 .PHONY : .exercises/my_first_cpp_program.obj
 
@@ -2518,6 +4051,54 @@ uppercase/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_quadratic.dir\build.make CMakeFiles/.exercises_quadratic.dir/.exercises/quadratic.cpp.s
 .PHONY : .exercises/quadratic.cpp.s
 
+.exercises/school_inheritance.obj: .exercises/school_inheritance.cpp.obj
+.PHONY : .exercises/school_inheritance.obj
+
+# target to build an object file
+.exercises/school_inheritance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_school_inheritance.dir\build.make CMakeFiles/.exercises_school_inheritance.dir/.exercises/school_inheritance.cpp.obj
+.PHONY : .exercises/school_inheritance.cpp.obj
+
+.exercises/school_inheritance.i: .exercises/school_inheritance.cpp.i
+.PHONY : .exercises/school_inheritance.i
+
+# target to preprocess a source file
+.exercises/school_inheritance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_school_inheritance.dir\build.make CMakeFiles/.exercises_school_inheritance.dir/.exercises/school_inheritance.cpp.i
+.PHONY : .exercises/school_inheritance.cpp.i
+
+.exercises/school_inheritance.s: .exercises/school_inheritance.cpp.s
+.PHONY : .exercises/school_inheritance.s
+
+# target to generate assembly for a file
+.exercises/school_inheritance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_school_inheritance.dir\build.make CMakeFiles/.exercises_school_inheritance.dir/.exercises/school_inheritance.cpp.s
+.PHONY : .exercises/school_inheritance.cpp.s
+
+.exercises/shapes.obj: .exercises/shapes.cpp.obj
+.PHONY : .exercises/shapes.obj
+
+# target to build an object file
+.exercises/shapes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_shapes.dir\build.make CMakeFiles/.exercises_shapes.dir/.exercises/shapes.cpp.obj
+.PHONY : .exercises/shapes.cpp.obj
+
+.exercises/shapes.i: .exercises/shapes.cpp.i
+.PHONY : .exercises/shapes.i
+
+# target to preprocess a source file
+.exercises/shapes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_shapes.dir\build.make CMakeFiles/.exercises_shapes.dir/.exercises/shapes.cpp.i
+.PHONY : .exercises/shapes.cpp.i
+
+.exercises/shapes.s: .exercises/shapes.cpp.s
+.PHONY : .exercises/shapes.s
+
+# target to generate assembly for a file
+.exercises/shapes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_shapes.dir\build.make CMakeFiles/.exercises_shapes.dir/.exercises/shapes.cpp.s
+.PHONY : .exercises/shapes.cpp.s
+
 .exercises/simple_calculator.obj: .exercises/simple_calculator.cpp.obj
 .PHONY : .exercises/simple_calculator.obj
 
@@ -2662,6 +4243,30 @@ uppercase/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_static_casting_temp.dir\build.make CMakeFiles/.exercises_static_casting_temp.dir/.exercises/static_casting_temp.cpp.s
 .PHONY : .exercises/static_casting_temp.cpp.s
 
+.exercises/student_class.obj: .exercises/student_class.cpp.obj
+.PHONY : .exercises/student_class.obj
+
+# target to build an object file
+.exercises/student_class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_student_class.dir\build.make CMakeFiles/.exercises_student_class.dir/.exercises/student_class.cpp.obj
+.PHONY : .exercises/student_class.cpp.obj
+
+.exercises/student_class.i: .exercises/student_class.cpp.i
+.PHONY : .exercises/student_class.i
+
+# target to preprocess a source file
+.exercises/student_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_student_class.dir\build.make CMakeFiles/.exercises_student_class.dir/.exercises/student_class.cpp.i
+.PHONY : .exercises/student_class.cpp.i
+
+.exercises/student_class.s: .exercises/student_class.cpp.s
+.PHONY : .exercises/student_class.s
+
+# target to generate assembly for a file
+.exercises/student_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_student_class.dir\build.make CMakeFiles/.exercises_student_class.dir/.exercises/student_class.cpp.s
+.PHONY : .exercises/student_class.cpp.s
+
 .exercises/student_display_grades.obj: .exercises/student_display_grades.cpp.obj
 .PHONY : .exercises/student_display_grades.obj
 
@@ -2782,6 +4387,30 @@ uppercase/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_ticket2.dir\build.make CMakeFiles/.exercises_ticket2.dir/.exercises/ticket2.cpp.s
 .PHONY : .exercises/ticket2.cpp.s
 
+.exercises/tictac_toe.obj: .exercises/tictac_toe.cpp.obj
+.PHONY : .exercises/tictac_toe.obj
+
+# target to build an object file
+.exercises/tictac_toe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_tictac_toe.dir\build.make CMakeFiles/.exercises_tictac_toe.dir/.exercises/tictac_toe.cpp.obj
+.PHONY : .exercises/tictac_toe.cpp.obj
+
+.exercises/tictac_toe.i: .exercises/tictac_toe.cpp.i
+.PHONY : .exercises/tictac_toe.i
+
+# target to preprocess a source file
+.exercises/tictac_toe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_tictac_toe.dir\build.make CMakeFiles/.exercises_tictac_toe.dir/.exercises/tictac_toe.cpp.i
+.PHONY : .exercises/tictac_toe.cpp.i
+
+.exercises/tictac_toe.s: .exercises/tictac_toe.cpp.s
+.PHONY : .exercises/tictac_toe.s
+
+# target to generate assembly for a file
+.exercises/tictac_toe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_tictac_toe.dir\build.make CMakeFiles/.exercises_tictac_toe.dir/.exercises/tictac_toe.cpp.s
+.PHONY : .exercises/tictac_toe.cpp.s
+
 .exercises/town_population.obj: .exercises/town_population.cpp.obj
 .PHONY : .exercises/town_population.obj
 
@@ -2805,6 +4434,30 @@ uppercase/fast:
 .exercises/town_population.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_town_population.dir\build.make CMakeFiles/.exercises_town_population.dir/.exercises/town_population.cpp.s
 .PHONY : .exercises/town_population.cpp.s
+
+.exercises/uppercase.obj: .exercises/uppercase.cpp.obj
+.PHONY : .exercises/uppercase.obj
+
+# target to build an object file
+.exercises/uppercase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_uppercase.dir\build.make CMakeFiles/.exercises_uppercase.dir/.exercises/uppercase.cpp.obj
+.PHONY : .exercises/uppercase.cpp.obj
+
+.exercises/uppercase.i: .exercises/uppercase.cpp.i
+.PHONY : .exercises/uppercase.i
+
+# target to preprocess a source file
+.exercises/uppercase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_uppercase.dir\build.make CMakeFiles/.exercises_uppercase.dir/.exercises/uppercase.cpp.i
+.PHONY : .exercises/uppercase.cpp.i
+
+.exercises/uppercase.s: .exercises/uppercase.cpp.s
+.PHONY : .exercises/uppercase.s
+
+# target to generate assembly for a file
+.exercises/uppercase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_uppercase.dir\build.make CMakeFiles/.exercises_uppercase.dir/.exercises/uppercase.cpp.s
+.PHONY : .exercises/uppercase.cpp.s
 
 .exercises/value_of_pi.obj: .exercises/value_of_pi.cpp.obj
 .PHONY : .exercises/value_of_pi.obj
@@ -2853,6 +4506,1518 @@ uppercase/fast:
 .exercises/while_num.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\.exercises_while_num.dir\build.make CMakeFiles/.exercises_while_num.dir/.exercises/while_num.cpp.s
 .PHONY : .exercises/while_num.cpp.s
+
+.fstream/fstream_append.obj: .fstream/fstream_append.cpp.obj
+.PHONY : .fstream/fstream_append.obj
+
+# target to build an object file
+.fstream/fstream_append.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_append.dir\build.make CMakeFiles/.fstream_fstream_append.dir/.fstream/fstream_append.cpp.obj
+.PHONY : .fstream/fstream_append.cpp.obj
+
+.fstream/fstream_append.i: .fstream/fstream_append.cpp.i
+.PHONY : .fstream/fstream_append.i
+
+# target to preprocess a source file
+.fstream/fstream_append.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_append.dir\build.make CMakeFiles/.fstream_fstream_append.dir/.fstream/fstream_append.cpp.i
+.PHONY : .fstream/fstream_append.cpp.i
+
+.fstream/fstream_append.s: .fstream/fstream_append.cpp.s
+.PHONY : .fstream/fstream_append.s
+
+# target to generate assembly for a file
+.fstream/fstream_append.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_append.dir\build.make CMakeFiles/.fstream_fstream_append.dir/.fstream/fstream_append.cpp.s
+.PHONY : .fstream/fstream_append.cpp.s
+
+.fstream/fstream_in.obj: .fstream/fstream_in.cpp.obj
+.PHONY : .fstream/fstream_in.obj
+
+# target to build an object file
+.fstream/fstream_in.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_in.dir\build.make CMakeFiles/.fstream_fstream_in.dir/.fstream/fstream_in.cpp.obj
+.PHONY : .fstream/fstream_in.cpp.obj
+
+.fstream/fstream_in.i: .fstream/fstream_in.cpp.i
+.PHONY : .fstream/fstream_in.i
+
+# target to preprocess a source file
+.fstream/fstream_in.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_in.dir\build.make CMakeFiles/.fstream_fstream_in.dir/.fstream/fstream_in.cpp.i
+.PHONY : .fstream/fstream_in.cpp.i
+
+.fstream/fstream_in.s: .fstream/fstream_in.cpp.s
+.PHONY : .fstream/fstream_in.s
+
+# target to generate assembly for a file
+.fstream/fstream_in.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_in.dir\build.make CMakeFiles/.fstream_fstream_in.dir/.fstream/fstream_in.cpp.s
+.PHONY : .fstream/fstream_in.cpp.s
+
+.fstream/fstream_out.obj: .fstream/fstream_out.cpp.obj
+.PHONY : .fstream/fstream_out.obj
+
+# target to build an object file
+.fstream/fstream_out.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_out.dir\build.make CMakeFiles/.fstream_fstream_out.dir/.fstream/fstream_out.cpp.obj
+.PHONY : .fstream/fstream_out.cpp.obj
+
+.fstream/fstream_out.i: .fstream/fstream_out.cpp.i
+.PHONY : .fstream/fstream_out.i
+
+# target to preprocess a source file
+.fstream/fstream_out.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_out.dir\build.make CMakeFiles/.fstream_fstream_out.dir/.fstream/fstream_out.cpp.i
+.PHONY : .fstream/fstream_out.cpp.i
+
+.fstream/fstream_out.s: .fstream/fstream_out.cpp.s
+.PHONY : .fstream/fstream_out.s
+
+# target to generate assembly for a file
+.fstream/fstream_out.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.fstream_fstream_out.dir\build.make CMakeFiles/.fstream_fstream_out.dir/.fstream/fstream_out.cpp.s
+.PHONY : .fstream/fstream_out.cpp.s
+
+.future/future_async.obj: .future/future_async.cpp.obj
+.PHONY : .future/future_async.obj
+
+# target to build an object file
+.future/future_async.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.future_future_async.dir\build.make CMakeFiles/.future_future_async.dir/.future/future_async.cpp.obj
+.PHONY : .future/future_async.cpp.obj
+
+.future/future_async.i: .future/future_async.cpp.i
+.PHONY : .future/future_async.i
+
+# target to preprocess a source file
+.future/future_async.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.future_future_async.dir\build.make CMakeFiles/.future_future_async.dir/.future/future_async.cpp.i
+.PHONY : .future/future_async.cpp.i
+
+.future/future_async.s: .future/future_async.cpp.s
+.PHONY : .future/future_async.s
+
+# target to generate assembly for a file
+.future/future_async.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.future_future_async.dir\build.make CMakeFiles/.future_future_async.dir/.future/future_async.cpp.s
+.PHONY : .future/future_async.cpp.s
+
+.iostream/iostream_cout_precision.obj: .iostream/iostream_cout_precision.cpp.obj
+.PHONY : .iostream/iostream_cout_precision.obj
+
+# target to build an object file
+.iostream/iostream_cout_precision.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.iostream_iostream_cout_precision.dir\build.make CMakeFiles/.iostream_iostream_cout_precision.dir/.iostream/iostream_cout_precision.cpp.obj
+.PHONY : .iostream/iostream_cout_precision.cpp.obj
+
+.iostream/iostream_cout_precision.i: .iostream/iostream_cout_precision.cpp.i
+.PHONY : .iostream/iostream_cout_precision.i
+
+# target to preprocess a source file
+.iostream/iostream_cout_precision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.iostream_iostream_cout_precision.dir\build.make CMakeFiles/.iostream_iostream_cout_precision.dir/.iostream/iostream_cout_precision.cpp.i
+.PHONY : .iostream/iostream_cout_precision.cpp.i
+
+.iostream/iostream_cout_precision.s: .iostream/iostream_cout_precision.cpp.s
+.PHONY : .iostream/iostream_cout_precision.s
+
+# target to generate assembly for a file
+.iostream/iostream_cout_precision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.iostream_iostream_cout_precision.dir\build.make CMakeFiles/.iostream_iostream_cout_precision.dir/.iostream/iostream_cout_precision.cpp.s
+.PHONY : .iostream/iostream_cout_precision.cpp.s
+
+.iostream/iostream_sync_with_studio.obj: .iostream/iostream_sync_with_studio.cpp.obj
+.PHONY : .iostream/iostream_sync_with_studio.obj
+
+# target to build an object file
+.iostream/iostream_sync_with_studio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.iostream_iostream_sync_with_studio.dir\build.make CMakeFiles/.iostream_iostream_sync_with_studio.dir/.iostream/iostream_sync_with_studio.cpp.obj
+.PHONY : .iostream/iostream_sync_with_studio.cpp.obj
+
+.iostream/iostream_sync_with_studio.i: .iostream/iostream_sync_with_studio.cpp.i
+.PHONY : .iostream/iostream_sync_with_studio.i
+
+# target to preprocess a source file
+.iostream/iostream_sync_with_studio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.iostream_iostream_sync_with_studio.dir\build.make CMakeFiles/.iostream_iostream_sync_with_studio.dir/.iostream/iostream_sync_with_studio.cpp.i
+.PHONY : .iostream/iostream_sync_with_studio.cpp.i
+
+.iostream/iostream_sync_with_studio.s: .iostream/iostream_sync_with_studio.cpp.s
+.PHONY : .iostream/iostream_sync_with_studio.s
+
+# target to generate assembly for a file
+.iostream/iostream_sync_with_studio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.iostream_iostream_sync_with_studio.dir\build.make CMakeFiles/.iostream_iostream_sync_with_studio.dir/.iostream/iostream_sync_with_studio.cpp.s
+.PHONY : .iostream/iostream_sync_with_studio.cpp.s
+
+.lambda/lambda_add.obj: .lambda/lambda_add.cpp.obj
+.PHONY : .lambda/lambda_add.obj
+
+# target to build an object file
+.lambda/lambda_add.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.lambda_lambda_add.dir\build.make CMakeFiles/.lambda_lambda_add.dir/.lambda/lambda_add.cpp.obj
+.PHONY : .lambda/lambda_add.cpp.obj
+
+.lambda/lambda_add.i: .lambda/lambda_add.cpp.i
+.PHONY : .lambda/lambda_add.i
+
+# target to preprocess a source file
+.lambda/lambda_add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.lambda_lambda_add.dir\build.make CMakeFiles/.lambda_lambda_add.dir/.lambda/lambda_add.cpp.i
+.PHONY : .lambda/lambda_add.cpp.i
+
+.lambda/lambda_add.s: .lambda/lambda_add.cpp.s
+.PHONY : .lambda/lambda_add.s
+
+# target to generate assembly for a file
+.lambda/lambda_add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.lambda_lambda_add.dir\build.make CMakeFiles/.lambda_lambda_add.dir/.lambda/lambda_add.cpp.s
+.PHONY : .lambda/lambda_add.cpp.s
+
+.memory/memory_dynamic_allocation.obj: .memory/memory_dynamic_allocation.cpp.obj
+.PHONY : .memory/memory_dynamic_allocation.obj
+
+# target to build an object file
+.memory/memory_dynamic_allocation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.memory_memory_dynamic_allocation.dir\build.make CMakeFiles/.memory_memory_dynamic_allocation.dir/.memory/memory_dynamic_allocation.cpp.obj
+.PHONY : .memory/memory_dynamic_allocation.cpp.obj
+
+.memory/memory_dynamic_allocation.i: .memory/memory_dynamic_allocation.cpp.i
+.PHONY : .memory/memory_dynamic_allocation.i
+
+# target to preprocess a source file
+.memory/memory_dynamic_allocation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.memory_memory_dynamic_allocation.dir\build.make CMakeFiles/.memory_memory_dynamic_allocation.dir/.memory/memory_dynamic_allocation.cpp.i
+.PHONY : .memory/memory_dynamic_allocation.cpp.i
+
+.memory/memory_dynamic_allocation.s: .memory/memory_dynamic_allocation.cpp.s
+.PHONY : .memory/memory_dynamic_allocation.s
+
+# target to generate assembly for a file
+.memory/memory_dynamic_allocation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.memory_memory_dynamic_allocation.dir\build.make CMakeFiles/.memory_memory_dynamic_allocation.dir/.memory/memory_dynamic_allocation.cpp.s
+.PHONY : .memory/memory_dynamic_allocation.cpp.s
+
+.memory/smart_pointer_class.obj: .memory/smart_pointer_class.cpp.obj
+.PHONY : .memory/smart_pointer_class.obj
+
+# target to build an object file
+.memory/smart_pointer_class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.memory_smart_pointer_class.dir\build.make CMakeFiles/.memory_smart_pointer_class.dir/.memory/smart_pointer_class.cpp.obj
+.PHONY : .memory/smart_pointer_class.cpp.obj
+
+.memory/smart_pointer_class.i: .memory/smart_pointer_class.cpp.i
+.PHONY : .memory/smart_pointer_class.i
+
+# target to preprocess a source file
+.memory/smart_pointer_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.memory_smart_pointer_class.dir\build.make CMakeFiles/.memory_smart_pointer_class.dir/.memory/smart_pointer_class.cpp.i
+.PHONY : .memory/smart_pointer_class.cpp.i
+
+.memory/smart_pointer_class.s: .memory/smart_pointer_class.cpp.s
+.PHONY : .memory/smart_pointer_class.s
+
+# target to generate assembly for a file
+.memory/smart_pointer_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.memory_smart_pointer_class.dir\build.make CMakeFiles/.memory_smart_pointer_class.dir/.memory/smart_pointer_class.cpp.s
+.PHONY : .memory/smart_pointer_class.cpp.s
+
+.msys/CarDisplaySystem.obj: .msys/CarDisplaySystem.cpp.obj
+.PHONY : .msys/CarDisplaySystem.obj
+
+# target to build an object file
+.msys/CarDisplaySystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_CarDisplaySystem.dir\build.make CMakeFiles/.msys_CarDisplaySystem.dir/.msys/CarDisplaySystem.cpp.obj
+.PHONY : .msys/CarDisplaySystem.cpp.obj
+
+.msys/CarDisplaySystem.i: .msys/CarDisplaySystem.cpp.i
+.PHONY : .msys/CarDisplaySystem.i
+
+# target to preprocess a source file
+.msys/CarDisplaySystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_CarDisplaySystem.dir\build.make CMakeFiles/.msys_CarDisplaySystem.dir/.msys/CarDisplaySystem.cpp.i
+.PHONY : .msys/CarDisplaySystem.cpp.i
+
+.msys/CarDisplaySystem.s: .msys/CarDisplaySystem.cpp.s
+.PHONY : .msys/CarDisplaySystem.s
+
+# target to generate assembly for a file
+.msys/CarDisplaySystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_CarDisplaySystem.dir\build.make CMakeFiles/.msys_CarDisplaySystem.dir/.msys/CarDisplaySystem.cpp.s
+.PHONY : .msys/CarDisplaySystem.cpp.s
+
+.msys/EmployeeManagementSystem.obj: .msys/EmployeeManagementSystem.cpp.obj
+.PHONY : .msys/EmployeeManagementSystem.obj
+
+# target to build an object file
+.msys/EmployeeManagementSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_EmployeeManagementSystem.dir\build.make CMakeFiles/.msys_EmployeeManagementSystem.dir/.msys/EmployeeManagementSystem.cpp.obj
+.PHONY : .msys/EmployeeManagementSystem.cpp.obj
+
+.msys/EmployeeManagementSystem.i: .msys/EmployeeManagementSystem.cpp.i
+.PHONY : .msys/EmployeeManagementSystem.i
+
+# target to preprocess a source file
+.msys/EmployeeManagementSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_EmployeeManagementSystem.dir\build.make CMakeFiles/.msys_EmployeeManagementSystem.dir/.msys/EmployeeManagementSystem.cpp.i
+.PHONY : .msys/EmployeeManagementSystem.cpp.i
+
+.msys/EmployeeManagementSystem.s: .msys/EmployeeManagementSystem.cpp.s
+.PHONY : .msys/EmployeeManagementSystem.s
+
+# target to generate assembly for a file
+.msys/EmployeeManagementSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_EmployeeManagementSystem.dir\build.make CMakeFiles/.msys_EmployeeManagementSystem.dir/.msys/EmployeeManagementSystem.cpp.s
+.PHONY : .msys/EmployeeManagementSystem.cpp.s
+
+.msys/LibraryManagementSystem.obj: .msys/LibraryManagementSystem.cpp.obj
+.PHONY : .msys/LibraryManagementSystem.obj
+
+# target to build an object file
+.msys/LibraryManagementSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_LibraryManagementSystem.dir\build.make CMakeFiles/.msys_LibraryManagementSystem.dir/.msys/LibraryManagementSystem.cpp.obj
+.PHONY : .msys/LibraryManagementSystem.cpp.obj
+
+.msys/LibraryManagementSystem.i: .msys/LibraryManagementSystem.cpp.i
+.PHONY : .msys/LibraryManagementSystem.i
+
+# target to preprocess a source file
+.msys/LibraryManagementSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_LibraryManagementSystem.dir\build.make CMakeFiles/.msys_LibraryManagementSystem.dir/.msys/LibraryManagementSystem.cpp.i
+.PHONY : .msys/LibraryManagementSystem.cpp.i
+
+.msys/LibraryManagementSystem.s: .msys/LibraryManagementSystem.cpp.s
+.PHONY : .msys/LibraryManagementSystem.s
+
+# target to generate assembly for a file
+.msys/LibraryManagementSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_LibraryManagementSystem.dir\build.make CMakeFiles/.msys_LibraryManagementSystem.dir/.msys/LibraryManagementSystem.cpp.s
+.PHONY : .msys/LibraryManagementSystem.cpp.s
+
+.msys/bank_account.obj: .msys/bank_account.cpp.obj
+.PHONY : .msys/bank_account.obj
+
+# target to build an object file
+.msys/bank_account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_bank_account.dir\build.make CMakeFiles/.msys_bank_account.dir/.msys/bank_account.cpp.obj
+.PHONY : .msys/bank_account.cpp.obj
+
+.msys/bank_account.i: .msys/bank_account.cpp.i
+.PHONY : .msys/bank_account.i
+
+# target to preprocess a source file
+.msys/bank_account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_bank_account.dir\build.make CMakeFiles/.msys_bank_account.dir/.msys/bank_account.cpp.i
+.PHONY : .msys/bank_account.cpp.i
+
+.msys/bank_account.s: .msys/bank_account.cpp.s
+.PHONY : .msys/bank_account.s
+
+# target to generate assembly for a file
+.msys/bank_account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_bank_account.dir\build.make CMakeFiles/.msys_bank_account.dir/.msys/bank_account.cpp.s
+.PHONY : .msys/bank_account.cpp.s
+
+.msys/classAreaRectangle.obj: .msys/classAreaRectangle.cpp.obj
+.PHONY : .msys/classAreaRectangle.obj
+
+# target to build an object file
+.msys/classAreaRectangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classAreaRectangle.dir\build.make CMakeFiles/.msys_classAreaRectangle.dir/.msys/classAreaRectangle.cpp.obj
+.PHONY : .msys/classAreaRectangle.cpp.obj
+
+.msys/classAreaRectangle.i: .msys/classAreaRectangle.cpp.i
+.PHONY : .msys/classAreaRectangle.i
+
+# target to preprocess a source file
+.msys/classAreaRectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classAreaRectangle.dir\build.make CMakeFiles/.msys_classAreaRectangle.dir/.msys/classAreaRectangle.cpp.i
+.PHONY : .msys/classAreaRectangle.cpp.i
+
+.msys/classAreaRectangle.s: .msys/classAreaRectangle.cpp.s
+.PHONY : .msys/classAreaRectangle.s
+
+# target to generate assembly for a file
+.msys/classAreaRectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classAreaRectangle.dir\build.make CMakeFiles/.msys_classAreaRectangle.dir/.msys/classAreaRectangle.cpp.s
+.PHONY : .msys/classAreaRectangle.cpp.s
+
+.msys/classBankAccount.obj: .msys/classBankAccount.cpp.obj
+.PHONY : .msys/classBankAccount.obj
+
+# target to build an object file
+.msys/classBankAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classBankAccount.dir\build.make CMakeFiles/.msys_classBankAccount.dir/.msys/classBankAccount.cpp.obj
+.PHONY : .msys/classBankAccount.cpp.obj
+
+.msys/classBankAccount.i: .msys/classBankAccount.cpp.i
+.PHONY : .msys/classBankAccount.i
+
+# target to preprocess a source file
+.msys/classBankAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classBankAccount.dir\build.make CMakeFiles/.msys_classBankAccount.dir/.msys/classBankAccount.cpp.i
+.PHONY : .msys/classBankAccount.cpp.i
+
+.msys/classBankAccount.s: .msys/classBankAccount.cpp.s
+.PHONY : .msys/classBankAccount.s
+
+# target to generate assembly for a file
+.msys/classBankAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classBankAccount.dir\build.make CMakeFiles/.msys_classBankAccount.dir/.msys/classBankAccount.cpp.s
+.PHONY : .msys/classBankAccount.cpp.s
+
+.msys/classStudent.obj: .msys/classStudent.cpp.obj
+.PHONY : .msys/classStudent.obj
+
+# target to build an object file
+.msys/classStudent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classStudent.dir\build.make CMakeFiles/.msys_classStudent.dir/.msys/classStudent.cpp.obj
+.PHONY : .msys/classStudent.cpp.obj
+
+.msys/classStudent.i: .msys/classStudent.cpp.i
+.PHONY : .msys/classStudent.i
+
+# target to preprocess a source file
+.msys/classStudent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classStudent.dir\build.make CMakeFiles/.msys_classStudent.dir/.msys/classStudent.cpp.i
+.PHONY : .msys/classStudent.cpp.i
+
+.msys/classStudent.s: .msys/classStudent.cpp.s
+.PHONY : .msys/classStudent.s
+
+# target to generate assembly for a file
+.msys/classStudent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_classStudent.dir\build.make CMakeFiles/.msys_classStudent.dir/.msys/classStudent.cpp.s
+.PHONY : .msys/classStudent.cpp.s
+
+.msys/class_employee.obj: .msys/class_employee.cpp.obj
+.PHONY : .msys/class_employee.obj
+
+# target to build an object file
+.msys/class_employee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_class_employee.dir\build.make CMakeFiles/.msys_class_employee.dir/.msys/class_employee.cpp.obj
+.PHONY : .msys/class_employee.cpp.obj
+
+.msys/class_employee.i: .msys/class_employee.cpp.i
+.PHONY : .msys/class_employee.i
+
+# target to preprocess a source file
+.msys/class_employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_class_employee.dir\build.make CMakeFiles/.msys_class_employee.dir/.msys/class_employee.cpp.i
+.PHONY : .msys/class_employee.cpp.i
+
+.msys/class_employee.s: .msys/class_employee.cpp.s
+.PHONY : .msys/class_employee.s
+
+# target to generate assembly for a file
+.msys/class_employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_class_employee.dir\build.make CMakeFiles/.msys_class_employee.dir/.msys/class_employee.cpp.s
+.PHONY : .msys/class_employee.cpp.s
+
+.msys/class_student.obj: .msys/class_student.cpp.obj
+.PHONY : .msys/class_student.obj
+
+# target to build an object file
+.msys/class_student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_class_student.dir\build.make CMakeFiles/.msys_class_student.dir/.msys/class_student.cpp.obj
+.PHONY : .msys/class_student.cpp.obj
+
+.msys/class_student.i: .msys/class_student.cpp.i
+.PHONY : .msys/class_student.i
+
+# target to preprocess a source file
+.msys/class_student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_class_student.dir\build.make CMakeFiles/.msys_class_student.dir/.msys/class_student.cpp.i
+.PHONY : .msys/class_student.cpp.i
+
+.msys/class_student.s: .msys/class_student.cpp.s
+.PHONY : .msys/class_student.s
+
+# target to generate assembly for a file
+.msys/class_student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_class_student.dir\build.make CMakeFiles/.msys_class_student.dir/.msys/class_student.cpp.s
+.PHONY : .msys/class_student.cpp.s
+
+.msys/employee_salary.obj: .msys/employee_salary.cpp.obj
+.PHONY : .msys/employee_salary.obj
+
+# target to build an object file
+.msys/employee_salary.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_employee_salary.dir\build.make CMakeFiles/.msys_employee_salary.dir/.msys/employee_salary.cpp.obj
+.PHONY : .msys/employee_salary.cpp.obj
+
+.msys/employee_salary.i: .msys/employee_salary.cpp.i
+.PHONY : .msys/employee_salary.i
+
+# target to preprocess a source file
+.msys/employee_salary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_employee_salary.dir\build.make CMakeFiles/.msys_employee_salary.dir/.msys/employee_salary.cpp.i
+.PHONY : .msys/employee_salary.cpp.i
+
+.msys/employee_salary.s: .msys/employee_salary.cpp.s
+.PHONY : .msys/employee_salary.s
+
+# target to generate assembly for a file
+.msys/employee_salary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_employee_salary.dir\build.make CMakeFiles/.msys_employee_salary.dir/.msys/employee_salary.cpp.s
+.PHONY : .msys/employee_salary.cpp.s
+
+.msys/hotel_mangement_system.obj: .msys/hotel_mangement_system.cpp.obj
+.PHONY : .msys/hotel_mangement_system.obj
+
+# target to build an object file
+.msys/hotel_mangement_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_hotel_mangement_system.dir\build.make CMakeFiles/.msys_hotel_mangement_system.dir/.msys/hotel_mangement_system.cpp.obj
+.PHONY : .msys/hotel_mangement_system.cpp.obj
+
+.msys/hotel_mangement_system.i: .msys/hotel_mangement_system.cpp.i
+.PHONY : .msys/hotel_mangement_system.i
+
+# target to preprocess a source file
+.msys/hotel_mangement_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_hotel_mangement_system.dir\build.make CMakeFiles/.msys_hotel_mangement_system.dir/.msys/hotel_mangement_system.cpp.i
+.PHONY : .msys/hotel_mangement_system.cpp.i
+
+.msys/hotel_mangement_system.s: .msys/hotel_mangement_system.cpp.s
+.PHONY : .msys/hotel_mangement_system.s
+
+# target to generate assembly for a file
+.msys/hotel_mangement_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_hotel_mangement_system.dir\build.make CMakeFiles/.msys_hotel_mangement_system.dir/.msys/hotel_mangement_system.cpp.s
+.PHONY : .msys/hotel_mangement_system.cpp.s
+
+.msys/library_management_system.obj: .msys/library_management_system.cpp.obj
+.PHONY : .msys/library_management_system.obj
+
+# target to build an object file
+.msys/library_management_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_library_management_system.dir\build.make CMakeFiles/.msys_library_management_system.dir/.msys/library_management_system.cpp.obj
+.PHONY : .msys/library_management_system.cpp.obj
+
+.msys/library_management_system.i: .msys/library_management_system.cpp.i
+.PHONY : .msys/library_management_system.i
+
+# target to preprocess a source file
+.msys/library_management_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_library_management_system.dir\build.make CMakeFiles/.msys_library_management_system.dir/.msys/library_management_system.cpp.i
+.PHONY : .msys/library_management_system.cpp.i
+
+.msys/library_management_system.s: .msys/library_management_system.cpp.s
+.PHONY : .msys/library_management_system.s
+
+# target to generate assembly for a file
+.msys/library_management_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_library_management_system.dir\build.make CMakeFiles/.msys_library_management_system.dir/.msys/library_management_system.cpp.s
+.PHONY : .msys/library_management_system.cpp.s
+
+.msys/old_library_system.obj: .msys/old_library_system.cpp.obj
+.PHONY : .msys/old_library_system.obj
+
+# target to build an object file
+.msys/old_library_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_old_library_system.dir\build.make CMakeFiles/.msys_old_library_system.dir/.msys/old_library_system.cpp.obj
+.PHONY : .msys/old_library_system.cpp.obj
+
+.msys/old_library_system.i: .msys/old_library_system.cpp.i
+.PHONY : .msys/old_library_system.i
+
+# target to preprocess a source file
+.msys/old_library_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_old_library_system.dir\build.make CMakeFiles/.msys_old_library_system.dir/.msys/old_library_system.cpp.i
+.PHONY : .msys/old_library_system.cpp.i
+
+.msys/old_library_system.s: .msys/old_library_system.cpp.s
+.PHONY : .msys/old_library_system.s
+
+# target to generate assembly for a file
+.msys/old_library_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_old_library_system.dir\build.make CMakeFiles/.msys_old_library_system.dir/.msys/old_library_system.cpp.s
+.PHONY : .msys/old_library_system.cpp.s
+
+.msys/old_vehicle_system.obj: .msys/old_vehicle_system.cpp.obj
+.PHONY : .msys/old_vehicle_system.obj
+
+# target to build an object file
+.msys/old_vehicle_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_old_vehicle_system.dir\build.make CMakeFiles/.msys_old_vehicle_system.dir/.msys/old_vehicle_system.cpp.obj
+.PHONY : .msys/old_vehicle_system.cpp.obj
+
+.msys/old_vehicle_system.i: .msys/old_vehicle_system.cpp.i
+.PHONY : .msys/old_vehicle_system.i
+
+# target to preprocess a source file
+.msys/old_vehicle_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_old_vehicle_system.dir\build.make CMakeFiles/.msys_old_vehicle_system.dir/.msys/old_vehicle_system.cpp.i
+.PHONY : .msys/old_vehicle_system.cpp.i
+
+.msys/old_vehicle_system.s: .msys/old_vehicle_system.cpp.s
+.PHONY : .msys/old_vehicle_system.s
+
+# target to generate assembly for a file
+.msys/old_vehicle_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_old_vehicle_system.dir\build.make CMakeFiles/.msys_old_vehicle_system.dir/.msys/old_vehicle_system.cpp.s
+.PHONY : .msys/old_vehicle_system.cpp.s
+
+.msys/shapes_area.obj: .msys/shapes_area.cpp.obj
+.PHONY : .msys/shapes_area.obj
+
+# target to build an object file
+.msys/shapes_area.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_shapes_area.dir\build.make CMakeFiles/.msys_shapes_area.dir/.msys/shapes_area.cpp.obj
+.PHONY : .msys/shapes_area.cpp.obj
+
+.msys/shapes_area.i: .msys/shapes_area.cpp.i
+.PHONY : .msys/shapes_area.i
+
+# target to preprocess a source file
+.msys/shapes_area.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_shapes_area.dir\build.make CMakeFiles/.msys_shapes_area.dir/.msys/shapes_area.cpp.i
+.PHONY : .msys/shapes_area.cpp.i
+
+.msys/shapes_area.s: .msys/shapes_area.cpp.s
+.PHONY : .msys/shapes_area.s
+
+# target to generate assembly for a file
+.msys/shapes_area.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_shapes_area.dir\build.make CMakeFiles/.msys_shapes_area.dir/.msys/shapes_area.cpp.s
+.PHONY : .msys/shapes_area.cpp.s
+
+.msys/struct_ptr.obj: .msys/struct_ptr.cpp.obj
+.PHONY : .msys/struct_ptr.obj
+
+# target to build an object file
+.msys/struct_ptr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_struct_ptr.dir\build.make CMakeFiles/.msys_struct_ptr.dir/.msys/struct_ptr.cpp.obj
+.PHONY : .msys/struct_ptr.cpp.obj
+
+.msys/struct_ptr.i: .msys/struct_ptr.cpp.i
+.PHONY : .msys/struct_ptr.i
+
+# target to preprocess a source file
+.msys/struct_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_struct_ptr.dir\build.make CMakeFiles/.msys_struct_ptr.dir/.msys/struct_ptr.cpp.i
+.PHONY : .msys/struct_ptr.cpp.i
+
+.msys/struct_ptr.s: .msys/struct_ptr.cpp.s
+.PHONY : .msys/struct_ptr.s
+
+# target to generate assembly for a file
+.msys/struct_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_struct_ptr.dir\build.make CMakeFiles/.msys_struct_ptr.dir/.msys/struct_ptr.cpp.s
+.PHONY : .msys/struct_ptr.cpp.s
+
+.msys/student_management_system.obj: .msys/student_management_system.cpp.obj
+.PHONY : .msys/student_management_system.obj
+
+# target to build an object file
+.msys/student_management_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_student_management_system.dir\build.make CMakeFiles/.msys_student_management_system.dir/.msys/student_management_system.cpp.obj
+.PHONY : .msys/student_management_system.cpp.obj
+
+.msys/student_management_system.i: .msys/student_management_system.cpp.i
+.PHONY : .msys/student_management_system.i
+
+# target to preprocess a source file
+.msys/student_management_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_student_management_system.dir\build.make CMakeFiles/.msys_student_management_system.dir/.msys/student_management_system.cpp.i
+.PHONY : .msys/student_management_system.cpp.i
+
+.msys/student_management_system.s: .msys/student_management_system.cpp.s
+.PHONY : .msys/student_management_system.s
+
+# target to generate assembly for a file
+.msys/student_management_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_student_management_system.dir\build.make CMakeFiles/.msys_student_management_system.dir/.msys/student_management_system.cpp.s
+.PHONY : .msys/student_management_system.cpp.s
+
+.msys/vehicle_management_system.obj: .msys/vehicle_management_system.cpp.obj
+.PHONY : .msys/vehicle_management_system.obj
+
+# target to build an object file
+.msys/vehicle_management_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_vehicle_management_system.dir\build.make CMakeFiles/.msys_vehicle_management_system.dir/.msys/vehicle_management_system.cpp.obj
+.PHONY : .msys/vehicle_management_system.cpp.obj
+
+.msys/vehicle_management_system.i: .msys/vehicle_management_system.cpp.i
+.PHONY : .msys/vehicle_management_system.i
+
+# target to preprocess a source file
+.msys/vehicle_management_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_vehicle_management_system.dir\build.make CMakeFiles/.msys_vehicle_management_system.dir/.msys/vehicle_management_system.cpp.i
+.PHONY : .msys/vehicle_management_system.cpp.i
+
+.msys/vehicle_management_system.s: .msys/vehicle_management_system.cpp.s
+.PHONY : .msys/vehicle_management_system.s
+
+# target to generate assembly for a file
+.msys/vehicle_management_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.msys_vehicle_management_system.dir\build.make CMakeFiles/.msys_vehicle_management_system.dir/.msys/vehicle_management_system.cpp.s
+.PHONY : .msys/vehicle_management_system.cpp.s
+
+.numeric/numeric_accumulate.obj: .numeric/numeric_accumulate.cpp.obj
+.PHONY : .numeric/numeric_accumulate.obj
+
+# target to build an object file
+.numeric/numeric_accumulate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.numeric_numeric_accumulate.dir\build.make CMakeFiles/.numeric_numeric_accumulate.dir/.numeric/numeric_accumulate.cpp.obj
+.PHONY : .numeric/numeric_accumulate.cpp.obj
+
+.numeric/numeric_accumulate.i: .numeric/numeric_accumulate.cpp.i
+.PHONY : .numeric/numeric_accumulate.i
+
+# target to preprocess a source file
+.numeric/numeric_accumulate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.numeric_numeric_accumulate.dir\build.make CMakeFiles/.numeric_numeric_accumulate.dir/.numeric/numeric_accumulate.cpp.i
+.PHONY : .numeric/numeric_accumulate.cpp.i
+
+.numeric/numeric_accumulate.s: .numeric/numeric_accumulate.cpp.s
+.PHONY : .numeric/numeric_accumulate.s
+
+# target to generate assembly for a file
+.numeric/numeric_accumulate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.numeric_numeric_accumulate.dir\build.make CMakeFiles/.numeric_numeric_accumulate.dir/.numeric/numeric_accumulate.cpp.s
+.PHONY : .numeric/numeric_accumulate.cpp.s
+
+.numeric/numeric_iota.obj: .numeric/numeric_iota.cpp.obj
+.PHONY : .numeric/numeric_iota.obj
+
+# target to build an object file
+.numeric/numeric_iota.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.numeric_numeric_iota.dir\build.make CMakeFiles/.numeric_numeric_iota.dir/.numeric/numeric_iota.cpp.obj
+.PHONY : .numeric/numeric_iota.cpp.obj
+
+.numeric/numeric_iota.i: .numeric/numeric_iota.cpp.i
+.PHONY : .numeric/numeric_iota.i
+
+# target to preprocess a source file
+.numeric/numeric_iota.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.numeric_numeric_iota.dir\build.make CMakeFiles/.numeric_numeric_iota.dir/.numeric/numeric_iota.cpp.i
+.PHONY : .numeric/numeric_iota.cpp.i
+
+.numeric/numeric_iota.s: .numeric/numeric_iota.cpp.s
+.PHONY : .numeric/numeric_iota.s
+
+# target to generate assembly for a file
+.numeric/numeric_iota.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.numeric_numeric_iota.dir\build.make CMakeFiles/.numeric_numeric_iota.dir/.numeric/numeric_iota.cpp.s
+.PHONY : .numeric/numeric_iota.cpp.s
+
+.program/FancyWord.obj: .program/FancyWord.cpp.obj
+.PHONY : .program/FancyWord.obj
+
+# target to build an object file
+.program/FancyWord.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_FancyWord.dir\build.make CMakeFiles/.program_FancyWord.dir/.program/FancyWord.cpp.obj
+.PHONY : .program/FancyWord.cpp.obj
+
+.program/FancyWord.i: .program/FancyWord.cpp.i
+.PHONY : .program/FancyWord.i
+
+# target to preprocess a source file
+.program/FancyWord.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_FancyWord.dir\build.make CMakeFiles/.program_FancyWord.dir/.program/FancyWord.cpp.i
+.PHONY : .program/FancyWord.cpp.i
+
+.program/FancyWord.s: .program/FancyWord.cpp.s
+.PHONY : .program/FancyWord.s
+
+# target to generate assembly for a file
+.program/FancyWord.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_FancyWord.dir\build.make CMakeFiles/.program_FancyWord.dir/.program/FancyWord.cpp.s
+.PHONY : .program/FancyWord.cpp.s
+
+.program/basic_calculator.obj: .program/basic_calculator.cpp.obj
+.PHONY : .program/basic_calculator.obj
+
+# target to build an object file
+.program/basic_calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_basic_calculator.dir\build.make CMakeFiles/.program_basic_calculator.dir/.program/basic_calculator.cpp.obj
+.PHONY : .program/basic_calculator.cpp.obj
+
+.program/basic_calculator.i: .program/basic_calculator.cpp.i
+.PHONY : .program/basic_calculator.i
+
+# target to preprocess a source file
+.program/basic_calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_basic_calculator.dir\build.make CMakeFiles/.program_basic_calculator.dir/.program/basic_calculator.cpp.i
+.PHONY : .program/basic_calculator.cpp.i
+
+.program/basic_calculator.s: .program/basic_calculator.cpp.s
+.PHONY : .program/basic_calculator.s
+
+# target to generate assembly for a file
+.program/basic_calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_basic_calculator.dir\build.make CMakeFiles/.program_basic_calculator.dir/.program/basic_calculator.cpp.s
+.PHONY : .program/basic_calculator.cpp.s
+
+.program/calculate_GCD_LCM.obj: .program/calculate_GCD_LCM.cpp.obj
+.PHONY : .program/calculate_GCD_LCM.obj
+
+# target to build an object file
+.program/calculate_GCD_LCM.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_calculate_GCD_LCM.dir\build.make CMakeFiles/.program_calculate_GCD_LCM.dir/.program/calculate_GCD_LCM.cpp.obj
+.PHONY : .program/calculate_GCD_LCM.cpp.obj
+
+.program/calculate_GCD_LCM.i: .program/calculate_GCD_LCM.cpp.i
+.PHONY : .program/calculate_GCD_LCM.i
+
+# target to preprocess a source file
+.program/calculate_GCD_LCM.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_calculate_GCD_LCM.dir\build.make CMakeFiles/.program_calculate_GCD_LCM.dir/.program/calculate_GCD_LCM.cpp.i
+.PHONY : .program/calculate_GCD_LCM.cpp.i
+
+.program/calculate_GCD_LCM.s: .program/calculate_GCD_LCM.cpp.s
+.PHONY : .program/calculate_GCD_LCM.s
+
+# target to generate assembly for a file
+.program/calculate_GCD_LCM.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_calculate_GCD_LCM.dir\build.make CMakeFiles/.program_calculate_GCD_LCM.dir/.program/calculate_GCD_LCM.cpp.s
+.PHONY : .program/calculate_GCD_LCM.cpp.s
+
+.program/calculate_factorial.obj: .program/calculate_factorial.cpp.obj
+.PHONY : .program/calculate_factorial.obj
+
+# target to build an object file
+.program/calculate_factorial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_calculate_factorial.dir\build.make CMakeFiles/.program_calculate_factorial.dir/.program/calculate_factorial.cpp.obj
+.PHONY : .program/calculate_factorial.cpp.obj
+
+.program/calculate_factorial.i: .program/calculate_factorial.cpp.i
+.PHONY : .program/calculate_factorial.i
+
+# target to preprocess a source file
+.program/calculate_factorial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_calculate_factorial.dir\build.make CMakeFiles/.program_calculate_factorial.dir/.program/calculate_factorial.cpp.i
+.PHONY : .program/calculate_factorial.cpp.i
+
+.program/calculate_factorial.s: .program/calculate_factorial.cpp.s
+.PHONY : .program/calculate_factorial.s
+
+# target to generate assembly for a file
+.program/calculate_factorial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_calculate_factorial.dir\build.make CMakeFiles/.program_calculate_factorial.dir/.program/calculate_factorial.cpp.s
+.PHONY : .program/calculate_factorial.cpp.s
+
+.program/display_date_calendar.obj: .program/display_date_calendar.cpp.obj
+.PHONY : .program/display_date_calendar.obj
+
+# target to build an object file
+.program/display_date_calendar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_display_date_calendar.dir\build.make CMakeFiles/.program_display_date_calendar.dir/.program/display_date_calendar.cpp.obj
+.PHONY : .program/display_date_calendar.cpp.obj
+
+.program/display_date_calendar.i: .program/display_date_calendar.cpp.i
+.PHONY : .program/display_date_calendar.i
+
+# target to preprocess a source file
+.program/display_date_calendar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_display_date_calendar.dir\build.make CMakeFiles/.program_display_date_calendar.dir/.program/display_date_calendar.cpp.i
+.PHONY : .program/display_date_calendar.cpp.i
+
+.program/display_date_calendar.s: .program/display_date_calendar.cpp.s
+.PHONY : .program/display_date_calendar.s
+
+# target to generate assembly for a file
+.program/display_date_calendar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_display_date_calendar.dir\build.make CMakeFiles/.program_display_date_calendar.dir/.program/display_date_calendar.cpp.s
+.PHONY : .program/display_date_calendar.cpp.s
+
+.program/display_date_time.obj: .program/display_date_time.cpp.obj
+.PHONY : .program/display_date_time.obj
+
+# target to build an object file
+.program/display_date_time.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_display_date_time.dir\build.make CMakeFiles/.program_display_date_time.dir/.program/display_date_time.cpp.obj
+.PHONY : .program/display_date_time.cpp.obj
+
+.program/display_date_time.i: .program/display_date_time.cpp.i
+.PHONY : .program/display_date_time.i
+
+# target to preprocess a source file
+.program/display_date_time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_display_date_time.dir\build.make CMakeFiles/.program_display_date_time.dir/.program/display_date_time.cpp.i
+.PHONY : .program/display_date_time.cpp.i
+
+.program/display_date_time.s: .program/display_date_time.cpp.s
+.PHONY : .program/display_date_time.s
+
+# target to generate assembly for a file
+.program/display_date_time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_display_date_time.dir\build.make CMakeFiles/.program_display_date_time.dir/.program/display_date_time.cpp.s
+.PHONY : .program/display_date_time.cpp.s
+
+.program/fibonacci_numbers_less_than.obj: .program/fibonacci_numbers_less_than.cpp.obj
+.PHONY : .program/fibonacci_numbers_less_than.obj
+
+# target to build an object file
+.program/fibonacci_numbers_less_than.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_fibonacci_numbers_less_than.dir\build.make CMakeFiles/.program_fibonacci_numbers_less_than.dir/.program/fibonacci_numbers_less_than.cpp.obj
+.PHONY : .program/fibonacci_numbers_less_than.cpp.obj
+
+.program/fibonacci_numbers_less_than.i: .program/fibonacci_numbers_less_than.cpp.i
+.PHONY : .program/fibonacci_numbers_less_than.i
+
+# target to preprocess a source file
+.program/fibonacci_numbers_less_than.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_fibonacci_numbers_less_than.dir\build.make CMakeFiles/.program_fibonacci_numbers_less_than.dir/.program/fibonacci_numbers_less_than.cpp.i
+.PHONY : .program/fibonacci_numbers_less_than.cpp.i
+
+.program/fibonacci_numbers_less_than.s: .program/fibonacci_numbers_less_than.cpp.s
+.PHONY : .program/fibonacci_numbers_less_than.s
+
+# target to generate assembly for a file
+.program/fibonacci_numbers_less_than.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_fibonacci_numbers_less_than.dir\build.make CMakeFiles/.program_fibonacci_numbers_less_than.dir/.program/fibonacci_numbers_less_than.cpp.s
+.PHONY : .program/fibonacci_numbers_less_than.cpp.s
+
+.program/group_randomizer.obj: .program/group_randomizer.cpp.obj
+.PHONY : .program/group_randomizer.obj
+
+# target to build an object file
+.program/group_randomizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_group_randomizer.dir\build.make CMakeFiles/.program_group_randomizer.dir/.program/group_randomizer.cpp.obj
+.PHONY : .program/group_randomizer.cpp.obj
+
+.program/group_randomizer.i: .program/group_randomizer.cpp.i
+.PHONY : .program/group_randomizer.i
+
+# target to preprocess a source file
+.program/group_randomizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_group_randomizer.dir\build.make CMakeFiles/.program_group_randomizer.dir/.program/group_randomizer.cpp.i
+.PHONY : .program/group_randomizer.cpp.i
+
+.program/group_randomizer.s: .program/group_randomizer.cpp.s
+.PHONY : .program/group_randomizer.s
+
+# target to generate assembly for a file
+.program/group_randomizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_group_randomizer.dir\build.make CMakeFiles/.program_group_randomizer.dir/.program/group_randomizer.cpp.s
+.PHONY : .program/group_randomizer.cpp.s
+
+.program/matrix_RNG_table.obj: .program/matrix_RNG_table.cpp.obj
+.PHONY : .program/matrix_RNG_table.obj
+
+# target to build an object file
+.program/matrix_RNG_table.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_matrix_RNG_table.dir\build.make CMakeFiles/.program_matrix_RNG_table.dir/.program/matrix_RNG_table.cpp.obj
+.PHONY : .program/matrix_RNG_table.cpp.obj
+
+.program/matrix_RNG_table.i: .program/matrix_RNG_table.cpp.i
+.PHONY : .program/matrix_RNG_table.i
+
+# target to preprocess a source file
+.program/matrix_RNG_table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_matrix_RNG_table.dir\build.make CMakeFiles/.program_matrix_RNG_table.dir/.program/matrix_RNG_table.cpp.i
+.PHONY : .program/matrix_RNG_table.cpp.i
+
+.program/matrix_RNG_table.s: .program/matrix_RNG_table.cpp.s
+.PHONY : .program/matrix_RNG_table.s
+
+# target to generate assembly for a file
+.program/matrix_RNG_table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_matrix_RNG_table.dir\build.make CMakeFiles/.program_matrix_RNG_table.dir/.program/matrix_RNG_table.cpp.s
+.PHONY : .program/matrix_RNG_table.cpp.s
+
+.program/matrix_operations.obj: .program/matrix_operations.cpp.obj
+.PHONY : .program/matrix_operations.obj
+
+# target to build an object file
+.program/matrix_operations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_matrix_operations.dir\build.make CMakeFiles/.program_matrix_operations.dir/.program/matrix_operations.cpp.obj
+.PHONY : .program/matrix_operations.cpp.obj
+
+.program/matrix_operations.i: .program/matrix_operations.cpp.i
+.PHONY : .program/matrix_operations.i
+
+# target to preprocess a source file
+.program/matrix_operations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_matrix_operations.dir\build.make CMakeFiles/.program_matrix_operations.dir/.program/matrix_operations.cpp.i
+.PHONY : .program/matrix_operations.cpp.i
+
+.program/matrix_operations.s: .program/matrix_operations.cpp.s
+.PHONY : .program/matrix_operations.s
+
+# target to generate assembly for a file
+.program/matrix_operations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_matrix_operations.dir\build.make CMakeFiles/.program_matrix_operations.dir/.program/matrix_operations.cpp.s
+.PHONY : .program/matrix_operations.cpp.s
+
+.program/palindrome_check.obj: .program/palindrome_check.cpp.obj
+.PHONY : .program/palindrome_check.obj
+
+# target to build an object file
+.program/palindrome_check.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_palindrome_check.dir\build.make CMakeFiles/.program_palindrome_check.dir/.program/palindrome_check.cpp.obj
+.PHONY : .program/palindrome_check.cpp.obj
+
+.program/palindrome_check.i: .program/palindrome_check.cpp.i
+.PHONY : .program/palindrome_check.i
+
+# target to preprocess a source file
+.program/palindrome_check.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_palindrome_check.dir\build.make CMakeFiles/.program_palindrome_check.dir/.program/palindrome_check.cpp.i
+.PHONY : .program/palindrome_check.cpp.i
+
+.program/palindrome_check.s: .program/palindrome_check.cpp.s
+.PHONY : .program/palindrome_check.s
+
+# target to generate assembly for a file
+.program/palindrome_check.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_palindrome_check.dir\build.make CMakeFiles/.program_palindrome_check.dir/.program/palindrome_check.cpp.s
+.PHONY : .program/palindrome_check.cpp.s
+
+.program/print_course_schedule.obj: .program/print_course_schedule.cpp.obj
+.PHONY : .program/print_course_schedule.obj
+
+# target to build an object file
+.program/print_course_schedule.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_print_course_schedule.dir\build.make CMakeFiles/.program_print_course_schedule.dir/.program/print_course_schedule.cpp.obj
+.PHONY : .program/print_course_schedule.cpp.obj
+
+.program/print_course_schedule.i: .program/print_course_schedule.cpp.i
+.PHONY : .program/print_course_schedule.i
+
+# target to preprocess a source file
+.program/print_course_schedule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_print_course_schedule.dir\build.make CMakeFiles/.program_print_course_schedule.dir/.program/print_course_schedule.cpp.i
+.PHONY : .program/print_course_schedule.cpp.i
+
+.program/print_course_schedule.s: .program/print_course_schedule.cpp.s
+.PHONY : .program/print_course_schedule.s
+
+# target to generate assembly for a file
+.program/print_course_schedule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_print_course_schedule.dir\build.make CMakeFiles/.program_print_course_schedule.dir/.program/print_course_schedule.cpp.s
+.PHONY : .program/print_course_schedule.cpp.s
+
+.program/print_current_date.obj: .program/print_current_date.cpp.obj
+.PHONY : .program/print_current_date.obj
+
+# target to build an object file
+.program/print_current_date.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_print_current_date.dir\build.make CMakeFiles/.program_print_current_date.dir/.program/print_current_date.cpp.obj
+.PHONY : .program/print_current_date.cpp.obj
+
+.program/print_current_date.i: .program/print_current_date.cpp.i
+.PHONY : .program/print_current_date.i
+
+# target to preprocess a source file
+.program/print_current_date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_print_current_date.dir\build.make CMakeFiles/.program_print_current_date.dir/.program/print_current_date.cpp.i
+.PHONY : .program/print_current_date.cpp.i
+
+.program/print_current_date.s: .program/print_current_date.cpp.s
+.PHONY : .program/print_current_date.s
+
+# target to generate assembly for a file
+.program/print_current_date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_print_current_date.dir\build.make CMakeFiles/.program_print_current_date.dir/.program/print_current_date.cpp.s
+.PHONY : .program/print_current_date.cpp.s
+
+.program/quadratic_equation_complex.obj: .program/quadratic_equation_complex.cpp.obj
+.PHONY : .program/quadratic_equation_complex.obj
+
+# target to build an object file
+.program/quadratic_equation_complex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_quadratic_equation_complex.dir\build.make CMakeFiles/.program_quadratic_equation_complex.dir/.program/quadratic_equation_complex.cpp.obj
+.PHONY : .program/quadratic_equation_complex.cpp.obj
+
+.program/quadratic_equation_complex.i: .program/quadratic_equation_complex.cpp.i
+.PHONY : .program/quadratic_equation_complex.i
+
+# target to preprocess a source file
+.program/quadratic_equation_complex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_quadratic_equation_complex.dir\build.make CMakeFiles/.program_quadratic_equation_complex.dir/.program/quadratic_equation_complex.cpp.i
+.PHONY : .program/quadratic_equation_complex.cpp.i
+
+.program/quadratic_equation_complex.s: .program/quadratic_equation_complex.cpp.s
+.PHONY : .program/quadratic_equation_complex.s
+
+# target to generate assembly for a file
+.program/quadratic_equation_complex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_quadratic_equation_complex.dir\build.make CMakeFiles/.program_quadratic_equation_complex.dir/.program/quadratic_equation_complex.cpp.s
+.PHONY : .program/quadratic_equation_complex.cpp.s
+
+.program/quadratic_equation_simple.obj: .program/quadratic_equation_simple.cpp.obj
+.PHONY : .program/quadratic_equation_simple.obj
+
+# target to build an object file
+.program/quadratic_equation_simple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_quadratic_equation_simple.dir\build.make CMakeFiles/.program_quadratic_equation_simple.dir/.program/quadratic_equation_simple.cpp.obj
+.PHONY : .program/quadratic_equation_simple.cpp.obj
+
+.program/quadratic_equation_simple.i: .program/quadratic_equation_simple.cpp.i
+.PHONY : .program/quadratic_equation_simple.i
+
+# target to preprocess a source file
+.program/quadratic_equation_simple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_quadratic_equation_simple.dir\build.make CMakeFiles/.program_quadratic_equation_simple.dir/.program/quadratic_equation_simple.cpp.i
+.PHONY : .program/quadratic_equation_simple.cpp.i
+
+.program/quadratic_equation_simple.s: .program/quadratic_equation_simple.cpp.s
+.PHONY : .program/quadratic_equation_simple.s
+
+# target to generate assembly for a file
+.program/quadratic_equation_simple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_quadratic_equation_simple.dir\build.make CMakeFiles/.program_quadratic_equation_simple.dir/.program/quadratic_equation_simple.cpp.s
+.PHONY : .program/quadratic_equation_simple.cpp.s
+
+.program/sequence_randomizer.obj: .program/sequence_randomizer.cpp.obj
+.PHONY : .program/sequence_randomizer.obj
+
+# target to build an object file
+.program/sequence_randomizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sequence_randomizer.dir\build.make CMakeFiles/.program_sequence_randomizer.dir/.program/sequence_randomizer.cpp.obj
+.PHONY : .program/sequence_randomizer.cpp.obj
+
+.program/sequence_randomizer.i: .program/sequence_randomizer.cpp.i
+.PHONY : .program/sequence_randomizer.i
+
+# target to preprocess a source file
+.program/sequence_randomizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sequence_randomizer.dir\build.make CMakeFiles/.program_sequence_randomizer.dir/.program/sequence_randomizer.cpp.i
+.PHONY : .program/sequence_randomizer.cpp.i
+
+.program/sequence_randomizer.s: .program/sequence_randomizer.cpp.s
+.PHONY : .program/sequence_randomizer.s
+
+# target to generate assembly for a file
+.program/sequence_randomizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sequence_randomizer.dir\build.make CMakeFiles/.program_sequence_randomizer.dir/.program/sequence_randomizer.cpp.s
+.PHONY : .program/sequence_randomizer.cpp.s
+
+.program/solve_student_grades.obj: .program/solve_student_grades.cpp.obj
+.PHONY : .program/solve_student_grades.obj
+
+# target to build an object file
+.program/solve_student_grades.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_solve_student_grades.dir\build.make CMakeFiles/.program_solve_student_grades.dir/.program/solve_student_grades.cpp.obj
+.PHONY : .program/solve_student_grades.cpp.obj
+
+.program/solve_student_grades.i: .program/solve_student_grades.cpp.i
+.PHONY : .program/solve_student_grades.i
+
+# target to preprocess a source file
+.program/solve_student_grades.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_solve_student_grades.dir\build.make CMakeFiles/.program_solve_student_grades.dir/.program/solve_student_grades.cpp.i
+.PHONY : .program/solve_student_grades.cpp.i
+
+.program/solve_student_grades.s: .program/solve_student_grades.cpp.s
+.PHONY : .program/solve_student_grades.s
+
+# target to generate assembly for a file
+.program/solve_student_grades.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_solve_student_grades.dir\build.make CMakeFiles/.program_solve_student_grades.dir/.program/solve_student_grades.cpp.s
+.PHONY : .program/solve_student_grades.cpp.s
+
+.program/solve_the_password.obj: .program/solve_the_password.cpp.obj
+.PHONY : .program/solve_the_password.obj
+
+# target to build an object file
+.program/solve_the_password.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_solve_the_password.dir\build.make CMakeFiles/.program_solve_the_password.dir/.program/solve_the_password.cpp.obj
+.PHONY : .program/solve_the_password.cpp.obj
+
+.program/solve_the_password.i: .program/solve_the_password.cpp.i
+.PHONY : .program/solve_the_password.i
+
+# target to preprocess a source file
+.program/solve_the_password.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_solve_the_password.dir\build.make CMakeFiles/.program_solve_the_password.dir/.program/solve_the_password.cpp.i
+.PHONY : .program/solve_the_password.cpp.i
+
+.program/solve_the_password.s: .program/solve_the_password.cpp.s
+.PHONY : .program/solve_the_password.s
+
+# target to generate assembly for a file
+.program/solve_the_password.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_solve_the_password.dir\build.make CMakeFiles/.program_solve_the_password.dir/.program/solve_the_password.cpp.s
+.PHONY : .program/solve_the_password.cpp.s
+
+.program/sum_of_digits.obj: .program/sum_of_digits.cpp.obj
+.PHONY : .program/sum_of_digits.obj
+
+# target to build an object file
+.program/sum_of_digits.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sum_of_digits.dir\build.make CMakeFiles/.program_sum_of_digits.dir/.program/sum_of_digits.cpp.obj
+.PHONY : .program/sum_of_digits.cpp.obj
+
+.program/sum_of_digits.i: .program/sum_of_digits.cpp.i
+.PHONY : .program/sum_of_digits.i
+
+# target to preprocess a source file
+.program/sum_of_digits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sum_of_digits.dir\build.make CMakeFiles/.program_sum_of_digits.dir/.program/sum_of_digits.cpp.i
+.PHONY : .program/sum_of_digits.cpp.i
+
+.program/sum_of_digits.s: .program/sum_of_digits.cpp.s
+.PHONY : .program/sum_of_digits.s
+
+# target to generate assembly for a file
+.program/sum_of_digits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sum_of_digits.dir\build.make CMakeFiles/.program_sum_of_digits.dir/.program/sum_of_digits.cpp.s
+.PHONY : .program/sum_of_digits.cpp.s
+
+.program/sum_of_fibonacci_numbers.obj: .program/sum_of_fibonacci_numbers.cpp.obj
+.PHONY : .program/sum_of_fibonacci_numbers.obj
+
+# target to build an object file
+.program/sum_of_fibonacci_numbers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sum_of_fibonacci_numbers.dir\build.make CMakeFiles/.program_sum_of_fibonacci_numbers.dir/.program/sum_of_fibonacci_numbers.cpp.obj
+.PHONY : .program/sum_of_fibonacci_numbers.cpp.obj
+
+.program/sum_of_fibonacci_numbers.i: .program/sum_of_fibonacci_numbers.cpp.i
+.PHONY : .program/sum_of_fibonacci_numbers.i
+
+# target to preprocess a source file
+.program/sum_of_fibonacci_numbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sum_of_fibonacci_numbers.dir\build.make CMakeFiles/.program_sum_of_fibonacci_numbers.dir/.program/sum_of_fibonacci_numbers.cpp.i
+.PHONY : .program/sum_of_fibonacci_numbers.cpp.i
+
+.program/sum_of_fibonacci_numbers.s: .program/sum_of_fibonacci_numbers.cpp.s
+.PHONY : .program/sum_of_fibonacci_numbers.s
+
+# target to generate assembly for a file
+.program/sum_of_fibonacci_numbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_sum_of_fibonacci_numbers.dir\build.make CMakeFiles/.program_sum_of_fibonacci_numbers.dir/.program/sum_of_fibonacci_numbers.cpp.s
+.PHONY : .program/sum_of_fibonacci_numbers.cpp.s
+
+.program/temperature_chart.obj: .program/temperature_chart.cpp.obj
+.PHONY : .program/temperature_chart.obj
+
+# target to build an object file
+.program/temperature_chart.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_temperature_chart.dir\build.make CMakeFiles/.program_temperature_chart.dir/.program/temperature_chart.cpp.obj
+.PHONY : .program/temperature_chart.cpp.obj
+
+.program/temperature_chart.i: .program/temperature_chart.cpp.i
+.PHONY : .program/temperature_chart.i
+
+# target to preprocess a source file
+.program/temperature_chart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_temperature_chart.dir\build.make CMakeFiles/.program_temperature_chart.dir/.program/temperature_chart.cpp.i
+.PHONY : .program/temperature_chart.cpp.i
+
+.program/temperature_chart.s: .program/temperature_chart.cpp.s
+.PHONY : .program/temperature_chart.s
+
+# target to generate assembly for a file
+.program/temperature_chart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_temperature_chart.dir\build.make CMakeFiles/.program_temperature_chart.dir/.program/temperature_chart.cpp.s
+.PHONY : .program/temperature_chart.cpp.s
+
+.program/temperature_converter.obj: .program/temperature_converter.cpp.obj
+.PHONY : .program/temperature_converter.obj
+
+# target to build an object file
+.program/temperature_converter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_temperature_converter.dir\build.make CMakeFiles/.program_temperature_converter.dir/.program/temperature_converter.cpp.obj
+.PHONY : .program/temperature_converter.cpp.obj
+
+.program/temperature_converter.i: .program/temperature_converter.cpp.i
+.PHONY : .program/temperature_converter.i
+
+# target to preprocess a source file
+.program/temperature_converter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_temperature_converter.dir\build.make CMakeFiles/.program_temperature_converter.dir/.program/temperature_converter.cpp.i
+.PHONY : .program/temperature_converter.cpp.i
+
+.program/temperature_converter.s: .program/temperature_converter.cpp.s
+.PHONY : .program/temperature_converter.s
+
+# target to generate assembly for a file
+.program/temperature_converter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_temperature_converter.dir\build.make CMakeFiles/.program_temperature_converter.dir/.program/temperature_converter.cpp.s
+.PHONY : .program/temperature_converter.cpp.s
+
+.program/triangle_pattern.obj: .program/triangle_pattern.cpp.obj
+.PHONY : .program/triangle_pattern.obj
+
+# target to build an object file
+.program/triangle_pattern.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_triangle_pattern.dir\build.make CMakeFiles/.program_triangle_pattern.dir/.program/triangle_pattern.cpp.obj
+.PHONY : .program/triangle_pattern.cpp.obj
+
+.program/triangle_pattern.i: .program/triangle_pattern.cpp.i
+.PHONY : .program/triangle_pattern.i
+
+# target to preprocess a source file
+.program/triangle_pattern.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_triangle_pattern.dir\build.make CMakeFiles/.program_triangle_pattern.dir/.program/triangle_pattern.cpp.i
+.PHONY : .program/triangle_pattern.cpp.i
+
+.program/triangle_pattern.s: .program/triangle_pattern.cpp.s
+.PHONY : .program/triangle_pattern.s
+
+# target to generate assembly for a file
+.program/triangle_pattern.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.program_triangle_pattern.dir\build.make CMakeFiles/.program_triangle_pattern.dir/.program/triangle_pattern.cpp.s
+.PHONY : .program/triangle_pattern.cpp.s
+
+.ptr/function_ptr.obj: .ptr/function_ptr.cpp.obj
+.PHONY : .ptr/function_ptr.obj
+
+# target to build an object file
+.ptr/function_ptr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_function_ptr.dir\build.make CMakeFiles/.ptr_function_ptr.dir/.ptr/function_ptr.cpp.obj
+.PHONY : .ptr/function_ptr.cpp.obj
+
+.ptr/function_ptr.i: .ptr/function_ptr.cpp.i
+.PHONY : .ptr/function_ptr.i
+
+# target to preprocess a source file
+.ptr/function_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_function_ptr.dir\build.make CMakeFiles/.ptr_function_ptr.dir/.ptr/function_ptr.cpp.i
+.PHONY : .ptr/function_ptr.cpp.i
+
+.ptr/function_ptr.s: .ptr/function_ptr.cpp.s
+.PHONY : .ptr/function_ptr.s
+
+# target to generate assembly for a file
+.ptr/function_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_function_ptr.dir\build.make CMakeFiles/.ptr_function_ptr.dir/.ptr/function_ptr.cpp.s
+.PHONY : .ptr/function_ptr.cpp.s
+
+.ptr/iterate_ptr.obj: .ptr/iterate_ptr.cpp.obj
+.PHONY : .ptr/iterate_ptr.obj
+
+# target to build an object file
+.ptr/iterate_ptr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_iterate_ptr.dir\build.make CMakeFiles/.ptr_iterate_ptr.dir/.ptr/iterate_ptr.cpp.obj
+.PHONY : .ptr/iterate_ptr.cpp.obj
+
+.ptr/iterate_ptr.i: .ptr/iterate_ptr.cpp.i
+.PHONY : .ptr/iterate_ptr.i
+
+# target to preprocess a source file
+.ptr/iterate_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_iterate_ptr.dir\build.make CMakeFiles/.ptr_iterate_ptr.dir/.ptr/iterate_ptr.cpp.i
+.PHONY : .ptr/iterate_ptr.cpp.i
+
+.ptr/iterate_ptr.s: .ptr/iterate_ptr.cpp.s
+.PHONY : .ptr/iterate_ptr.s
+
+# target to generate assembly for a file
+.ptr/iterate_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_iterate_ptr.dir\build.make CMakeFiles/.ptr_iterate_ptr.dir/.ptr/iterate_ptr.cpp.s
+.PHONY : .ptr/iterate_ptr.cpp.s
+
+.ptr/ptr_dynamic_grade.obj: .ptr/ptr_dynamic_grade.cpp.obj
+.PHONY : .ptr/ptr_dynamic_grade.obj
+
+# target to build an object file
+.ptr/ptr_dynamic_grade.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_ptr_dynamic_grade.dir\build.make CMakeFiles/.ptr_ptr_dynamic_grade.dir/.ptr/ptr_dynamic_grade.cpp.obj
+.PHONY : .ptr/ptr_dynamic_grade.cpp.obj
+
+.ptr/ptr_dynamic_grade.i: .ptr/ptr_dynamic_grade.cpp.i
+.PHONY : .ptr/ptr_dynamic_grade.i
+
+# target to preprocess a source file
+.ptr/ptr_dynamic_grade.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_ptr_dynamic_grade.dir\build.make CMakeFiles/.ptr_ptr_dynamic_grade.dir/.ptr/ptr_dynamic_grade.cpp.i
+.PHONY : .ptr/ptr_dynamic_grade.cpp.i
+
+.ptr/ptr_dynamic_grade.s: .ptr/ptr_dynamic_grade.cpp.s
+.PHONY : .ptr/ptr_dynamic_grade.s
+
+# target to generate assembly for a file
+.ptr/ptr_dynamic_grade.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_ptr_dynamic_grade.dir\build.make CMakeFiles/.ptr_ptr_dynamic_grade.dir/.ptr/ptr_dynamic_grade.cpp.s
+.PHONY : .ptr/ptr_dynamic_grade.cpp.s
+
+.ptr/ptr_to_ptr.obj: .ptr/ptr_to_ptr.cpp.obj
+.PHONY : .ptr/ptr_to_ptr.obj
+
+# target to build an object file
+.ptr/ptr_to_ptr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_ptr_to_ptr.dir\build.make CMakeFiles/.ptr_ptr_to_ptr.dir/.ptr/ptr_to_ptr.cpp.obj
+.PHONY : .ptr/ptr_to_ptr.cpp.obj
+
+.ptr/ptr_to_ptr.i: .ptr/ptr_to_ptr.cpp.i
+.PHONY : .ptr/ptr_to_ptr.i
+
+# target to preprocess a source file
+.ptr/ptr_to_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_ptr_to_ptr.dir\build.make CMakeFiles/.ptr_ptr_to_ptr.dir/.ptr/ptr_to_ptr.cpp.i
+.PHONY : .ptr/ptr_to_ptr.cpp.i
+
+.ptr/ptr_to_ptr.s: .ptr/ptr_to_ptr.cpp.s
+.PHONY : .ptr/ptr_to_ptr.s
+
+# target to generate assembly for a file
+.ptr/ptr_to_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_ptr_to_ptr.dir\build.make CMakeFiles/.ptr_ptr_to_ptr.dir/.ptr/ptr_to_ptr.cpp.s
+.PHONY : .ptr/ptr_to_ptr.cpp.s
+
+.ptr/string_ptr.obj: .ptr/string_ptr.cpp.obj
+.PHONY : .ptr/string_ptr.obj
+
+# target to build an object file
+.ptr/string_ptr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_string_ptr.dir\build.make CMakeFiles/.ptr_string_ptr.dir/.ptr/string_ptr.cpp.obj
+.PHONY : .ptr/string_ptr.cpp.obj
+
+.ptr/string_ptr.i: .ptr/string_ptr.cpp.i
+.PHONY : .ptr/string_ptr.i
+
+# target to preprocess a source file
+.ptr/string_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_string_ptr.dir\build.make CMakeFiles/.ptr_string_ptr.dir/.ptr/string_ptr.cpp.i
+.PHONY : .ptr/string_ptr.cpp.i
+
+.ptr/string_ptr.s: .ptr/string_ptr.cpp.s
+.PHONY : .ptr/string_ptr.s
+
+# target to generate assembly for a file
+.ptr/string_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_string_ptr.dir\build.make CMakeFiles/.ptr_string_ptr.dir/.ptr/string_ptr.cpp.s
+.PHONY : .ptr/string_ptr.cpp.s
+
+.ptr/swap_ptr.obj: .ptr/swap_ptr.cpp.obj
+.PHONY : .ptr/swap_ptr.obj
+
+# target to build an object file
+.ptr/swap_ptr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_swap_ptr.dir\build.make CMakeFiles/.ptr_swap_ptr.dir/.ptr/swap_ptr.cpp.obj
+.PHONY : .ptr/swap_ptr.cpp.obj
+
+.ptr/swap_ptr.i: .ptr/swap_ptr.cpp.i
+.PHONY : .ptr/swap_ptr.i
+
+# target to preprocess a source file
+.ptr/swap_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_swap_ptr.dir\build.make CMakeFiles/.ptr_swap_ptr.dir/.ptr/swap_ptr.cpp.i
+.PHONY : .ptr/swap_ptr.cpp.i
+
+.ptr/swap_ptr.s: .ptr/swap_ptr.cpp.s
+.PHONY : .ptr/swap_ptr.s
+
+# target to generate assembly for a file
+.ptr/swap_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.ptr_swap_ptr.dir\build.make CMakeFiles/.ptr_swap_ptr.dir/.ptr/swap_ptr.cpp.s
+.PHONY : .ptr/swap_ptr.cpp.s
+
+.sstream/sstream_istringstream.obj: .sstream/sstream_istringstream.cpp.obj
+.PHONY : .sstream/sstream_istringstream.obj
+
+# target to build an object file
+.sstream/sstream_istringstream.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.sstream_sstream_istringstream.dir\build.make CMakeFiles/.sstream_sstream_istringstream.dir/.sstream/sstream_istringstream.cpp.obj
+.PHONY : .sstream/sstream_istringstream.cpp.obj
+
+.sstream/sstream_istringstream.i: .sstream/sstream_istringstream.cpp.i
+.PHONY : .sstream/sstream_istringstream.i
+
+# target to preprocess a source file
+.sstream/sstream_istringstream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.sstream_sstream_istringstream.dir\build.make CMakeFiles/.sstream_sstream_istringstream.dir/.sstream/sstream_istringstream.cpp.i
+.PHONY : .sstream/sstream_istringstream.cpp.i
+
+.sstream/sstream_istringstream.s: .sstream/sstream_istringstream.cpp.s
+.PHONY : .sstream/sstream_istringstream.s
+
+# target to generate assembly for a file
+.sstream/sstream_istringstream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.sstream_sstream_istringstream.dir\build.make CMakeFiles/.sstream_sstream_istringstream.dir/.sstream/sstream_istringstream.cpp.s
+.PHONY : .sstream/sstream_istringstream.cpp.s
+
+.sstream/sstream_ostringstream.obj: .sstream/sstream_ostringstream.cpp.obj
+.PHONY : .sstream/sstream_ostringstream.obj
+
+# target to build an object file
+.sstream/sstream_ostringstream.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.sstream_sstream_ostringstream.dir\build.make CMakeFiles/.sstream_sstream_ostringstream.dir/.sstream/sstream_ostringstream.cpp.obj
+.PHONY : .sstream/sstream_ostringstream.cpp.obj
+
+.sstream/sstream_ostringstream.i: .sstream/sstream_ostringstream.cpp.i
+.PHONY : .sstream/sstream_ostringstream.i
+
+# target to preprocess a source file
+.sstream/sstream_ostringstream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.sstream_sstream_ostringstream.dir\build.make CMakeFiles/.sstream_sstream_ostringstream.dir/.sstream/sstream_ostringstream.cpp.i
+.PHONY : .sstream/sstream_ostringstream.cpp.i
+
+.sstream/sstream_ostringstream.s: .sstream/sstream_ostringstream.cpp.s
+.PHONY : .sstream/sstream_ostringstream.s
+
+# target to generate assembly for a file
+.sstream/sstream_ostringstream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.sstream_sstream_ostringstream.dir\build.make CMakeFiles/.sstream_sstream_ostringstream.dir/.sstream/sstream_ostringstream.cpp.s
+.PHONY : .sstream/sstream_ostringstream.cpp.s
+
+.string/string_reversal.obj: .string/string_reversal.cpp.obj
+.PHONY : .string/string_reversal.obj
+
+# target to build an object file
+.string/string_reversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.string_string_reversal.dir\build.make CMakeFiles/.string_string_reversal.dir/.string/string_reversal.cpp.obj
+.PHONY : .string/string_reversal.cpp.obj
+
+.string/string_reversal.i: .string/string_reversal.cpp.i
+.PHONY : .string/string_reversal.i
+
+# target to preprocess a source file
+.string/string_reversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.string_string_reversal.dir\build.make CMakeFiles/.string_string_reversal.dir/.string/string_reversal.cpp.i
+.PHONY : .string/string_reversal.cpp.i
+
+.string/string_reversal.s: .string/string_reversal.cpp.s
+.PHONY : .string/string_reversal.s
+
+# target to generate assembly for a file
+.string/string_reversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.string_string_reversal.dir\build.make CMakeFiles/.string_string_reversal.dir/.string/string_reversal.cpp.s
+.PHONY : .string/string_reversal.cpp.s
+
+.thread/thread_concurrency.obj: .thread/thread_concurrency.cpp.obj
+.PHONY : .thread/thread_concurrency.obj
+
+# target to build an object file
+.thread/thread_concurrency.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.thread_thread_concurrency.dir\build.make CMakeFiles/.thread_thread_concurrency.dir/.thread/thread_concurrency.cpp.obj
+.PHONY : .thread/thread_concurrency.cpp.obj
+
+.thread/thread_concurrency.i: .thread/thread_concurrency.cpp.i
+.PHONY : .thread/thread_concurrency.i
+
+# target to preprocess a source file
+.thread/thread_concurrency.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.thread_thread_concurrency.dir\build.make CMakeFiles/.thread_thread_concurrency.dir/.thread/thread_concurrency.cpp.i
+.PHONY : .thread/thread_concurrency.cpp.i
+
+.thread/thread_concurrency.s: .thread/thread_concurrency.cpp.s
+.PHONY : .thread/thread_concurrency.s
+
+# target to generate assembly for a file
+.thread/thread_concurrency.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.thread_thread_concurrency.dir\build.make CMakeFiles/.thread_thread_concurrency.dir/.thread/thread_concurrency.cpp.s
+.PHONY : .thread/thread_concurrency.cpp.s
+
+.typeinfo/typeinfo_typeid.obj: .typeinfo/typeinfo_typeid.cpp.obj
+.PHONY : .typeinfo/typeinfo_typeid.obj
+
+# target to build an object file
+.typeinfo/typeinfo_typeid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.typeinfo_typeinfo_typeid.dir\build.make CMakeFiles/.typeinfo_typeinfo_typeid.dir/.typeinfo/typeinfo_typeid.cpp.obj
+.PHONY : .typeinfo/typeinfo_typeid.cpp.obj
+
+.typeinfo/typeinfo_typeid.i: .typeinfo/typeinfo_typeid.cpp.i
+.PHONY : .typeinfo/typeinfo_typeid.i
+
+# target to preprocess a source file
+.typeinfo/typeinfo_typeid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.typeinfo_typeinfo_typeid.dir\build.make CMakeFiles/.typeinfo_typeinfo_typeid.dir/.typeinfo/typeinfo_typeid.cpp.i
+.PHONY : .typeinfo/typeinfo_typeid.cpp.i
+
+.typeinfo/typeinfo_typeid.s: .typeinfo/typeinfo_typeid.cpp.s
+.PHONY : .typeinfo/typeinfo_typeid.s
+
+# target to generate assembly for a file
+.typeinfo/typeinfo_typeid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\.typeinfo_typeinfo_typeid.dir\build.make CMakeFiles/.typeinfo_typeinfo_typeid.dir/.typeinfo/typeinfo_typeid.cpp.s
+.PHONY : .typeinfo/typeinfo_typeid.cpp.s
 
 STL_containers/array.obj: STL_containers/array.cpp.obj
 .PHONY : STL_containers/array.obj
@@ -3862,150 +7027,6 @@ STL_containers/vector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_containers_vector.dir\build.make CMakeFiles/STL_containers_vector.dir/STL_containers/vector.cpp.s
 .PHONY : STL_containers/vector.cpp.s
 
-array_variations.obj: array_variations.cpp.obj
-.PHONY : array_variations.obj
-
-# target to build an object file
-array_variations.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_variations.dir\build.make CMakeFiles/array_variations.dir/array_variations.cpp.obj
-.PHONY : array_variations.cpp.obj
-
-array_variations.i: array_variations.cpp.i
-.PHONY : array_variations.i
-
-# target to preprocess a source file
-array_variations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_variations.dir\build.make CMakeFiles/array_variations.dir/array_variations.cpp.i
-.PHONY : array_variations.cpp.i
-
-array_variations.s: array_variations.cpp.s
-.PHONY : array_variations.s
-
-# target to generate assembly for a file
-array_variations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_variations.dir\build.make CMakeFiles/array_variations.dir/array_variations.cpp.s
-.PHONY : array_variations.cpp.s
-
-class_bank_account.obj: class_bank_account.cpp.obj
-.PHONY : class_bank_account.obj
-
-# target to build an object file
-class_bank_account.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_bank_account.dir\build.make CMakeFiles/class_bank_account.dir/class_bank_account.cpp.obj
-.PHONY : class_bank_account.cpp.obj
-
-class_bank_account.i: class_bank_account.cpp.i
-.PHONY : class_bank_account.i
-
-# target to preprocess a source file
-class_bank_account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_bank_account.dir\build.make CMakeFiles/class_bank_account.dir/class_bank_account.cpp.i
-.PHONY : class_bank_account.cpp.i
-
-class_bank_account.s: class_bank_account.cpp.s
-.PHONY : class_bank_account.s
-
-# target to generate assembly for a file
-class_bank_account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_bank_account.dir\build.make CMakeFiles/class_bank_account.dir/class_bank_account.cpp.s
-.PHONY : class_bank_account.cpp.s
-
-class_book_management.obj: class_book_management.cpp.obj
-.PHONY : class_book_management.obj
-
-# target to build an object file
-class_book_management.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_book_management.dir\build.make CMakeFiles/class_book_management.dir/class_book_management.cpp.obj
-.PHONY : class_book_management.cpp.obj
-
-class_book_management.i: class_book_management.cpp.i
-.PHONY : class_book_management.i
-
-# target to preprocess a source file
-class_book_management.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_book_management.dir\build.make CMakeFiles/class_book_management.dir/class_book_management.cpp.i
-.PHONY : class_book_management.cpp.i
-
-class_book_management.s: class_book_management.cpp.s
-.PHONY : class_book_management.s
-
-# target to generate assembly for a file
-class_book_management.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_book_management.dir\build.make CMakeFiles/class_book_management.dir/class_book_management.cpp.s
-.PHONY : class_book_management.cpp.s
-
-election.obj: election.cpp.obj
-.PHONY : election.obj
-
-# target to build an object file
-election.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\election.dir\build.make CMakeFiles/election.dir/election.cpp.obj
-.PHONY : election.cpp.obj
-
-election.i: election.cpp.i
-.PHONY : election.i
-
-# target to preprocess a source file
-election.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\election.dir\build.make CMakeFiles/election.dir/election.cpp.i
-.PHONY : election.cpp.i
-
-election.s: election.cpp.s
-.PHONY : election.s
-
-# target to generate assembly for a file
-election.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\election.dir\build.make CMakeFiles/election.dir/election.cpp.s
-.PHONY : election.cpp.s
-
-linear.obj: linear.cpp.obj
-.PHONY : linear.obj
-
-# target to build an object file
-linear.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear.dir\build.make CMakeFiles/linear.dir/linear.cpp.obj
-.PHONY : linear.cpp.obj
-
-linear.i: linear.cpp.i
-.PHONY : linear.i
-
-# target to preprocess a source file
-linear.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear.dir\build.make CMakeFiles/linear.dir/linear.cpp.i
-.PHONY : linear.cpp.i
-
-linear.s: linear.cpp.s
-.PHONY : linear.s
-
-# target to generate assembly for a file
-linear.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear.dir\build.make CMakeFiles/linear.dir/linear.cpp.s
-.PHONY : linear.cpp.s
-
-memory_game.obj: memory_game.cpp.obj
-.PHONY : memory_game.obj
-
-# target to build an object file
-memory_game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\memory_game.dir\build.make CMakeFiles/memory_game.dir/memory_game.cpp.obj
-.PHONY : memory_game.cpp.obj
-
-memory_game.i: memory_game.cpp.i
-.PHONY : memory_game.i
-
-# target to preprocess a source file
-memory_game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\memory_game.dir\build.make CMakeFiles/memory_game.dir/memory_game.cpp.i
-.PHONY : memory_game.cpp.i
-
-memory_game.s: memory_game.cpp.s
-.PHONY : memory_game.s
-
-# target to generate assembly for a file
-memory_game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\memory_game.dir\build.make CMakeFiles/memory_game.dir/memory_game.cpp.s
-.PHONY : memory_game.cpp.s
-
 sorting_algorithms/bubble_sort.obj: sorting_algorithms/bubble_sort.cpp.obj
 .PHONY : sorting_algorithms/bubble_sort.obj
 
@@ -4150,29 +7171,29 @@ sorting_algorithms/selection_sort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sorting_algorithms_selection_sort.dir\build.make CMakeFiles/sorting_algorithms_selection_sort.dir/sorting_algorithms/selection_sort.cpp.s
 .PHONY : sorting_algorithms/selection_sort.cpp.s
 
-tictac_toe.obj: tictac_toe.cpp.obj
-.PHONY : tictac_toe.obj
+test.obj: test.cpp.obj
+.PHONY : test.obj
 
 # target to build an object file
-tictac_toe.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tictac_toe.dir\build.make CMakeFiles/tictac_toe.dir/tictac_toe.cpp.obj
-.PHONY : tictac_toe.cpp.obj
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
+.PHONY : test.cpp.obj
 
-tictac_toe.i: tictac_toe.cpp.i
-.PHONY : tictac_toe.i
+test.i: test.cpp.i
+.PHONY : test.i
 
 # target to preprocess a source file
-tictac_toe.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tictac_toe.dir\build.make CMakeFiles/tictac_toe.dir/tictac_toe.cpp.i
-.PHONY : tictac_toe.cpp.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-tictac_toe.s: tictac_toe.cpp.s
-.PHONY : tictac_toe.s
+test.s: test.cpp.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-tictac_toe.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tictac_toe.dir\build.make CMakeFiles/tictac_toe.dir/tictac_toe.cpp.s
-.PHONY : tictac_toe.cpp.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 try_throw_catch.obj: try_throw_catch.cpp.obj
 .PHONY : try_throw_catch.obj
@@ -4198,30 +7219,6 @@ try_throw_catch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\try_throw_catch.dir\build.make CMakeFiles/try_throw_catch.dir/try_throw_catch.cpp.s
 .PHONY : try_throw_catch.cpp.s
 
-uppercase.obj: uppercase.cpp.obj
-.PHONY : uppercase.obj
-
-# target to build an object file
-uppercase.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\uppercase.dir\build.make CMakeFiles/uppercase.dir/uppercase.cpp.obj
-.PHONY : uppercase.cpp.obj
-
-uppercase.i: uppercase.cpp.i
-.PHONY : uppercase.i
-
-# target to preprocess a source file
-uppercase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\uppercase.dir\build.make CMakeFiles/uppercase.dir/uppercase.cpp.i
-.PHONY : uppercase.cpp.i
-
-uppercase.s: uppercase.cpp.s
-.PHONY : uppercase.s
-
-# target to generate assembly for a file
-uppercase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\uppercase.dir\build.make CMakeFiles/uppercase.dir/uppercase.cpp.s
-.PHONY : uppercase.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -4230,6 +7227,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... .RI_RI.missing_number
+	@echo ... .RI_RI.rotate_elements
+	@echo ... .RI_RI.separate_even_odd
+	@echo ... .RI_RI.vowel_counter
+	@echo ... .RNG_RNG.LCG
+	@echo ... .RNG_RNG.mersenne_twister
 	@echo ... .algorithm_algorithm_binary_search
 	@echo ... .algorithm_algorithm_copy
 	@echo ... .algorithm_algorithm_count
@@ -4247,15 +7250,27 @@ help:
 	@echo ... .algorithm_algorithm_stable_sort
 	@echo ... .algorithm_algorithm_transform
 	@echo ... .algorithm_algorithm_unique
+	@echo ... .c_style_strcmp
+	@echo ... .c_style_strcpy
+	@echo ... .c_style_strlen
+	@echo ... .chrono_chrono_elapsed_time
+	@echo ... .crypto_crypto_ROT13
+	@echo ... .crypto_crypto_caesar_cipher
 	@echo ... .exercises_BMI_calculator_v2.0
 	@echo ... .exercises_age_in_days
 	@echo ... .exercises_alpha
+	@echo ... .exercises_array_variations
+	@echo ... .exercises_avanced_calculator
+	@echo ... .exercises_bank_account
 	@echo ... .exercises_basic_calculator
 	@echo ... .exercises_bmi_calculator
+	@echo ... .exercises_class_bank_account
+	@echo ... .exercises_class_book_management
 	@echo ... .exercises_cookies_EOF
 	@echo ... .exercises_cookies_EOF_revised
 	@echo ... .exercises_count_multiples
 	@echo ... .exercises_do_while_num
+	@echo ... .exercises_election
 	@echo ... .exercises_employee_management_system
 	@echo ... .exercises_errors
 	@echo ... .exercises_for_num
@@ -4263,6 +7278,8 @@ help:
 	@echo ... .exercises_improved_bmi_calculator
 	@echo ... .exercises_largest
 	@echo ... .exercises_largest_sale
+	@echo ... .exercises_linear
+	@echo ... .exercises_memory_game
 	@echo ... .exercises_my_first_cpp_program
 	@echo ... .exercises_name
 	@echo ... .exercises_number_guessing_game
@@ -4270,20 +7287,88 @@ help:
 	@echo ... .exercises_prime_number_checker
 	@echo ... .exercises_product_of_three
 	@echo ... .exercises_quadratic
+	@echo ... .exercises_school_inheritance
+	@echo ... .exercises_shapes
 	@echo ... .exercises_simple_calculator
 	@echo ... .exercises_simple_calculator2
 	@echo ... .exercises_simple_interest_calculator
 	@echo ... .exercises_smallest
 	@echo ... .exercises_softdrinks_new
 	@echo ... .exercises_static_casting_temp
+	@echo ... .exercises_student_class
 	@echo ... .exercises_student_display_grades
 	@echo ... .exercises_sum_of_digits1
 	@echo ... .exercises_sum_of_digits2
 	@echo ... .exercises_telephone_digits_new
 	@echo ... .exercises_ticket2
+	@echo ... .exercises_tictac_toe
 	@echo ... .exercises_town_population
+	@echo ... .exercises_uppercase
 	@echo ... .exercises_value_of_pi
 	@echo ... .exercises_while_num
+	@echo ... .fstream_fstream_append
+	@echo ... .fstream_fstream_in
+	@echo ... .fstream_fstream_out
+	@echo ... .future_future_async
+	@echo ... .iostream_iostream_cout_precision
+	@echo ... .iostream_iostream_sync_with_studio
+	@echo ... .lambda_lambda_add
+	@echo ... .memory_memory_dynamic_allocation
+	@echo ... .memory_smart_pointer_class
+	@echo ... .msys_CarDisplaySystem
+	@echo ... .msys_EmployeeManagementSystem
+	@echo ... .msys_LibraryManagementSystem
+	@echo ... .msys_bank_account
+	@echo ... .msys_classAreaRectangle
+	@echo ... .msys_classBankAccount
+	@echo ... .msys_classStudent
+	@echo ... .msys_class_employee
+	@echo ... .msys_class_student
+	@echo ... .msys_employee_salary
+	@echo ... .msys_hotel_mangement_system
+	@echo ... .msys_library_management_system
+	@echo ... .msys_old_library_system
+	@echo ... .msys_old_vehicle_system
+	@echo ... .msys_shapes_area
+	@echo ... .msys_struct_ptr
+	@echo ... .msys_student_management_system
+	@echo ... .msys_vehicle_management_system
+	@echo ... .numeric_numeric_accumulate
+	@echo ... .numeric_numeric_iota
+	@echo ... .program_FancyWord
+	@echo ... .program_basic_calculator
+	@echo ... .program_calculate_GCD_LCM
+	@echo ... .program_calculate_factorial
+	@echo ... .program_display_date_calendar
+	@echo ... .program_display_date_time
+	@echo ... .program_fibonacci_numbers_less_than
+	@echo ... .program_group_randomizer
+	@echo ... .program_matrix_RNG_table
+	@echo ... .program_matrix_operations
+	@echo ... .program_palindrome_check
+	@echo ... .program_print_course_schedule
+	@echo ... .program_print_current_date
+	@echo ... .program_quadratic_equation_complex
+	@echo ... .program_quadratic_equation_simple
+	@echo ... .program_sequence_randomizer
+	@echo ... .program_solve_student_grades
+	@echo ... .program_solve_the_password
+	@echo ... .program_sum_of_digits
+	@echo ... .program_sum_of_fibonacci_numbers
+	@echo ... .program_temperature_chart
+	@echo ... .program_temperature_converter
+	@echo ... .program_triangle_pattern
+	@echo ... .ptr_function_ptr
+	@echo ... .ptr_iterate_ptr
+	@echo ... .ptr_ptr_dynamic_grade
+	@echo ... .ptr_ptr_to_ptr
+	@echo ... .ptr_string_ptr
+	@echo ... .ptr_swap_ptr
+	@echo ... .sstream_sstream_istringstream
+	@echo ... .sstream_sstream_ostringstream
+	@echo ... .string_string_reversal
+	@echo ... .thread_thread_concurrency
+	@echo ... .typeinfo_typeinfo_typeid
 	@echo ... STL_containers_array
 	@echo ... STL_containers_array_count_even_odd
 	@echo ... STL_containers_array_find_kth_largest_element
@@ -4326,21 +7411,32 @@ help:
 	@echo ... STL_containers_system_library_management
 	@echo ... STL_containers_system_menu_order
 	@echo ... STL_containers_vector
-	@echo ... array_variations
-	@echo ... class_bank_account
-	@echo ... class_book_management
-	@echo ... election
-	@echo ... linear
-	@echo ... memory_game
 	@echo ... sorting_algorithms_bubble_sort
 	@echo ... sorting_algorithms_insertion_sort
 	@echo ... sorting_algorithms_merge_sort
 	@echo ... sorting_algorithms_quick_sort
 	@echo ... sorting_algorithms_radix_sort
 	@echo ... sorting_algorithms_selection_sort
-	@echo ... tictac_toe
+	@echo ... test
 	@echo ... try_throw_catch
-	@echo ... uppercase
+	@echo ... .RI/RI.missing_number.obj
+	@echo ... .RI/RI.missing_number.i
+	@echo ... .RI/RI.missing_number.s
+	@echo ... .RI/RI.rotate_elements.obj
+	@echo ... .RI/RI.rotate_elements.i
+	@echo ... .RI/RI.rotate_elements.s
+	@echo ... .RI/RI.separate_even_odd.obj
+	@echo ... .RI/RI.separate_even_odd.i
+	@echo ... .RI/RI.separate_even_odd.s
+	@echo ... .RI/RI.vowel_counter.obj
+	@echo ... .RI/RI.vowel_counter.i
+	@echo ... .RI/RI.vowel_counter.s
+	@echo ... .RNG/RNG.LCG.obj
+	@echo ... .RNG/RNG.LCG.i
+	@echo ... .RNG/RNG.LCG.s
+	@echo ... .RNG/RNG.mersenne_twister.obj
+	@echo ... .RNG/RNG.mersenne_twister.i
+	@echo ... .RNG/RNG.mersenne_twister.s
 	@echo ... .algorithm/algorithm_binary_search.obj
 	@echo ... .algorithm/algorithm_binary_search.i
 	@echo ... .algorithm/algorithm_binary_search.s
@@ -4392,6 +7488,24 @@ help:
 	@echo ... .algorithm/algorithm_unique.obj
 	@echo ... .algorithm/algorithm_unique.i
 	@echo ... .algorithm/algorithm_unique.s
+	@echo ... .c_style/strcmp.obj
+	@echo ... .c_style/strcmp.i
+	@echo ... .c_style/strcmp.s
+	@echo ... .c_style/strcpy.obj
+	@echo ... .c_style/strcpy.i
+	@echo ... .c_style/strcpy.s
+	@echo ... .c_style/strlen.obj
+	@echo ... .c_style/strlen.i
+	@echo ... .c_style/strlen.s
+	@echo ... .chrono/chrono_elapsed_time.obj
+	@echo ... .chrono/chrono_elapsed_time.i
+	@echo ... .chrono/chrono_elapsed_time.s
+	@echo ... .crypto/crypto_ROT13.obj
+	@echo ... .crypto/crypto_ROT13.i
+	@echo ... .crypto/crypto_ROT13.s
+	@echo ... .crypto/crypto_caesar_cipher.obj
+	@echo ... .crypto/crypto_caesar_cipher.i
+	@echo ... .crypto/crypto_caesar_cipher.s
 	@echo ... .exercises/BMI_calculator_v2.0.obj
 	@echo ... .exercises/BMI_calculator_v2.0.i
 	@echo ... .exercises/BMI_calculator_v2.0.s
@@ -4401,12 +7515,27 @@ help:
 	@echo ... .exercises/alpha.obj
 	@echo ... .exercises/alpha.i
 	@echo ... .exercises/alpha.s
+	@echo ... .exercises/array_variations.obj
+	@echo ... .exercises/array_variations.i
+	@echo ... .exercises/array_variations.s
+	@echo ... .exercises/avanced_calculator.obj
+	@echo ... .exercises/avanced_calculator.i
+	@echo ... .exercises/avanced_calculator.s
+	@echo ... .exercises/bank_account.obj
+	@echo ... .exercises/bank_account.i
+	@echo ... .exercises/bank_account.s
 	@echo ... .exercises/basic_calculator.obj
 	@echo ... .exercises/basic_calculator.i
 	@echo ... .exercises/basic_calculator.s
 	@echo ... .exercises/bmi_calculator.obj
 	@echo ... .exercises/bmi_calculator.i
 	@echo ... .exercises/bmi_calculator.s
+	@echo ... .exercises/class_bank_account.obj
+	@echo ... .exercises/class_bank_account.i
+	@echo ... .exercises/class_bank_account.s
+	@echo ... .exercises/class_book_management.obj
+	@echo ... .exercises/class_book_management.i
+	@echo ... .exercises/class_book_management.s
 	@echo ... .exercises/cookies_EOF.obj
 	@echo ... .exercises/cookies_EOF.i
 	@echo ... .exercises/cookies_EOF.s
@@ -4419,6 +7548,9 @@ help:
 	@echo ... .exercises/do_while_num.obj
 	@echo ... .exercises/do_while_num.i
 	@echo ... .exercises/do_while_num.s
+	@echo ... .exercises/election.obj
+	@echo ... .exercises/election.i
+	@echo ... .exercises/election.s
 	@echo ... .exercises/employee_management_system.obj
 	@echo ... .exercises/employee_management_system.i
 	@echo ... .exercises/employee_management_system.s
@@ -4440,6 +7572,12 @@ help:
 	@echo ... .exercises/largest_sale.obj
 	@echo ... .exercises/largest_sale.i
 	@echo ... .exercises/largest_sale.s
+	@echo ... .exercises/linear.obj
+	@echo ... .exercises/linear.i
+	@echo ... .exercises/linear.s
+	@echo ... .exercises/memory_game.obj
+	@echo ... .exercises/memory_game.i
+	@echo ... .exercises/memory_game.s
 	@echo ... .exercises/my_first_cpp_program.obj
 	@echo ... .exercises/my_first_cpp_program.i
 	@echo ... .exercises/my_first_cpp_program.s
@@ -4461,6 +7599,12 @@ help:
 	@echo ... .exercises/quadratic.obj
 	@echo ... .exercises/quadratic.i
 	@echo ... .exercises/quadratic.s
+	@echo ... .exercises/school_inheritance.obj
+	@echo ... .exercises/school_inheritance.i
+	@echo ... .exercises/school_inheritance.s
+	@echo ... .exercises/shapes.obj
+	@echo ... .exercises/shapes.i
+	@echo ... .exercises/shapes.s
 	@echo ... .exercises/simple_calculator.obj
 	@echo ... .exercises/simple_calculator.i
 	@echo ... .exercises/simple_calculator.s
@@ -4479,6 +7623,9 @@ help:
 	@echo ... .exercises/static_casting_temp.obj
 	@echo ... .exercises/static_casting_temp.i
 	@echo ... .exercises/static_casting_temp.s
+	@echo ... .exercises/student_class.obj
+	@echo ... .exercises/student_class.i
+	@echo ... .exercises/student_class.s
 	@echo ... .exercises/student_display_grades.obj
 	@echo ... .exercises/student_display_grades.i
 	@echo ... .exercises/student_display_grades.s
@@ -4494,15 +7641,210 @@ help:
 	@echo ... .exercises/ticket2.obj
 	@echo ... .exercises/ticket2.i
 	@echo ... .exercises/ticket2.s
+	@echo ... .exercises/tictac_toe.obj
+	@echo ... .exercises/tictac_toe.i
+	@echo ... .exercises/tictac_toe.s
 	@echo ... .exercises/town_population.obj
 	@echo ... .exercises/town_population.i
 	@echo ... .exercises/town_population.s
+	@echo ... .exercises/uppercase.obj
+	@echo ... .exercises/uppercase.i
+	@echo ... .exercises/uppercase.s
 	@echo ... .exercises/value_of_pi.obj
 	@echo ... .exercises/value_of_pi.i
 	@echo ... .exercises/value_of_pi.s
 	@echo ... .exercises/while_num.obj
 	@echo ... .exercises/while_num.i
 	@echo ... .exercises/while_num.s
+	@echo ... .fstream/fstream_append.obj
+	@echo ... .fstream/fstream_append.i
+	@echo ... .fstream/fstream_append.s
+	@echo ... .fstream/fstream_in.obj
+	@echo ... .fstream/fstream_in.i
+	@echo ... .fstream/fstream_in.s
+	@echo ... .fstream/fstream_out.obj
+	@echo ... .fstream/fstream_out.i
+	@echo ... .fstream/fstream_out.s
+	@echo ... .future/future_async.obj
+	@echo ... .future/future_async.i
+	@echo ... .future/future_async.s
+	@echo ... .iostream/iostream_cout_precision.obj
+	@echo ... .iostream/iostream_cout_precision.i
+	@echo ... .iostream/iostream_cout_precision.s
+	@echo ... .iostream/iostream_sync_with_studio.obj
+	@echo ... .iostream/iostream_sync_with_studio.i
+	@echo ... .iostream/iostream_sync_with_studio.s
+	@echo ... .lambda/lambda_add.obj
+	@echo ... .lambda/lambda_add.i
+	@echo ... .lambda/lambda_add.s
+	@echo ... .memory/memory_dynamic_allocation.obj
+	@echo ... .memory/memory_dynamic_allocation.i
+	@echo ... .memory/memory_dynamic_allocation.s
+	@echo ... .memory/smart_pointer_class.obj
+	@echo ... .memory/smart_pointer_class.i
+	@echo ... .memory/smart_pointer_class.s
+	@echo ... .msys/CarDisplaySystem.obj
+	@echo ... .msys/CarDisplaySystem.i
+	@echo ... .msys/CarDisplaySystem.s
+	@echo ... .msys/EmployeeManagementSystem.obj
+	@echo ... .msys/EmployeeManagementSystem.i
+	@echo ... .msys/EmployeeManagementSystem.s
+	@echo ... .msys/LibraryManagementSystem.obj
+	@echo ... .msys/LibraryManagementSystem.i
+	@echo ... .msys/LibraryManagementSystem.s
+	@echo ... .msys/bank_account.obj
+	@echo ... .msys/bank_account.i
+	@echo ... .msys/bank_account.s
+	@echo ... .msys/classAreaRectangle.obj
+	@echo ... .msys/classAreaRectangle.i
+	@echo ... .msys/classAreaRectangle.s
+	@echo ... .msys/classBankAccount.obj
+	@echo ... .msys/classBankAccount.i
+	@echo ... .msys/classBankAccount.s
+	@echo ... .msys/classStudent.obj
+	@echo ... .msys/classStudent.i
+	@echo ... .msys/classStudent.s
+	@echo ... .msys/class_employee.obj
+	@echo ... .msys/class_employee.i
+	@echo ... .msys/class_employee.s
+	@echo ... .msys/class_student.obj
+	@echo ... .msys/class_student.i
+	@echo ... .msys/class_student.s
+	@echo ... .msys/employee_salary.obj
+	@echo ... .msys/employee_salary.i
+	@echo ... .msys/employee_salary.s
+	@echo ... .msys/hotel_mangement_system.obj
+	@echo ... .msys/hotel_mangement_system.i
+	@echo ... .msys/hotel_mangement_system.s
+	@echo ... .msys/library_management_system.obj
+	@echo ... .msys/library_management_system.i
+	@echo ... .msys/library_management_system.s
+	@echo ... .msys/old_library_system.obj
+	@echo ... .msys/old_library_system.i
+	@echo ... .msys/old_library_system.s
+	@echo ... .msys/old_vehicle_system.obj
+	@echo ... .msys/old_vehicle_system.i
+	@echo ... .msys/old_vehicle_system.s
+	@echo ... .msys/shapes_area.obj
+	@echo ... .msys/shapes_area.i
+	@echo ... .msys/shapes_area.s
+	@echo ... .msys/struct_ptr.obj
+	@echo ... .msys/struct_ptr.i
+	@echo ... .msys/struct_ptr.s
+	@echo ... .msys/student_management_system.obj
+	@echo ... .msys/student_management_system.i
+	@echo ... .msys/student_management_system.s
+	@echo ... .msys/vehicle_management_system.obj
+	@echo ... .msys/vehicle_management_system.i
+	@echo ... .msys/vehicle_management_system.s
+	@echo ... .numeric/numeric_accumulate.obj
+	@echo ... .numeric/numeric_accumulate.i
+	@echo ... .numeric/numeric_accumulate.s
+	@echo ... .numeric/numeric_iota.obj
+	@echo ... .numeric/numeric_iota.i
+	@echo ... .numeric/numeric_iota.s
+	@echo ... .program/FancyWord.obj
+	@echo ... .program/FancyWord.i
+	@echo ... .program/FancyWord.s
+	@echo ... .program/basic_calculator.obj
+	@echo ... .program/basic_calculator.i
+	@echo ... .program/basic_calculator.s
+	@echo ... .program/calculate_GCD_LCM.obj
+	@echo ... .program/calculate_GCD_LCM.i
+	@echo ... .program/calculate_GCD_LCM.s
+	@echo ... .program/calculate_factorial.obj
+	@echo ... .program/calculate_factorial.i
+	@echo ... .program/calculate_factorial.s
+	@echo ... .program/display_date_calendar.obj
+	@echo ... .program/display_date_calendar.i
+	@echo ... .program/display_date_calendar.s
+	@echo ... .program/display_date_time.obj
+	@echo ... .program/display_date_time.i
+	@echo ... .program/display_date_time.s
+	@echo ... .program/fibonacci_numbers_less_than.obj
+	@echo ... .program/fibonacci_numbers_less_than.i
+	@echo ... .program/fibonacci_numbers_less_than.s
+	@echo ... .program/group_randomizer.obj
+	@echo ... .program/group_randomizer.i
+	@echo ... .program/group_randomizer.s
+	@echo ... .program/matrix_RNG_table.obj
+	@echo ... .program/matrix_RNG_table.i
+	@echo ... .program/matrix_RNG_table.s
+	@echo ... .program/matrix_operations.obj
+	@echo ... .program/matrix_operations.i
+	@echo ... .program/matrix_operations.s
+	@echo ... .program/palindrome_check.obj
+	@echo ... .program/palindrome_check.i
+	@echo ... .program/palindrome_check.s
+	@echo ... .program/print_course_schedule.obj
+	@echo ... .program/print_course_schedule.i
+	@echo ... .program/print_course_schedule.s
+	@echo ... .program/print_current_date.obj
+	@echo ... .program/print_current_date.i
+	@echo ... .program/print_current_date.s
+	@echo ... .program/quadratic_equation_complex.obj
+	@echo ... .program/quadratic_equation_complex.i
+	@echo ... .program/quadratic_equation_complex.s
+	@echo ... .program/quadratic_equation_simple.obj
+	@echo ... .program/quadratic_equation_simple.i
+	@echo ... .program/quadratic_equation_simple.s
+	@echo ... .program/sequence_randomizer.obj
+	@echo ... .program/sequence_randomizer.i
+	@echo ... .program/sequence_randomizer.s
+	@echo ... .program/solve_student_grades.obj
+	@echo ... .program/solve_student_grades.i
+	@echo ... .program/solve_student_grades.s
+	@echo ... .program/solve_the_password.obj
+	@echo ... .program/solve_the_password.i
+	@echo ... .program/solve_the_password.s
+	@echo ... .program/sum_of_digits.obj
+	@echo ... .program/sum_of_digits.i
+	@echo ... .program/sum_of_digits.s
+	@echo ... .program/sum_of_fibonacci_numbers.obj
+	@echo ... .program/sum_of_fibonacci_numbers.i
+	@echo ... .program/sum_of_fibonacci_numbers.s
+	@echo ... .program/temperature_chart.obj
+	@echo ... .program/temperature_chart.i
+	@echo ... .program/temperature_chart.s
+	@echo ... .program/temperature_converter.obj
+	@echo ... .program/temperature_converter.i
+	@echo ... .program/temperature_converter.s
+	@echo ... .program/triangle_pattern.obj
+	@echo ... .program/triangle_pattern.i
+	@echo ... .program/triangle_pattern.s
+	@echo ... .ptr/function_ptr.obj
+	@echo ... .ptr/function_ptr.i
+	@echo ... .ptr/function_ptr.s
+	@echo ... .ptr/iterate_ptr.obj
+	@echo ... .ptr/iterate_ptr.i
+	@echo ... .ptr/iterate_ptr.s
+	@echo ... .ptr/ptr_dynamic_grade.obj
+	@echo ... .ptr/ptr_dynamic_grade.i
+	@echo ... .ptr/ptr_dynamic_grade.s
+	@echo ... .ptr/ptr_to_ptr.obj
+	@echo ... .ptr/ptr_to_ptr.i
+	@echo ... .ptr/ptr_to_ptr.s
+	@echo ... .ptr/string_ptr.obj
+	@echo ... .ptr/string_ptr.i
+	@echo ... .ptr/string_ptr.s
+	@echo ... .ptr/swap_ptr.obj
+	@echo ... .ptr/swap_ptr.i
+	@echo ... .ptr/swap_ptr.s
+	@echo ... .sstream/sstream_istringstream.obj
+	@echo ... .sstream/sstream_istringstream.i
+	@echo ... .sstream/sstream_istringstream.s
+	@echo ... .sstream/sstream_ostringstream.obj
+	@echo ... .sstream/sstream_ostringstream.i
+	@echo ... .sstream/sstream_ostringstream.s
+	@echo ... .string/string_reversal.obj
+	@echo ... .string/string_reversal.i
+	@echo ... .string/string_reversal.s
+	@echo ... .thread/thread_concurrency.obj
+	@echo ... .thread/thread_concurrency.i
+	@echo ... .thread/thread_concurrency.s
+	@echo ... .typeinfo/typeinfo_typeid.obj
+	@echo ... .typeinfo/typeinfo_typeid.i
+	@echo ... .typeinfo/typeinfo_typeid.s
 	@echo ... STL_containers/array.obj
 	@echo ... STL_containers/array.i
 	@echo ... STL_containers/array.s
@@ -4629,24 +7971,6 @@ help:
 	@echo ... STL_containers/vector.obj
 	@echo ... STL_containers/vector.i
 	@echo ... STL_containers/vector.s
-	@echo ... array_variations.obj
-	@echo ... array_variations.i
-	@echo ... array_variations.s
-	@echo ... class_bank_account.obj
-	@echo ... class_bank_account.i
-	@echo ... class_bank_account.s
-	@echo ... class_book_management.obj
-	@echo ... class_book_management.i
-	@echo ... class_book_management.s
-	@echo ... election.obj
-	@echo ... election.i
-	@echo ... election.s
-	@echo ... linear.obj
-	@echo ... linear.i
-	@echo ... linear.s
-	@echo ... memory_game.obj
-	@echo ... memory_game.i
-	@echo ... memory_game.s
 	@echo ... sorting_algorithms/bubble_sort.obj
 	@echo ... sorting_algorithms/bubble_sort.i
 	@echo ... sorting_algorithms/bubble_sort.s
@@ -4665,15 +7989,12 @@ help:
 	@echo ... sorting_algorithms/selection_sort.obj
 	@echo ... sorting_algorithms/selection_sort.i
 	@echo ... sorting_algorithms/selection_sort.s
-	@echo ... tictac_toe.obj
-	@echo ... tictac_toe.i
-	@echo ... tictac_toe.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 	@echo ... try_throw_catch.obj
 	@echo ... try_throw_catch.i
 	@echo ... try_throw_catch.s
-	@echo ... uppercase.obj
-	@echo ... uppercase.i
-	@echo ... uppercase.s
 .PHONY : help
 
 

@@ -5,9 +5,11 @@ set(CMAKE_CXX_STANDARD 20)
 
 # Gather all .cpp files from both STL_containers and the current directory
 file(GLOB SOURCES
-        "STL_containers/*.cpp" ".prog/*.cpp" "sorting_algorithms/*.cpp"
-        "C_style/*.cpp" ".exercises/*.cpp" "*.cpp"
-        ".algorithm/*.cpp"
+        ".RI/*.cpp" ".RNG/*.cpp" ".algorithm/*.cpp" ".c_style/*.cpp" ".chrono/*.cpp"
+        ".crypto/*.cpp" ".exercises/*.cpp" ".fstream/*.cpp" ".future/*.cpp" ".iostream/*.cpp"
+        ".lambda/*.cpp" ".memory/*.cpp" ".msys/*.cpp" ".numeric/*.cpp" ".program/*.cpp" ".ptr/*.cpp"
+        ".sstream/*.cpp" ".string/*.cpp" ".thread/*.cpp" ".typeinfo/*.cpp" "sorting_algorithms/*.cpp"
+        "STL_containers/*.cpp" "*.cpp"
 )
 
 # Use a set to track unique target names

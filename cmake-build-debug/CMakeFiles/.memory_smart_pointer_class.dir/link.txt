@@ -1,0 +1,3 @@
+"C:\Users\User\Downloads\setup\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\.memory_smart_pointer_class.dir/objects.a
+C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\.memory_smart_pointer_class.dir/objects.a @CMakeFiles\.memory_smart_pointer_class.dir\objects1.rsp
+C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\.memory_smart_pointer_class.dir/objects.a -Wl,--no-whole-archive -o .memory_smart_pointer_class.exe -Wl,--out-implib,lib.memory_smart_pointer_class.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.memory_smart_pointer_class.dir\linkLibs.rsp

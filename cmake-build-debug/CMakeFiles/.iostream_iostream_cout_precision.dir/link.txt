@@ -1,0 +1,3 @@
+"C:\Users\User\Downloads\setup\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\.iostream_iostream_cout_precision.dir/objects.a
+C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\.iostream_iostream_cout_precision.dir/objects.a @CMakeFiles\.iostream_iostream_cout_precision.dir\objects1.rsp
+C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\.iostream_iostream_cout_precision.dir/objects.a -Wl,--no-whole-archive -o .iostream_iostream_cout_precision.exe -Wl,--out-implib,lib.iostream_iostream_cout_precision.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.iostream_iostream_cout_precision.dir\linkLibs.rsp
