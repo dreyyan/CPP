@@ -1,16 +1,21 @@
+#include <SFML/Audio.hpp>
+#include <SFML/Graphics.hpp>
 #include <iostream>
-#include <string.h>
-using namespace std;
 
 int main() {
-    char list[5][20];
-    strcpy(list[1], "Snow White");
+  sf::SoundBuffer buffer;
+  if (!buffer.loadFromFile("background_music.mp3")) {
+    std::cout << "Error loading background music" << std::endl;
+    return -1;
+  }
 
-    for (int i = 0; i < 5; ++i) {
-        for (int j = 0; j < 20; ++j) {
-            cout << list[i][j] << ' ';
-        } cout << '\n';
-    }
+  sf::Sound sound;
+  sound.setBuffer(buffer);
+  sound.play();
 
-    return 0;
+  while (sound.getStatus() == sf::Sound::Playing) {
+    sf::sleep(sf::milliseconds(100));
+  }
+
+  return 0;
 }

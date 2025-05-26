@@ -1,151 +1,149 @@
-CMakeFiles/test.dir/test.cpp.obj: C:\Code\.cpp\test.cpp \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/locale.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/errno.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/process.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/limits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/signal.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- C:/Users/User/Downloads/setup/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc
+CMakeFiles/test.dir/test.cpp.obj: \
+ C:\Users\Drei\Downloads\Code\.cpp\test.cpp \
+ C:/msys64/mingw64/include/c++/14.2.0/iostream \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/msys64/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ostream \
+ C:/msys64/mingw64/include/c++/14.2.0/ios \
+ C:/msys64/mingw64/include/c++/14.2.0/iosfwd \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stringfwd.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/memoryfwd.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/postypes.h \
+ C:/msys64/mingw64/include/c++/14.2.0/cwchar \
+ C:/msys64/mingw64/include/wchar.h C:/msys64/mingw64/include/corecrt.h \
+ C:/msys64/mingw64/include/_mingw.h \
+ C:/msys64/mingw64/include/_mingw_mac.h \
+ C:/msys64/mingw64/include/_mingw_secapi.h \
+ C:/msys64/mingw64/include/vadefs.h \
+ C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw64/include/corecrt_stdio_config.h \
+ C:/msys64/mingw64/include/corecrt_wstdlib.h \
+ C:/msys64/mingw64/include/_mingw_off_t.h \
+ C:/msys64/mingw64/include/_mingw_stat64.h \
+ C:/msys64/mingw64/include/swprintf.inl \
+ C:/msys64/mingw64/include/sec_api/wchar_s.h \
+ C:/msys64/mingw64/include/c++/14.2.0/exception \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/exception.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/version.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/exception_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/exception_defines.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+ C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/crtdefs.h \
+ C:/msys64/mingw64/include/c++/14.2.0/typeinfo \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/hash_bytes.h \
+ C:/msys64/mingw64/include/c++/14.2.0/new \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/move.h \
+ C:/msys64/mingw64/include/c++/14.2.0/type_traits \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/nested_exception.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/char_traits.h \
+ C:/msys64/mingw64/include/c++/14.2.0/compare \
+ C:/msys64/mingw64/include/c++/14.2.0/concepts \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_construct.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/iterator_concepts.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_cmp.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/concept_check.h \
+ C:/msys64/mingw64/include/c++/14.2.0/debug/assertions.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/localefwd.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+ C:/msys64/mingw64/include/c++/14.2.0/clocale \
+ C:/msys64/mingw64/include/locale.h C:/msys64/mingw64/include/stdio.h \
+ C:/msys64/mingw64/include/sec_api/stdio_s.h \
+ C:/msys64/mingw64/include/c++/14.2.0/cctype \
+ C:/msys64/mingw64/include/ctype.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/ios_base.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ext/atomicity.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+ C:/msys64/mingw64/include/pthread.h C:/msys64/mingw64/include/errno.h \
+ C:/msys64/mingw64/include/sys/types.h \
+ C:/msys64/mingw64/include/process.h \
+ C:/msys64/mingw64/include/corecrt_startup.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+ C:/msys64/mingw64/include/limits.h C:/msys64/mingw64/include/signal.h \
+ C:/msys64/mingw64/include/pthread_signal.h \
+ C:/msys64/mingw64/include/time.h C:/msys64/mingw64/include/sys/timeb.h \
+ C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+ C:/msys64/mingw64/include/_timeval.h \
+ C:/msys64/mingw64/include/pthread_time.h \
+ C:/msys64/mingw64/include/pthread_compat.h \
+ C:/msys64/mingw64/include/pthread_unistd.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_classes.h \
+ C:/msys64/mingw64/include/c++/14.2.0/string \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/allocator.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/new_allocator.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/functexcept.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/ostream_insert.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ext/type_traits.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_function.h \
+ C:/msys64/mingw64/include/c++/14.2.0/backward/binders.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_pair.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/utility.h \
+ C:/msys64/mingw64/include/c++/14.2.0/debug/debug.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/predefined_ops.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bit \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/refwrap.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/invoke.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/range_access.h \
+ C:/msys64/mingw64/include/c++/14.2.0/initializer_list \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/basic_string.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ext/alloc_traits.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/alloc_traits.h \
+ C:/msys64/mingw64/include/c++/14.2.0/string_view \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/functional_hash.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_base.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/max_size_type.h \
+ C:/msys64/mingw64/include/c++/14.2.0/numbers \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/string_view.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/ext/string_conversions.h \
+ C:/msys64/mingw64/include/c++/14.2.0/cstdlib \
+ C:/msys64/mingw64/include/stdlib.h \
+ C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw64/include/c++/14.2.0/stdlib.h \
+ C:/msys64/mingw64/include/malloc.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/std_abs.h \
+ C:/msys64/mingw64/include/c++/14.2.0/cstdio \
+ C:/msys64/mingw64/include/c++/14.2.0/cerrno \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/charconv.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/basic_string.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/memory_resource.h \
+ C:/msys64/mingw64/include/c++/14.2.0/cstddef \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
+ C:/msys64/mingw64/include/c++/14.2.0/tuple \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/ranges_util.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_classes.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/system_error \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/msys64/mingw64/include/c++/14.2.0/stdexcept \
+ C:/msys64/mingw64/include/c++/14.2.0/streambuf \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/streambuf.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.h \
+ C:/msys64/mingw64/include/c++/14.2.0/cwctype \
+ C:/msys64/mingw64/include/wctype.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/istream \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
+ C:/msys64/mingw64/include/string.h \
+ C:/msys64/mingw64/include/sec_api/string_s.h

@@ -72,6 +72,16 @@
         "xlocnum": "cpp",
         "xloctime": "cpp",
         "xmemory": "cpp",
-        "xtr1common": "cpp"
+        "xtr1common": "cpp",
+        "bitset": "cpp",
+        "cwctype": "cpp",
+        "numbers": "cpp",
+        "queue": "cpp",
+        "set": "cpp",
+        "stack": "cpp",
+        "unordered_set": "cpp",
+        "xstddef": "cpp",
+        "memory_resource": "cpp",
+        "string_view": "cpp"
     }
 }

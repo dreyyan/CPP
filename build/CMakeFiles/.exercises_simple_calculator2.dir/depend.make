@@ -1,0 +1,2 @@
+# Empty dependencies file for .exercises_simple_calculator2.
+# This may be replaced when dependencies are built.

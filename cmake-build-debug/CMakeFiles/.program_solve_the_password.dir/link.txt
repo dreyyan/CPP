@@ -1,3 +1,3 @@
-"C:\Users\User\Downloads\setup\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\.program_solve_the_password.dir/objects.a
-C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\.program_solve_the_password.dir/objects.a @CMakeFiles\.program_solve_the_password.dir\objects1.rsp
-C:\Users\User\DOWNLO~1\setup\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\.program_solve_the_password.dir/objects.a -Wl,--no-whole-archive -o .program_solve_the_password.exe -Wl,--out-implib,lib.program_solve_the_password.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.program_solve_the_password.dir\linkLibs.rsp
+"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\.program_solve_the_password.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\.program_solve_the_password.dir/objects.a @CMakeFiles\.program_solve_the_password.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\.program_solve_the_password.dir/objects.a -Wl,--no-whole-archive -o .program_solve_the_password.exe -Wl,--out-implib,lib.program_solve_the_password.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.program_solve_the_password.dir\linkLibs.rsp

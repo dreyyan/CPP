@@ -1,0 +1,1788 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : ".RI_RI.missing_number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.RI_RI.missing_number-Debug-f44e613211c647ed5198.json",
+					"name" : ".RI_RI.missing_number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".RI_RI.rotate_elements::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.RI_RI.rotate_elements-Debug-d425fe03457647f62f8c.json",
+					"name" : ".RI_RI.rotate_elements",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".RI_RI.separate_even_odd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.RI_RI.separate_even_odd-Debug-7c87ae02fe62d30684ee.json",
+					"name" : ".RI_RI.separate_even_odd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".RI_RI.vowel_counter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.RI_RI.vowel_counter-Debug-e4dece65379522ee5544.json",
+					"name" : ".RI_RI.vowel_counter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".RNG_RNG.LCG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.RNG_RNG.LCG-Debug-ab94b662e4aaaa9a11f2.json",
+					"name" : ".RNG_RNG.LCG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".RNG_RNG.mersenne_twister::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.RNG_RNG.mersenne_twister-Debug-c1825f26b7d65b7b5e43.json",
+					"name" : ".RNG_RNG.mersenne_twister",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_binary_search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_binary_search-Debug-55a1775c98af5ccf7494.json",
+					"name" : ".algorithm_algorithm_binary_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_copy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_copy-Debug-23cd78958570af0089d1.json",
+					"name" : ".algorithm_algorithm_copy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_count::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_count-Debug-86b927a7b51f49051de1.json",
+					"name" : ".algorithm_algorithm_count",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_fill::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_fill-Debug-01cf50871beaec7f130d.json",
+					"name" : ".algorithm_algorithm_fill",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_find::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_find-Debug-78adeae043770eae4a06.json",
+					"name" : ".algorithm_algorithm_find",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_find_if::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_find_if-Debug-e2894c181f392b9ed0b9.json",
+					"name" : ".algorithm_algorithm_find_if",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_min_max_element::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_min_max_element-Debug-368664477b035f53ec3c.json",
+					"name" : ".algorithm_algorithm_min_max_element",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_nth_element::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_nth_element-Debug-fe8b84ade24878b75402.json",
+					"name" : ".algorithm_algorithm_nth_element",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_partial_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_partial_sort-Debug-9b2129355d3aee7a9e4a.json",
+					"name" : ".algorithm_algorithm_partial_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_partition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_partition-Debug-f082471141d738f55dba.json",
+					"name" : ".algorithm_algorithm_partition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_reverse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_reverse-Debug-ca2a5f1ee701149ed838.json",
+					"name" : ".algorithm_algorithm_reverse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_set_difference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_set_difference-Debug-d0ad2c894d632172ae1a.json",
+					"name" : ".algorithm_algorithm_set_difference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_shuffle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_shuffle-Debug-a56eff7be4fa23b2fefa.json",
+					"name" : ".algorithm_algorithm_shuffle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_sort-Debug-c71dadc9101cb8cd633e.json",
+					"name" : ".algorithm_algorithm_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_stable_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_stable_sort-Debug-aa3973f0abfefce16f45.json",
+					"name" : ".algorithm_algorithm_stable_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_transform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_transform-Debug-06a607bec30158bcac8c.json",
+					"name" : ".algorithm_algorithm_transform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".algorithm_algorithm_unique::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.algorithm_algorithm_unique-Debug-9c77e66f0af5d0906dbb.json",
+					"name" : ".algorithm_algorithm_unique",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".c_style_strcmp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.c_style_strcmp-Debug-e88438993bf4195f6db0.json",
+					"name" : ".c_style_strcmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".c_style_strcpy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.c_style_strcpy-Debug-f920f049406fc1744ca1.json",
+					"name" : ".c_style_strcpy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".c_style_strlen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.c_style_strlen-Debug-3aadebf6ec03d2e770d6.json",
+					"name" : ".c_style_strlen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".chrono_chrono_elapsed_time::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.chrono_chrono_elapsed_time-Debug-94e27c9a31270b162005.json",
+					"name" : ".chrono_chrono_elapsed_time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".crypto_crypto_ROT13::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.crypto_crypto_ROT13-Debug-bbbade11495cccb884a6.json",
+					"name" : ".crypto_crypto_ROT13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".crypto_crypto_caesar_cipher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.crypto_crypto_caesar_cipher-Debug-b32187d20915f665ccfb.json",
+					"name" : ".crypto_crypto_caesar_cipher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_BMI_calculator_v2.0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_BMI_calculator_v2.0-Debug-beabc3d0a0102c48d56d.json",
+					"name" : ".exercises_BMI_calculator_v2.0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_age_in_days::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_age_in_days-Debug-45bf7c7df9173918401d.json",
+					"name" : ".exercises_age_in_days",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_alpha::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_alpha-Debug-d74bb9c08edde457991a.json",
+					"name" : ".exercises_alpha",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_array_variations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_array_variations-Debug-1a8c135c6250a8c29c57.json",
+					"name" : ".exercises_array_variations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_avanced_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_avanced_calculator-Debug-ef9258ee7adf0d8d126e.json",
+					"name" : ".exercises_avanced_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_bank_account::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_bank_account-Debug-c42c496f25efebcf314b.json",
+					"name" : ".exercises_bank_account",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_basic_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_basic_calculator-Debug-8726706e7f00a23b8d82.json",
+					"name" : ".exercises_basic_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_bmi_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_bmi_calculator-Debug-0690427184a6a5df33ff.json",
+					"name" : ".exercises_bmi_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_class_bank_account::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_class_bank_account-Debug-b7820e3fed5c2c4aef66.json",
+					"name" : ".exercises_class_bank_account",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_class_book_management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_class_book_management-Debug-0a7d8ece32a92b961a4b.json",
+					"name" : ".exercises_class_book_management",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_cookies_EOF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_cookies_EOF-Debug-ce40a50b468ad5af1188.json",
+					"name" : ".exercises_cookies_EOF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_cookies_EOF_revised::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_cookies_EOF_revised-Debug-bd1a2abfa7b190666773.json",
+					"name" : ".exercises_cookies_EOF_revised",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_count_multiples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_count_multiples-Debug-2efa48c9bd7ad1e0e569.json",
+					"name" : ".exercises_count_multiples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_do_while_num::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_do_while_num-Debug-232c02f6d1532e50a9b1.json",
+					"name" : ".exercises_do_while_num",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_election::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_election-Debug-5f37e4ab9bb41f0e792a.json",
+					"name" : ".exercises_election",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_employee_management_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_employee_management_system-Debug-3b2b9f1dfa225348f91c.json",
+					"name" : ".exercises_employee_management_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_errors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_errors-Debug-a30dfd0c8a60dcbd66fc.json",
+					"name" : ".exercises_errors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_for_num::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_for_num-Debug-84240c636153cf22cecc.json",
+					"name" : ".exercises_for_num",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_grade_average::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_grade_average-Debug-66ffa5fd8dbfaae70358.json",
+					"name" : ".exercises_grade_average",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_improved_bmi_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_improved_bmi_calculator-Debug-3e1b20cddb7af576930d.json",
+					"name" : ".exercises_improved_bmi_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_largest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_largest-Debug-f5449e9e9fc3f3277b46.json",
+					"name" : ".exercises_largest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_largest_sale::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_largest_sale-Debug-ade338b77df5b4018ea5.json",
+					"name" : ".exercises_largest_sale",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_linear::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_linear-Debug-0ce12fabdcce3bbb67f0.json",
+					"name" : ".exercises_linear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_memory_game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_memory_game-Debug-07403106aa956305834d.json",
+					"name" : ".exercises_memory_game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_my_first_cpp_program::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_my_first_cpp_program-Debug-b1192eeba954f83976cc.json",
+					"name" : ".exercises_my_first_cpp_program",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_name::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_name-Debug-d8f6daf1c44ff9bb106c.json",
+					"name" : ".exercises_name",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_number_guessing_game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_number_guessing_game-Debug-8222463b0a427bd9e63a.json",
+					"name" : ".exercises_number_guessing_game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_prime_number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_prime_number-Debug-3a6ce74bb3a9039c3b25.json",
+					"name" : ".exercises_prime_number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_prime_number_checker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_prime_number_checker-Debug-7000ecddbd9b779ecf4a.json",
+					"name" : ".exercises_prime_number_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_product_of_three::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_product_of_three-Debug-e708669712b242922643.json",
+					"name" : ".exercises_product_of_three",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_quadratic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_quadratic-Debug-00c2d63bd0bba53f46dd.json",
+					"name" : ".exercises_quadratic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_school_inheritance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_school_inheritance-Debug-c52b1f70ed22a3b4564b.json",
+					"name" : ".exercises_school_inheritance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_shapes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_shapes-Debug-79229c17d4efac615989.json",
+					"name" : ".exercises_shapes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_simple_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_simple_calculator-Debug-681638911bc73c91202f.json",
+					"name" : ".exercises_simple_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_simple_calculator2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_simple_calculator2-Debug-b8f5fb0a40fb029dfba7.json",
+					"name" : ".exercises_simple_calculator2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_simple_interest_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_simple_interest_calculator-Debug-4c4654a78c51998d76ba.json",
+					"name" : ".exercises_simple_interest_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_smallest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_smallest-Debug-7577434cfe0e7750d0e2.json",
+					"name" : ".exercises_smallest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_softdrinks_new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_softdrinks_new-Debug-70872037f04a1828f84e.json",
+					"name" : ".exercises_softdrinks_new",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_static_casting_temp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_static_casting_temp-Debug-7822f7b8c8b5d6947fbd.json",
+					"name" : ".exercises_static_casting_temp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_student_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_student_class-Debug-ae7a461bc19f76de4c7d.json",
+					"name" : ".exercises_student_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_student_display_grades::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_student_display_grades-Debug-3f1c8c9bb4cc3de55c57.json",
+					"name" : ".exercises_student_display_grades",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_sum_of_digits1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_sum_of_digits1-Debug-3af0717e922b388749cd.json",
+					"name" : ".exercises_sum_of_digits1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_sum_of_digits2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_sum_of_digits2-Debug-e9e44573338e194d8a57.json",
+					"name" : ".exercises_sum_of_digits2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_telephone_digits_new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_telephone_digits_new-Debug-0a861b2c64e05d5be329.json",
+					"name" : ".exercises_telephone_digits_new",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_ticket2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_ticket2-Debug-7b12e9f1765fe75a1f4a.json",
+					"name" : ".exercises_ticket2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_tictac_toe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_tictac_toe-Debug-6f56b098c36f6bfedcf7.json",
+					"name" : ".exercises_tictac_toe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_town_population::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_town_population-Debug-f2c80b12a7c034a107dd.json",
+					"name" : ".exercises_town_population",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_uppercase::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_uppercase-Debug-dacbdfe23fe464af7538.json",
+					"name" : ".exercises_uppercase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_value_of_pi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_value_of_pi-Debug-8aef6bf2ff39ed683c02.json",
+					"name" : ".exercises_value_of_pi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".exercises_while_num::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.exercises_while_num-Debug-d788b9a76dfbd439bc01.json",
+					"name" : ".exercises_while_num",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".fstream_fstream_append::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.fstream_fstream_append-Debug-8a6785f1d9ac3d3f5721.json",
+					"name" : ".fstream_fstream_append",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".fstream_fstream_in::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.fstream_fstream_in-Debug-2aceb2aa51e3d8eb4884.json",
+					"name" : ".fstream_fstream_in",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".fstream_fstream_out::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.fstream_fstream_out-Debug-4cdde37d878a134d6244.json",
+					"name" : ".fstream_fstream_out",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".future_future_async::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.future_future_async-Debug-23a17c82d80ecd9cc56b.json",
+					"name" : ".future_future_async",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".iostream_iostream_cout_precision::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.iostream_iostream_cout_precision-Debug-426e3a9706df6dd66ee2.json",
+					"name" : ".iostream_iostream_cout_precision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".iostream_iostream_sync_with_studio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.iostream_iostream_sync_with_studio-Debug-e96cf9e3a7b5fb8de83c.json",
+					"name" : ".iostream_iostream_sync_with_studio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".lambda_lambda_add::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.lambda_lambda_add-Debug-0bc442de9857ddeaeaa3.json",
+					"name" : ".lambda_lambda_add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".memory_memory_dynamic_allocation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.memory_memory_dynamic_allocation-Debug-fd54c285b6fd64e9c3cd.json",
+					"name" : ".memory_memory_dynamic_allocation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".memory_smart_pointer_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.memory_smart_pointer_class-Debug-7c0f9f0a4cb872968f0b.json",
+					"name" : ".memory_smart_pointer_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_CarDisplaySystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_CarDisplaySystem-Debug-d62b83e6bedc70fff108.json",
+					"name" : ".msys_CarDisplaySystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_EmployeeManagementSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_EmployeeManagementSystem-Debug-27e7c0287d7f89fc2436.json",
+					"name" : ".msys_EmployeeManagementSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_LibraryManagementSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_LibraryManagementSystem-Debug-692b28b5fa64f897cd39.json",
+					"name" : ".msys_LibraryManagementSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_bank_account::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_bank_account-Debug-88e20f21fbe59bb5b72a.json",
+					"name" : ".msys_bank_account",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_classAreaRectangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_classAreaRectangle-Debug-4c353a1c162c0e45bf8b.json",
+					"name" : ".msys_classAreaRectangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_classBankAccount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_classBankAccount-Debug-56402110e9f078c8ebdd.json",
+					"name" : ".msys_classBankAccount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_classStudent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_classStudent-Debug-51857c0ee261c00c7463.json",
+					"name" : ".msys_classStudent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_class_employee::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_class_employee-Debug-659e9ae534144e681177.json",
+					"name" : ".msys_class_employee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_class_student::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_class_student-Debug-a624c4919368af9f213e.json",
+					"name" : ".msys_class_student",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_employee_salary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_employee_salary-Debug-9d71cf376f8c33d15ee9.json",
+					"name" : ".msys_employee_salary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_hotel_mangement_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_hotel_mangement_system-Debug-2dcea15557ff8b4e923a.json",
+					"name" : ".msys_hotel_mangement_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_library_management_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_library_management_system-Debug-6548d6f32e7a974fc228.json",
+					"name" : ".msys_library_management_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_old_library_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_old_library_system-Debug-31f45284af56fe3deb8f.json",
+					"name" : ".msys_old_library_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_old_vehicle_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_old_vehicle_system-Debug-7b2170edd76c1bdeeb9c.json",
+					"name" : ".msys_old_vehicle_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_shapes_area::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_shapes_area-Debug-6e8ac8a4c5e5453f98f5.json",
+					"name" : ".msys_shapes_area",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_struct_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_struct_ptr-Debug-c3711388cf67b83efad2.json",
+					"name" : ".msys_struct_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_student_management_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_student_management_system-Debug-951c8476a49a71ebcb7c.json",
+					"name" : ".msys_student_management_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".msys_vehicle_management_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.msys_vehicle_management_system-Debug-57bd3875099a8a46f6c8.json",
+					"name" : ".msys_vehicle_management_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".numeric_numeric_accumulate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.numeric_numeric_accumulate-Debug-516151d836435f2a99e3.json",
+					"name" : ".numeric_numeric_accumulate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".numeric_numeric_iota::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.numeric_numeric_iota-Debug-852b1237dfd4fe8d988a.json",
+					"name" : ".numeric_numeric_iota",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_basic_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_basic_calculator-Debug-b5e3efc8ab66df94fbaa.json",
+					"name" : ".program_basic_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_calculate_GCD_LCM::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_calculate_GCD_LCM-Debug-6c4d72dc2b38e4637541.json",
+					"name" : ".program_calculate_GCD_LCM",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_calculate_factorial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_calculate_factorial-Debug-add11f68f02e11eda091.json",
+					"name" : ".program_calculate_factorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_display_date_calendar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_display_date_calendar-Debug-d00f30783f1719fa1dc5.json",
+					"name" : ".program_display_date_calendar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_display_date_time::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_display_date_time-Debug-5cd5380965708cc90483.json",
+					"name" : ".program_display_date_time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_fancy_word::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_fancy_word-Debug-cfadeebe852125baed06.json",
+					"name" : ".program_fancy_word",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_fibonacci_numbers_less_than::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_fibonacci_numbers_less_than-Debug-da21ea3a5e512d1f7b25.json",
+					"name" : ".program_fibonacci_numbers_less_than",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_group_randomizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_group_randomizer-Debug-5a8ad87ddb024eef1450.json",
+					"name" : ".program_group_randomizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_matrix_RNG_table::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_matrix_RNG_table-Debug-cc41e09331e395945365.json",
+					"name" : ".program_matrix_RNG_table",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_matrix_operations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_matrix_operations-Debug-53537bbd3555ef410c76.json",
+					"name" : ".program_matrix_operations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_palindrome_check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_palindrome_check-Debug-37fe1c7e2f1293507b8d.json",
+					"name" : ".program_palindrome_check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_print_course_schedule::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_print_course_schedule-Debug-80e91a61a5902fa0631a.json",
+					"name" : ".program_print_course_schedule",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_print_current_date::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_print_current_date-Debug-4a5a12b56fe460c5774a.json",
+					"name" : ".program_print_current_date",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_quadratic_equation_complex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_quadratic_equation_complex-Debug-268db06abc0db2470fcb.json",
+					"name" : ".program_quadratic_equation_complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_quadratic_equation_simple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_quadratic_equation_simple-Debug-c20dc76161ae091848f3.json",
+					"name" : ".program_quadratic_equation_simple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_sequence_randomizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_sequence_randomizer-Debug-1f59cca147d8930c5550.json",
+					"name" : ".program_sequence_randomizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_solve_student_grades::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_solve_student_grades-Debug-61dcc8f67092bf4521a4.json",
+					"name" : ".program_solve_student_grades",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_solve_the_password::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_solve_the_password-Debug-63b707564986de471316.json",
+					"name" : ".program_solve_the_password",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_student_report_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_student_report_manager-Debug-ecf8ffc5a4b1f95ec779.json",
+					"name" : ".program_student_report_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_sum_of_digits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_sum_of_digits-Debug-b0a50ab5271fda5a4b2c.json",
+					"name" : ".program_sum_of_digits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_sum_of_fibonacci_numbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_sum_of_fibonacci_numbers-Debug-3beacc8100ea273f93f5.json",
+					"name" : ".program_sum_of_fibonacci_numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_temperature_chart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_temperature_chart-Debug-ee187b9d34f61478a384.json",
+					"name" : ".program_temperature_chart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_temperature_converter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_temperature_converter-Debug-0952fb13885415e9b76f.json",
+					"name" : ".program_temperature_converter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".program_triangle_pattern::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.program_triangle_pattern-Debug-cd242ba7d163f87addf9.json",
+					"name" : ".program_triangle_pattern",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".ptr_function_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.ptr_function_ptr-Debug-7a143c8207f09ac35e1f.json",
+					"name" : ".ptr_function_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".ptr_iterate_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.ptr_iterate_ptr-Debug-2ca9517cc24643dda3ed.json",
+					"name" : ".ptr_iterate_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".ptr_ptr_dynamic_grade::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.ptr_ptr_dynamic_grade-Debug-dae461d9b0b89aba3071.json",
+					"name" : ".ptr_ptr_dynamic_grade",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".ptr_ptr_to_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.ptr_ptr_to_ptr-Debug-ae0e10cc0388ebd39b86.json",
+					"name" : ".ptr_ptr_to_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".ptr_string_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.ptr_string_ptr-Debug-451ae37ecf6239df249d.json",
+					"name" : ".ptr_string_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".ptr_swap_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.ptr_swap_ptr-Debug-c7a9775ccbf9b4adc5d2.json",
+					"name" : ".ptr_swap_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".sstream_sstream_istringstream::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.sstream_sstream_istringstream-Debug-00a61666f9d20d226005.json",
+					"name" : ".sstream_sstream_istringstream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".sstream_sstream_ostringstream::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.sstream_sstream_ostringstream-Debug-01aa3e86c2955357bb5c.json",
+					"name" : ".sstream_sstream_ostringstream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".string_string_reversal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.string_string_reversal-Debug-e9593ddd3fb0960b04ca.json",
+					"name" : ".string_string_reversal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".thread_thread_concurrency::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.thread_thread_concurrency-Debug-707682b5c018774c9b6d.json",
+					"name" : ".thread_thread_concurrency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : ".typeinfo_typeinfo_typeid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-.typeinfo_typeinfo_typeid-Debug-7b8e053cc25b866c35cd.json",
+					"name" : ".typeinfo_typeinfo_typeid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array-Debug-146511a02dc1c9d6e5e5.json",
+					"name" : "STL_containers_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_count_even_odd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_count_even_odd-Debug-d6e3543008d1898d65eb.json",
+					"name" : "STL_containers_array_count_even_odd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_find_kth_largest_element::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_find_kth_largest_element-Debug-ca8529c8049a1693274b.json",
+					"name" : "STL_containers_array_find_kth_largest_element",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_find_largest_smallest_element::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_find_largest_smallest_element-Debug-cee014ca3afb28b52dd8.json",
+					"name" : "STL_containers_array_find_largest_smallest_element",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_is_sorted::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_is_sorted-Debug-0e1c9cca12cd93fd3e7a.json",
+					"name" : "STL_containers_array_is_sorted",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_largest_number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_largest_number-Debug-9ca1e3180ffc02834548.json",
+					"name" : "STL_containers_array_largest_number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_largest_of_three::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_largest_of_three-Debug-ee1566db7efcd8121861.json",
+					"name" : "STL_containers_array_largest_of_three",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_left_rotate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_left_rotate-Debug-07cdfa6dd6c75094a55e.json",
+					"name" : "STL_containers_array_left_rotate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_max_product_of_two_elements::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_max_product_of_two_elements-Debug-7f1e464abe3fe7d13595.json",
+					"name" : "STL_containers_array_max_product_of_two_elements",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_merge_two_sorted_arrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_merge_two_sorted_arrays-Debug-11cdc374410c8220d9fc.json",
+					"name" : "STL_containers_array_merge_two_sorted_arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_move_zeros_to_end::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_move_zeros_to_end-Debug-f07f428fc5f12d85943b.json",
+					"name" : "STL_containers_array_move_zeros_to_end",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_remove_duplicates::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_remove_duplicates-Debug-756dabc4b27afc8b3830.json",
+					"name" : "STL_containers_array_remove_duplicates",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_reverse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_reverse-Debug-9129c8c45b769eec3ecf.json",
+					"name" : "STL_containers_array_reverse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_right_rotate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_right_rotate-Debug-bfff14370b3553b6c106.json",
+					"name" : "STL_containers_array_right_rotate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_second_largest_element::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_second_largest_element-Debug-d6d645beb20fdaccb400.json",
+					"name" : "STL_containers_array_second_largest_element",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_array_sum_of_elements::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_array_sum_of_elements-Debug-0cc27e90fe13145c98eb.json",
+					"name" : "STL_containers_array_sum_of_elements",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_bitset::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_bitset-Debug-4ac27d55465b273b3759.json",
+					"name" : "STL_containers_bitset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_deque::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_deque-Debug-bad2fa61af187c2f4673.json",
+					"name" : "STL_containers_deque",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_deque_max_sliding_window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_deque_max_sliding_window-Debug-fbc42d1eedd068ef52d7.json",
+					"name" : "STL_containers_deque_max_sliding_window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_deque_palindrome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_deque_palindrome-Debug-7e543e5329ac4436bd58.json",
+					"name" : "STL_containers_deque_palindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_deque_reversal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_deque_reversal-Debug-ef7e915b5c509de39106.json",
+					"name" : "STL_containers_deque_reversal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_deque_rotation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_deque_rotation-Debug-3e4882d76c197c51cb45.json",
+					"name" : "STL_containers_deque_rotation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_deque_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_deque_sort-Debug-828e284be842dfcda5a9.json",
+					"name" : "STL_containers_deque_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_deque_unique_elements::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_deque_unique_elements-Debug-9c0e877bd288f7721f3c.json",
+					"name" : "STL_containers_deque_unique_elements",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_forward_list::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_forward_list-Debug-5014d1ad70e388af3f2f.json",
+					"name" : "STL_containers_forward_list",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_list::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_list-Debug-f5f3a21865ebbc455765.json",
+					"name" : "STL_containers_list",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_map_multimap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_map_multimap-Debug-4d5de6b5342bbf841f53.json",
+					"name" : "STL_containers_map_multimap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_priority_queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_priority_queue-Debug-cd8b2e4b155f33a1537c.json",
+					"name" : "STL_containers_priority_queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_queue_::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_queue_-Debug-714189c9e63383e847de.json",
+					"name" : "STL_containers_queue_",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_set_multiset::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_set_multiset-Debug-b54027ceddb69b47435c.json",
+					"name" : "STL_containers_set_multiset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_stack-Debug-954755e8d3131dc3fbf9.json",
+					"name" : "STL_containers_stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_stack_balanced_parentheses::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_stack_balanced_parentheses-Debug-407002d8132a3c336c73.json",
+					"name" : "STL_containers_stack_balanced_parentheses",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_stack_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_stack_class-Debug-f0bbe7909dd1410787b9.json",
+					"name" : "STL_containers_stack_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_stack_next_greater_element::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_stack_next_greater_element-Debug-bb46f6ca25590ff2434c.json",
+					"name" : "STL_containers_stack_next_greater_element",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_stack_recursion_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_stack_recursion_sort-Debug-1fbf17da0f62bdb66806.json",
+					"name" : "STL_containers_stack_recursion_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_stack_reverse_string::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_stack_reverse_string-Debug-8491e6a2c2d276bfcc78.json",
+					"name" : "STL_containers_stack_reverse_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_stats_checker_benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_stats_checker_benchmark-Debug-a87b9baf8fed32bd2258.json",
+					"name" : "STL_containers_stats_checker_benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_stats_checker_dice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_stats_checker_dice-Debug-058505d7440e60eaef17.json",
+					"name" : "STL_containers_stats_checker_dice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_system_inventory_management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_system_inventory_management-Debug-fffbb9a079f45bda9b1b.json",
+					"name" : "STL_containers_system_inventory_management",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_system_library_management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_system_library_management-Debug-d0edcaf3c28640fff718.json",
+					"name" : "STL_containers_system_library_management",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_system_menu_order::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_system_menu_order-Debug-9491e9691041532e3616.json",
+					"name" : "STL_containers_system_menu_order",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STL_containers_vector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL_containers_vector-Debug-d9532c7f53c66330646a.json",
+					"name" : "STL_containers_vector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sorting_algorithms_bubble_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sorting_algorithms_bubble_sort-Debug-65e7bc2298e28b4c3702.json",
+					"name" : "sorting_algorithms_bubble_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sorting_algorithms_insertion_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sorting_algorithms_insertion_sort-Debug-aebbbffbf1586822a49f.json",
+					"name" : "sorting_algorithms_insertion_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sorting_algorithms_merge_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sorting_algorithms_merge_sort-Debug-801e4da8429c211ba5c1.json",
+					"name" : "sorting_algorithms_merge_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sorting_algorithms_quick_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sorting_algorithms_quick_sort-Debug-a4c64eeeecb23dbef742.json",
+					"name" : "sorting_algorithms_quick_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sorting_algorithms_radix_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sorting_algorithms_radix_sort-Debug-598f04cdfc947103f4e8.json",
+					"name" : "sorting_algorithms_radix_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sorting_algorithms_selection_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sorting_algorithms_selection_sort-Debug-49f9f1abb0a4358780fc.json",
+					"name" : "sorting_algorithms_selection_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-47bd6d2d2aee3f9470b7.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "try_throw_catch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-try_throw_catch-Debug-1e21de59f2d1d791ab32.json",
+					"name" : "try_throw_catch",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Drei/Downloads/Code/.cpp/build",
+		"source" : "C:/Users/Drei/Downloads/Code/.cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
