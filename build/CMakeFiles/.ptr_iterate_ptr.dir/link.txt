@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.ptr_iterate_ptr.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.ptr_iterate_ptr.dir/objects.a @CMakeFiles\.ptr_iterate_ptr.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.ptr_iterate_ptr.dir/objects.a -Wl,--no-whole-archive -o .ptr_iterate_ptr.exe -Wl,--out-implib,lib.ptr_iterate_ptr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.ptr_iterate_ptr.dir\linkLibs.rsp

@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.msys_classAreaRectangle.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.msys_classAreaRectangle.dir/objects.a @CMakeFiles\.msys_classAreaRectangle.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.msys_classAreaRectangle.dir/objects.a -Wl,--no-whole-archive -o .msys_classAreaRectangle.exe -Wl,--out-implib,lib.msys_classAreaRectangle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.msys_classAreaRectangle.dir\linkLibs.rsp

@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.algorithm_algorithm_count.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.algorithm_algorithm_count.dir/objects.a @CMakeFiles\.algorithm_algorithm_count.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.algorithm_algorithm_count.dir/objects.a -Wl,--no-whole-archive -o .algorithm_algorithm_count.exe -Wl,--out-implib,lib.algorithm_algorithm_count.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.algorithm_algorithm_count.dir\linkLibs.rsp

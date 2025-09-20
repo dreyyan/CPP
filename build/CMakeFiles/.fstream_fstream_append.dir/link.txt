@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.fstream_fstream_append.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.fstream_fstream_append.dir/objects.a @CMakeFiles\.fstream_fstream_append.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.fstream_fstream_append.dir/objects.a -Wl,--no-whole-archive -o .fstream_fstream_append.exe -Wl,--out-implib,lib.fstream_fstream_append.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.fstream_fstream_append.dir\linkLibs.rsp

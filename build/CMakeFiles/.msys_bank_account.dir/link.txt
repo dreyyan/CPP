@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.msys_bank_account.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.msys_bank_account.dir/objects.a @CMakeFiles\.msys_bank_account.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.msys_bank_account.dir/objects.a -Wl,--no-whole-archive -o .msys_bank_account.exe -Wl,--out-implib,lib.msys_bank_account.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.msys_bank_account.dir\linkLibs.rsp

@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\STL_containers_queue_.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\STL_containers_queue_.dir/objects.a @CMakeFiles\STL_containers_queue_.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\STL_containers_queue_.dir/objects.a -Wl,--no-whole-archive -o STL_containers_queue_.exe -Wl,--out-implib,libSTL_containers_queue_.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\STL_containers_queue_.dir\linkLibs.rsp

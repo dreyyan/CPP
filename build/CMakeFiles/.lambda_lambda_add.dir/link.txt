@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.lambda_lambda_add.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.lambda_lambda_add.dir/objects.a @CMakeFiles\.lambda_lambda_add.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.lambda_lambda_add.dir/objects.a -Wl,--no-whole-archive -o .lambda_lambda_add.exe -Wl,--out-implib,lib.lambda_lambda_add.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.lambda_lambda_add.dir\linkLibs.rsp

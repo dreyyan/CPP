@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\.exercises_town_population.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\.exercises_town_population.dir/objects.a @CMakeFiles\.exercises_town_population.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\.exercises_town_population.dir/objects.a -Wl,--no-whole-archive -o .exercises_town_population.exe -Wl,--out-implib,lib.exercises_town_population.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.exercises_town_population.dir\linkLibs.rsp

@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.sstream_sstream_ostringstream.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.sstream_sstream_ostringstream.dir/objects.a @CMakeFiles\.sstream_sstream_ostringstream.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.sstream_sstream_ostringstream.dir/objects.a -Wl,--no-whole-archive -o .sstream_sstream_ostringstream.exe -Wl,--out-implib,lib.sstream_sstream_ostringstream.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.sstream_sstream_ostringstream.dir\linkLibs.rsp

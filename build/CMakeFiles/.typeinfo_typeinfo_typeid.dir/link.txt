@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.typeinfo_typeinfo_typeid.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.typeinfo_typeinfo_typeid.dir/objects.a @CMakeFiles\.typeinfo_typeinfo_typeid.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.typeinfo_typeinfo_typeid.dir/objects.a -Wl,--no-whole-archive -o .typeinfo_typeinfo_typeid.exe -Wl,--out-implib,lib.typeinfo_typeinfo_typeid.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.typeinfo_typeinfo_typeid.dir\linkLibs.rsp

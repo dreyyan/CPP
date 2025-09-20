@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\.program_palindrome_check.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\.program_palindrome_check.dir/objects.a @CMakeFiles\.program_palindrome_check.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\.program_palindrome_check.dir/objects.a -Wl,--no-whole-archive -o .program_palindrome_check.exe -Wl,--out-implib,lib.program_palindrome_check.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\.program_palindrome_check.dir\linkLibs.rsp
